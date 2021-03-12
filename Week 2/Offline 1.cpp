@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 class Point
 {
@@ -20,6 +21,14 @@ public:
     {
         x = a;
         y = b;
+    }
+    //flag = 1 for x and 0 for y
+    int get(int flag)
+    {
+        if (flag)
+            return x;
+        else
+            return y;
     }
     void update(int dx, int dy)
     {
@@ -79,7 +88,13 @@ public:
     }
     void print()
     {
-        return sqrt();
+        double x1, x2, y1, y2;
+        x1 = p1.get(1);
+        x2 = p2.get(1);
+        y1 = p1.get(0);
+        y2 = p2.get(0);
+        double ans = sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+        cout << ans << endl;
     }
 };
 int main()
@@ -116,5 +131,8 @@ int main()
     c.update(2, 2, 2);
     c.print();
     cout << endl;
+
+    Line l1(0, 0, 5, 5);
+    l1.print();
     return 0;
 }
