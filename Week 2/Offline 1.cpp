@@ -66,7 +66,7 @@ public:
         p.print();
         cout << "Radius: " << radius << endl;
     }
-    // Overload “update” functions
+    // Overloaded “update” functions
     void update(int dx, int dy)
     {
         p.update(dx, dy);
@@ -94,7 +94,7 @@ public:
         p2.setX(a2);
         p2.setY(b2);
     }
-    void print()
+    void printLength()
     {
         double x1, x2, y1, y2;
         x1 = p1.getX();
@@ -140,6 +140,7 @@ int main()
     cout << endl;
 
     Line L1(0, 0, 5, 5);
-    L1.print();
+    // printing the length of the Line
+    L1.printLength();
     return 0;
 }
