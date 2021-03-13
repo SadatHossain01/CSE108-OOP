@@ -1,12 +1,14 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
+
 class Point
 {
     // x and y coordinate
     int x, y;
 
 public:
+    //Added necessary constructor(s) to initialize x and y
     Point()
     {
         x = 0;
@@ -17,40 +19,38 @@ public:
         x = a;
         y = b;
     }
+    //Add your set and get functions for x and y
     void set(int a, int b)
     {
         x = a;
         y = b;
     }
-    //flag = 1 for x and 0 for y
-    int get(int flag)
+    int getX()
     {
-        if (flag)
-            return x;
-        else
-            return y;
+        return x;
+    }
+    int getY()
+    {
+        return y;
     }
     void update(int dx, int dy)
     {
         x += dx;
         y += dy;
     }
-    //Add necessary constructor(s) to initialize x and y
-    //Add your set and get functions for x and y
-
     void print()
     {
         cout << "Coordinate: " << x << ", " << y << endl;
     }
 };
+
 class Circle
 {
     Point p;
     int radius;
 
 public:
-    // Add necessary constructor(s) to initialize p and radius
-    // Overload “upload” functions
+    // Added necessary constructor(s) to initialize p and radius
     Circle(int x, int y, int r)
     {
         p.set(x, y);
@@ -62,6 +62,7 @@ public:
         p.print();
         cout << "Radius: " << radius << endl;
     }
+    // Overload “update” functions
     void update(int dx, int dy)
     {
         p.update(dx, dy);
@@ -76,6 +77,7 @@ public:
         radius += dr;
     }
 };
+
 class Line
 {
     Point p1, p2;
@@ -89,14 +91,15 @@ public:
     void print()
     {
         double x1, x2, y1, y2;
-        x1 = p1.get(1);
-        x2 = p2.get(1);
-        y1 = p1.get(0);
-        y2 = p2.get(0);
+        x1 = p1.getX();
+        x2 = p2.getX();
+        y1 = p1.getY();
+        y2 = p2.getY();
         double ans = sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
         cout << ans << endl;
     }
 };
+
 int main()
 {
     Point p(5, 5);
@@ -111,28 +114,26 @@ int main()
 
     //First update
     cout << "First Update" << endl;
-    // call “update” function of Circle class to increase the center’s x coordinate by 5 and y coordinate by 5;
+    // called “update” function of Circle class to increase the center’s x coordinate by 5 and y coordinate by 5;
     c.update(5, 5);
     c.print();
     cout << endl;
 
     //Second update
     cout << "Second Update" << endl;
-
-    // call “update” function of Circle class to increase the radius by 6;
+    // called “update” function of Circle class to increase the radius by 6;
     c.update(6);
     c.print();
     cout << endl;
 
     //Third update
     cout << "Third Update" << endl;
-
-    // call “update” function of Circle class to increase the center’s x coordinate by 2 and y coordinate by 2 and the radius by 2;
+    // called “update” function of Circle class to increase the center’s x coordinate by 2 and y coordinate by 2 and the radius by 2;
     c.update(2, 2, 2);
     c.print();
     cout << endl;
 
-    Line l1(0, 0, 5, 5);
-    l1.print();
+    Line L1(0, 0, 5, 5);
+    L1.print();
     return 0;
 }
