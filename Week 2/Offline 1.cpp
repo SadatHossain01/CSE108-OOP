@@ -20,9 +20,12 @@ public:
         y = b;
     }
     //Add your set and get functions for x and y
-    void set(int a, int b)
+    void setX(int a)
     {
         x = a;
+    }
+    void setY(int b)
+    {
         y = b;
     }
     int getX()
@@ -53,7 +56,8 @@ public:
     // Added necessary constructor(s) to initialize p and radius
     Circle(int x, int y, int r)
     {
-        p.set(x, y);
+        p.setX(x);
+        p.setY(y);
         radius = r;
     }
     void print()
@@ -85,8 +89,10 @@ class Line
 public:
     Line(int a1, int b1, int a2, int b2)
     {
-        p1.set(a1, b1);
-        p1.set(a2, b2);
+        p1.setX(a1);
+        p1.setY(b1);
+        p2.setX(a2);
+        p2.setY(b2);
     }
     void print()
     {
