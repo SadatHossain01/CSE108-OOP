@@ -36,11 +36,6 @@ public:
     {
         return y;
     }
-    void update(int dx, int dy)
-    {
-        x += dx;
-        y += dy;
-    }
     void print()
     {
         cout << "Coordinate: " << x << ", " << y << endl;
@@ -69,7 +64,10 @@ public:
     // Overloaded “update” functions
     void update(int dx, int dy)
     {
-        p.update(dx, dy);
+        int x = p.getX();
+        int y = p.getY();
+        p.setX(x + dx);
+        p.setY(y + dy);
     }
     void update(int dr)
     {
@@ -77,7 +75,10 @@ public:
     }
     void update(int dx, int dy, int dr)
     {
-        p.update(dx, dy);
+        int x = p.getX();
+        int y = p.getY();
+        p.setX(x + dx);
+        p.setY(y + dy);
         radius += dr;
     }
 };
