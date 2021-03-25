@@ -9,7 +9,6 @@ class BookShop
 {
 	char name[100];
 	Book *books; //List of books in the shop
-	int* testNumbers;
 	int size;	 //maximum number of books the shop can keep
 	int count;	 //tracks currently how many numbers in the shop
 public:
@@ -53,7 +52,7 @@ public:
 		/*Free memory as applicable*/
 		delete[] books;
 	}
-	void addBook(Book b)
+	void addBook(Book &b)
 	{
 		/*Add book b to the end of the list*/
 		books[count] = b;
@@ -126,7 +125,7 @@ public:
 			books[i].print();
 		}
 	}
-	BookShop mergeShop(BookShop b)
+	BookShop mergeShop(BookShop &b)
 	{
 		/* Return a new bookshop object that will contain all the books of this bookshop and the given bookshop b*/ /* Use the title **MergedShop** of the new bookshop*/
 		BookShop mergedBookShop;
@@ -142,7 +141,6 @@ public:
 
 int main()
 {
-
 	BookShop bs1;
 	bs1.setName("Boimela");
 	Book b1(101, "Teach Yourself C++", 100);
