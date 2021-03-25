@@ -9,6 +9,7 @@ class BookShop
 {
 	char name[100];
 	Book *books; //List of books in the shop
+	int* testNumbers;
 	int size;	 //maximum number of books the shop can keep
 	int count;	 //tracks currently how many numbers in the shop
 public:
@@ -17,7 +18,8 @@ public:
 		/*Set the name of the bookshop to the given name*/
 		strcpy(this->name, (char *)name);
 	}
-
+	int getCount() { return count; }
+	Book getBook(int index) { if (index < count) return books[index]; }
 	BookShop()
 	{ //Default constructor
 		/*Initialize with size 5 and name to empty string ""*/
@@ -26,7 +28,6 @@ public:
 		this->books = new Book[this->size];
 		strcpy(this->name, "");
 	}
-
 	BookShop(const char *name, int size)
 	{ //Parameterized constructor
 		/*Initialize with the given name and size*/
@@ -35,7 +36,6 @@ public:
 		this->books = new Book[this->size];
 		this->count = 0;
 	}
-
 	BookShop(const BookShop &bs)
 	{ //Copy constructor
 		/*Write necessary code for the copy constructor*/
@@ -48,22 +48,17 @@ public:
 			this->books[i] = bs.books[i];
 		}
 	}
-
 	~BookShop()
 	{ //Destructor
 		/*Free memory as applicable*/
 		delete[] books;
 	}
-
 	void addBook(Book b)
 	{
 		/*Add book b to the end of the list*/
 		books[count] = b;
 		count++;
-		/*cerr << "Testing the addition of a book: ";
-		books[count - 1].print();*/
 	}
-
 	void addBook(Book *ba, int count)
 	{
 		/*Add the given array of books ba to the end of the list*/
@@ -72,14 +67,13 @@ public:
 			addBook(ba[i]);
 		}
 	}
-
 	Book getBookInfo(const char *title)
 	{
 		/*Return the **first** book that has the given title. Assume there is atleast one book in the list with the given title*/
 		Book wantedBook;
 		for (int i = 0; i < count; i++)
 		{
-			if (strcmp(books[i].getTitle(), title) == 0)
+			if (strcmp(books[i].getTitle(), (char*)title) == 0)
 			{
 				wantedBook = books[i];
 				break;
@@ -87,7 +81,6 @@ public:
 		}
 		return wantedBook;
 	}
-
 	void updateBookPrice(int isbn, int price)
 	{
 		/*Update the price of the book with given isbn to the given price*/
@@ -99,7 +92,6 @@ public:
 			}
 		}
 	}
-
 	void removeBook(int isbn)
 	{
 		/*Remove the book with the given isbn from the list. After removing a book all the books below the removed book will be shifted up, i.e, there will be no hole in the list*/
@@ -115,7 +107,6 @@ public:
 			}
 		}
 	}
-
 	int totalPrice()
 	{
 		/*Return the sum of the prices of all the books in the list*/
@@ -126,7 +117,6 @@ public:
 		}
 		return totalPrice;
 	}
-
 	void print()
 	{
 		/*Print the bookshop's name followed by information of all the books in the bookshop*/
@@ -134,26 +124,16 @@ public:
 		for (int i = 0; i < count; i++)
 		{
 			books[i].print();
-			/*cerr << "Error checking: ";
-			cerr << books[i].getTitle() << endl;*/
 		}
 	}
-
 	BookShop mergeShop(BookShop b)
 	{
 		/* Return a new bookshop object that will contain all the books of this bookshop and the given bookshop b*/ /* Use the title **MergedShop** of the new bookshop*/
 		BookShop mergedBookShop;
 		mergedBookShop.setName("MergedShop");
-		//mergedBookShop.count = this->count + b.count;
 		mergedBookShop.count = 0;
 		mergedBookShop.size = this->size + b.size;
 		mergedBookShop.books = new Book[mergedBookShop.size];
-		/*for (int i = 0; i < this->count; i++) {
-			mergedBookShop.books[i] = this->books[i];
-		}
-		for (int i = this->count; i < this->count + b.count; i++) {
-			mergedBookShop.books[i] = b.books[i-this->count];
-		}*/
 		mergedBookShop.addBook(this->books, this->count);
 		mergedBookShop.addBook(b.books, b.count);
 		return mergedBookShop;
@@ -171,12 +151,13 @@ int main()
 	bs1.addBook(b1);
 	bs1.addBook(b2);
 	bs1.addBook(b3);
-	bs1.print();												  /*Output:
-					Bookshop Name: Boimela
-					ISBN: 101, Title: Teach Yourself C++, Edition: 100
-					ISBN: 102, Title: Teach Yourself C, Edition: 200
-					ISBN: 103, Title: Java For Dummies, Edition: 300
-				 */
+	bs1.print();												  
+	/*Output:
+		Bookshop Name: Boimela
+		ISBN: 101, Title: Teach Yourself C++, Edition: 100
+		ISBN: 102, Title: Teach Yourself C, Edition: 200
+		ISBN: 103, Title: Java For Dummies, Edition: 300
+	*/
 	cout << "Total price of books: " << bs1.totalPrice() << endl; /*Output:
 															   Total price of books: 600
 															*/
