@@ -7,3 +7,4 @@
 *.o
 *.sqlite
 Week 4/.vs/ProjectSettings.json
+*.json
