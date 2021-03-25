@@ -1,1 +1,9 @@
 *.exe
+*.opendb
+*.db-shm
+*.ipch
+*.db-wal
+*.db
+*.o
+*.sqlite
+Week 4/.vs/ProjectSettings.json
