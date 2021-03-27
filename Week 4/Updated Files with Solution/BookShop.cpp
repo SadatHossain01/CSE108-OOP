@@ -21,10 +21,10 @@ public:
 	BookShop()
 	{ //Default constructor
 		/*Initialize with size 5 and name to empty string ""*/
-		this->count = 0;
-		this->size = 5;
-		this->books = new Book[this->size];
-		strcpy(this->name, "");
+		count = 0;
+		size = 5;
+		books = new Book[size];
+		strcpy(name, "");
 	}
 
 	BookShop(char *name, int size)
@@ -39,33 +39,33 @@ public:
 	BookShop(const BookShop &bs)
 	{ //Copy constructor
 		/*Write necessary code for the copy constructor*/
-		this->count = bs.count;
-		this->size = bs.size;
-		this->books = new Book[this->size];
+		count = bs.count;
+		size = bs.size;
+		books = new Book[size];
 		for (int i = 0; i < bs.count; i++)
 		{
-			Book &currentBook = this->books[i];
+			Book &currentBook = books[i];
 			currentBook.setISBN(bs.books[i].getISBN());
 			currentBook.setTitle(bs.books[i].getTitle());
 			currentBook.setPrice(bs.books[i].getPrice());
 		}
-		strcpy(this->name, bs.name);
+		strcpy(name, bs.name);
 	}
 
 	~BookShop()
 	{ //Destructor
 		/*Free memory as applicable*/
-		delete[] this->books;
+		delete[] books;
 	}
 
 	void addBook(Book b)
 	{
 		/*Add book b to the end of the list*/
-		Book &currentLastBook = this->books[this->count];
+		Book &currentLastBook = books[count];
 		currentLastBook.setISBN(b.getISBN());
 		currentLastBook.setTitle(b.getTitle());
 		currentLastBook.setPrice(b.getPrice());
-		this->count++;
+		count++;
 	}
 
 	void addBook(Book *ba, int count)
@@ -73,7 +73,7 @@ public:
 		/*Add the given array of books ba to the end of the list*/
 		for (int i = 0; i < count; i++)
 		{
-			this->addBook(ba[i]);
+			addBook(ba[i]);
 		}
 	}
 
@@ -81,9 +81,9 @@ public:
 	{
 		/*Return the **first** book that has the given title. Assume there is atleast one book in the list with the given title*/
 		Book targetBook;
-		for (int i = 0; i < this->count; i++)
+		for (int i = 0; i < count; i++)
 		{
-			Book &currentBook = this->books[i];
+			Book &currentBook = books[i];
 			if (strcmp(currentBook.getTitle(), title) == 0)
 			{
 				targetBook = currentBook;
@@ -96,9 +96,9 @@ public:
 	void updateBookPrice(int isbn, int price)
 	{
 		/*Update the price of the book with given isbn to the given price*/
-		for (int i = 0; i < this->count; i++)
+		for (int i = 0; i < count; i++)
 		{
-			Book &currentBook = this->books[i];
+			Book &currentBook = books[i];
 			if (currentBook.getISBN() == isbn)
 			{
 				currentBook.setPrice(price);
@@ -110,16 +110,16 @@ public:
 	void removeBook(int isbn)
 	{
 		/*Remove the book with the given isbn from the list. After removing a book all the books below the removed book will be shifted up, i.e, there will be no hole in the list*/
-		for (int i = 0; i < this->count; i++)
+		for (int i = 0; i < count; i++)
 		{
-			Book &currentBook = this->books[i];
+			Book &currentBook = books[i];
 			if (currentBook.getISBN() == isbn)
 			{
-				for (int j = i + 1; j < this->count; j++)
+				for (int j = i + 1; j < count; j++)
 				{
-					this->books[j - 1] = this->books[j];
+					books[j - 1] = books[j];
 				}
-				this->count--;
+				count--;
 			}
 		}
 	}
@@ -128,9 +128,9 @@ public:
 	{
 		/*Return the sum of the prices of all the books in the list*/
 		int totalPrice = 0;
-		for (int i = 0; i < this->count; i++)
+		for (int i = 0; i < count; i++)
 		{
-			totalPrice += this->books[i].getPrice();
+			totalPrice += books[i].getPrice();
 		}
 		return totalPrice;
 	}
@@ -138,18 +138,18 @@ public:
 	void print()
 	{
 		/*Print the bookshop's name followed by information of all the books in the bookshop*/
-		cout << "Bookshop Name: " << this->name << endl;
-		for (int i = 0; i < this->count; i++)
+		cout << "Bookshop Name: " << name << endl;
+		for (int i = 0; i < count; i++)
 		{
-			this->books[i].print();
+			books[i].print();
 		}
 	}
 
 	BookShop mergeShop(BookShop b)
 	{
 		/* Return a new bookshop object that will contain all the books of this bookshop and the given bookshop b*/ /* Use the title **MergedShop** of the new bookshop														*/
-		BookShop newMergedShop("MergedShop", this->size + b.size);
-		newMergedShop.addBook(this->books, this->count);
+		BookShop newMergedShop("MergedShop", size + b.size);
+		newMergedShop.addBook(books, count);
 		newMergedShop.addBook(b.books, b.count);
 		return newMergedShop;
 	}
