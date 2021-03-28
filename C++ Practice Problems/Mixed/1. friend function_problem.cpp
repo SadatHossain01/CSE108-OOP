@@ -1,76 +1,74 @@
-#include<iostream>
-#include<math.h>
-#include<cmath>
-#include<stdlib.h>
-#include<cstdlib>
+#include <iostream>
+#include <math.h>
+#include <cmath>
+#include <stdlib.h>
+#include <cstdlib>
 
 using namespace std;
 
-class Vector{
+class Vector
+{
 
-    private:
-        int i;
-        int j;
-        int k;
+private:
+    int i;
+    int j;
+    int k;
 
-    public:
+public:
+    Vector()
+    {
+        cout << "Default Construction" << endl;
+    }
 
-        Vector(){
-            cout<<"Default Construction"<<endl;
-        }
+    Vector(int a, int b, int c)
+    {
+        i = a;
+        j = b;
+        k = c;
+    }
 
-        Vector(int a,int b,int c){
-            i=a;
-            j=b;
-            k=c;
-        }
-
-        ~Vector(){
-            cout<<"Destructing ("<<i<<","<<j<<","<<k<<")"<<endl;
-        }
-
-
-
+    ~Vector()
+    {
+        cout << "Destructing (" << i << "," << j << "," << k << ")" << endl;
+    }
 };
 
-double getMagnitude(){
+double getMagnitude()
+{
 
     return 0;
 }
 
-
-Vector addVector(){
-
+Vector addVector()
+{
 }
 
-void scale(int n){
-
+void scale(int n)
+{
 }
 
-
-void printVector(){
+void printVector()
+{
 }
 
-
-int main(){
+int main()
+{
 
     ///you must be able to explain construct and destructing output sequence
-    Vector line1(1,2,3);
-    Vector line2(4,5,6);
+    Vector line1(1, 2, 3);
+    Vector line2(4, 5, 6);
 
-    cout<<getMagnitude(line1)<<endl;
-
-    printVector(line1);
-    Vector &line3=addVector(line1,line2);
+    cout << getMagnitude(line1) << endl;
 
     printVector(line1);
-    printVector(line3);
+    Vector &line3 = addVector(line1, line2);
 
-    scale(line1,2);
     printVector(line1);
     printVector(line3);
 
-
+    scale(line1, 2);
+    printVector(line1);
+    printVector(line3);
 
     return 0;
 }

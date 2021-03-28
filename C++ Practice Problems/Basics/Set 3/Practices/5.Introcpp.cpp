@@ -1,30 +1,30 @@
-#include<stdio.h>
+#include <stdio.h>
 
-namespace A{
+namespace A
+{
 
-    void print(){
+    void print()
+    {
         printf("This is in A");
-
     }
 
 }
 
-namespace B{
+namespace B
+{
 
-    void print(){
+    void print()
+    {
         printf("This is in B");
-
     }
 
 }
 
+int main()
+{
 
-int main(){
-
-    using namespace A;
-
-    print();
-
+    A::print();
+    B::print();
 
     return 0;
 }

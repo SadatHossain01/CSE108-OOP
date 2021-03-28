@@ -1,84 +1,98 @@
-#include<iostream>
-#include<cstdlib>
+#include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
-class Stack{
+class Stack
+{
 private:
     int maxCapacity;
     int index;
     int *stacks;
+
 public:
-    Stack(int capacity){
-        cout<<"Constructing"<<endl;
-        maxCapacity=capacity;
-        index=0;
-        stacks=new int[capacity];
+    Stack(int capacity)
+    {
+        cout << "Constructing" << endl;
+        maxCapacity = capacity;
+        index = 0;
+        stacks = new int[capacity];
     }
 
-    Stack( Stack &stack){
+    Stack(Stack &stack)
+    {
 
+        cout << "Copy Constructor called" << endl;
+        maxCapacity = stack.maxCapacity;
+        index = stack.index;
 
+        stacks = new int[stack.maxCapacity];
 
-        cout<<"Copy Constructor called"<<endl;
-        maxCapacity=stack.maxCapacity;
-        index=stack.index;
-
-        stacks=new int[stack.maxCapacity];
-
-        for(int i=0;i<stack.index;i++){
-            stacks[i]=stack.stacks[i];
+        for (int i = 0; i < stack.index; i++)
+        {
+            stacks[i] = stack.stacks[i];
         }
     }
 
-    bool push(int value){
-        if(index==maxCapacity){
-            cout<<"Capacity reached"<<endl;
+    void push(int value)
+    {
+        if (index == maxCapacity)
+        {
+            cout << "Capacity reached" << endl;
         }
-        stacks[index]=value;
+        stacks[index] = value;
         index++;
     }
 
-    void pop(){
-        if(index==0){
-            cout<<"Stack empty"<<endl;
+    void pop()
+    {
+        if (index == 0)
+        {
+            cout << "Stack empty" << endl;
             return;
         }
         index--;
     }
 
-    int top(){
-        if(index==0){
-            cout<<"Stack empty"<<endl;
-            return NULL;
+    int top()
+    {
+        if (index == 0)
+        {
+            cout << "Stack empty" << endl;
+            return -1;
         }
         index--;
-        return stacks[index+1];
+        return stacks[index + 1];
     }
 
-    void printStack(){
-        for(int i=0;i<index;i++){
-            cout<<stacks[i]<<"\t";
+    void printStack()
+    {
+        for (int i = 0; i < index; i++)
+        {
+            cout << stacks[i] << "\t";
         }
-        cout<<endl;
+        cout << endl;
     }
 
-    int getCapacity(){
+    int getCapacity()
+    {
         return maxCapacity;
     }
 
-    ~Stack(){
-        cout<<"Destructor called"<<endl;
-        delete []stacks;
+    ~Stack()
+    {
+        cout << "Destructor called" << endl;
+        delete[] stacks;
     }
-
 };
 
-void doSomethingWithStack(Stack stack2){
+void doSomethingWithStack(Stack stack2)
+{
     //Implement copy constructor
 }
 
-int main(){
+int main()
+{
 
     Stack stack(5);
     stack.push(1);
@@ -89,13 +103,11 @@ int main(){
     doSomethingWithStack(stack);
     stack.printStack();
 
-    Stack another=stack;
+    Stack another = stack;
     another.printStack();
 
     Stack temp(5);
-    temp=stack;
-
-
+    temp = stack;
 
     return 0;
 }
