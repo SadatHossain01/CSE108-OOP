@@ -57,34 +57,22 @@ public:
 
     Vector &operator=(const Vector &anotherVector)
     {
-        this->x = anotherVector.x;
-        this->y = anotherVector.y;
-        this->z = anotherVector.z;
+        x = anotherVector.x;
+        y = anotherVector.y;
+        z = anotherVector.z;
         return *this;
     }
     bool operator==(const Vector &another)
     {
         return (x == another.x && y == another.y && z == another.z);
     }
-    Vector operator*(int scalarMulitiplier)
-    {
-        Vector ans;
-        ans = *this;
-        ans.x *= scalarMulitiplier;
-        ans.y *= scalarMulitiplier;
-        ans.z *= scalarMulitiplier;
-        return ans;
-    }
+    friend Vector operator*(const Vector &GivenVector, int scalarMulitiplier);
+    friend Vector operator*(int scalarMultiplier, const Vector &GivenVector);
     Vector operator*(const Vector &anotherVector)
     {
-        Vector ans;
-        ans = *this;
-        ans.x *= anotherVector.x;
-        ans.y *= anotherVector.y;
-        ans.z *= anotherVector.z;
+        Vector ans("", x * anotherVector.x, y * anotherVector.y, z * anotherVector.z);
         return ans;
     }
-    friend Vector operator*(int scalarMultiplier, const Vector &GivenVector);
     Vector operator^(const Vector &anotherVector)
     {
         Vector ans("Result", 1, 1, 1);
@@ -103,15 +91,14 @@ public:
         delete[] name;
     }
 };
-
+Vector operator*(const Vector &GivenVector, int scalarMulitiplier)
+{
+    Vector ans("", GivenVector.x * scalarMulitiplier, GivenVector.y * scalarMulitiplier, GivenVector.z * scalarMulitiplier);
+    return ans;
+}
 Vector operator*(int scalarMultiplier, const Vector &GivenVector)
 {
-    Vector ans;
-    ans = GivenVector;
-    ans.x *= scalarMultiplier;
-    ans.y *= scalarMultiplier;
-    ans.z *= scalarMultiplier;
-    return ans;
+    return GivenVector * scalarMultiplier;
 }
 
 int main()
