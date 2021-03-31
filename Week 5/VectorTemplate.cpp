@@ -62,25 +62,11 @@ public:
         z = anotherVector.z;
         return *this;
     }
-    bool operator==(const Vector &another)
-    {
-        return (x == another.x && y == another.y && z == another.z);
-    }
+    friend bool operator==(const Vector &firstVector, const Vector &secondVector);
     friend Vector operator*(const Vector &GivenVector, int scalarMulitiplier);
     friend Vector operator*(int scalarMultiplier, const Vector &GivenVector);
-    Vector operator*(const Vector &anotherVector)
-    {
-        Vector ans("", x * anotherVector.x, y * anotherVector.y, z * anotherVector.z);
-        return ans;
-    }
-    Vector operator^(const Vector &anotherVector)
-    {
-        Vector ans("Result", 1, 1, 1);
-        ans.x = y * anotherVector.z - z * anotherVector.y;
-        ans.y = -(x * anotherVector.z - z * anotherVector.x);
-        ans.z = x * anotherVector.y - y * anotherVector.x;
-        return ans;
-    }
+    friend Vector operator*(const Vector &firstVector, const Vector &secondVector);
+    friend Vector operator^(const Vector &firstVector, const Vector &secondVector);
     char *getName() { return name; }
     void print()
     {
@@ -100,7 +86,23 @@ Vector operator*(int scalarMultiplier, const Vector &GivenVector)
 {
     return GivenVector * scalarMultiplier;
 }
-
+Vector operator*(const Vector &firstVector, const Vector &secondVector)
+{
+    Vector ans("", firstVector.x * secondVector.x, firstVector.y * secondVector.y, firstVector.z * secondVector.z);
+    return ans;
+}
+Vector operator^(const Vector &firstVector, const Vector &secondVector)
+{
+    Vector ans("Result", 1, 1, 1);
+    ans.x = firstVector.y * secondVector.z - firstVector.z * secondVector.y;
+    ans.y = -(firstVector.x * secondVector.z - firstVector.z * secondVector.x);
+    ans.z = firstVector.x * secondVector.y - firstVector.y * secondVector.x;
+    return ans;
+}
+bool operator==(const Vector &firstVector, const Vector &secondVector)
+{
+    return (firstVector.x == secondVector.x && firstVector.y == secondVector.y && firstVector.z == secondVector.z);
+}
 int main()
 {
     Vector v1("v1", 1, 2, 3), v2("v2", 4, 5, -6), v3("Result1"), v4("Result2", -27, 18, -3);
