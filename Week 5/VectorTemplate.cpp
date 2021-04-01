@@ -27,6 +27,16 @@ public:
         y = b;
         z = c;
     }
+    Vector(const Vector &toBeCopied)
+    {
+        // cout << "Copy constructor in action!\n";
+        int length = strlen(toBeCopied.name);
+        name = new char[length + 1];
+        strcpy(name, toBeCopied.name);
+        x = toBeCopied.x;
+        y = toBeCopied.y;
+        z = toBeCopied.z;
+    }
 
     int setX(int a)
     {
@@ -43,7 +53,6 @@ public:
         z = c;
         return c;
     }
-
     void setName(char *n)
     {
         int l = strlen(n);
@@ -54,6 +63,7 @@ public:
     int getX() { return x; }
     int getY() { return y; }
     int getZ() { return z; }
+    char *getName() { return name; }
 
     Vector &operator=(const Vector &anotherVector)
     {
@@ -67,7 +77,6 @@ public:
     friend Vector operator*(int scalarMultiplier, const Vector &GivenVector);
     friend Vector operator*(const Vector &firstVector, const Vector &secondVector);
     friend Vector operator^(const Vector &firstVector, const Vector &secondVector);
-    char *getName() { return name; }
     void print()
     {
         cout << name << ": " << (x >= 0 ? "" : "-") << abs(x) << "x" << (y >= 0 ? "+" : "-") << abs(y) << "y" << (z >= 0 ? "+" : "-") << abs(z) << "z" << endl;
