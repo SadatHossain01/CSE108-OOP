@@ -9,7 +9,13 @@ class Vector
     int x, y, z;
 
 public:
-    Vector(char *n = "")
+    Vector()
+    {
+        name = new char[1];
+        strcpy(name, "");
+        x = y = z = 0;
+    }
+    Vector(char *n)
     {
         int l = strlen(n);
         name = new char[l + 1];
