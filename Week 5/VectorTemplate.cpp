@@ -33,17 +33,6 @@ public:
         y = b;
         z = c;
     }
-    Vector(const Vector &toBeCopied)
-    {
-        // cout << "Copy constructor in action!\n";
-        int length = strlen(toBeCopied.name);
-        name = new char[length + 1];
-        strcpy(name, toBeCopied.name);
-        x = toBeCopied.x;
-        y = toBeCopied.y;
-        z = toBeCopied.z;
-    }
-
     int setX(int a)
     {
         x = a;
@@ -64,6 +53,14 @@ public:
         int l = strlen(n);
         name = new char[l + 1];
         strcpy(name, n);
+    }
+    Vector(const Vector &toBeCopied)
+    {
+        // cout << "Copy constructor in action!\n";
+        setName(toBeCopied.name);
+        setX(toBeCopied.x);
+        setY(toBeCopied.y);
+        setZ(toBeCopied.z);
     }
 
     int getX() { return x; }
