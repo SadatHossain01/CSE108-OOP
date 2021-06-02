@@ -17,7 +17,6 @@ public class League {
         matchCount = 0;
         clubs = new Club[5];
         standings = new Club[5];
-        matches = new Match[20];
     }
 
     public void printLeagueInfo(){
@@ -27,10 +26,10 @@ public class League {
 
     public void printClubs(){
         System.out.println("Clubs:");
+        // print the name of the clubs of this league, each one on a line
         for (int i=0; i<clubCount; i++){
             System.out.println(clubs[i].getName());
         }
-        // print the name of the clubs of this league, each one on a line
     }
 
     public void scheduleMatches(){
@@ -42,10 +41,9 @@ public class League {
                 // check the constructor of the Match class and add your code here
                 // note that there will be two matches between club A and club B
                 // in the first match, club A will play as the home team and in the second match, as the away team
-                Match thisMatch = new Match(matchCount, clubs[i], clubs[j]);
-                matches[matchCount++] = thisMatch;
-                thisMatch = new Match(matchCount, clubs[j], clubs[i]);
-                matches[matchCount++] = thisMatch;
+                if (i == j) continue;
+                Match thisMatch = new Match(matchNo, clubs[i], clubs[j]);
+                matches[matchNo++] = thisMatch;
             }
         }
     }
@@ -92,6 +90,7 @@ public class League {
     }
 
     public void updateStandings(){
+        standings = clubs;
         MergeSort(standings, 0, clubCount-1);
     }
 
@@ -104,7 +103,7 @@ public class League {
         updateStandings();
         System.out.println("Sl. - Club - Points");
         for (int i=0; i<clubCount; i++){
-            System.out.printf("%d - %s - %d\n", i+1, standings[i].getName(), standings[i].getPoint());
+            System.out.printf("%d. %s %d\n", i+1, standings[i].getName(), standings[i].getPoint());
         }
         // print the clubs in descending order of points
     }
@@ -126,6 +125,7 @@ public class League {
     }
 
     public void printMatches(){
+        System.out.println("Matches:");
         for (int i=0; i<matchCount; i++){
             matches[i].showResult();
         }

@@ -21,6 +21,9 @@ public class Match{
         Random random = new Random();
         homeTeamScore = random.nextInt(10);
         awayTeamScore = random.nextInt(10);
+        // you can add your code here if required
+        // a team gets 2 points for winning and 0 point for losing
+        // both teams get 1 point each in case of a draw
         isPlayed = true;
         if (homeTeamScore == awayTeamScore){
             homeTeam.setPoint(homeTeam.getPoint()+1);
@@ -30,9 +33,6 @@ public class Match{
             homeTeam.setPoint(homeTeam.getPoint()+2);
         }
         else awayTeam.setPoint(awayTeam.getPoint()+2);
-        // you can add your code here if required
-        // a team gets 2 points for winning and 0 point for losing
-        // both teams get 1 point each in case of a draw
     }
 
     public void showResult(){
@@ -42,11 +42,9 @@ public class Match{
         }
         // exactly one of the following three print statements should be executed
         // add condition to check if the match is drawn, the home team won or the away team won
-            if (homeTeamScore == awayTeamScore) System.out.println("Match drawn. " + homeTeam.getName() + " " + homeTeamScore + "-" + awayTeamScore + " " + awayTeam.getName());
-
-            else if (homeTeamScore > awayTeamScore) System.out.println(homeTeam.getName() + " wins. " + homeTeam.getName() + " " + homeTeamScore + "-" + awayTeamScore + " " + awayTeam.getName());
-
-            else System.out.println(awayTeam.getName() + " wins. " + homeTeam.getName() + " " + homeTeamScore + "-" + awayTeamScore + " " + awayTeam.getName());
+        if (homeTeamScore == awayTeamScore) System.out.println("Match drawn. " + homeTeam.getName() + " " + homeTeamScore + "-" + awayTeamScore + " " + awayTeam.getName());
+        else if (homeTeamScore > awayTeamScore) System.out.println(homeTeam.getName() + " wins. " + homeTeam.getName() + " " + homeTeamScore + "-" + awayTeamScore + " " + awayTeam.getName());
+        else System.out.println(awayTeam.getName() + " wins. " + homeTeam.getName() + " " + homeTeamScore + "-" + awayTeamScore + " " + awayTeam.getName());
 
     }
 

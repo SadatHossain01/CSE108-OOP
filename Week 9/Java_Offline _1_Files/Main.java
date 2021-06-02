@@ -1,4 +1,3 @@
-import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -13,7 +12,7 @@ public class Main {
         // take clubCount and leagueCount as input
         clubCount = scanner.nextInt();
         leagueCount = scanner.nextInt();
-        Club c[] = new Club[clubCount];
+        Club[] c = new Club[clubCount];
         for (int i = 0; i < clubCount; i++) {
             c[i] = new Club();
             c[i].setId(i + 1);
@@ -22,7 +21,7 @@ public class Main {
             clubName = scanner.next();
             c[i].setName(clubName);
         }
-        League l[] = new League[leagueCount];
+        League[] l = new League[leagueCount];
         for (int i = 0; i < leagueCount; i++) {
             l[i] = new League();
             String leagueName;
@@ -30,7 +29,6 @@ public class Main {
             // take leagueName as input
             l[i].setName(leagueName);
         }
-
         for (int i=0; i<clubCount; i++){
             l[i%leagueCount].addClub(c[i]);
         }
@@ -57,6 +55,7 @@ public class Main {
         l[leagueIndex].printMatches();
         l[leagueIndex].showStandings();
         l[leagueIndex].printLeagueInfo();
+        scanner.close();
     }
 }
 /*
