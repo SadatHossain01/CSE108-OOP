@@ -125,16 +125,19 @@ public class League {
     public void addClub(Club c){
         clubs[clubCount++] = c;
     }
-
-    public void removeClub(Club c){
+    public void removeFrom(Club c, Club[] clubs){
         for (int i=0; i<clubCount; i++){
             if (clubs[i].getId() == c.getId()){
                 for (int j=i+1; j<clubCount; j++){
-                    clubs[i] = clubs[j];
+                    clubs[j-1] = clubs[j];
                 }
                 break;
             }
         }
+    }
+    public void removeClub(Club c){
+        removeFrom(c, clubs);
+        removeFrom(c, standings);
         clubCount--;
     }
 
