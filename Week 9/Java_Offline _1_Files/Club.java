@@ -3,7 +3,6 @@ public class Club {
     private String name;
     private int point;
 
-
     public int getId() {
         return Id;
     }

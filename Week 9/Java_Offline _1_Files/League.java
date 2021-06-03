@@ -89,9 +89,23 @@ public class League {
         Merge(clubs, l, middle, r);
     }
 
+    public void SelectionSort(Club[] clubs){
+        int n = clubCount;
+        for (int i=0; i<n; i++){
+            for (int j=i+1; j<n; j++){
+                if (clubs[i].getPoint() < clubs[j].getPoint()){
+                    Club temp = clubs[i];
+                    clubs[i] = clubs[j];
+                    clubs[j] = temp;
+                }
+            }
+        }
+    }
+
     public void updateStandings(){
         standings = clubs;
-        MergeSort(standings, 0, clubCount-1);
+//        MergeSort(standings, 0, clubCount-1);
+        SelectionSort(standings);
     }
 
     public void showStandings(){
