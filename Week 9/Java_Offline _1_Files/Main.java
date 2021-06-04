@@ -18,14 +18,14 @@ public class Main {
             c[i].setId(i + 1);
             String clubName;
             // take clubName as input
-            clubName = scanner.next();
+            clubName = scanner.nextLine();
             c[i].setName(clubName);
         }
         League[] l = new League[leagueCount];
         for (int i = 0; i < leagueCount; i++) {
             l[i] = new League();
             String leagueName;
-            leagueName = scanner.next();
+            leagueName = scanner.nextLine();
             // take leagueName as input
             l[i].setName(leagueName);
         }
