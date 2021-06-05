@@ -12,6 +12,7 @@ public class Main {
         // take clubCount and leagueCount as input
         clubCount = scanner.nextInt();
         leagueCount = scanner.nextInt();
+        scanner.nextLine();
         Club[] c = new Club[clubCount];
         for (int i = 0; i < clubCount; i++) {
             c[i] = new Club();
