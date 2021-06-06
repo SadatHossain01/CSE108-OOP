@@ -69,42 +69,7 @@ public class League {
     }
     // add your methods here, if required
 
-    public void Merge(Club[] standings, int l, int m, int r){
-        int len1 = m - l + 1;
-        int len2 = r - m;
-        Club[] c1 = new Club[len1];
-        Club[] c2 = new Club[len2];
-        for (int i=0; i<len1; i++){
-            c1[i] = standings[l+i];
-        }
-        for (int j=0; j<len2; j++){
-            c2[j] = standings[m+j+1];
-        }
-        int index = l;
-        int lx = 0, rx = 0;
-        while (lx < len1 && rx < len2){
-            if (c1[lx].getPoint() > c2[rx].getPoint()){
-                standings[index++] = c1[lx++];
-            }
-            else standings[index++] = c2[rx++];
-        }
-        while (lx < len1){
-            standings[index++] = c1[lx++];
-        }
-        while (rx < len2){
-            standings[index++] = c2[rx++];
-        }
-    }
-
-    public void MergeSort(Club[] standings, int l, int r){
-        if (l >= r) return;
-        int middle = l + (r - l) / 2;
-        MergeSort(standings, l, middle);
-        MergeSort(standings, middle+1, r);
-        Merge(standings, l, middle, r);
-    }
-
-    public void SelectionSort(Club[] standings){
+    public void Sort(Club[] standings){
         int n = clubCount;
         for (int i=0; i<n; i++){
             for (int j=i+1; j<n; j++){
@@ -118,9 +83,10 @@ public class League {
     }
 
     public void updateStandings(){
-        standings = clubs;
-//        MergeSort(standings, 0, clubCount-1);
-        SelectionSort(standings);
+        for (int i=0; i<clubCount; i++){
+            standings[i] = new Club(clubs[i]);
+        }
+        Sort(standings);
     }
 
     public void addClub(Club c){
