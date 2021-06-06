@@ -42,8 +42,7 @@ public class League {
                 // note that there will be two matches between club A and club B
                 // in the first match, club A will play as the home team and in the second match, as the away team
                 if (i == j) continue;
-                Match thisMatch = new Match(matchNo, clubs[i], clubs[j]);
-                matches[matchNo++] = thisMatch;
+                matches[matchNo++] = new Match(matchNo, clubs[i], clubs[j]);
             }
         }
     }
