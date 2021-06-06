@@ -93,21 +93,23 @@ public class League {
         clubs[clubCount++] = new Club(c);
     }
 
-    public void removeFrom(Club c, Club[] clubs){
+    public boolean removeFrom(Club c, Club[] clubs){
+        boolean isFound = false;
         for (int i=0; i<clubCount; i++){
             if (clubs[i].getId() == c.getId() && clubs[i].getName().equals(c.getName())){
+                isFound = true;
                 for (int j=i+1; j<clubCount; j++){
                     clubs[j-1] = clubs[j];
                 }
                 break;
             }
         }
+        return isFound;
     }
 
     public void removeClub(Club c){
-        removeFrom(c, clubs);
         removeFrom(c, standings);
-        clubCount--;
+        if (removeFrom(c, clubs)) clubCount--;
     }
 
     public void printMatches(){
