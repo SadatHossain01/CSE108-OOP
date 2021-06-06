@@ -7,7 +7,11 @@ public class Match{
     private boolean isPlayed;
     private int homeTeamScore;
     private int awayTeamScore;
+    private int homeTeamPoint;
+    private int awayTeamPoint;
     // add your variables here, if required
+    private int homeTeamIndex;
+    private int awayTeamIndex;
 
     // you are not allowed to write any more constructors
     public Match(int matchNo, Club homeTeam, Club awayTeam){
@@ -25,14 +29,9 @@ public class Match{
         // a team gets 2 points for winning and 0 point for losing
         // both teams get 1 point each in case of a draw
         isPlayed = true;
-        if (homeTeamScore == awayTeamScore){
-            homeTeam.setPoint(homeTeam.getPoint()+1);
-            awayTeam.setPoint(awayTeam.getPoint()+1);
-        }
-        else if (homeTeamScore > awayTeamScore){
-            homeTeam.setPoint(homeTeam.getPoint()+2);
-        }
-        else awayTeam.setPoint(awayTeam.getPoint()+2);
+        if (homeTeamScore == awayTeamScore) homeTeamPoint = awayTeamPoint = 1;
+        else if (homeTeamScore > awayTeamScore) homeTeamPoint = 2;
+        else awayTeamPoint = 2;
     }
 
     public void showResult(){
@@ -49,4 +48,36 @@ public class Match{
     }
 
     // add your methods here, if required
+
+    public int getHomeTeamIndex() {
+        return homeTeamIndex;
+    }
+
+    public void setHomeTeamIndex(int homeTeamIndex) {
+        this.homeTeamIndex = homeTeamIndex;
+    }
+
+    public int getAwayTeamIndex() {
+        return awayTeamIndex;
+    }
+
+    public void setAwayTeamIndex(int awayTeamIndex) {
+        this.awayTeamIndex = awayTeamIndex;
+    }
+
+    public int getHomeTeamPoint() {
+        return homeTeamPoint;
+    }
+
+    public void setHomeTeamPoint(int homeTeamPoint) {
+        this.homeTeamPoint = homeTeamPoint;
+    }
+
+    public int getAwayTeamPoint() {
+        return awayTeamPoint;
+    }
+
+    public void setAwayTeamPoint(int awayTeamPoint) {
+        this.awayTeamPoint = awayTeamPoint;
+    }
 }
