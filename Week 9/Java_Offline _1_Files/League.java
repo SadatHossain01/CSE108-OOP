@@ -41,6 +41,7 @@ public class League {
                 // check the constructor of the Match class and add your code here
                 // note that there will be two matches between club A and club B
                 // in the first match, club A will play as the home team and in the second match, as the away team
+                if (j == 0) clubs[i].setPoint(0);
                 if (i == j) continue;
                 matches[matchNo++] = new Match(matchNo, clubs[i], clubs[j]);
             }
