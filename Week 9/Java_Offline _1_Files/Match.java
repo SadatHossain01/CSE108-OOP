@@ -7,9 +7,9 @@ public class Match{
     private boolean isPlayed;
     private int homeTeamScore;
     private int awayTeamScore;
+    // add your variables here, if required
     private int homeTeamPoint;
     private int awayTeamPoint;
-    // add your variables here, if required
     private int homeTeamIndex;
     private int awayTeamIndex;
 
@@ -69,15 +69,7 @@ public class Match{
         return homeTeamPoint;
     }
 
-    public void setHomeTeamPoint(int homeTeamPoint) {
-        this.homeTeamPoint = homeTeamPoint;
-    }
-
     public int getAwayTeamPoint() {
         return awayTeamPoint;
-    }
-
-    public void setAwayTeamPoint(int awayTeamPoint) {
-        this.awayTeamPoint = awayTeamPoint;
     }
 }
