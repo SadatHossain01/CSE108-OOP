@@ -3,11 +3,28 @@ import java.util.List;
 
 public class Club {
     private int ID;
+    private String name;
     private double MAXIMUM_SALARY;
     private int MAXIMUM_AGE;
     private double MAXIMUM_HEIGHT;
     private double TOTAL_SALARY;
     private List<Player> players;
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public Player SearchPlayerByName(String name){
         for (var player:players){
