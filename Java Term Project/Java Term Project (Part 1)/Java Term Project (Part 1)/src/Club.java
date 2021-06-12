@@ -2,13 +2,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Club {
-    private int ID;
+    private int ID = -1;
     private String name;
     private double MAXIMUM_SALARY;
     private int MAXIMUM_AGE;
     private double MAXIMUM_HEIGHT;
     private double TOTAL_SALARY;
     private List<Player> players;
+
+    public Club(){
+        players = new ArrayList<>();
+    }
 
     public int getID() {
         return ID;
@@ -26,44 +30,8 @@ public class Club {
         this.name = name;
     }
 
-    public Player SearchPlayerByName(String name){
-        for (var player:players){
-            if (player.getName().equalsIgnoreCase(name)){
-                return player;
-            }
-        }
-        return null;
-    }
-
-    public List<Player> SearchPlayerByClubCountry(String club, String country){
-        List<Player>wantedPlayers = new ArrayList<>();
-        for (var player:players){
-            if (player.getCountry().equalsIgnoreCase(country) && (club.equalsIgnoreCase("ANY") || player.getClub().equalsIgnoreCase(club))){
-                wantedPlayers.add(player);
-            }
-        }
-        return wantedPlayers;
-    }
-
-    public List<Player> SearchPlayerByPosition(String position){
-        List<Player>wantedPlayers = new ArrayList<>();
-        for (var player:players){
-            if (player.getPosition().equalsIgnoreCase(position)){
-                wantedPlayers.add(player);
-            }
-        }
-        return wantedPlayers;
-    }
-
-    public List<Player> SearchPlayerBySalary(double lowRange, double highRange){
-        List<Player>wantedPlayers = new ArrayList<>();
-        for (var player:players){
-            double salary = player.getSalary();
-            if (lowRange <= salary && salary <= highRange){
-                wantedPlayers.add(player);
-            }
-        }
-        return wantedPlayers;
+    public int getSize(){
+        return players.size();
     }
 
     public List<Player> SearchMaximumSalary(){
@@ -100,7 +68,12 @@ public class Club {
         return TOTAL_SALARY;
     }
 
-    public void addPlayer(Player p){
-
+    public void addPlayerToClub(Player p){
+        if (players.size() >= 7) return;
+        MAXIMUM_SALARY = Math.max(p.getSalary(), MAXIMUM_SALARY);
+        MAXIMUM_AGE = Math.max(p.getAge(), MAXIMUM_AGE);
+        MAXIMUM_HEIGHT = Math.max(p.getHeight(), MAXIMUM_HEIGHT);
+        TOTAL_SALARY += p.getSalary();
+        players.add(p);
     }
 }

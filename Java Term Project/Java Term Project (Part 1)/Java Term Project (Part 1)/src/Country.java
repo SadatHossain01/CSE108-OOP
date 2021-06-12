@@ -1,15 +1,6 @@
 public class Country {
-    int ID;
     String name;
     int count;
-
-    public int getID() {
-        return ID;
-    }
-
-    public void setID(int ID) {
-        this.ID = ID;
-    }
 
     public String getName() {
         return name;
