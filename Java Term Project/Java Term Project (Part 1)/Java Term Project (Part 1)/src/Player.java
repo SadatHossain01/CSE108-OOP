@@ -1,29 +1,35 @@
 public class Player {
     private String name, country, club, position;
     private int age, number;
-    private double height, salary;
+    private double height, WeeklySalary;
 
-    public Player(){
-        ;
-    }
+    public Player(){ ; }
 
-    public Player(String name, String country, int age, double height, String club, String position, int number, double salary){
-        this.name = name;
+    public Player(String name, String country, int age, double height, String club, String position, int number, double WeeklySalary){
+        this.name = FormatPlayerName(name);
         this.country = country;
         this.age = age;
         this.height = height;
         this.club = club;
         this.position = position;
         this.number = number;
-        this.salary = salary;
+        this.WeeklySalary = WeeklySalary;
     }
 
-    public String getPosition() {
-        return position;
+    public String getName() {
+        return name;
     }
 
-    public void setPosition(String position) {
-        this.position = position;
+    public void setName(String name) {
+        this.name = FormatPlayerName(name);
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
     }
 
     public String getClub() {
@@ -34,20 +40,12 @@ public class Player {
         this.club = club;
     }
 
-    public String getName() {
-        return name;
+    public String getPosition() {
+        return position;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
+    public void setPosition(String position) {
+        this.position = position;
     }
 
     public int getAge() {
@@ -74,23 +72,26 @@ public class Player {
         this.height = height;
     }
 
-    public double getSalary() {
-        return salary;
+    public double getWeeklySalary() {
+        return WeeklySalary;
     }
 
-    public void setSalary(double salary) {
-        this.salary = salary;
+    public void setWeeklySalary(double WeeklySalary) {
+        this.WeeklySalary = WeeklySalary;
+    }
+
+    public String FormatPlayerName(String name){
+        return League.FormatName(name);
     }
 
     public void showDetails(){
         System.out.println("Name: " + name);
         System.out.println("Country: " + country);
-        System.out.println("Age: " + age);
+        System.out.println("Age(Year): " + age);
         System.out.println("Height: " + height);
         System.out.println("Club: " + club);
         System.out.println("Position: " + position);
         System.out.println("Number: " + number);
-        System.out.println("Salary: " + salary);
+        System.out.println("Weekly Salary: " + WeeklySalary);
     }
-
 }

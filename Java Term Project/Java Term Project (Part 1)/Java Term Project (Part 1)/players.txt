@@ -1,4 +1,4 @@
-David de Gea,Spain,30,1.92,Manchester United,Goalkeeper,1,375000.0
+David De Gea,Spain,30,1.92,Manchester United,Goalkeeper,1,375000.0
 Harry Maguire,England,28,1.94,Manchester United,Defender,5,189904.0
 Paul Pogba,France,28,1.91,Manchester United,Midfielder,6,290000.0
 Bruno Fernandes,Portugal,26,1.79,Manchester United,Midfielder,18,180000.0
@@ -14,7 +14,7 @@ N'Golo Kante,France,30,1.68,Chelsea,Midfielder,7,144231.0
 Jorginho,Italy,29,1.8,Chelsea,Midfielder,5,110000.0
 Timo Werner,Germany,25,1.8,Chelsea,Forward,11,170000.0
 Alisson,Brazil,28,1.91,Liverpool,Goalkeeper,1,150000.0
-Virgil van Dijk,Netherlands,29,1.93,Liverpool,Defender,4,180000.0
+Virgil Van Dijk,Netherlands,29,1.93,Liverpool,Defender,4,180000.0
 Jordan Henderson,England,30,1.82,Liverpool,Midfielder,14,140000.0
 Thiago Alcantaram,Brazil,30,1.74,Liverpool,Midfielder,6,200000.0
 Mohamed Salah,Egypt,28,1.75,Liverpool,Forward,11,200000.0
