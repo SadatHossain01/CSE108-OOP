@@ -101,9 +101,7 @@ public class League {
 
     public void showCountryWisePlayerCount(){
         System.out.println("The country wise player count is shown below:");
-        for (Map.Entry mapElement : CountryWiseCount.entrySet()){
-            System.out.println(mapElement.getKey() + ": " + mapElement.getValue());
-        }
+        CountryWiseCount.forEach((key, value) -> System.out.println(key.getName() + ": " + value));
     }
 
     public Club getClub(int index){

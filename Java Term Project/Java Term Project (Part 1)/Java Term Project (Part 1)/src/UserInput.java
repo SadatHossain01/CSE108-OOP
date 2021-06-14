@@ -25,14 +25,12 @@ public class UserInput {
             System.out.println(SUB_OPTION[index][i]);
         }
     }
-    public static Player InputNewPlayerInformation(League l){
-        Scanner scanner = new Scanner(System.in);
+    public static Player InputNewPlayerInformation(Scanner scanner, League l){
         Player p = new Player();
         System.out.print("Name: ");
         String name = scanner.nextLine();
         if (l.SearchByName(name) != null){
             System.out.println("This player is already registered in the database!");
-            scanner.close();
             return null;
         }
         else p.setName(name);
@@ -41,7 +39,6 @@ public class UserInput {
         int cID = l.FindClubID(club);
         if (cID != -1 && l.getClubSize(cID) >= 7){
             System.out.println("Sorry, this club already has 7 players registered.");
-            scanner.close();
             return null;
         }
         else p.setClub(club);
@@ -52,7 +49,6 @@ public class UserInput {
             p.setAge(Integer.parseInt(scanner.nextLine()));
         } catch (Exception e) {
             System.out.println("Age must be a positive integer!");
-            scanner.close();
             return null;
         }
         System.out.print("Height: ");
@@ -60,7 +56,6 @@ public class UserInput {
             p.setHeight(Double.parseDouble(scanner.nextLine()));
         } catch (Exception e){
             System.out.println("Height must be a positive real number!");
-            scanner.close();
             return null;
         }
         System.out.print("Position: ");
@@ -70,7 +65,6 @@ public class UserInput {
             p.setNumber(Integer.parseInt(scanner.nextLine()));
         } catch (Exception e){
             System.out.println("Number must be a positive integer!");
-            scanner.close();
             return null;
         }
         System.out.print("Weekly Salary: ");
@@ -78,10 +72,8 @@ public class UserInput {
             p.setWeeklySalary(Double.parseDouble(scanner.nextLine()));
         } catch (Exception e){
             System.out.println("Weekly Salary must be a positive real number!");
-            scanner.close();
             return null;
         }
-        scanner.close();
         return p;
     }
 }

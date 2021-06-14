@@ -142,7 +142,7 @@ public class Main {
                 }
             }
             else if (choice == 3){
-                var pNew = UserInput.InputNewPlayerInformation(FiveASideLeague);
+                var pNew = UserInput.InputNewPlayerInformation(scanner, FiveASideLeague);
                 if (pNew != null){
                     FiveASideLeague.addPlayerToLeague(pNew);
                     System.out.println("Player has been added to the league database!!!");
