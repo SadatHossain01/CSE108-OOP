@@ -3,7 +3,7 @@ public class Player {
     private int age, number;
     private double height, WeeklySalary;
 
-    public Player(){ ; }
+    public Player(){ }
 
     public Player(String name, String country, int age, double height, String club, String position, int number, double WeeklySalary){
         this.name = FormatPlayerName(name);

@@ -17,7 +17,7 @@ public class League {
     }
 
     public static String FormatName(String name){
-        StringBuffer str = new StringBuffer(name.trim());
+        StringBuilder str = new StringBuilder(name.trim());
         str.setCharAt(0, Character.toUpperCase(str.charAt(0)));
         for (int i=1; i<str.length(); i++){
             if (str.charAt(i-1) == ' '){
@@ -71,7 +71,7 @@ public class League {
         String FormattedCountryName = FormatName(country);
         List<Player>wantedPlayers = new ArrayList<>();
         for (var p : CentralPlayerDatabase){
-            if (p.getCountry().equalsIgnoreCase(country) && (club.equalsIgnoreCase("ANY") || p.getClub().equalsIgnoreCase(club))){
+            if (p.getCountry().equalsIgnoreCase(FormattedCountryName) && (club.equalsIgnoreCase("ANY") || p.getClub().equalsIgnoreCase(FormattedClubName))){
                 wantedPlayers.add(p);
             }
         }

@@ -9,10 +9,9 @@ public class Main {
         for (var p : loaded){
             FiveASideLeague.addPlayerToLeague(p);
         }
-        boolean ongoing = false;
-        int choice;
+        int choice = 0;
         Scanner scanner = new Scanner(System.in);
-        while (!ongoing){
+        while (true){
             UserInput.showMainOption();
             try {
                 choice = Integer.parseInt(scanner.nextLine());
@@ -143,11 +142,15 @@ public class Main {
                 }
             }
             else if (choice == 3){
-                UserInput.InputNewPlayerInformation(FiveASideLeague);
+                var pNew = UserInput.InputNewPlayerInformation(FiveASideLeague);
+                if (pNew != null){
+                    FiveASideLeague.addPlayerToLeague(pNew);
+                    System.out.println("Player has been added to the league database!!!");
+                }
             }
             else if (choice == 4){
                 FileOperations.writeToFile(FILE_NAME, FiveASideLeague.CentralPlayerDatabase);
-                ongoing = true;
+                break;
             }
             else System.out.println("You must enter a choice between 1 to 4");
         }
