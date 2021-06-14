@@ -51,16 +51,16 @@ public class UserInput {
             System.out.println("Age must be a positive integer!");
             return null;
         }
-        System.out.print("Height: ");
+        System.out.print("Height(in meter): ");
         try {
             p.setHeight(Double.parseDouble(scanner.nextLine()));
         } catch (Exception e){
             System.out.println("Height must be a positive real number!");
             return null;
         }
-        System.out.print("Position: ");
+        System.out.print("Playing Position: ");
         p.setPosition(scanner.nextLine());
-        System.out.print("Number: ");
+        System.out.print("Jersey Number: ");
         try {
             p.setNumber(Integer.parseInt(scanner.nextLine()));
         } catch (Exception e){
