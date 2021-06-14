@@ -9,17 +9,9 @@ public class Club {
     private double TOTAL_WEEKLY_SALARY;
     private List<Player> PlayerList;
 
-    public Club(){
-        PlayerList = new ArrayList<>();
-    }
-
     public Club(String name){
         setName(name);
         PlayerList = new ArrayList<>();
-    }
-
-    public String getName() {
-        return name;
     }
 
     public int getSize(){

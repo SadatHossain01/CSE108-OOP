@@ -9,7 +9,7 @@ public class Main {
         for (var p : loaded){
             FiveASideLeague.addPlayerToLeague(p);
         }
-        int choice = 0;
+        int choice;
         Scanner scanner = new Scanner(System.in);
         while (true){
             UserInput.showMainOption();
@@ -45,9 +45,12 @@ public class Main {
                         var found = FiveASideLeague.SearchPlayerByClubCountry(club, country);
                         if (found.isEmpty()) System.out.println("No such player with this country and club");
                         else{
+                            int i = 1;
                             for (var p : found){
+                                System.out.println(i++ + ".");
                                 p.showDetails();
                             }
+                            System.out.println();
                         }
                     }
                     else if (response == 3){
@@ -57,9 +60,12 @@ public class Main {
                         var found = FiveASideLeague.SearchPlayerByPosition(position);
                         if (found.isEmpty()) System.out.println("No such player with this position");
                         else{
+                            int i = 1;
                             for (var p : found){
+                                System.out.println(i++ + ".");
                                 p.showDetails();
                             }
+                            System.out.println();
                         }
                     }
                     else if (response == 4){
@@ -89,9 +95,12 @@ public class Main {
                         var found = FiveASideLeague.SearchPlayerBySalary(low, high);
                         if (found.isEmpty()) System.out.println("No such player with this weekly salary range.");
                         else{
+                            int i = 1;
                             for (var p : found){
+                                System.out.println(i++ + ".");
                                 p.showDetails();
                             }
+                            System.out.println();
                         }
                     }
                     else if (response == 5){
@@ -124,15 +133,30 @@ public class Main {
                     }
                     if (response == 1){
                         var found = FiveASideLeague.getClub(ID).SearchMaximumSalary();
-                        for (var p : found) p.showDetails();
+                        int i = 1;
+                        for (var p : found){
+                            System.out.println(i++ + ".");
+                            p.showDetails();
+                        }
+                        System.out.println();
                     }
                     else if (response == 2){
                         var found = FiveASideLeague.getClub(ID).SearchMaximumAge();
-                        for (var p : found) p.showDetails();
+                        int i = 1;
+                        for (var p : found){
+                            System.out.println(i++ + ".");
+                            p.showDetails();
+                        }
+                        System.out.println();
                     }
                     else if (response == 3){
                         var found = FiveASideLeague.getClub(ID).SearchMaximumHeight();
-                        for (var p : found) p.showDetails();
+                        int i = 1;
+                        for (var p : found){
+                            System.out.println(i++ + ".");
+                            p.showDetails();
+                        }
+                        System.out.println();
                     }
                     else if (response == 4){
                         System.out.printf("%.10f\n", FiveASideLeague.getClub(ID).TotalYearlySalary());

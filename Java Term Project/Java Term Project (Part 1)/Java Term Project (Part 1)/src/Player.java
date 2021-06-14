@@ -87,8 +87,8 @@ public class Player {
     public void showDetails(){
         System.out.println("Name: " + name);
         System.out.println("Country: " + country);
-        System.out.println("Age(Year): " + age);
-        System.out.println("Height: " + height);
+        System.out.println("Age: " + age + " years");
+        System.out.println("Height: " + height + "m");
         System.out.println("Club: " + club);
         System.out.println("Position: " + position);
         System.out.println("Number: " + number);
