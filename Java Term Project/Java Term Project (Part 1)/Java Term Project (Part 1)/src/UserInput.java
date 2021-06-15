@@ -14,9 +14,11 @@ public class UserInput {
     public static void showSubOption(int index){
         if (index != 0 && index != 1) return;
         if (index == 0){
+            System.out.println();
             System.out.println("How do you want to search for a player?");
         }
         else {
+            System.out.println();
             System.out.println("How do you want to search by a club?");
         }
         for (int i=0; i<SUB_OPTION[index].length; i++){
