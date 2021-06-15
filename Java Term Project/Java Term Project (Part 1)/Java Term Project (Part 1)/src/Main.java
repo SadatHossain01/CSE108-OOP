@@ -121,18 +121,18 @@ public class Main {
                         continue;
                     }
                     String club;
-                    int ID = 0;
+                    Club c = null;
                     if (response >= 1 && response <= 4){
-                        System.out.println("Enter Club Name: ");
+                        System.out.print("Enter Club Name: ");
                         club = scanner.nextLine();
-                        ID = FiveASideLeague.FindClubID(club);
-                        if (ID == -1){
+                        c = FiveASideLeague.FindClub(club);
+                        if (c == null){
                             System.out.println("No such club with this name");
                             continue;
                         }
                     }
                     if (response == 1){
-                        var found = FiveASideLeague.getClub(ID).SearchMaximumSalary();
+                        var found = c.SearchMaximumSalary();
                         int i = 1;
                         for (var p : found){
                             System.out.println(i++ + ".");
@@ -141,7 +141,7 @@ public class Main {
                         System.out.println();
                     }
                     else if (response == 2){
-                        var found = FiveASideLeague.getClub(ID).SearchMaximumAge();
+                        var found = c.SearchMaximumAge();
                         int i = 1;
                         for (var p : found){
                             System.out.println(i++ + ".");
@@ -150,7 +150,7 @@ public class Main {
                         System.out.println();
                     }
                     else if (response == 3){
-                        var found = FiveASideLeague.getClub(ID).SearchMaximumHeight();
+                        var found = c.SearchMaximumHeight();
                         int i = 1;
                         for (var p : found){
                             System.out.println(i++ + ".");
@@ -159,7 +159,7 @@ public class Main {
                         System.out.println();
                     }
                     else if (response == 4){
-                        System.out.printf("%.10f\n", FiveASideLeague.getClub(ID).TotalYearlySalary());
+                        System.out.printf("%.10f\n", c.TotalYearlySalary());
                     }
                     else if (response == 5) break;
                     else System.out.println("You must enter a choice between 1 to 5.");

@@ -36,12 +36,13 @@ public class UserInput {
         else p.setName(name);
         System.out.print("Club: ");
         String club = scanner.nextLine();
-        int cID = l.FindClubID(club);
-        if (cID != -1 && l.getClubSize(cID) >= 7){
-            System.out.println("Sorry, this club already has 7 players registered.");
+        var c = l.FindClub(club);
+        p.setClubName(club);
+        if (c != null && c.getSize() >= 7){
+            var sz = c.getSize();
+            System.out.println("Sorry, this club already has " + sz + " players registered.");
             return null;
         }
-        else p.setClub(club);
         System.out.print("Country: ");
         p.setCountry(scanner.nextLine());
         System.out.print("Age: ");

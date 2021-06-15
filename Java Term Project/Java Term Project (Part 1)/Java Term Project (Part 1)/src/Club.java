@@ -22,6 +22,10 @@ public class Club {
         this.name = FormatClubName(name);
     }
 
+    public String getName() {
+        return name;
+    }
+
     public List<Player> SearchMaximumSalary(){
         List<Player>wantedPlayers = new ArrayList<>();
         for (var player : PlayerList){

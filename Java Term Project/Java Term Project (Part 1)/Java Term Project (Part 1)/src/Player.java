@@ -1,16 +1,16 @@
 public class Player {
-    private String name, country, club, position;
+    private String name, country, ClubName, position;
     private int age, number;
     private double height, WeeklySalary;
 
     public Player(){ }
 
-    public Player(String name, String country, int age, double height, String club, String position, int number, double WeeklySalary){
-        this.name = FormatPlayerName(name);
-        this.country = country;
+    public Player(String name, String country, int age, double height, String ClubName, String position, int number, double WeeklySalary){
+        setName(name);
+        setCountry(country);
         this.age = age;
         this.height = height;
-        this.club = club;
+        setClubName(ClubName);
         this.position = position;
         this.number = number;
         this.WeeklySalary = WeeklySalary;
@@ -21,7 +21,7 @@ public class Player {
     }
 
     public void setName(String name) {
-        this.name = FormatPlayerName(name);
+        this.name = League.FormatName(name);
     }
 
     public String getCountry() {
@@ -29,15 +29,15 @@ public class Player {
     }
 
     public void setCountry(String country) {
-        this.country = country;
+        this.country = League.FormatName(country);
     }
 
-    public String getClub() {
-        return club;
+    public String getClubName() {
+        return ClubName;
     }
 
-    public void setClub(String club) {
-        this.club = club;
+    public void setClubName(String ClubName) {
+        this.ClubName = League.FormatName(ClubName);
     }
 
     public String getPosition() {
@@ -80,16 +80,12 @@ public class Player {
         this.WeeklySalary = WeeklySalary;
     }
 
-    public String FormatPlayerName(String name){
-        return League.FormatName(name);
-    }
-
     public void showDetails(){
         System.out.println("Name: " + name);
         System.out.println("Country: " + country);
         System.out.println("Age: " + age + " years");
         System.out.println("Height: " + height + "m");
-        System.out.println("Club: " + club);
+        System.out.println("Club: " + ClubName);
         System.out.println("Position: " + position);
         System.out.println("Number: " + number);
         System.out.println("Weekly Salary: " + WeeklySalary);

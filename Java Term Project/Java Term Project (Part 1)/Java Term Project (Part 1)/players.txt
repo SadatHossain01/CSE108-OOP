@@ -31,3 +31,4 @@ Eden Hazard,Belgium,30,1.75,Real Madrid,Forward,7,250000.0
 Toni Kroos,Germany,31,1.83,Real Madrid,Midfielder,8,329000.0
 Luka Modric,Croatia,35,1.72,Real Madrid,Midfielder,10,230000.0
 Rodrygo,Brazil,20,1.74,Real Madrid,Forward,25,120000.0
+Cristiano Ronaldo,Portugal,35,1.92,Juventus,Forward,7,600000.0

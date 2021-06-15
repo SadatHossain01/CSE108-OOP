@@ -5,14 +5,12 @@ import java.util.List;
 public class League {
     public List<Player> CentralPlayerDatabase;
     private List<Club> ClubList;
-    HashMap<Name, Integer> CountryWiseCount;
-    HashMap<Name, Integer> ClubID;
+    private List<Country>CountryList;
 
     public League(){
         CentralPlayerDatabase = new ArrayList<>();
         ClubList = new ArrayList<>();
-        CountryWiseCount = new HashMap<>();
-        ClubID = new HashMap<>();
+        CountryList = new ArrayList<>();
     }
 
     public static String FormatName(String name){
@@ -30,11 +28,28 @@ public class League {
         return str.toString();
     }
 
-    public int FindClubID(String ClubName){ //will return -1 if club is not registered yet
-        int ID = -1;
+    public Club FindClub(String ClubName){ //will return null if club is not registered yet
+        Club wanted = null;
         String FormattedClubName = FormatName(ClubName);
-        if (ClubID.containsKey(new Name(FormattedClubName))) ID = ClubID.get(new Name(FormattedClubName));
-        return ID;
+        for (var c : ClubList){
+            if (c.getName().equalsIgnoreCase(FormattedClubName)){
+                wanted = c;
+                break;
+            }
+        }
+        return wanted;
+    }
+
+    public Country FindCountry(String CountryName){ //will return null if club is not registered yet
+        Country wanted = null;
+        String FormattedCountryName = FormatName(CountryName);
+        for (var c : CountryList){
+            if (c.getName().equalsIgnoreCase(FormattedCountryName)){
+                wanted = c;
+                break;
+            }
+        }
+        return wanted;
     }
 
     public void addPlayerToClub(int ID, Player p){
@@ -43,18 +58,20 @@ public class League {
 
     public void addPlayerToLeague(Player p){
         //size check and player existence check is done in main
-        int ID = FindClubID(p.getClub());
-        if (ID == -1){
-            ID = ClubList.size();
-            ClubList.add(new Club(p.getClub()));
-            ClubID.put(new Name(p.getClub()), ID);
+        var c = FindClub(p.getClubName());
+        if (c == null){
+            c = new Club(p.getClubName());
+            ClubList.add(c);
+        }
+        String CountryName = FormatName(p.getCountry());
+        var country = FindCountry(CountryName);
+        if (country == null){
+            country = new Country(CountryName);
+            CountryList.add(country);
         }
         CentralPlayerDatabase.add(p);
-        addPlayerToClub(ID, p);
-        String CountryName = FormatName(p.getCountry());
-        Integer val = CountryWiseCount.get(new Name(CountryName));
-        if (val == null) val = 0;
-        CountryWiseCount.put(new Name(CountryName), val + 1);
+        c.addPlayerToClub(p);
+        country.incrementCount();
     }
 
     public Player SearchByName(String name){
@@ -70,7 +87,7 @@ public class League {
         String FormattedCountryName = FormatName(country);
         List<Player>wantedPlayers = new ArrayList<>();
         for (var p : CentralPlayerDatabase){
-            if (p.getCountry().equalsIgnoreCase(FormattedCountryName) && (club.equalsIgnoreCase("ANY") || p.getClub().equalsIgnoreCase(FormattedClubName))){
+            if (p.getCountry().equalsIgnoreCase(FormattedCountryName) && (club.equalsIgnoreCase("ANY") || p.getClubName().equalsIgnoreCase(FormattedClubName))){
                 wantedPlayers.add(p);
             }
         }
@@ -100,7 +117,9 @@ public class League {
 
     public void showCountryWisePlayerCount(){
         System.out.println("The country wise player count is shown below:");
-        CountryWiseCount.forEach((key, value) -> System.out.println(key + ": " + value));
+        for (var country : CountryList){
+            System.out.println(country + ": " + country.getCount());
+        }
     }
 
     public Club getClub(int index){

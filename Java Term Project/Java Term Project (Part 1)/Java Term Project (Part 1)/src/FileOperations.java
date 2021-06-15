@@ -23,7 +23,7 @@ public class FileOperations {
     public static void writeToFile(String FILE_NAME, List<Player> playerList) throws Exception {
         BufferedWriter bw = new BufferedWriter(new FileWriter(FILE_NAME));
         for (Player p : playerList) {
-            bw.write(p.getName() + "," + p.getCountry() + "," + p.getAge() + "," + p.getHeight() + "," + p.getClub() + "," + p.getPosition() + "," + p.getNumber() + "," + p.getWeeklySalary());
+            bw.write(p.getName() + "," + p.getCountry() + "," + p.getAge() + "," + p.getHeight() + "," + p.getClubName() + "," + p.getPosition() + "," + p.getNumber() + "," + p.getWeeklySalary());
             bw.write("\n");
         }
         bw.close();
