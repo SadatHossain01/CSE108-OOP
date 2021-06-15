@@ -53,7 +53,7 @@ public class Club {
     }
 
     public double TotalYearlySalary(){
-        return (TOTAL_WEEKLY_SALARY * 365.0) / 7.0;
+        return TOTAL_WEEKLY_SALARY * 52;
     }
 
     public void addPlayerToClub(Player p){
