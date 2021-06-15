@@ -26,6 +26,7 @@ public class UserInput {
         }
     }
     public static Player InputNewPlayerInformation(Scanner scanner, League l){
+        System.out.println("Please enter information as instructed:");
         Player p = new Player();
         System.out.print("Name: ");
         String name = scanner.nextLine();

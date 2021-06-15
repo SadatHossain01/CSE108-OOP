@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 public class League {
@@ -50,10 +49,6 @@ public class League {
             }
         }
         return wanted;
-    }
-
-    public void addPlayerToClub(int ID, Player p){
-        ClubList.get(ID).addPlayerToClub(p);
     }
 
     public void addPlayerToLeague(Player p){
@@ -120,13 +115,5 @@ public class League {
         for (var country : CountryList){
             System.out.println(country + ": " + country.getCount());
         }
-    }
-
-    public Club getClub(int index){
-        return ClubList.get(index);
-    }
-
-    public int getClubSize(int index){
-        return ClubList.get(index).getSize();
     }
 }
