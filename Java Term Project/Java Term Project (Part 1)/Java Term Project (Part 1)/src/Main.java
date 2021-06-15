@@ -159,7 +159,10 @@ public class Main {
                         System.out.println();
                     }
                     else if (response == 4){
-                        System.out.printf("%.10f\n", c.TotalYearlySalary());
+                        var TotalYearlySalary = c.TotalYearlySalary();
+                        if (TotalYearlySalary >= 1e9) System.out.printf("%.3f billion\n", TotalYearlySalary / 1e9);
+                        else if (TotalYearlySalary >= 1e6) System.out.printf("%.3f million\n", TotalYearlySalary / 1e6);
+                        else System.out.printf("%.3f\n", c.TotalYearlySalary());
                     }
                     else if (response == 5) break;
                     else System.out.println("You must enter a choice between 1 to 5.");
