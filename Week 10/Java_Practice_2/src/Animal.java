@@ -9,7 +9,7 @@ public class Animal {
 
     @Override
     public String toString() {
-        String ans = name + " is a " + getClass().getName() + ", aged " + age;
+        String ans = name + " is a " + getClass().getSimpleName() + ", aged " + age;
         return ans;
     }
 }
