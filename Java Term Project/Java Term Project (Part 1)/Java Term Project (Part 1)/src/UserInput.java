@@ -49,34 +49,59 @@ public class UserInput {
         System.out.print("Country: ");
         p.setCountry(scanner.nextLine());
         System.out.print("Age: ");
-        try{
-            p.setAge(Integer.parseInt(scanner.nextLine()));
-        } catch (Exception e) {
-            System.out.println("Age must be a positive integer!");
-            return null;
+        boolean done = false;
+        while(true) {
+            try {
+                p.setAge(Integer.parseInt(scanner.nextLine()));
+                done = true;
+            } catch (Exception e) {
+                System.out.println("Age must be a positive integer. Please input a proper age: ");
+            } finally {
+              if (done) break;
+            }
         }
         System.out.print("Height(in meter): ");
-        try {
-            p.setHeight(Double.parseDouble(scanner.nextLine()));
-        } catch (Exception e){
-            System.out.println("Height must be a positive real number!");
-            return null;
+        done = false;
+        while (true) {
+            try {
+                p.setHeight(Double.parseDouble(scanner.nextLine()));
+                done = true;
+            } catch (Exception e) {
+                System.out.println("Height must be a positive real number. Please input a proper height: ");
+            } finally {
+                if (done) break;
+            }
         }
         System.out.print("Playing Position: ");
-        p.setPosition(scanner.nextLine());
+        String position = scanner.nextLine();
+        while (!(position.equalsIgnoreCase("FORWARD") || position.equalsIgnoreCase("MIDFIELDER") || position.equalsIgnoreCase("DEFENDER") || position.equalsIgnoreCase("GOALKEEPER"))){
+            System.out.print("Position must be one of the following:\nForward Midfielder Defender Goalkeeper\nPlease input a proper playing position: ");
+            position = scanner.nextLine();
+        }
+        p.setPosition(position);
         System.out.print("Jersey Number: ");
-        try {
-            p.setNumber(Integer.parseInt(scanner.nextLine()));
-        } catch (Exception e){
-            System.out.println("Number must be a positive integer!");
-            return null;
+        done = false;
+        while (true) {
+            try {
+                p.setNumber(Integer.parseInt(scanner.nextLine()));
+                done = true;
+            } catch (Exception e) {
+                System.out.print("Number must be a positive integer. Please input a proper number: ");
+            } finally {
+                if (done) break;
+            }
         }
         System.out.print("Weekly Salary: ");
-        try {
-            p.setWeeklySalary(Double.parseDouble(scanner.nextLine()));
-        } catch (Exception e){
-            System.out.println("Weekly Salary must be a positive real number!");
-            return null;
+        done = false;
+        while (true) {
+            try {
+                p.setWeeklySalary(Double.parseDouble(scanner.nextLine()));
+                done = true;
+            } catch (Exception e) {
+                System.out.print("Weekly Salary must be a positive real number. Please input a proper salary: ");
+            } finally {
+                if (done) break;
+            }
         }
         return p;
     }

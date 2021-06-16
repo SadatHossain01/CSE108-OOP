@@ -57,6 +57,10 @@ public class Main {
                         String position;
                         System.out.print("Enter Position: ");
                         position = scanner.nextLine();
+                        while (!(position.equalsIgnoreCase("FORWARD") || position.equalsIgnoreCase("MIDFIELDER") || position.equalsIgnoreCase("DEFENDER") || position.equalsIgnoreCase("GOALKEEPER"))){
+                            System.out.print("Position must be one of the following:\nForward Midfielder Defender Goalkeeper\nPlease input a proper playing position: ");
+                            position = scanner.nextLine();
+                        }
                         var found = FiveASideLeague.SearchPlayerByPosition(position);
                         if (found.isEmpty()) System.out.println("No such player with this position");
                         else{

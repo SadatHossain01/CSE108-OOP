@@ -33,3 +33,4 @@ Luka Modric,Croatia,35,1.72,Real Madrid,Midfielder,10,230000.0
 Rodrygo,Brazil,20,1.74,Real Madrid,Forward,25,120000.0
 Cristiano Ronaldo,Portugal,35,1.92,Juventus,Forward,7,600000.0
 Kylian Mbappe,France,21,1.85,PSG,Forward,10,350000.0
+Sergio Aguero,Argentina,35,1.87,FC Barcelona,Forward,10,200000.0
