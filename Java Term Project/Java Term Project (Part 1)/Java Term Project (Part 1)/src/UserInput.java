@@ -19,7 +19,7 @@ public class UserInput {
         }
         else {
             System.out.println();
-            System.out.println("How do you want to search by a club?");
+            System.out.println("How do you want to search in a club?");
         }
         for (int i=0; i<SUB_OPTION[index].length; i++){
             int j = i + 1;

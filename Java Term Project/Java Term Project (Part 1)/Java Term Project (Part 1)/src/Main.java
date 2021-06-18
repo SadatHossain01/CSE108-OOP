@@ -38,7 +38,7 @@ public class Main {
                     }
                     else if (response == 2){
                         String club, country;
-                        System.out.print("Enter Country Name: ");
+                        System.out.print("Enter Country Name (Enter \"ANY\" for country independent choice): ");
                         country = scanner.nextLine();
                         System.out.print("Enter Club Name (Enter \"ANY\" for club independent choice): ");
                         club = scanner.nextLine();

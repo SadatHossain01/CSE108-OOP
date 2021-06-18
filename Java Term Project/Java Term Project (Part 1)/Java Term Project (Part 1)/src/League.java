@@ -82,7 +82,7 @@ public class League {
         String FormattedCountryName = FormatName(country);
         List<Player>wantedPlayers = new ArrayList<>();
         for (var p : CentralPlayerDatabase){
-            if (p.getCountry().equalsIgnoreCase(FormattedCountryName) && (club.equalsIgnoreCase("ANY") || p.getClubName().equalsIgnoreCase(FormattedClubName))){
+            if ((country.equalsIgnoreCase("ANY") || p.getCountry().equalsIgnoreCase(FormattedCountryName)) && (club.equalsIgnoreCase("ANY") || p.getClubName().equalsIgnoreCase(FormattedClubName))){
                 wantedPlayers.add(p);
             }
         }
