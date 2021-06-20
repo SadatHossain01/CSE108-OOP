@@ -113,7 +113,10 @@ public class League {
     public void showCountryWisePlayerCount(){
         System.out.println("The country wise player count is shown below:");
         for (var country : CountryList){
-            System.out.println(country + ": " + country.getCount());
+            int len = country.getName().length();
+            System.out.print(country);
+            for (int i = 1; i <= 15 - len; i++) System.out.print(' ');
+            System.out.println(": " + country.getCount());
         }
     }
 }

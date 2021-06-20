@@ -9,20 +9,20 @@ public class Main {
         for (var p : loaded){
             FiveASideLeague.addPlayerToLeague(p);
         }
-        int choice;
+        int MainChoice;
         Scanner scanner = new Scanner(System.in);
         while (true){
-            UserInput.showMainOption();
+            UserInteraction.showMainOption();
             try {
-                choice = Integer.parseInt(scanner.nextLine());
+                MainChoice = Integer.parseInt(scanner.nextLine());
             }catch (Exception e){
                 System.out.println("You must enter a choice between 1 to 4");
                 continue;
             }
-            if (choice == 1){
+            if (MainChoice == 1){
                 int response;
                 while (true){
-                    UserInput.showSubOption(0);
+                    UserInteraction.showSubOption(0);
                     try {
                         response = Integer.parseInt(scanner.nextLine());
                     }catch (Exception e){
@@ -114,10 +114,10 @@ public class Main {
                     else System.out.println("You must enter a choice between 1 to 6.");
                 }
             }
-            else if (choice == 2){
+            else if (MainChoice == 2){
                 int response;
                 while (true) {
-                    UserInput.showSubOption(1);
+                    UserInteraction.showSubOption(1);
                     try {
                         response = Integer.parseInt(scanner.nextLine());
                     }catch (Exception e){
@@ -172,14 +172,14 @@ public class Main {
                     else System.out.println("You must enter a choice between 1 to 5.");
                 }
             }
-            else if (choice == 3){
-                var pNew = UserInput.InputNewPlayerInformation(scanner, FiveASideLeague);
+            else if (MainChoice == 3){
+                var pNew = UserInteraction.InputNewPlayerInformation(scanner, FiveASideLeague);
                 if (pNew != null){
                     FiveASideLeague.addPlayerToLeague(pNew);
                     System.out.println("Player has been added to the league database!!!");
                 }
             }
-            else if (choice == 4){
+            else if (MainChoice == 4){
                 FileOperations.writeToFile(FILE_NAME, FiveASideLeague.CentralPlayerDatabase);
                 break;
             }

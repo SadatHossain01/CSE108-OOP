@@ -9,12 +9,12 @@ public class Club {
     private double MAXIMUM_HEIGHT;
     private double TOTAL_WEEKLY_SALARY;
     private List<Player> PlayerList;
-//    private HashMap<Integer, Boolean> NumberTaken;
+    public List<Integer> NumberTaken;
 
     public Club(String name){
         setName(name);
         PlayerList = new ArrayList<>();
-//        NumberTaken = new HashMap<>();
+        NumberTaken = new ArrayList<>();
     }
 
     public int getSize(){
@@ -70,6 +70,7 @@ public class Club {
         MAXIMUM_HEIGHT = Math.max(p.getHeight(), MAXIMUM_HEIGHT);
         TOTAL_WEEKLY_SALARY += p.getWeeklySalary();
         PlayerList.add(p);
+        NumberTaken.add(p.getNumber());
     }
 
     public String FormatClubName(String name){
