@@ -28,6 +28,7 @@ public class UserInput {
         }
     }
     public static Player InputNewPlayerInformation(Scanner scanner, League l){
+        NegativeInputException NE = new NegativeInputException();
         System.out.println("Please enter information as instructed:");
         Player p = new Player();
         System.out.print("Name: ");
@@ -52,10 +53,12 @@ public class UserInput {
         boolean done = false;
         while(true) {
             try {
-                p.setAge(Integer.parseInt(scanner.nextLine()));
+                int age = Integer.parseInt(scanner.nextLine());
+                if (age <= 0) throw NE;
+                p.setAge(age);
                 done = true;
             } catch (Exception e) {
-                System.out.println("Age must be a positive integer. Please input a proper age: ");
+                System.out.print("Age must be a positive integer. Please input a proper age: ");
             } finally {
               if (done) break;
             }
@@ -64,10 +67,12 @@ public class UserInput {
         done = false;
         while (true) {
             try {
-                p.setHeight(Double.parseDouble(scanner.nextLine()));
+                double height = Double.parseDouble(scanner.nextLine());
+                if (height <= 0) throw NE;
+                p.setHeight(height);
                 done = true;
             } catch (Exception e) {
-                System.out.println("Height must be a positive real number. Please input a proper height: ");
+                System.out.print("Height must be a positive real number. Please input a proper height: ");
             } finally {
                 if (done) break;
             }
@@ -83,7 +88,9 @@ public class UserInput {
         done = false;
         while (true) {
             try {
-                p.setNumber(Integer.parseInt(scanner.nextLine()));
+                int number = Integer.parseInt(scanner.nextLine());
+                if (number <= 0) throw NE;
+                p.setNumber(number);
                 done = true;
             } catch (Exception e) {
                 System.out.print("Number must be a positive integer. Please input a proper number: ");
@@ -95,7 +102,9 @@ public class UserInput {
         done = false;
         while (true) {
             try {
-                p.setWeeklySalary(Double.parseDouble(scanner.nextLine()));
+                double salary = Double.parseDouble(scanner.nextLine());
+                if (salary <= 0) throw NE;
+                p.setWeeklySalary(salary);
                 done = true;
             } catch (Exception e) {
                 System.out.print("Weekly Salary must be a positive real number. Please input a proper salary: ");

@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class Club {
@@ -8,10 +9,12 @@ public class Club {
     private double MAXIMUM_HEIGHT;
     private double TOTAL_WEEKLY_SALARY;
     private List<Player> PlayerList;
+//    private HashMap<Integer, Boolean> NumberTaken;
 
     public Club(String name){
         setName(name);
         PlayerList = new ArrayList<>();
+//        NumberTaken = new HashMap<>();
     }
 
     public int getSize(){
