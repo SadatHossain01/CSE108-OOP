@@ -27,7 +27,7 @@ public class Country {
         return name;
     }
 
-    public String FormatCountryName(String name){
+    public String FormatCountryName(String name) {
         return League.FormatName(name);
     }
 }

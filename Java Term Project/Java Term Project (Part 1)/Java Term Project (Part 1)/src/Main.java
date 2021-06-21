@@ -6,37 +6,36 @@ public class Main {
     public static void main(String[] args) throws Exception {
         League FiveASideLeague = new League();
         var loaded = FileOperations.readFromFile(FILE_NAME);
-        for (var p : loaded){
+        for (var p : loaded) {
             FiveASideLeague.addPlayerToLeague(p);
         }
         int MainChoice;
         Scanner scanner = new Scanner(System.in);
-        while (true){
+        while (true) {
             UserInteraction.showMainOption();
             try {
                 MainChoice = Integer.parseInt(scanner.nextLine());
-            }catch (Exception e){
+            } catch (Exception e) {
                 System.out.println("You must enter a choice between 1 to 4");
                 continue;
             }
-            if (MainChoice == 1){
+            if (MainChoice == 1) {
                 int response;
-                while (true){
+                while (true) {
                     UserInteraction.showSubOption(0);
                     try {
                         response = Integer.parseInt(scanner.nextLine());
-                    }catch (Exception e){
+                    } catch (Exception e) {
                         System.out.println("You must enter a choice between 1 to 6");
                         continue;
                     }
-                    if (response == 1){
+                    if (response == 1) {
                         System.out.print("Enter Player Name: ");
                         String name = scanner.nextLine();
                         var found = FiveASideLeague.SearchByName(name);
                         if (found == null) System.out.println("No such player with this name");
                         else found.showDetails();
-                    }
-                    else if (response == 2){
+                    } else if (response == 2) {
                         String club, country;
                         System.out.print("Enter Country Name (Enter \"ANY\" for country independent choice): ");
                         country = scanner.nextLine();
@@ -44,35 +43,33 @@ public class Main {
                         club = scanner.nextLine();
                         var found = FiveASideLeague.SearchPlayerByClubCountry(club, country);
                         if (found.isEmpty()) System.out.println("No such player with this country and club");
-                        else{
+                        else {
                             int i = 1;
-                            for (var p : found){
+                            for (var p : found) {
                                 System.out.println(i++ + ".");
                                 p.showDetails();
                             }
                             System.out.println();
                         }
-                    }
-                    else if (response == 3){
+                    } else if (response == 3) {
                         String position;
                         System.out.print("Enter Position: ");
                         position = scanner.nextLine();
-                        while (!(position.equalsIgnoreCase("FORWARD") || position.equalsIgnoreCase("MIDFIELDER") || position.equalsIgnoreCase("DEFENDER") || position.equalsIgnoreCase("GOALKEEPER"))){
+                        while (!(position.equalsIgnoreCase("FORWARD") || position.equalsIgnoreCase("MIDFIELDER") || position.equalsIgnoreCase("DEFENDER") || position.equalsIgnoreCase("GOALKEEPER"))) {
                             System.out.print("Position must be one of the following:\nForward Midfielder Defender Goalkeeper\nPlease input a proper playing position: ");
                             position = scanner.nextLine();
                         }
                         var found = FiveASideLeague.SearchPlayerByPosition(position);
                         if (found.isEmpty()) System.out.println("No such player with this position");
-                        else{
+                        else {
                             int i = 1;
-                            for (var p : found){
+                            for (var p : found) {
                                 System.out.println(i++ + ".");
                                 p.showDetails();
                             }
                             System.out.println();
                         }
-                    }
-                    else if (response == 4){
+                    } else if (response == 4) {
                         double low = 0, high = 0;
                         boolean done = true;
                         while (done) {
@@ -98,92 +95,82 @@ public class Main {
                         }
                         var found = FiveASideLeague.SearchPlayerBySalary(low, high);
                         if (found.isEmpty()) System.out.println("No such player with this weekly salary range.");
-                        else{
+                        else {
                             int i = 1;
-                            for (var p : found){
+                            for (var p : found) {
                                 System.out.println(i++ + ".");
                                 p.showDetails();
                             }
                             System.out.println();
                         }
-                    }
-                    else if (response == 5){
+                    } else if (response == 5) {
                         FiveASideLeague.showCountryWisePlayerCount();
-                    }
-                    else if (response == 6) break;
+                    } else if (response == 6) break;
                     else System.out.println("You must enter a choice between 1 to 6.");
                 }
-            }
-            else if (MainChoice == 2){
+            } else if (MainChoice == 2) {
                 int response;
                 while (true) {
                     UserInteraction.showSubOption(1);
                     try {
                         response = Integer.parseInt(scanner.nextLine());
-                    }catch (Exception e){
+                    } catch (Exception e) {
                         System.out.println("You must enter a choice between 1 to 6");
                         continue;
                     }
                     String club;
                     Club c = null;
-                    if (response >= 1 && response <= 4){
+                    if (response >= 1 && response <= 4) {
                         System.out.print("Enter Club Name: ");
                         club = scanner.nextLine();
                         c = FiveASideLeague.FindClub(club);
-                        if (c == null){
+                        if (c == null) {
                             System.out.println("No such club with this name");
                             continue;
                         }
                     }
-                    if (response == 1){
+                    if (response == 1) {
                         var found = c.SearchMaximumSalary();
                         int i = 1;
-                        for (var p : found){
+                        for (var p : found) {
                             System.out.println(i++ + ".");
                             p.showDetails();
                         }
                         System.out.println();
-                    }
-                    else if (response == 2){
+                    } else if (response == 2) {
                         var found = c.SearchMaximumAge();
                         int i = 1;
-                        for (var p : found){
+                        for (var p : found) {
                             System.out.println(i++ + ".");
                             p.showDetails();
                         }
                         System.out.println();
-                    }
-                    else if (response == 3){
+                    } else if (response == 3) {
                         var found = c.SearchMaximumHeight();
                         int i = 1;
-                        for (var p : found){
+                        for (var p : found) {
                             System.out.println(i++ + ".");
                             p.showDetails();
                         }
                         System.out.println();
-                    }
-                    else if (response == 4){
+                    } else if (response == 4) {
                         var TotalYearlySalary = c.TotalYearlySalary();
                         if (TotalYearlySalary >= 1e9) System.out.printf("%.3f billion\n", TotalYearlySalary / 1e9);
                         else if (TotalYearlySalary >= 1e6) System.out.printf("%.3f million\n", TotalYearlySalary / 1e6);
                         else System.out.printf("%.3f\n", c.TotalYearlySalary());
-                    }
-                    else if (response == 5) break;
+                    } else if (response == 5) break;
                     else System.out.println("You must enter a choice between 1 to 5.");
                 }
-            }
-            else if (MainChoice == 3){
+            } else if (MainChoice == 3) {
                 var pNew = UserInteraction.InputNewPlayerInformation(scanner, FiveASideLeague);
-                if (pNew != null){
+                if (pNew != null) {
                     FiveASideLeague.addPlayerToLeague(pNew);
                     System.out.println("Player has been added to the league database!!!");
                 }
-            }
-            else if (MainChoice == 4){
+            } else if (MainChoice == 4) {
                 FileOperations.writeToFile(FILE_NAME, FiveASideLeague.CentralPlayerDatabase);
                 break;
-            }
-            else System.out.println("You must enter a choice between 1 to 4");
+            } else System.out.println("You must enter a choice between 1 to 4");
         }
         scanner.close();
     }
