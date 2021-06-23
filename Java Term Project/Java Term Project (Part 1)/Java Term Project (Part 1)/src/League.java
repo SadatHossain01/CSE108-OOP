@@ -140,6 +140,16 @@ public class League {
         }
     }
 
+    public void showClubWisePlayerCount(){
+        System.out.println("The club wise player count is shown below:");
+        for (var club : ClubList) {
+            int len = club.getName().length();
+            System.out.print(club);
+            for (int i = 1; i <= 20 - len; i++) System.out.print(' ');
+            System.out.println(": " + club.getPlayerCount());
+        }
+    }
+
     public void showPositionWisePlayerCount() {
         System.out.println("The position wise player count is shown below:");
         for (var position : PositionList) {

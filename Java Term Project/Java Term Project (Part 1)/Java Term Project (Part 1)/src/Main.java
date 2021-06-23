@@ -26,7 +26,7 @@ public class Main {
                     try {
                         response = Integer.parseInt(scanner.nextLine());
                     } catch (Exception e) {
-                        System.out.println("You must enter a choice between 1 to 7");
+                        System.out.println("You must enter a choice between 1 to 8");
                         continue;
                     }
                     if (response == 1) {
@@ -108,8 +108,9 @@ public class Main {
                     } else if (response == 6){
                         FiveASideLeague.showPositionWisePlayerCount2();
                     }
-                    else if (response == 7) break;
-                    else System.out.println("You must enter a choice between 1 to 7.");
+                    else if (response == 7) FiveASideLeague.showClubWisePlayerCount();
+                    else if (response == 8) break;
+                    else System.out.println("You must enter a choice between 1 to 8.");
                 }
             } else if (MainChoice == 2) {
                 int response;

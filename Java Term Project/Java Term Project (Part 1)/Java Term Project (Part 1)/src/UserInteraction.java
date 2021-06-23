@@ -2,7 +2,13 @@ import java.util.Scanner;
 
 public class UserInteraction {
     private static final String[] MAIN_OPTION = {"Search Players", "Search Clubs", "Add Player", "Exit System"};
-    private static final String[][] SUB_OPTION = {{"By Player Name", "By Club and Country", "By Position", "By Salary Range", "Country-wise player count", "Position-wise player count", "Back to Main Menu"}, {"Player(s) with the maximum salary of a club", "Player(s) with the maximum age of a club", "Player(s) with the maximum height of a club", "Total yearly salary of a club", "Back to Main Menu"}, {}, {}};
+    private static final String[][] SUB_OPTION =
+            {
+                    {"By Player Name", "By Club and Country", "By Position", "By Salary Range", "Country-wise player count", "Position-wise player count", "Club-wise player count", "Back to Main Menu"},
+                    {"Player(s) with the maximum salary of a club", "Player(s) with the maximum age of a club", "Player(s) with the maximum height of a club", "Total yearly salary of a club", "Back to Main Menu"},
+                    {},
+                    {}
+    };
 
     public static void showMainOption() {
         System.out.println("Main Menu:");
@@ -23,7 +29,7 @@ public class UserInteraction {
                 System.out.print("(" + j + ") ");
                 System.out.println(SUB_OPTION[0][i]);
             }
-            System.out.print("Choose an option [1-7]: ");
+            System.out.print("Choose an option [1-8]: ");
         } else {
             System.out.println();
             System.out.println("Club Searching Menu:");

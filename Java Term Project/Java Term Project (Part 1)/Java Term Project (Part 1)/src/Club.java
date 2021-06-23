@@ -28,6 +28,10 @@ public class Club {
         return name;
     }
 
+    public int getPlayerCount() {
+        return PlayerList.size();
+    }
+
     public List<Player> SearchMaximumSalary() {
         List<Player> wantedPlayers = new ArrayList<>();
         for (var player : PlayerList) {
@@ -74,5 +78,10 @@ public class Club {
 
     public String FormatClubName(String name) {
         return League.FormatName(name);
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 }
