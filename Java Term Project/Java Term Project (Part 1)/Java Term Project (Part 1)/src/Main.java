@@ -106,7 +106,7 @@ public class Main {
                     } else if (response == 5) {
                         FiveASideLeague.showCountryWisePlayerCount();
                     } else if (response == 6){
-                        FiveASideLeague.showPositionWisePlayerCount();
+                        FiveASideLeague.showPositionWisePlayerCount2();
                     }
                     else if (response == 7) break;
                     else System.out.println("You must enter a choice between 1 to 7.");

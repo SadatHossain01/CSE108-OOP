@@ -149,4 +149,11 @@ public class League {
             System.out.println(": " + position.getCount());
         }
     }
+
+    public void showPositionWisePlayerCount2() {
+        System.out.println("The position wise player count is shown below:");
+        for (var p : new String[]{"Goalkeeper", "Midfielder", "Defender", "Forward"}){
+            System.out.println(p + ": " + SearchPlayerByPosition(p).size());
+        }
+    }
 }
