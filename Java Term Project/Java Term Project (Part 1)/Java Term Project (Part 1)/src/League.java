@@ -5,11 +5,13 @@ public class League {
     public List<Player> CentralPlayerDatabase;
     private List<Club> ClubList;
     private List<Country> CountryList;
+    private List<Position> PositionList;
 
     public League() {
         CentralPlayerDatabase = new ArrayList<>();
         ClubList = new ArrayList<>();
         CountryList = new ArrayList<>();
+        PositionList = new ArrayList<>();
     }
 
     public static String FormatName(String name) {
@@ -50,6 +52,18 @@ public class League {
         return wanted;
     }
 
+    public Position FindPosition(String PositionName) { //will return null if club is not registered yet
+        Position wanted = null;
+        String FormattedPositionName = FormatName(PositionName);
+        for (var c : PositionList) {
+            if (c.getName().equalsIgnoreCase(FormattedPositionName)) {
+                wanted = c;
+                break;
+            }
+        }
+        return wanted;
+    }
+
     public void addPlayerToLeague(Player p) {
         //size check and player existence check is done in main
         var c = FindClub(p.getClubName());
@@ -63,9 +77,16 @@ public class League {
             country = new Country(CountryName);
             CountryList.add(country);
         }
+        String PositionName = FormatName(p.getPosition());
+        var position = FindPosition(PositionName);
+        if (position == null) {
+            position = new Position(PositionName);
+            PositionList.add(position);
+        }
         CentralPlayerDatabase.add(p);
         c.addPlayerToClub(p);
         country.incrementCount();
+        position.incrementCount();
     }
 
     public Player SearchByName(String name) {
@@ -116,6 +137,16 @@ public class League {
             System.out.print(country);
             for (int i = 1; i <= 15 - len; i++) System.out.print(' ');
             System.out.println(": " + country.getCount());
+        }
+    }
+
+    public void showPositionWisePlayerCount() {
+        System.out.println("The position wise player count is shown below:");
+        for (var position : PositionList) {
+            int len = position.getName().length();
+            System.out.print(position);
+            for (int i = 1; i <= 15 - len; i++) System.out.print(' ');
+            System.out.println(": " + position.getCount());
         }
     }
 }
