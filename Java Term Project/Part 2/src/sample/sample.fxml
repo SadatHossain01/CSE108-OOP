@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.MenuButton?>
 <?import javafx.scene.control.MenuItem?>
@@ -90,14 +90,14 @@
          </TextField>
       </children>
    </VBox>
-   <Button layoutX="550.0" layoutY="608.0" mnemonicParsing="false" onAction="#showSearchResults" prefHeight="25.0" prefWidth="90.0" text="Search">
+   <JFXButton buttonType="RAISED" layoutX="540.0" layoutY="597.0" onAction="#showSearchResults" prefHeight="34.0" prefWidth="107.0" ripplerFill="#9e1818" style="-fx-background-color: #DDDDDD;" text="Search" textAlignment="CENTER" textFill="#eb2b55">
       <font>
-         <Font name="Elephant" size="12.0" />
+         <Font name="Elephant" size="18.0" />
       </font>
-   </Button>
-   <Button layoutX="654.0" layoutY="608.0" mnemonicParsing="false" onAction="#resetInput" prefHeight="25.0" prefWidth="90.0" text="Reset">
+   </JFXButton>
+   <JFXButton buttonType="RAISED" layoutX="677.0" layoutY="597.0" onAction="#resetInput" prefHeight="34.0" prefWidth="107.0" ripplerFill="#9e1818" style="-fx-background-color: #DDDDDD;" text="Reset" textAlignment="CENTER" textFill="#eb2b55">
       <font>
-         <Font name="Elephant" size="12.0" />
+         <Font name="Elephant" size="18.0" />
       </font>
-   </Button>
+   </JFXButton>
 </AnchorPane>
