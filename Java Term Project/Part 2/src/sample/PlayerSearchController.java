@@ -11,7 +11,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PlayerSearchController {
+    private Main main;
     League league = Main.FiveASideLeague;
+
     @FXML
     private TextField PlayerName;
 
@@ -47,14 +49,17 @@ public class PlayerSearchController {
             if (!MaxSalary.getText().isEmpty()) maxSalary = Double.parseDouble(MaxSalary.getText());
         } catch (Exception e) {
             var a = new Alert(Alert.AlertType.ERROR);
-            a.setTitle("Fatal error");
+            a.setTitle("Error");
+            a.setHeaderText("Invalid salary input");
             a.setContentText("Salary must be a decimal value");
             a.show();
             return answer;
         }
         String pName = PlayerName.getText(), countryName = CountryName.getText(), clubName = ClubName.getText(), pChoice = PositionChoice.getText();
         if (pName.isEmpty() && countryName.isEmpty() && clubName.isEmpty() && minSalary == -1 && maxSalary == -1 && pChoice.equalsIgnoreCase("Position")){
-            new Alert(Alert.AlertType.ERROR, "Input Your Choices Man!").show();
+            var a = new Alert(Alert.AlertType.ERROR, "Input Your Choices Man!");
+            a.setHeaderText("No input!");
+            a.show();
             return answer;
         }
         if (!pName.isEmpty()) answer = league.SearchByName(pName);
@@ -72,7 +77,11 @@ public class PlayerSearchController {
     }
 
     public void processList(List<Player>list){
-        if (list == null || list.isEmpty()) new Alert(Alert.AlertType.INFORMATION, "No such player found").show();
+        if (list == null || list.isEmpty()){
+            var a = new Alert(Alert.AlertType.INFORMATION, "No such player found");
+            a.setHeaderText("No match!");
+            a.show();
+        }
         else {
             list.forEach(Player::showDetails);
         }

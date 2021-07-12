@@ -13,9 +13,11 @@ import java.util.Objects;
 
 public class Main extends Application {
     public static League FiveASideLeague;
+    public static Stage primaryStage;
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+        Main.primaryStage = primaryStage;
         FiveASideLeague = new League();
         var loaded = FileOperations.readFromFile("assets/players.txt");
         for (Player p : loaded) FiveASideLeague.addPlayerToLeague(p);
@@ -27,9 +29,7 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-    public static void showResults(){
-        Stage stage = new Stage();
-    }
+
 
     public static void main(String[] args) {
         launch(args);
