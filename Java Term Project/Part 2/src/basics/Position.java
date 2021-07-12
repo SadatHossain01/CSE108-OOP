@@ -1,4 +1,4 @@
-package sample;
+package basics;
 
 public class Position {
     private String name;

@@ -1,4 +1,4 @@
-package sample;
+package basics;
 
 public class Country {
     private String name;

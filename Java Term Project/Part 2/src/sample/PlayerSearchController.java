@@ -1,10 +1,11 @@
 package sample;
 
+import basics.League;
+import basics.Player;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.MenuButton;
 import javafx.scene.control.TextField;
-import javafx.stage.Stage;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -74,8 +75,6 @@ public class PlayerSearchController {
         if (list == null || list.isEmpty()) new Alert(Alert.AlertType.INFORMATION, "No such player found").show();
         else {
             list.forEach(Player::showDetails);
-            Stage stage = new Stage();
-            stage.show();
         }
     }
 

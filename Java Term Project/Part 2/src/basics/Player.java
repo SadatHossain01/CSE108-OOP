@@ -1,4 +1,4 @@
-package sample;
+package basics;
 
 public class Player {
     private String name, country, ClubName, position;
