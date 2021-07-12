@@ -4,6 +4,8 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.MenuButton;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,6 +37,7 @@ public class PlayerSearchController {
         return answer;
     }
 
+    @FXML
     public List<Player> showSearchResults() {
         double minSalary = -1, maxSalary = -1;
         List<Player> answer = new ArrayList<>();
@@ -49,7 +52,7 @@ public class PlayerSearchController {
             return answer;
         }
         String pName = PlayerName.getText(), countryName = CountryName.getText(), clubName = ClubName.getText(), pChoice = PositionChoice.getText();
-        if (pName.isEmpty() && countryName.isEmpty() && clubName.isEmpty() && minSalary == -1 && maxSalary == -1){
+        if (pName.isEmpty() && countryName.isEmpty() && clubName.isEmpty() && minSalary == -1 && maxSalary == -1 && pChoice.equalsIgnoreCase("Position")){
             new Alert(Alert.AlertType.ERROR, "Input Your Choices Man!").show();
             return answer;
         }
@@ -58,7 +61,7 @@ public class PlayerSearchController {
             if (clubName.isEmpty()) clubName = "any";
             if (countryName.isEmpty()) countryName = "any";
             answer = league.SearchPlayerByClubCountry(clubName, countryName);
-            if (!pChoice.isEmpty() && !pChoice.equalsIgnoreCase("Position")) answer = getIntersectionOfLists(answer, league.SearchPlayerByPosition(pChoice));
+            if (!pChoice.isEmpty() && !pChoice.equalsIgnoreCase("Position") && !pChoice.equalsIgnoreCase("Any")) answer = getIntersectionOfLists(answer, league.SearchPlayerByPosition(pChoice));
             if (minSalary != -1 || maxSalary != -1){
                 answer = getIntersectionOfLists(answer, league.SearchPlayerBySalary(minSalary, maxSalary));
             }
@@ -68,10 +71,15 @@ public class PlayerSearchController {
     }
 
     public void processList(List<Player>list){
-        if (list.isEmpty()) new Alert(Alert.AlertType.ERROR, "No such player found").show();
-        list.forEach(Player::showDetails);
+        if (list == null || list.isEmpty()) new Alert(Alert.AlertType.INFORMATION, "No such player found").show();
+        else {
+            list.forEach(Player::showDetails);
+            Stage stage = new Stage();
+            stage.show();
+        }
     }
 
+    @FXML
     public void resetInput() {
         PlayerName.setText("");
         CountryName.setText("");
@@ -81,9 +89,14 @@ public class PlayerSearchController {
         MaxSalary.setText("");
     }
 
+    @FXML
+    public void setAnyPosition(){ PositionChoice.setText("Any");}
+    @FXML
     public void setForward(){ PositionChoice.setText("Forward");}
+    @FXML
     public void setMidfielder(){ PositionChoice.setText("Midfielder");}
+    @FXML
     public void setDefender(){ PositionChoice.setText("Defender");}
+    @FXML
     public void setGoalkeeper(){ PositionChoice.setText("Goalkeeper");}
-
 }

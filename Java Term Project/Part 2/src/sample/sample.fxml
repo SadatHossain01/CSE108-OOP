@@ -66,8 +66,9 @@
                <Font name="Bookman Old Style Bold" size="18.0" />
             </font>
          </TextField>
-         <MenuButton fx:id="PositionChoice" mnemonicParsing="false" prefHeight="35.0" prefWidth="161.0" text="Position" textAlignment="CENTER">
+         <MenuButton fx:id="PositionChoice" mnemonicParsing="false" prefHeight="34.0" prefWidth="157.0" text="Position" textAlignment="CENTER">
            <items>
+               <MenuItem mnemonicParsing="false" onAction="#setAnyPosition" text="Any" />
              <MenuItem mnemonicParsing="false" onAction="#setForward" text="Forward" />
              <MenuItem mnemonicParsing="false" onAction="#setMidfielder" text="Midfielder" />
                <MenuItem mnemonicParsing="false" onAction="#setDefender" text="Defender" />
