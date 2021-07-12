@@ -1,8 +1,102 @@
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.GridPane?>
+<?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<GridPane fx:controller="sample.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-</GridPane>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #123243;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PlayerSearchController">
+   <VBox layoutX="274.0" layoutY="53.0" prefHeight="579.0" prefWidth="174.0" spacing="50.0">
+      <Label text="Name" textFill="#5ceb1a">
+         <font>
+            <Font name="Book Antiqua Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label text="Country" textFill="#5ceb1a">
+         <font>
+            <Font name="Book Antiqua Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label text="Club" textFill="#5ceb1a">
+         <font>
+            <Font name="Book Antiqua Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label text="Position" textFill="#5ceb1a">
+         <font>
+            <Font name="Book Antiqua Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label text="Min Salary" textFill="#5ceb1a">
+         <font>
+            <Font name="Book Antiqua Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label text="Max Salary" textFill="#5ceb1a">
+         <font>
+            <Font name="Book Antiqua Bold" size="30.0" />
+         </font>
+      </Label>
+      <padding>
+         <Insets top="7.5" />
+      </padding>
+   </VBox>
+   <VBox layoutX="448.0" layoutY="53.0" prefHeight="484.0" prefWidth="689.0" spacing="50.0">
+      <padding>
+         <Insets left="10.0" right="10.0" top="7.5" />
+      </padding>
+      <children>
+         <TextField fx:id="PlayerName" prefHeight="39.0" prefWidth="669.0">
+            <font>
+               <Font name="Bookman Old Style Bold" size="18.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="CountryName" prefHeight="39.0" prefWidth="669.0" promptText="Any">
+            <font>
+               <Font name="Bookman Old Style Bold" size="18.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="ClubName" prefHeight="39.0" prefWidth="669.0" promptText="Any">
+            <font>
+               <Font name="Bookman Old Style Bold" size="18.0" />
+            </font>
+         </TextField>
+         <MenuButton fx:id="PositionChoice" mnemonicParsing="false" prefHeight="35.0" prefWidth="161.0" text="Position" textAlignment="CENTER">
+           <items>
+             <MenuItem mnemonicParsing="false" onAction="#setForward" text="Forward" />
+             <MenuItem mnemonicParsing="false" onAction="#setMidfielder" text="Midfielder" />
+               <MenuItem mnemonicParsing="false" onAction="#setDefender" text="Defender" />
+               <MenuItem mnemonicParsing="false" onAction="#setGoalkeeper" text="Goalkeeper" />
+           </items>
+            <font>
+               <Font name="Bookman Old Style Bold" size="18.0" />
+            </font>
+         </MenuButton>
+         <TextField fx:id="MinSalary" prefHeight="39.0" prefWidth="669.0">
+            <font>
+               <Font name="Bookman Old Style" size="18.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="MaxSalary" prefHeight="39.0" prefWidth="669.0">
+            <font>
+               <Font name="Bookman Old Style" size="18.0" />
+            </font>
+         </TextField>
+      </children>
+   </VBox>
+   <Button layoutX="550.0" layoutY="608.0" mnemonicParsing="false" onAction="#showSearchResults" prefHeight="25.0" prefWidth="90.0" text="Search">
+      <font>
+         <Font name="Elephant" size="12.0" />
+      </font>
+   </Button>
+   <Button layoutX="654.0" layoutY="608.0" mnemonicParsing="false" onAction="#resetInput" prefHeight="25.0" prefWidth="90.0" text="Reset">
+      <font>
+         <Font name="Elephant" size="12.0" />
+      </font>
+   </Button>
+</AnchorPane>
