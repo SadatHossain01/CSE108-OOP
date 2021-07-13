@@ -53,7 +53,7 @@ class employee : public personalInfo, public departmentInfo {
 protected:
     int joining_year;
 public:
-    employee(char* name, int ID, char gender, char* Department, char* Task, int year) :departmentInfo(Department, Task), personalInfo(name, ID, gender) {
+    employee(char* name, int ID, char gender, char* Department, char* Task, int year) : personalInfo(name, ID, gender), departmentInfo(Department, Task) {
         joining_year = year;
     }
     void showEmployeeInfo() {

@@ -39,11 +39,17 @@ namespace sports
 
 int main()
 {
-    infrastructure::pool P1;
-    P1.set_properties(1, 2, 3, "Blue");
-    P1.show();
-    sports::pool P2;
-    P2.set_properties("Wood", "Red");
-    P2.show();
+    {
+        using namespace infrastructure;
+        pool P1;
+        P1.set_properties(1, 2, 3, "Blue");
+        P1.show();
+    }
+    {
+        using namespace sports;
+        pool P2;
+        P2.set_properties("Wood", "Red");
+        P2.show();
+    }
     return 0;
 }

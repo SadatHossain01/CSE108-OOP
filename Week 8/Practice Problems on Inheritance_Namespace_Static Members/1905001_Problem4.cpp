@@ -10,12 +10,12 @@ public:
     inventory() { cout << "Parameter-less constructor for inventory class object" << endl; }
     inventory(int c) { cout << "Parameterized constructor for inventory class object" << endl; count = c; }
     int get_count() { return count; }
-    int set_count(int c) { count = c; }
+    void set_count(int c) { count = c; }
     void changeInventory(int c) { cout << "To be changed by the derived classes"; }
     void show() { cout << "To be changed by the derived classes"; }
     ~inventory() { cout << "Destructor for inventory class object" << endl; }
 };
-int inventory::count = 0;
+int inventory::count;
 int main()
 {
     inventory i1, i2, i3;
