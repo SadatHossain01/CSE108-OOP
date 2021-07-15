@@ -21,7 +21,7 @@
                         <ImageView fx:id="transferTag" fitHeight="127.0" fitWidth="198.0" pickOnBounds="true" preserveRatio="true" />
                      </children>
                   </StackPane>
-                  <Label fx:id="Name" alignment="CENTER" prefHeight="49.0" prefWidth="440.0" text="Name" textFill="#e81d90">
+                  <Label fx:id="Name" alignment="CENTER" prefHeight="49.0" prefWidth="440.0" text="Name" textFill="#e81d90" textOverrun="CENTER_WORD_ELLIPSIS">
                      <font>
                         <Font name="Calisto MT Bold" size="36.0" />
                      </font>

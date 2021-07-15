@@ -29,7 +29,7 @@ public class Main extends Application {
     }
 
     public void showLoginPage() throws IOException {
-        String club = "Liverpool";
+        String club = "Manchester City";
         club = League.FormatName(club);
         showClubHomePage(club);
     }
