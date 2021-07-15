@@ -1,7 +1,8 @@
 package sample;
 
-import basics.League;
-import basics.Player;
+import DataModel.Club;
+import DataModel.League;
+import DataModel.Player;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.MenuButton;
@@ -13,6 +14,24 @@ import java.util.List;
 
 public class PlayerSearchController {
     private Main main;
+    private Club club;
+
+    public Main getMain() {
+        return main;
+    }
+
+    public void setMain(Main main) {
+        this.main = main;
+    }
+
+    public Club getClub() {
+        return club;
+    }
+
+    public void setClub(Club club) {
+        this.club = club;
+    }
+
     League league = Main.FiveASideLeague;
 
     @FXML
@@ -20,9 +39,6 @@ public class PlayerSearchController {
 
     @FXML
     private TextField CountryName;
-
-    @FXML
-    private TextField ClubName;
 
     @FXML
     private MenuButton PositionChoice;
@@ -52,19 +68,20 @@ public class PlayerSearchController {
             new MyAlert(Alert.AlertType.ERROR, MyAlert.MessageType.InvalidSalaryInput).show();
             return answer;
         }
-        String pName = PlayerName.getText(), countryName = CountryName.getText(), clubName = ClubName.getText(), pChoice = PositionChoice.getText();
+        String pName = PlayerName.getText(), countryName = CountryName.getText(), clubName = club.getName(), pChoice = PositionChoice.getText();
         if (pName.isEmpty() && countryName.isEmpty() && clubName.isEmpty() && minSalary == -1 && maxSalary == -1 && pChoice.equalsIgnoreCase("Position")){
             new MyAlert(Alert.AlertType.ERROR, MyAlert.MessageType.NoInput).show();
             return answer;
         }
-        if (!pName.isEmpty()) answer = league.SearchByName(pName);
+        if (!pName.isEmpty()) answer = club.SearchByNameInClub(pName);
         else {
             if (clubName.isEmpty()) clubName = "any";
             if (countryName.isEmpty()) countryName = "any";
-            answer = league.SearchPlayerByClubCountry(clubName, countryName);
-            if (!pChoice.isEmpty() && !pChoice.equalsIgnoreCase("Position") && !pChoice.equalsIgnoreCase("Any")) answer = getIntersectionOfLists(answer, league.SearchPlayerByPosition(pChoice));
+            answer = club.SearchPlayerByCountryInClub(countryName);
+            if (!pChoice.isEmpty() && !pChoice.equalsIgnoreCase("Position") && !pChoice.equalsIgnoreCase("Any"))
+                answer = getIntersectionOfLists(answer, club.SearchPlayerByPositionInClub(pChoice));
             if (minSalary != -1 || maxSalary != -1){
-                answer = getIntersectionOfLists(answer, league.SearchPlayerBySalary(minSalary, maxSalary));
+                answer = getIntersectionOfLists(answer, club.SearchPlayerBySalaryInClub(minSalary, maxSalary));
             }
         }
         processList(answer);
@@ -80,7 +97,6 @@ public class PlayerSearchController {
     public void resetInput() {
         PlayerName.setText("");
         CountryName.setText("");
-        ClubName.setText("");
         PositionChoice.setText("Position");
         MinSalary.setText("");
         MaxSalary.setText("");

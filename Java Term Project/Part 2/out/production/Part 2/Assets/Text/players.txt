@@ -1,0 +1,37 @@
+David De Gea,Spain,30,1.92,Manchester United,Goalkeeper,1,375000.0
+Harry Maguire,England,28,1.94,Manchester United,Defender,5,189904.0
+Paul Pogba,France,28,1.91,Manchester United,Midfielder,6,290000.0
+Bruno Fernandes,Portugal,26,1.79,Manchester United,Midfielder,18,180000.0
+Edinson Cavani,Uruguay,34,1.84,Manchester United,Forward,7,210000.0
+Ederson,Brazil,27,1.88,Manchester City,Goalkeeper,31,65000.0
+Ruben Dias,Portugal,24,1.86,Manchester City,Defender,3,115385.0
+Kevin De Bruyne,Belgium,29,1.81,Manchester City,Midfielder,17,385000.0
+Ilkay Gundogan,Germany,30,1.8,Manchester City,Midfielder,8,140000.0
+Raheem Sterling,England,26,1.7,Manchester City,Forward,7,300000.0
+Edouard Mendy,Senegal,29,1.97,Chelsea,Goalkeeper,16,75000.0
+Cesar Azpilicueta,Spain,31,1.78,Chelsea,Defender,28,145000.0
+N'Golo Kante,France,30,1.68,Chelsea,Midfielder,7,144231.0
+Jorginho,Italy,29,1.8,Chelsea,Midfielder,5,110000.0
+Timo Werner,Germany,25,1.8,Chelsea,Forward,11,170000.0
+Alisson,Brazil,28,1.91,Liverpool,Goalkeeper,1,150000.0
+Virgil Van Dijk,Netherlands,29,1.93,Liverpool,Defender,4,180000.0
+Jordan Henderson,England,30,1.82,Liverpool,Midfielder,14,140000.0
+Thiago Alcantaram,Brazil,30,1.74,Liverpool,Midfielder,6,200000.0
+Mohamed Salah,Egypt,28,1.75,Liverpool,Forward,11,200000.0
+Bernd Leno,Germany,29,1.9,Arsenal,Goalkeeper,1,100000.0
+Hector Bellerin,Spain,26,1.78,Arsenal,Defender,2,110000.0
+Granit Xhaka,Switzerland,28,1.85,Arsenal,Midfielder,34,100000.0
+Thomas Partey,Ghana,27,1.85,Arsenal,Midfielder,18,250000.0
+Pierre-Emerick Aubameyang,Gabon,31,1.87,Arsenal,Forward,14,250000.0
+Lionel Messi,Argentina,33,1.7,FC Barcelona,Forward,10,1400000.0
+Sergio Ramos,Spain,35,1.84,Real Madrid,Defender,4,400000.0
+Vinicius Jr.,Brazil,20,1.76,Real Madrid,Forward,20,100000.0
+Karim Benzema,France,33,1.85,Real Madrid,Forward,9,150000.0
+Eden Hazard,Belgium,30,1.75,Real Madrid,Forward,7,250000.0
+Toni Kroos,Germany,31,1.83,Real Madrid,Midfielder,8,329000.0
+Luka Modric,Croatia,35,1.72,Real Madrid,Midfielder,10,230000.0
+Rodrygo,Brazil,20,1.74,Real Madrid,Forward,25,120000.0
+Cristiano Ronaldo,Portugal,35,1.92,Juventus,Forward,7,600000.0
+Kylian Mbappe,France,21,1.85,PSG,Forward,10,350000.0
+Sergio Aguero,Argentina,35,1.87,FC Barcelona,Forward,10,200000.0
+Memphis Depay,Netherlands,33,1.85,FC Barcelona,Forward,12,250000.0

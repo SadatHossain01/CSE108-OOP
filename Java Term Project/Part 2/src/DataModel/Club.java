@@ -1,7 +1,10 @@
-package basics;
+package DataModel;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+
+import static DataModel.League.FormatName;
 
 public class Club {
     private String name;
@@ -78,8 +81,66 @@ public class Club {
         NumberTaken.add(p.getNumber());
     }
 
+    public HashMap<String, Integer> getCountryWisePlayerCount() {
+        HashMap<String, Integer> countryWiseCount = new HashMap<>();
+        for (var p : PlayerList){
+            var c = p.getCountry();
+            if (countryWiseCount.containsKey(c)){
+                countryWiseCount.put(p.getCountry(), countryWiseCount.get(p.getCountry()) + 1);
+            }
+            else{
+                countryWiseCount.put(p.getCountry(), 1);
+            }
+        }
+        return countryWiseCount;
+    }
+
+    public List<Player> SearchByNameInClub(String name) {
+        List<Player> ans = new ArrayList<>();
+        String FormattedName = FormatName(name);
+        for (var p : PlayerList) {
+            if (p.getName().equalsIgnoreCase(FormattedName)) {
+                ans.add(p);
+                return ans;
+            }
+        }
+        return null;
+    }
+
+    public List<Player> SearchPlayerByCountryInClub(String country) {
+        String FormattedCountryName = FormatName(country);
+        List<Player> wantedPlayers = new ArrayList<>();
+        for (var p : PlayerList) {
+            if ((country.equalsIgnoreCase("ANY") || p.getCountry().equalsIgnoreCase(FormattedCountryName))) {
+                wantedPlayers.add(p);
+            }
+        }
+        return wantedPlayers;
+    }
+
+    public List<Player> SearchPlayerBySalaryInClub(double lowRange, double highRange) {
+        List<Player> wantedPlayers = new ArrayList<>();
+        for (var p : PlayerList) {
+            double salary = p.getWeeklySalary();
+            if ((lowRange == -1 || lowRange <= salary) && (highRange == -1 || salary <= highRange)) {
+                wantedPlayers.add(p);
+            }
+        }
+        return wantedPlayers;
+    }
+
+    public List<Player> SearchPlayerByPositionInClub(String position) {
+        List<Player> wantedPlayers = new ArrayList<>();
+        for (var p : PlayerList) {
+            if (p.getPosition().equalsIgnoreCase(position)) {
+                wantedPlayers.add(p);
+            }
+        }
+        return wantedPlayers;
+    }
+
     public String FormatClubName(String name) {
-        return League.FormatName(name);
+        return FormatName(name);
     }
 
     @Override

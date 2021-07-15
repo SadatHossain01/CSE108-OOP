@@ -1,4 +1,4 @@
-package basics;
+package DataModel;
 
 public class Country {
     private String name;

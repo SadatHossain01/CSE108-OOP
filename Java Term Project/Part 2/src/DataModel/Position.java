@@ -1,4 +1,4 @@
-package basics;
+package DataModel;
 
 public class Position {
     private String name;

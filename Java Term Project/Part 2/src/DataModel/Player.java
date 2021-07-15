@@ -1,12 +1,10 @@
-package basics;
+package DataModel;
 
 public class Player {
     private String name, country, ClubName, position;
-    private int age, number;
+    private int age, number, playerID;
     private double height, WeeklySalary;
-
-    public Player() {
-    }
+    private boolean isTransferListed = false;
 
     public Player(String name, String country, int age, double height, String ClubName, String position, int number, double WeeklySalary) {
         setName(name);
@@ -81,6 +79,22 @@ public class Player {
 
     public void setWeeklySalary(double WeeklySalary) {
         this.WeeklySalary = WeeklySalary;
+    }
+
+    public int getPlayerID() {
+        return playerID;
+    }
+
+    public void setPlayerID(int playerID) {
+        this.playerID = playerID;
+    }
+
+    public boolean isTransferListed() {
+        return isTransferListed;
+    }
+
+    public void setTransferListed(boolean transferListed) {
+        isTransferListed = transferListed;
     }
 
     public void showDetails() {
