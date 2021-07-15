@@ -37,6 +37,8 @@ public class Club {
         return PlayerList.size();
     }
 
+    public List<Player> getPlayerList(){return PlayerList;}
+
     public List<Player> SearchMaximumSalary() {
         List<Player> wantedPlayers = new ArrayList<>();
         for (var player : PlayerList) {

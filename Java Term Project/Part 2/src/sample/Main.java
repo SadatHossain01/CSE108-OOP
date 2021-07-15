@@ -20,17 +20,21 @@ public class Main extends Application {
     public void initiate() throws Exception {
         FiveASideLeague = new League();
         var loaded = FileOperations.readFromFile("src/Assets/Text/players.txt"); //file name path tree starts from one step back of src, but others all start from src
-        for (Player p : loaded) FiveASideLeague.addPlayerToLeague(p);
+        int i = 1;
+        for (Player p : loaded) {
+            p.setPlayerID(i++);
+            FiveASideLeague.addPlayerToLeague(p);
+        }
         showLoginPage();
     }
 
     public void showLoginPage() throws IOException {
         String club = "Liverpool";
         club = League.FormatName(club);
-        showClubPage(club);
+        showClubHomePage(club);
     }
 
-    public void showClubPage(String club) throws IOException {
+    public void showClubHomePage(String club) throws IOException {
         Club c = FiveASideLeague.FindClub(club);
         assert c != null;
         var loader = new FXMLLoader();
@@ -62,8 +66,19 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-    public void displayList(List<Player> playerList){
-
+    public void displayList(List<Player> playerList) throws IOException {
+        Stage stage = new Stage();
+        var loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("/ViewFX/PlayerListView.fxml"));
+        Parent root = loader.load();
+        PlayerListViewController playerListViewController = loader.getController();
+        playerListViewController.setMain(this);
+        playerListViewController.initiate(playerList);
+        var scene = new Scene(root, 928, 550);
+        stage.setScene(scene);
+        stage.setTitle("Searched Players");
+        stage.setResizable(false);
+        stage.showAndWait();
     }
 
     @Override
