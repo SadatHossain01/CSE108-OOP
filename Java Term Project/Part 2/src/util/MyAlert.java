@@ -5,7 +5,7 @@ import javafx.scene.control.ButtonType;
 
 public class MyAlert extends Alert {
     public enum MessageType{
-        InvalidSalaryInput, NoPlayerFound, NoInput
+        InvalidSalaryInput, NoPlayerFound, NoInput, TotalAnnualSalary
     }
 
     MessageType mType;
@@ -27,6 +27,8 @@ public class MyAlert extends Alert {
                 this.setHeaderText("No input");
                 this.setContentText("Please input some choices");
                 break;
+            case TotalAnnualSalary:
+                this.setHeaderText("Total Annual Salary");
         }
     }
 

@@ -46,7 +46,7 @@ public class ClubHomePageController {
 
     @FXML
     void showBuyablePlayers(ActionEvent event) {
-
+        System.out.println("Show buyable players");
     }
 
     @FXML

@@ -3,36 +3,28 @@ package sample;
 import DataModel.Club;
 import DataModel.League;
 import DataModel.Player;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Label;
 import javafx.scene.control.MenuButton;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import util.MyAlert;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class PlayerSearchController {
     private Main main;
     private Club club;
 
-    public Main getMain() {
-        return main;
-    }
-
     public void setMain(Main main) {
         this.main = main;
     }
-
-    public Club getClub() {
-        return club;
-    }
-
-    public void setClub(Club club) {
-        this.club = club;
-    }
-
-    League league = Main.FiveASideLeague;
 
     @FXML
     private TextField PlayerName;
@@ -49,6 +41,17 @@ public class PlayerSearchController {
     @FXML
     private TextField MaxSalary;
 
+    @FXML
+    private Label clubName;
+
+    @FXML
+    private ImageView clubLogo;
+
+    @FXML
+    void backToClubMainMenu(ActionEvent event) throws IOException {
+        main.showClubHomePage(club);
+    }
+
     public static List<Player> getIntersectionOfLists(List<Player>list1, List<Player>list2){
         List<Player>answer = new ArrayList<>();
         for (var p : list1){
@@ -57,8 +60,7 @@ public class PlayerSearchController {
         return answer;
     }
 
-    @FXML
-    public List<Player> showSearchResults() {
+    public List<Player> doTheSearch() {
         double minSalary = -1, maxSalary = -1;
         List<Player> answer = new ArrayList<>();
         try {
@@ -75,7 +77,6 @@ public class PlayerSearchController {
         }
         if (!pName.isEmpty()) answer = club.SearchByNameInClub(pName);
         else {
-            if (clubName.isEmpty()) clubName = "any";
             if (countryName.isEmpty()) countryName = "any";
             answer = club.SearchPlayerByCountryInClub(countryName);
             if (!pChoice.isEmpty() && !pChoice.equalsIgnoreCase("Position") && !pChoice.equalsIgnoreCase("Any"))
@@ -84,13 +85,7 @@ public class PlayerSearchController {
                 answer = getIntersectionOfLists(answer, club.SearchPlayerBySalaryInClub(minSalary, maxSalary));
             }
         }
-        processList(answer);
         return answer;
-    }
-
-    public void processList(List<Player>list){
-        if (list == null || list.isEmpty()){ new MyAlert(Alert.AlertType.INFORMATION, MyAlert.MessageType.NoPlayerFound).show(); }
-        else list.forEach(Player::showDetails);
     }
 
     @FXML
@@ -103,6 +98,46 @@ public class PlayerSearchController {
     }
 
     @FXML
+    void showSearchResults(ActionEvent event) throws IOException {
+        var wantedList = doTheSearch();
+        if (wantedList != null && !wantedList.isEmpty()) main.displayList(wantedList);
+        else{
+            new MyAlert(Alert.AlertType.INFORMATION, MyAlert.MessageType.NoPlayerFound).show();
+        }
+    }
+
+    @FXML
+    void showCountByCountry(ActionEvent event) {
+
+    }
+
+    @FXML
+    void showMaximumAgePlayers(ActionEvent event) throws IOException {
+        var wantedList = club.SearchMaximumAge();
+        main.displayList(wantedList);
+    }
+
+    @FXML
+    void showMaximumHeightPlayers(ActionEvent event) throws IOException {
+        var wantedList = club.SearchMaximumHeight();
+        main.displayList(wantedList);
+    }
+
+    @FXML
+    void showMaximumSalaryPlayers(ActionEvent event) throws IOException {
+        var wantedList = club.SearchMaximumSalary();
+        main.displayList(wantedList);
+    }
+
+    @FXML
+    void showTotalAnnualSalary(ActionEvent event) {
+        var alert = new MyAlert(Alert.AlertType.INFORMATION, MyAlert.MessageType.TotalAnnualSalary);
+        alert.setHeaderText("Total Annual Salary of " + club.getName());
+        alert.setContentText("Total Annual Salary is " + Club.showSalary(club.TotalYearlySalary()));
+        alert.show();
+    }
+
+    @FXML
     public void setAnyPosition(){ PositionChoice.setText("Any");}
     @FXML
     public void setForward(){ PositionChoice.setText("Forward");}
@@ -112,4 +147,10 @@ public class PlayerSearchController {
     public void setDefender(){ PositionChoice.setText("Defender");}
     @FXML
     public void setGoalkeeper(){ PositionChoice.setText("Goalkeeper");}
+
+    public void initiate(Club c) {
+        club = c;
+        clubName.setText(c.getName());
+        clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + c.getName() + ".png"))));
+    }
 }

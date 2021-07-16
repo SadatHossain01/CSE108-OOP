@@ -34,8 +34,7 @@ public class Main extends Application {
         showClubHomePage(club);
     }
 
-    public void showClubHomePage(String club) throws IOException {
-        Club c = FiveASideLeague.FindClub(club);
+    public void showClubHomePage(Club c) throws IOException{
         assert c != null;
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/ClubHomePageView.fxml"));
@@ -51,13 +50,18 @@ public class Main extends Application {
         primaryStage.show();
     }
 
+    public void showClubHomePage(String club) throws IOException {
+        Club c = FiveASideLeague.FindClub(club);
+        showClubHomePage(c);
+    }
+
     public void showSearchPage(Club c) throws IOException {
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/PlayerSearchView.fxml"));
         Parent root = loader.load();
         PlayerSearchController searchController = loader.getController();
         searchController.setMain(this);
-        searchController.setClub(c);
+        searchController.initiate(c);
         var scene = new Scene(root);
         assert primaryStage != null;
         primaryStage.setTitle("Search Page");

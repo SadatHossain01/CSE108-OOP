@@ -141,6 +141,15 @@ public class Club {
         return wantedPlayers;
     }
 
+    public static String showSalary(double salaryNumber){
+        String salary = "";
+        if (salaryNumber >= 1e9) salary = "$" + salaryNumber/(1e9) + " Billion";
+        else if (salaryNumber >= 1e6) salary = "$" + salaryNumber/(1e6) + " Million";
+        else if (salaryNumber >= 1e3) salary = "$" + salaryNumber/(1e3) + "k";
+        else salary = "$" + salaryNumber;
+        return salary;
+    }
+
     public String FormatClubName(String name) {
         return FormatName(name);
     }

@@ -1,5 +1,6 @@
 package sample;
 
+import DataModel.Club;
 import DataModel.Player;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -21,7 +22,7 @@ public class SinglePlayerDetailController {
     private Label Name;
 
     @FXML
-    private Label Club;
+    private Label club;
 
     @FXML
     private Label Country;
@@ -52,18 +53,13 @@ public class SinglePlayerDetailController {
         playerImage.setImage(new Image(loaded, 440, 220, false, true));
         if (p.isTransferListed()) transferTag.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Seal.png"))));
         Name.setText(p.getName());
-        Club.setText(p.getClubName());
+        club.setText(p.getClubName());
         Country.setText(p.getCountry());
         Age.setText(p.getAge() + " Years");
         Height.setText(p.getHeight() + " m");
         Position.setText(p.getPosition());
         Number.setText(String.valueOf(p.getNumber()));
-        String salary = "";
-        if (p.getWeeklySalary() >= 1e9) salary = "$" + p.getWeeklySalary()/(1e9) + " Billion";
-        else if (p.getWeeklySalary() >= 1e6) salary = "$" + p.getWeeklySalary()/(1e6) + " Million";
-        else if (p.getWeeklySalary() >= 1e3) salary = "$" + p.getWeeklySalary()/(1e3) + "k";
-        else salary = "$" + p.getWeeklySalary();
-        Salary.setText(salary);
+        Salary.setText(Club.showSalary(p.getWeeklySalary()));
         return playerCard;
     }
 

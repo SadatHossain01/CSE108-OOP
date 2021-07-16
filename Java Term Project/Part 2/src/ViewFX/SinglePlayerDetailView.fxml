@@ -26,7 +26,7 @@
                         <Font name="Calisto MT Bold" size="36.0" />
                      </font>
                   </Label>
-                  <Label fx:id="Club" alignment="CENTER" prefHeight="34.0" prefWidth="441.0" text="Club" textAlignment="CENTER">
+                  <Label fx:id="club" alignment="CENTER" prefHeight="34.0" prefWidth="441.0" text="Club" textAlignment="CENTER">
                      <font>
                         <Font name="Calisto MT Bold" size="24.0" />
                      </font>
