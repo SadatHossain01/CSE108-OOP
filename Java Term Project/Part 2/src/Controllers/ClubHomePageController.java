@@ -52,6 +52,7 @@ public class ClubHomePageController {
 
     @FXML
     void showMyPlayers(ActionEvent event) throws IOException {
+
         main.displayList(club.getPlayerList(), PlayerListViewController.PageType.SimpleList);
     }
 

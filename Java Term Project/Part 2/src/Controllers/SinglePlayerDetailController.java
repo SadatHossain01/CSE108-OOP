@@ -88,16 +88,17 @@ public class SinglePlayerDetailController {
                 TransferStatusButton.setText("Remove from Transfer List");
                 player.setTransferListed(true);
                 transferTag.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Rotated Seal.png"))));
-                System.out.println("Ask for the asking price");
+                System.out.println("Ask for the asking price and send info to network");
             }
             else {
                 TransferStatusButton.setText("Add to Transfer List");
                 player.setTransferListed(false);
                 transferTag.setImage(null);
+                System.out.println("Remove this player from network's buying list");
             }
         }
         else{
-            System.out.println("Send transfer request to server");
+            System.out.println("Send buying request to server");
         }
     }
 

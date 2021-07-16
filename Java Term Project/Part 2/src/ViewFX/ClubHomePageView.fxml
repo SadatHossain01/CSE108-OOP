@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.paint.Color?>
-<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.LinearGradient?>
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
@@ -23,7 +23,7 @@
                         <Font name="Bookman Old Style Bold" size="36.0" />
                      </font>
                      <ripplerFill>
-                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                        <LinearGradient endX="1.0" endY="1.0">
                            <stops>
                               <Stop>
                                  <color>
@@ -32,11 +32,11 @@
                               </Stop>
                               <Stop offset="1.0">
                                  <color>
-                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                    <Color red="0.8552631735801697" green="0.24549220502376556" blue="0.24549220502376556" />
                                  </color>
                               </Stop>
                            </stops>
-                        </RadialGradient>
+                        </LinearGradient>
                      </ripplerFill>
                   </JFXButton>
                   <JFXButton alignment="CENTER" buttonType="RAISED" onAction="#showBuyablePlayers" prefHeight="88.0" prefWidth="326.0" style="-fx-background-color: #90caf9;" text="Buy Players" textFill="#a84a4a">
@@ -44,7 +44,7 @@
                         <Font name="Bookman Old Style Bold" size="36.0" />
                      </font>
                      <ripplerFill>
-                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                        <LinearGradient endX="1.0" endY="1.0">
                            <stops>
                               <Stop>
                                  <color>
@@ -53,11 +53,11 @@
                               </Stop>
                               <Stop offset="1.0">
                                  <color>
-                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                    <Color red="0.8552631735801697" green="0.24549220502376556" blue="0.24549220502376556" />
                                  </color>
                               </Stop>
                            </stops>
-                        </RadialGradient>
+                        </LinearGradient>
                      </ripplerFill>
                   </JFXButton>
                   <JFXButton alignment="CENTER" buttonType="RAISED" onAction="#SearchPlayers" prefHeight="88.0" prefWidth="325.0" style="-fx-background-color: #90caf9;" text="Search Players" textFill="#a84a4a">
@@ -65,7 +65,7 @@
                         <Font name="Bookman Old Style Bold" size="36.0" />
                      </font>
                      <ripplerFill>
-                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                        <LinearGradient endX="1.0" endY="1.0">
                            <stops>
                               <Stop>
                                  <color>
@@ -74,11 +74,11 @@
                               </Stop>
                               <Stop offset="1.0">
                                  <color>
-                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                    <Color red="0.8552631735801697" green="0.24549220502376556" blue="0.24549220502376556" />
                                  </color>
                               </Stop>
                            </stops>
-                        </RadialGradient>
+                        </LinearGradient>
                      </ripplerFill>
                   </JFXButton>
                </children>
