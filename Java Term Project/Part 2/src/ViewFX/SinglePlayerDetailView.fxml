@@ -19,7 +19,7 @@
          <children>
             <HBox>
                <children>
-                  <VBox>
+                  <VBox alignment="CENTER">
                      <children>
                         <StackPane alignment="BOTTOM_CENTER">
                            <children>
@@ -37,45 +37,92 @@
                               <Font name="Calisto MT Bold" size="24.0" />
                            </font>
                         </Label>
+                        <JFXButton fx:id="TransferStatusButton" alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" onAction="#doTransferAction" prefHeight="45.0" prefWidth="305.0" style="-fx-background-color: #90caf9;" text="TransferStatusButton">
+                           <font>
+                              <Font name="Bookman Old Style Bold" size="24.0" />
+                           </font>
+                           <ripplerFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="0.20394736528396606" green="0.7105262875556946" blue="0.16776315867900848" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </ripplerFill>
+                        </JFXButton>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="353.0" prefWidth="177.0">
+                     <children>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="297.0" text="Country: " textAlignment="RIGHT">
+                           <font>
+                              <Font name="Calisto MT Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets right="20.0" />
+                           </padding>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="300.0" text="Position: " textAlignment="RIGHT">
+                           <font>
+                              <Font name="Calisto MT Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets right="20.0" />
+                           </padding>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="303.0" text="Number: " textAlignment="RIGHT">
+                           <font>
+                              <Font name="Calisto MT Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets right="20.0" />
+                           </padding>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="300.0" text="Age: " textAlignment="RIGHT">
+                           <font>
+                              <Font name="Calisto MT Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets right="20.0" />
+                           </padding>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="304.0" text="Height: " textAlignment="RIGHT">
+                           <font>
+                              <Font name="Calisto MT Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets right="20.0" />
+                           </padding>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="304.0" text="Salary: " textAlignment="RIGHT">
+                           <font>
+                              <Font name="Calisto MT Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets right="20.0" />
+                           </padding>
+                        </Label>
+                        <Label fx:id="TransferLabel1" alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="303.0" textAlignment="RIGHT">
+                           <font>
+                              <Font name="Calisto MT Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets right="20.0" />
+                           </padding>
+                        </Label>
                      </children>
                   </VBox>
                   <VBox>
                      <children>
-                        <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="125.0" text="Country: " textAlignment="RIGHT">
-                           <font>
-                              <Font name="Calisto MT Bold" size="24.0" />
-                           </font>
-                        </Label>
-                        <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="125.0" text="Position: " textAlignment="RIGHT">
-                           <font>
-                              <Font name="Calisto MT Bold" size="24.0" />
-                           </font>
-                        </Label>
-                        <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="125.0" text="Number: " textAlignment="RIGHT">
-                           <font>
-                              <Font name="Calisto MT Bold" size="24.0" />
-                           </font>
-                        </Label>
-                        <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="125.0" text="Age: " textAlignment="RIGHT">
-                           <font>
-                              <Font name="Calisto MT Bold" size="24.0" />
-                           </font>
-                        </Label>
-                        <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="125.0" text="Height: " textAlignment="RIGHT">
-                           <font>
-                              <Font name="Calisto MT Bold" size="24.0" />
-                           </font>
-                        </Label>
-                        <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="120.0" text="Salary: " textAlignment="RIGHT">
-                           <font>
-                              <Font name="Calisto MT Bold" size="24.0" />
-                           </font>
-                        </Label>
-                     </children>
-                  </VBox>
-                  <VBox>
-                     <children>
-                        <Label fx:id="Country" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="305.0" text="Country" textAlignment="RIGHT">
+                        <Label fx:id="Country" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="311.0" text="Country" textAlignment="RIGHT">
                            <font>
                               <Font name="Calisto MT Bold" size="24.0" />
                            </font>
@@ -83,7 +130,7 @@
                               <Insets left="20.0" />
                            </padding>
                         </Label>
-                        <Label fx:id="Position" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="301.0" text="Position" textAlignment="RIGHT">
+                        <Label fx:id="Position" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="311.0" text="Position" textAlignment="RIGHT">
                            <font>
                               <Font name="Calisto MT Bold" size="24.0" />
                            </font>
@@ -91,7 +138,7 @@
                               <Insets left="20.0" />
                            </padding>
                         </Label>
-                        <Label fx:id="Number" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="304.0" text="Number" textAlignment="RIGHT">
+                        <Label fx:id="Number" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="311.0" text="Number" textAlignment="RIGHT">
                            <font>
                               <Font name="Calisto MT Bold" size="24.0" />
                            </font>
@@ -107,7 +154,7 @@
                               <Insets left="20.0" />
                            </padding>
                         </Label>
-                        <Label fx:id="Height" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="305.0" text="Height" textAlignment="RIGHT">
+                        <Label fx:id="Height" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="311.0" text="Height" textAlignment="RIGHT">
                            <font>
                               <Font name="Calisto MT Bold" size="24.0" />
                            </font>
@@ -115,7 +162,15 @@
                               <Insets left="20.0" />
                            </padding>
                         </Label>
-                        <Label fx:id="Salary" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="300.0" text="Salary" textAlignment="RIGHT">
+                        <Label fx:id="Salary" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="310.0" text="Salary" textAlignment="RIGHT">
+                           <font>
+                              <Font name="Calisto MT Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                        </Label>
+                        <Label fx:id="TransferLabel2" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="312.0" textAlignment="RIGHT">
                            <font>
                               <Font name="Calisto MT Bold" size="24.0" />
                            </font>
@@ -127,27 +182,6 @@
                   </VBox>
                </children>
             </HBox>
-            <JFXButton fx:id="TransferStatusButton" alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" onAction="#doTransferAction" prefHeight="15.0" prefWidth="379.0" style="-fx-background-color: #90caf9;" text="TransferStatusButton">
-               <font>
-                  <Font name="Bookman Old Style Bold" size="24.0" />
-               </font>
-               <ripplerFill>
-                  <LinearGradient endX="1.0" endY="1.0">
-                     <stops>
-                        <Stop>
-                           <color>
-                              <Color red="0.20394736528396606" green="0.7105262875556946" blue="0.16776315867900848" />
-                           </color>
-                        </Stop>
-                        <Stop offset="1.0">
-                           <color>
-                              <Color red="1.0" green="1.0" blue="1.0" />
-                           </color>
-                        </Stop>
-                     </stops>
-                  </LinearGradient>
-               </ripplerFill>
-            </JFXButton>
          </children>
       </VBox>
    </children>
