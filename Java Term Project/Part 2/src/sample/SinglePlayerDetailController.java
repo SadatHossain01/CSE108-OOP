@@ -2,18 +2,23 @@ package sample;
 
 import DataModel.Club;
 import DataModel.Player;
+import com.jfoenix.controls.JFXButton;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 
 import java.util.Objects;
 
 public class SinglePlayerDetailController {
 
+    private PlayerListViewController.PageType pageType;
+    private Player player;
+
     @FXML
-    public HBox playerCard;
+    public VBox playerCard;
 
     @FXML
     private ImageView playerImage;
@@ -45,7 +50,12 @@ public class SinglePlayerDetailController {
     @FXML
     private ImageView transferTag;
 
-    HBox initiate(Player p){
+    @FXML
+    private JFXButton TransferStatusButton;
+
+    VBox initiate(Player p, PlayerListViewController.PageType pageType){
+        this.pageType = pageType;
+        this.player = p;
         System.out.println(p.getName());
         var loaded = Main.class.getResourceAsStream("/Assets/Image/Player Image/" + p.getName() + ".jpeg");
         if (loaded == null) loaded = Main.class.getResourceAsStream("/Assets/Image/Player Image/" + p.getName() + ".jpg");
@@ -60,7 +70,34 @@ public class SinglePlayerDetailController {
         Position.setText(p.getPosition());
         Number.setText(String.valueOf(p.getNumber()));
         Salary.setText(Club.showSalary(p.getWeeklySalary()));
+        if (pageType == PlayerListViewController.PageType.SimpleList){
+            if (p.isTransferListed()) TransferStatusButton.setText("Remove From Transfer List");
+            else TransferStatusButton.setText("Add to Transfer List");
+        }
+        else{
+            TransferStatusButton.setText("Buy Player");
+        }
         return playerCard;
+    }
+
+    @FXML
+    void doTransferAction(ActionEvent event) {
+        if (pageType == PlayerListViewController.PageType.SimpleList){
+            if (!player.isTransferListed()){
+                TransferStatusButton.setText("Remove from Transfer List");
+                player.setTransferListed(true);
+                transferTag.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Seal.png"))));
+                System.out.println("Ask for the asking price");
+            }
+            else {
+                TransferStatusButton.setText("Add to Transfer List");
+                player.setTransferListed(false);
+                transferTag.setImage(null);
+            }
+        }
+        else{
+            System.out.println("Send transfer request to server");
+        }
     }
 
 }

@@ -34,7 +34,7 @@ public class Main extends Application {
     }
 
     public void showLoginPage() throws IOException {
-        String club = "Real Madrid";
+        String club = "Manchester City";
         club = League.FormatName(club);
         showClubHomePage(club);
     }
@@ -79,14 +79,14 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-    public void displayList(List<Player> playerList) throws IOException {
+    public void displayList(List<Player> playerList, PlayerListViewController.PageType pageType) throws IOException {
         Stage stage = new Stage();
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/PlayerListView.fxml"));
         Parent root = loader.load();
         PlayerListViewController playerListViewController = loader.getController();
         playerListViewController.setMain(this);
-        playerListViewController.initiate(playerList);
+        playerListViewController.initiate(playerList, pageType);
         var scene = new Scene(root, 928, 550);
         stage.setScene(scene);
         stage.setTitle("Searched Players");

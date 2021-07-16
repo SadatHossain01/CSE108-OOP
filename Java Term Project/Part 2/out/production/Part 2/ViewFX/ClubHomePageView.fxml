@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -82,7 +83,10 @@
                   </JFXButton>
                </children>
             </VBox>
-            <ImageView fx:id="logo" fitHeight="200.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="logo" fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin></ImageView>
          </children>
       </HBox>
       <Label fx:id="welcomeMessage" alignment="CENTER" layoutX="70.0" layoutY="53.0" prefHeight="40.0" prefWidth="585.0" text="Welcome Message">

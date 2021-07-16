@@ -36,7 +36,7 @@ public class ClubHomePageController {
         System.out.println(club.getName());
         this.club = club;
         welcomeMessage.setText("Welcome to " + club.getName());
-        logo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + club.getName() + ".png")), 250, 200, false, true));
+        logo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + club.getName() + ".png")), 200, 200, false, true));
     }
 
     @FXML
@@ -51,7 +51,7 @@ public class ClubHomePageController {
 
     @FXML
     void showMyPlayers(ActionEvent event) throws IOException {
-        main.displayList(club.getPlayerList());
+        main.displayList(club.getPlayerList(), PlayerListViewController.PageType.SimpleList);
     }
 
 }

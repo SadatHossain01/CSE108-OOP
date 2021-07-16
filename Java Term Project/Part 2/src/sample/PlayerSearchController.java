@@ -100,7 +100,7 @@ public class PlayerSearchController {
     @FXML
     void showSearchResults(ActionEvent event) throws IOException {
         var wantedList = doTheSearch();
-        if (wantedList != null && !wantedList.isEmpty()) main.displayList(wantedList);
+        if (wantedList != null && !wantedList.isEmpty()) main.displayList(wantedList, PlayerListViewController.PageType.SimpleList);
         else{
             new MyAlert(Alert.AlertType.INFORMATION, MyAlert.MessageType.NoPlayerFound).show();
         }
@@ -114,19 +114,19 @@ public class PlayerSearchController {
     @FXML
     void showMaximumAgePlayers(ActionEvent event) throws IOException {
         var wantedList = club.SearchMaximumAge();
-        main.displayList(wantedList);
+        main.displayList(wantedList, PlayerListViewController.PageType.SimpleList);
     }
 
     @FXML
     void showMaximumHeightPlayers(ActionEvent event) throws IOException {
         var wantedList = club.SearchMaximumHeight();
-        main.displayList(wantedList);
+        main.displayList(wantedList, PlayerListViewController.PageType.SimpleList);
     }
 
     @FXML
     void showMaximumSalaryPlayers(ActionEvent event) throws IOException {
         var wantedList = club.SearchMaximumSalary();
-        main.displayList(wantedList);
+        main.displayList(wantedList, PlayerListViewController.PageType.SimpleList);
     }
 
     @FXML
@@ -151,6 +151,6 @@ public class PlayerSearchController {
     public void initiate(Club c) {
         club = c;
         clubName.setText(c.getName());
-        clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + c.getName() + ".png"))));
+        clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + c.getName() + ".png")), 200, 200, false, true));
     }
 }
