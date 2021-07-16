@@ -7,6 +7,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.stage.Screen;
 import javafx.stage.Stage;
 import util.FileOperations;
 
@@ -16,8 +17,12 @@ import java.util.List;
 public class Main extends Application {
     public static League FiveASideLeague;
     public Stage primaryStage;
+    public static double screenHeight, screenWidth;
 
     public void initiate() throws Exception {
+        var screen = Screen.getPrimary().getBounds();
+        screenHeight = screen.getHeight();
+        screenWidth = screen.getWidth();
         FiveASideLeague = new League();
         var loaded = FileOperations.readFromFile("src/Assets/Text/players.txt"); //file name path tree starts from one step back of src, but others all start from src
         int i = 1;
@@ -47,6 +52,8 @@ public class Main extends Application {
         primaryStage.setTitle("Club Home Page");
         primaryStage.setResizable(false);
         primaryStage.setScene(scene);
+        primaryStage.setX((screenWidth - scene.getWidth())/2);
+        primaryStage.setY((screenHeight - scene.getHeight())/2);
         primaryStage.show();
     }
 
@@ -67,6 +74,8 @@ public class Main extends Application {
         primaryStage.setTitle("Search Page");
         primaryStage.setResizable(false);
         primaryStage.setScene(scene);
+        primaryStage.setX((screenWidth - scene.getWidth())/2);
+        primaryStage.setY((screenHeight - scene.getHeight())/2);
         primaryStage.show();
     }
 
