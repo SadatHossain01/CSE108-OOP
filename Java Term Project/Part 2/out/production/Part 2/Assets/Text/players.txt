@@ -35,3 +35,4 @@ Cristiano Ronaldo,Portugal,35,1.92,Juventus,Forward,7,600000.0
 Kylian Mbappe,France,21,1.85,PSG,Forward,10,350000.0
 Sergio Aguero,Argentina,35,1.87,FC Barcelona,Forward,10,200000.0
 Memphis Depay,Netherlands,33,1.85,FC Barcelona,Forward,12,250000.0
+Mohammad Safkat Hossain,Bangladesh,19,1.84,PSG,Midfielder,8,100000.0 

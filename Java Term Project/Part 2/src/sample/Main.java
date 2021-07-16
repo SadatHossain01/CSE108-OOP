@@ -34,7 +34,7 @@ public class Main extends Application {
     }
 
     public void showLoginPage() throws IOException {
-        String club = "Manchester City";
+        String club = "PSG";
         club = League.FormatName(club);
         showClubHomePage(club);
     }
