@@ -1,11 +1,11 @@
-package sample;
+package Controllers;
 
 import DataModel.Player;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.ListView;
-import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import sample.Main;
 
 import java.io.IOException;
 import java.util.List;
@@ -23,7 +23,7 @@ public class PlayerListViewController {
     @FXML
     private ListView<VBox> listView;
 
-    void initiate(List<Player> players, PageType pageType) throws IOException {
+    public void initiate(List<Player> players, PageType pageType) throws IOException {
         for (var p : players) {
             var newLoader = new FXMLLoader();
             newLoader.setLocation(getClass().getResource("/ViewFX/SinglePlayerDetailView.fxml"));

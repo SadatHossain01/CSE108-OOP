@@ -1,4 +1,4 @@
-package sample;
+package Controllers;
 
 import DataModel.Club;
 import javafx.event.ActionEvent;
@@ -6,6 +6,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import sample.Main;
 
 import java.io.IOException;
 import java.util.Objects;
@@ -32,7 +33,7 @@ public class ClubHomePageController {
     @FXML
     private Label welcomeMessage;
 
-    void initiate(Club club){
+    public void initiate(Club club){
         System.out.println(club.getName());
         this.club = club;
         welcomeMessage.setText("Welcome to " + club.getName());

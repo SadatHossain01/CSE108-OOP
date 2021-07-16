@@ -1,7 +1,6 @@
-package sample;
+package Controllers;
 
 import DataModel.Club;
-import DataModel.League;
 import DataModel.Player;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -11,6 +10,7 @@ import javafx.scene.control.MenuButton;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import sample.Main;
 import util.MyAlert;
 
 import java.io.IOException;
@@ -89,7 +89,7 @@ public class PlayerSearchController {
     }
 
     @FXML
-    public void resetInput() {
+    void resetInput() {
         PlayerName.setText("");
         CountryName.setText("");
         PositionChoice.setText("Position");
@@ -108,7 +108,7 @@ public class PlayerSearchController {
 
     @FXML
     void showCountByCountry(ActionEvent event) {
-
+        System.out.println("Show country wise count");
     }
 
     @FXML

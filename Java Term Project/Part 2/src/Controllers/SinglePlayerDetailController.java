@@ -1,4 +1,4 @@
-package sample;
+package Controllers;
 
 import DataModel.Club;
 import DataModel.Player;
@@ -9,6 +9,7 @@ import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
+import sample.Main;
 
 import java.util.Objects;
 
@@ -53,7 +54,7 @@ public class SinglePlayerDetailController {
     @FXML
     private JFXButton TransferStatusButton;
 
-    VBox initiate(Player p, PlayerListViewController.PageType pageType){
+    public VBox initiate(Player p, PlayerListViewController.PageType pageType){
         this.pageType = pageType;
         this.player = p;
         System.out.println(p.getName());
@@ -61,7 +62,7 @@ public class SinglePlayerDetailController {
         if (loaded == null) loaded = Main.class.getResourceAsStream("/Assets/Image/Player Image/" + p.getName() + ".jpg");
         assert loaded != null;
         playerImage.setImage(new Image(loaded, 440, 220, false, true));
-        if (p.isTransferListed()) transferTag.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Seal.png"))));
+        if (p.isTransferListed()) transferTag.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Rotated Seal.png"))));
         Name.setText(p.getName());
         club.setText(p.getClubName());
         Country.setText(p.getCountry());
@@ -86,7 +87,7 @@ public class SinglePlayerDetailController {
             if (!player.isTransferListed()){
                 TransferStatusButton.setText("Remove from Transfer List");
                 player.setTransferListed(true);
-                transferTag.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Seal.png"))));
+                transferTag.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Rotated Seal.png"))));
                 System.out.println("Ask for the asking price");
             }
             else {

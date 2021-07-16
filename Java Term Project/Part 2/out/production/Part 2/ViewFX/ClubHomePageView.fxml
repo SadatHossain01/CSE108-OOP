@@ -12,7 +12,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="441.0" prefWidth="724.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ClubHomePageController">
+<AnchorPane prefHeight="441.0" prefWidth="724.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ClubHomePageController">
    <children>
       <HBox alignment="CENTER" layoutX="34.0" layoutY="115.0" prefHeight="261.0" prefWidth="594.0">
          <children>

@@ -3,7 +3,7 @@
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="rootPane" prefHeight="558.0" prefWidth="919.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PlayerListViewController">
+<AnchorPane fx:id="rootPane" prefHeight="558.0" prefWidth="919.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.PlayerListViewController">
    <children>
       <ListView fx:id="listView" layoutX="-2.0" layoutY="-1.0" prefHeight="558.0" prefWidth="919.0" />
    </children>

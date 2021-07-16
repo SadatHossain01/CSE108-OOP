@@ -1,5 +1,8 @@
 package sample;
 
+import Controllers.ClubHomePageController;
+import Controllers.PlayerListViewController;
+import Controllers.PlayerSearchController;
 import DataModel.Club;
 import DataModel.League;
 import DataModel.Player;
@@ -34,7 +37,7 @@ public class Main extends Application {
     }
 
     public void showLoginPage() throws IOException {
-        String club = "PSG";
+        String club = "FC Barcelona";
         club = League.FormatName(club);
         showClubHomePage(club);
     }
