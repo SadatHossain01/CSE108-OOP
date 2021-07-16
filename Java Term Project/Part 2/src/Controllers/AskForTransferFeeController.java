@@ -1,5 +1,6 @@
 package Controllers;
 
+import DataModel.Club;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -44,10 +45,14 @@ public class AskForTransferFeeController {
         var player = singlePlayerDetailController.getPlayer();
         var transferTag = singlePlayerDetailController.getTransferTag();
         var transferButton = singlePlayerDetailController.getTransferStatusButton();
-        player.setAskingPrice(transferFee);
+        var transferLabel1 = singlePlayerDetailController.getTransferLabel1();
+        var transferLabel2 = singlePlayerDetailController.getTransferLabel2();
+        player.setTransferFee(transferFee);
         player.setTransferListed(true);
         transferTag.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Rotated Seal.png"))));
         transferButton.setText("Remove from Transfer List");
+        transferLabel1.setText("Transfer Fee:");
+        transferLabel2.setText(Club.showSalary(transferFee));
         stage.close();
     }
 

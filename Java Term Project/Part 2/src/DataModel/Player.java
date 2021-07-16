@@ -5,7 +5,7 @@ public class Player {
     private int age, number, playerID;
     private double height, WeeklySalary;
     private boolean isTransferListed = false;
-    private double AskingPrice = 0;
+    private double TransferFee = 0;
 
     public Player(String name, String country, int age, double height, String ClubName, String position, int number, double WeeklySalary) {
         setName(name);
@@ -90,12 +90,12 @@ public class Player {
         this.playerID = playerID;
     }
 
-    public double getAskingPrice() {
-        return AskingPrice;
+    public double getTransferFee() {
+        return TransferFee;
     }
 
-    public void setAskingPrice(double askingPrice) {
-        AskingPrice = askingPrice;
+    public void setTransferFee(double transferFee) {
+        TransferFee = transferFee;
     }
 
     public boolean isTransferListed() {

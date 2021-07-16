@@ -28,6 +28,14 @@ public class SinglePlayerDetailController {
         return player;
     }
 
+    public Label getTransferLabel1() {
+        return TransferLabel1;
+    }
+
+    public Label getTransferLabel2() {
+        return TransferLabel2;
+    }
+
     public ImageView getTransferTag() {
         return transferTag;
     }
@@ -72,6 +80,12 @@ public class SinglePlayerDetailController {
     @FXML
     private JFXButton TransferStatusButton;
 
+    @FXML
+    private Label TransferLabel1;
+
+    @FXML
+    private Label TransferLabel2;
+
     public VBox initiate(Player p, PlayerListViewController.PageType pageType){
         this.pageType = pageType;
         this.player = p;
@@ -96,6 +110,10 @@ public class SinglePlayerDetailController {
         else{
             TransferStatusButton.setText("Buy Player");
         }
+        if (pageType == PlayerListViewController.PageType.TransferList && player.isTransferListed()){
+            TransferLabel1.setText("Transfer Fee:");
+            TransferLabel2.setText(Club.showSalary(player.getTransferFee()));
+        }
         return playerCard;
     }
 
@@ -108,6 +126,8 @@ public class SinglePlayerDetailController {
             }
             else {
                 TransferStatusButton.setText("Add to Transfer List");
+                TransferLabel1.setText(null);
+                TransferLabel2.setText(null);
                 player.setTransferListed(false);
                 transferTag.setImage(null);
                 System.out.println("Remove this player from network's buying list");

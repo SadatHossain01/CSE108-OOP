@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane fx:id="Pane" prefHeight="318.0" prefWidth="483.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AskForTransferFeeController">
    <children>
       <Label alignment="CENTER" layoutY="81.0" prefHeight="21.0" prefWidth="483.0" text="How much price are you asking for this player?">
@@ -14,7 +13,7 @@
             <Font name="Bookman Old Style Bold Italic" size="18.0" />
          </font>
       </Label>
-      <TextField fx:id="AskedTransferFee" layoutX="24.0" layoutY="137.0" prefHeight="45.0" prefWidth="230.0">
+      <TextField fx:id="AskedTransferFee" alignment="CENTER" layoutX="24.0" layoutY="137.0" prefHeight="45.0" prefWidth="230.0">
          <font>
             <Font name="Bookman Old Style" size="24.0" />
          </font>
