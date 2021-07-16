@@ -5,7 +5,7 @@ import javafx.scene.control.ButtonType;
 
 public class MyAlert extends Alert {
     public enum MessageType{
-        InvalidSalaryInput, NoPlayerFound, NoInput, TotalAnnualSalary
+        InvalidSalaryInput, NoPlayerFound, NoInput, TotalAnnualSalary, InvalidTransferFee
     }
 
     MessageType mType;
@@ -29,6 +29,10 @@ public class MyAlert extends Alert {
                 break;
             case TotalAnnualSalary:
                 this.setHeaderText("Total Annual Salary");
+            case InvalidTransferFee:
+                this.setHeaderText("Invalid Transfer Fee Input");
+                this.setContentText("Please input a positive decimal value for transfer fee");
+                break;
         }
     }
 

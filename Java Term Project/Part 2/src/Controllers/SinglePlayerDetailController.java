@@ -11,12 +11,30 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
 import sample.Main;
 
+import java.io.IOException;
 import java.util.Objects;
 
 public class SinglePlayerDetailController {
 
     private PlayerListViewController.PageType pageType;
     private Player player;
+    private Main main;
+
+    public void setMain(Main main) {
+        this.main = main;
+    }
+
+    public Player getPlayer() {
+        return player;
+    }
+
+    public ImageView getTransferTag() {
+        return transferTag;
+    }
+
+    public JFXButton getTransferStatusButton() {
+        return TransferStatusButton;
+    }
 
     @FXML
     public VBox playerCard;
@@ -82,13 +100,11 @@ public class SinglePlayerDetailController {
     }
 
     @FXML
-    void doTransferAction(ActionEvent event) {
+    void doTransferAction(ActionEvent event) throws IOException {
         if (pageType == PlayerListViewController.PageType.SimpleList){
             if (!player.isTransferListed()){
-                TransferStatusButton.setText("Remove from Transfer List");
-                player.setTransferListed(true);
-                transferTag.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Rotated Seal.png"))));
-                System.out.println("Ask for the asking price and send info to network");
+                main.AskForTransferFee(this);
+                System.out.println("Close the dialog box and send the transfer request to server");
             }
             else {
                 TransferStatusButton.setText("Add to Transfer List");

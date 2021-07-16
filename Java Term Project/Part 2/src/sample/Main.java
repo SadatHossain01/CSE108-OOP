@@ -1,8 +1,6 @@
 package sample;
 
-import Controllers.ClubHomePageController;
-import Controllers.PlayerListViewController;
-import Controllers.PlayerSearchController;
+import Controllers.*;
 import DataModel.Club;
 import DataModel.League;
 import DataModel.Player;
@@ -42,7 +40,7 @@ public class Main extends Application {
         showClubHomePage(club);
     }
 
-    public void showClubHomePage(Club c) throws IOException{
+    public void showClubHomePage(Club c) throws IOException {
         assert c != null;
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/ClubHomePageView.fxml"));
@@ -55,8 +53,8 @@ public class Main extends Application {
         primaryStage.setTitle("Club Home Page");
         primaryStage.setResizable(false);
         primaryStage.setScene(scene);
-        primaryStage.setX((screenWidth - scene.getWidth())/2);
-        primaryStage.setY((screenHeight - scene.getHeight())/2);
+        primaryStage.setX((screenWidth - scene.getWidth()) / 2);
+        primaryStage.setY((screenHeight - scene.getHeight()) / 2);
         primaryStage.show();
     }
 
@@ -77,9 +75,25 @@ public class Main extends Application {
         primaryStage.setTitle("Search Page");
         primaryStage.setResizable(false);
         primaryStage.setScene(scene);
-        primaryStage.setX((screenWidth - scene.getWidth())/2);
-        primaryStage.setY((screenHeight - scene.getHeight())/2);
+        primaryStage.setX((screenWidth - scene.getWidth()) / 2);
+        primaryStage.setY((screenHeight - scene.getHeight()) / 2);
         primaryStage.show();
+    }
+
+    public void AskForTransferFee(SinglePlayerDetailController singlePlayerDetailController) throws IOException {
+        Stage stage = new Stage();
+        var loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("/ViewFX/AskForTransferFee.fxml"));
+        Parent root = loader.load();
+        AskForTransferFeeController askForTransferFeeController = loader.getController();
+        askForTransferFeeController.setMain(this);
+        askForTransferFeeController.setStage(stage);
+        askForTransferFeeController.initiate(singlePlayerDetailController);
+        var scene = new Scene(root);
+        stage.setScene(scene);
+        stage.setTitle("Transfer Fee Input");
+        stage.setResizable(false);
+        stage.show();
     }
 
     public void displayList(List<Player> playerList, PlayerListViewController.PageType pageType) throws IOException {
@@ -89,16 +103,17 @@ public class Main extends Application {
         Parent root = loader.load();
         PlayerListViewController playerListViewController = loader.getController();
         playerListViewController.setMain(this);
+        playerListViewController.setStage(stage);
         playerListViewController.initiate(playerList, pageType);
         var scene = new Scene(root, 928, 550);
         stage.setScene(scene);
         stage.setTitle("Searched Players");
         stage.setResizable(false);
-        stage.showAndWait();
+        stage.show();
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception {
         this.primaryStage = primaryStage;
         initiate();
     }
