@@ -21,6 +21,7 @@ import java.util.Objects;
 public class PlayerSearchController {
     private Main main;
     private Club club;
+    private boolean willShowTheResult;
 
     public void setMain(Main main) {
         this.main = main;
@@ -68,11 +69,13 @@ public class PlayerSearchController {
             if (!MaxSalary.getText().isEmpty()) maxSalary = Double.parseDouble(MaxSalary.getText());
         } catch (Exception e) {
             new MyAlert(Alert.AlertType.ERROR, MyAlert.MessageType.InvalidSalaryInput).show();
+            willShowTheResult = false;
             return answer;
         }
         String pName = PlayerName.getText(), countryName = CountryName.getText(), clubName = club.getName(), pChoice = PositionChoice.getText();
         if (pName.isEmpty() && countryName.isEmpty() && clubName.isEmpty() && minSalary == -1 && maxSalary == -1 && pChoice.equalsIgnoreCase("Position")){
             new MyAlert(Alert.AlertType.ERROR, MyAlert.MessageType.NoInput).show();
+            willShowTheResult = false;
             return answer;
         }
         if (!pName.isEmpty()) answer = club.SearchByNameInClub(pName);
@@ -85,6 +88,7 @@ public class PlayerSearchController {
                 answer = getIntersectionOfLists(answer, club.SearchPlayerBySalaryInClub(minSalary, maxSalary));
             }
         }
+        willShowTheResult = true;
         return answer;
     }
 
@@ -100,6 +104,7 @@ public class PlayerSearchController {
     @FXML
     void showSearchResults(ActionEvent event) throws IOException {
         var wantedList = doTheSearch();
+        if (!willShowTheResult) return;
         if (wantedList != null && !wantedList.isEmpty()) main.displayList(wantedList, PlayerListViewController.PageType.SimpleList);
         else{
             new MyAlert(Alert.AlertType.INFORMATION, MyAlert.MessageType.NoPlayerFound).show();
