@@ -112,6 +112,22 @@ public class Main extends Application {
         stage.show();
     }
 
+    public void showCountryWiseCount(Club club) throws IOException {
+        Stage stage = new Stage();
+        var loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("/ViewFX/CountryWiseResultView.fxml"));
+        Parent root = loader.load();
+        CountryWiseResultController countryWiseResultController = loader.getController();
+        countryWiseResultController.setStage(stage);
+        countryWiseResultController.setMain(this);
+        countryWiseResultController.initiate(club.getCountryWisePlayerCount());
+        stage.setScene(new Scene(root));
+        stage.setTitle("Country Wise Result");
+        stage.setResizable(false);
+        stage.centerOnScreen();
+        stage.show();
+    }
+
     @Override
     public void start(Stage primaryStage) throws Exception {
         this.primaryStage = primaryStage;

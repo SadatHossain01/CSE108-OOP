@@ -112,7 +112,8 @@ public class PlayerSearchController {
     }
 
     @FXML
-    void showCountByCountry(ActionEvent event) {
+    void showCountByCountry(ActionEvent event) throws IOException {
+        main.showCountryWiseCount(club);
         System.out.println("Show country wise count");
     }
 
