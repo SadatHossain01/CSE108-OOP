@@ -8,6 +8,11 @@ public class Country {
         setName(name);
     }
 
+    public Country(String name, int count) {
+        this.name = name;
+        this.count = count;
+    }
+
     public String getName() {
         return name;
     }
