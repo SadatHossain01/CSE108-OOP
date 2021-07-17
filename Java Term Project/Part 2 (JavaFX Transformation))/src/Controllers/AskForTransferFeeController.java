@@ -55,7 +55,7 @@ public class AskForTransferFeeController {
         transferLabel2.setText(Club.showSalary(transferFee));
         stage.close();
     }
-
+    
     public void setStage(Stage stage) {
         this.stage = stage;
     }
