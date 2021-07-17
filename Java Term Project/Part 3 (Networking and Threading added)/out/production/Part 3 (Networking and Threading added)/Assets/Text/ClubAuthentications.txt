@@ -1,0 +1,8 @@
+Real Madrid,real madrid
+Chelsea,chelsea
+FC Barcelona,fc barcelona
+Liverpool,liverpool
+Manchester United,manchester united
+Arsenal,arsenal
+PSG,psg
+Juventus,juventus

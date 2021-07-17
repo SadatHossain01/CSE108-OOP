@@ -1,8 +1,10 @@
 package DataModel;
 
-public class Player {
+import java.io.Serializable;
+
+public class Player implements Serializable {
     private String name, country, ClubName, position;
-    private int age, number, playerID;
+    private int age, number;
     private double height, WeeklySalary;
     private boolean isTransferListed = false;
     private double TransferFee = 0;
@@ -80,14 +82,6 @@ public class Player {
 
     public void setWeeklySalary(double WeeklySalary) {
         this.WeeklySalary = WeeklySalary;
-    }
-
-    public int getPlayerID() {
-        return playerID;
-    }
-
-    public void setPlayerID(int playerID) {
-        this.playerID = playerID;
     }
 
     public double getTransferFee() {

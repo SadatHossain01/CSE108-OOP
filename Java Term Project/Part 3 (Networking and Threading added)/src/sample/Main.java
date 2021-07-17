@@ -25,10 +25,8 @@ public class Main extends Application {
         screenHeight = screen.getHeight();
         screenWidth = screen.getWidth();
         FiveASideLeague = new League();
-        var loaded = FileOperations.readFromFile("src/Assets/Text/players.txt"); //file name path tree starts from one step back of src, but others all start from src
-        int i = 1;
+        var loaded = FileOperations.readPlayerDataFromFile("src/Assets/Text/players.txt"); //file name path tree starts from one step back of src, but others all start from src
         for (Player p : loaded) {
-            p.setPlayerID(i++);
             FiveASideLeague.addPlayerToLeague(p);
         }
         showLoginPage();

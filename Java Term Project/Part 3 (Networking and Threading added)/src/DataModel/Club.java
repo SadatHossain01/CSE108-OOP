@@ -1,17 +1,19 @@
 package DataModel;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
 import static DataModel.League.FormatName;
 
-public class Club {
+public class Club implements Serializable {
     private String name;
     private double MAXIMUM_SALARY;
     private int MAXIMUM_AGE;
     private double MAXIMUM_HEIGHT;
     private double TOTAL_WEEKLY_SALARY;
+    private double TransferBudget = 5000000;
     private List<Player> PlayerList;
     public List<Integer> NumberTaken;
 
@@ -35,6 +37,22 @@ public class Club {
 
     public int getPlayerCount() {
         return PlayerList.size();
+    }
+
+    public double getTransferBudget() {
+        return TransferBudget;
+    }
+
+    public void setTransferBudget(double transferBudget) {
+        TransferBudget = transferBudget;
+    }
+
+    public void increseTransferBudget(double increment){
+        TransferBudget += increment;
+    }
+
+    public void decreaseTransferBudget(double decrement){
+        TransferBudget -= decrement;
     }
 
     public List<Player> getPlayerList(){return PlayerList;}

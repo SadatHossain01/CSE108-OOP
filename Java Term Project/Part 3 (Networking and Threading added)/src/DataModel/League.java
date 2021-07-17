@@ -30,6 +30,18 @@ public class League {
         return str.toString();
     }
 
+    public Player FindPlayer(String PlayerName) { //will return null if club is not registered yet
+        Player wanted = null;
+        String FormattedPlayerName = FormatName(PlayerName);
+        for (var p : CentralPlayerDatabase) {
+            if (p.getName().equalsIgnoreCase(FormattedPlayerName)) {
+                wanted = p;
+                break;
+            }
+        }
+        return wanted;
+    }
+
     public Club FindClub(String ClubName) { //will return null if club is not registered yet
         Club wanted = null;
         String FormattedClubName = FormatName(ClubName);
@@ -91,4 +103,20 @@ public class League {
         position.incrementCount();
     }
 
+    public void removePlayerFromCurrentClub(Player p){
+        var c = FindClub(p.getClubName());
+        c.getPlayerList().remove(p);
+    }
+
+    public void transferPlayerToNewClub(Player p, Club before, Club after){
+        removePlayerFromCurrentClub(p);
+        p.setClubName(after.getName());
+        p.setTransferListed(false);
+        var jerseyNumber = p.getNumber();
+        while (after.NumberTaken.contains(jerseyNumber)) jerseyNumber++;
+        p.setNumber(jerseyNumber);
+        after.addPlayerToClub(p);
+        before.increseTransferBudget(p.getTransferFee());
+        after.decreaseTransferBudget(p.getTransferFee());
+    }
 }
