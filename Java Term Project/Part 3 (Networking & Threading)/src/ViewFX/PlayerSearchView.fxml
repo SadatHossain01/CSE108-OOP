@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #999999;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.PlayerSearchController">
+   <VBox layoutX="270.0" layoutY="110.0" prefHeight="579.0" prefWidth="174.0" spacing="50.0">
+      <Label text="Name" textFill="#5ceb1a">
+         <font>
+            <Font name="Book Antiqua Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label text="Country" textFill="#5ceb1a">
+         <font>
+            <Font name="Book Antiqua Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label text="Position" textFill="#5ceb1a">
+         <font>
+            <Font name="Book Antiqua Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label text="Min Salary" textFill="#5ceb1a">
+         <font>
+            <Font name="Book Antiqua Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label text="Max Salary" textFill="#5ceb1a">
+         <font>
+            <Font name="Book Antiqua Bold" size="30.0" />
+         </font>
+      </Label>
+      <padding>
+         <Insets top="7.5" />
+      </padding>
+   </VBox>
+   <VBox accessibleRole="TEXT_FIELD" layoutX="444.0" layoutY="110.0" prefHeight="484.0" prefWidth="689.0" spacing="50.0">
+      <padding>
+         <Insets left="10.0" right="10.0" top="7.5" />
+      </padding>
+      <children>
+         <TextField fx:id="PlayerName" prefHeight="39.0" prefWidth="669.0">
+            <font>
+               <Font name="Elephant" size="18.0" />
+            </font></TextField>
+         <TextField fx:id="CountryName" prefHeight="39.0" prefWidth="669.0" promptText="Any">
+            <font>
+               <Font name="Bookman Old Style Bold" size="18.0" />
+            </font>
+         </TextField>
+         <MenuButton fx:id="PositionChoice" mnemonicParsing="false" prefHeight="34.0" prefWidth="157.0" text="Position" textAlignment="CENTER">
+           <items>
+               <MenuItem mnemonicParsing="false" onAction="#setAnyPosition" text="Any" />
+             <MenuItem mnemonicParsing="false" onAction="#setForward" text="Forward" />
+             <MenuItem mnemonicParsing="false" onAction="#setMidfielder" text="Midfielder" />
+               <MenuItem mnemonicParsing="false" onAction="#setDefender" text="Defender" />
+               <MenuItem mnemonicParsing="false" onAction="#setGoalkeeper" text="Goalkeeper" />
+           </items>
+            <font>
+               <Font name="Bookman Old Style Bold" size="18.0" />
+            </font>
+         </MenuButton>
+         <TextField fx:id="MinSalary" prefHeight="39.0" prefWidth="669.0">
+            <font>
+               <Font name="Bookman Old Style" size="18.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="MaxSalary" prefHeight="39.0" prefWidth="669.0">
+            <font>
+               <Font name="Bookman Old Style" size="18.0" />
+            </font>
+         </TextField>
+      </children>
+   </VBox>
+   <JFXButton buttonType="RAISED" layoutX="540.0" layoutY="597.0" onAction="#showSearchResults" prefHeight="34.0" prefWidth="107.0" ripplerFill="#9e1818" style="-fx-background-color: #DDDDDD;" text="Search" textAlignment="CENTER" textFill="#eb2b55">
+      <font>
+         <Font name="Elephant" size="18.0" />
+      </font>
+   </JFXButton>
+   <JFXButton buttonType="RAISED" layoutX="677.0" layoutY="597.0" onAction="#resetInput" prefHeight="34.0" prefWidth="107.0" ripplerFill="#9e1818" style="-fx-background-color: #DDDDDD;" text="Reset" textAlignment="CENTER" textFill="#eb2b55">
+      <font>
+         <Font name="Elephant" size="18.0" />
+      </font>
+   </JFXButton>
+   <VBox layoutX="14.0" layoutY="93.0" prefHeight="484.0" prefWidth="229.0">
+      <children>
+         <JFXButton buttonType="RAISED" onAction="#showCountByCountry" prefHeight="100.0" prefWidth="252.0" style="-fx-background-color: #E3D561;" text="Player Count by Country" textFill="#d32626">
+            <ripplerFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.7368420958518982" green="0.14327485859394073" blue="0.14327485859394073" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </ripplerFill>
+            <font>
+               <Font name="Bookman Old Style Bold" size="16.0" />
+            </font>
+         </JFXButton>
+         <JFXButton buttonType="RAISED" onAction="#showMaximumSalaryPlayers" prefHeight="100.0" prefWidth="236.0" style="-fx-background-color: #E3D561;" text="Maximum Salary" textFill="#d32626">
+            <ripplerFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.7368420958518982" green="0.14327485859394073" blue="0.14327485859394073" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </ripplerFill>
+            <font>
+               <Font name="Bookman Old Style Bold" size="20.0" />
+            </font>
+         </JFXButton>
+         <JFXButton buttonType="RAISED" onAction="#showMaximumHeightPlayers" prefHeight="100.0" prefWidth="230.0" style="-fx-background-color: #E3D561;" text="Maximum Height" textFill="#d32626">
+            <ripplerFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.7368420958518982" green="0.14327485859394073" blue="0.14327485859394073" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </ripplerFill>
+            <font>
+               <Font name="Bookman Old Style Bold" size="20.0" />
+            </font>
+         </JFXButton>
+         <JFXButton buttonType="RAISED" onAction="#showMaximumAgePlayers" prefHeight="100.0" prefWidth="228.0" style="-fx-background-color: #E3D561;" text="Maximum Age" textFill="#d32626">
+            <ripplerFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.7368420958518982" green="0.14327485859394073" blue="0.14327485859394073" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </ripplerFill>
+            <font>
+               <Font name="Bookman Old Style Bold" size="20.0" />
+            </font>
+         </JFXButton>
+         <JFXButton buttonType="RAISED" onAction="#showTotalAnnualSalary" prefHeight="100.0" prefWidth="230.0" style="-fx-background-color: #E3D561;" text="Total Annual Salary" textFill="#d32626">
+            <ripplerFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.7368420958518982" green="0.14327485859394073" blue="0.14327485859394073" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </ripplerFill>
+            <font>
+               <Font name="Bookman Old Style Bold" size="16.0" />
+            </font>
+         </JFXButton>
+      </children>
+   </VBox>
+   <Label fx:id="clubName" alignment="CENTER" layoutX="253.0" layoutY="14.0" prefHeight="78.0" prefWidth="880.0" text="ClubName">
+      <font>
+         <Font name="Bodoni MT Bold" size="64.0" />
+      </font>
+   </Label>
+   <ImageView fx:id="clubLogo" fitHeight="72.0" fitWidth="107.0" layoutX="356.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true" />
+   <JFXButton buttonType="RAISED" layoutX="1145.0" layoutY="44.0" onAction="#backToClubMainMenu" style="-fx-background-color: #FFFFFF;" text="Back">
+      <font>
+         <Font name="Franklin Gothic Heavy" size="24.0" />
+      </font>
+      <ripplerFill>
+         <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+            <stops>
+               <Stop>
+                  <color>
+                     <Color red="0.3552631437778473" green="0.10197368264198303" blue="0.10197368264198303" />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="1.0" green="1.0" blue="1.0" />
+                  </color>
+               </Stop>
+            </stops>
+         </RadialGradient>
+      </ripplerFill>
+      <textFill>
+         <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+            <stops>
+               <Stop>
+                  <color>
+                     <Color red="0.8684210777282715" green="0.6513158082962036" blue="0.6513158082962036" />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="0.05263157933950424" green="0.003898635506629944" blue="0.003898635506629944" />
+                  </color>
+               </Stop>
+            </stops>
+         </RadialGradient>
+      </textFill>
+   </JFXButton>
+</AnchorPane>
