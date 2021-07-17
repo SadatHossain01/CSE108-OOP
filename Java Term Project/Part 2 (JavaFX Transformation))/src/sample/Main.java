@@ -35,7 +35,7 @@ public class Main extends Application {
     }
 
     public void showLoginPage() throws IOException {
-        String club = "FC Barcelona";
+        String club = "Liverpool";
         club = League.FormatName(club);
         showClubHomePage(club);
     }
@@ -53,8 +53,7 @@ public class Main extends Application {
         primaryStage.setTitle("Club Home Page");
         primaryStage.setResizable(false);
         primaryStage.setScene(scene);
-        primaryStage.setX((screenWidth - scene.getWidth()) / 2);
-        primaryStage.setY((screenHeight - scene.getHeight()) / 2);
+        primaryStage.centerOnScreen();
         primaryStage.show();
     }
 
@@ -75,12 +74,11 @@ public class Main extends Application {
         primaryStage.setTitle("Search Page");
         primaryStage.setResizable(false);
         primaryStage.setScene(scene);
-        primaryStage.setX((screenWidth - scene.getWidth()) / 2);
-        primaryStage.setY((screenHeight - scene.getHeight()) / 2);
+        primaryStage.centerOnScreen();
         primaryStage.show();
     }
 
-    public void AskForTransferFee(SinglePlayerDetailController singlePlayerDetailController) throws IOException {
+    public void AskForTransferFee(SinglePlayerDetailController singlePlayerDetailController) throws IOException{
         Stage stage = new Stage();
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/AskForTransferFee.fxml"));
@@ -93,6 +91,7 @@ public class Main extends Application {
         stage.setScene(scene);
         stage.setTitle("Transfer Fee Input");
         stage.setResizable(false);
+        stage.centerOnScreen();
         stage.show();
     }
 
@@ -109,6 +108,7 @@ public class Main extends Application {
         stage.setScene(scene);
         stage.setTitle("Searched Players");
         stage.setResizable(false);
+        stage.centerOnScreen();
         stage.show();
     }
 
