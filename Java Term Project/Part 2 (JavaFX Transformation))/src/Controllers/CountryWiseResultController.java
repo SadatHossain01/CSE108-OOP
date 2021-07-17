@@ -39,7 +39,6 @@ public class CountryWiseResultController {
         ObservableList<Country> countryCounts = FXCollections.observableArrayList();
         for (var p : countryWiseCount.entrySet()){
             countryCounts.add(new Country(p.getKey(), p.getValue()));
-            System.out.println(p.getKey() + " " + p.getValue());
         }
         return countryCounts;
     }
