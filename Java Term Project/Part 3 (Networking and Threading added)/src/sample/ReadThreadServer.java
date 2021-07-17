@@ -15,15 +15,16 @@ public class ReadThreadServer implements Runnable{
     private NetworkUtil networkUtil;
     private League league;
     private Club club;
+    private HashMap<String, String> clubPasswordList;
     private HashMap<String, NetworkUtil> clubNetworkUtilMap;
     private ArrayList<Player> transferListedPlayers;
     private boolean isThreadOn = true;
 
-    public ReadThreadServer(NetworkUtil networkUtil, League league, Club club, ArrayList<Player> transferListedPlayers, HashMap<String, NetworkUtil> clubNetworkUtilMap) {
+    public ReadThreadServer(NetworkUtil networkUtil, League league, ArrayList<Player> transferListedPlayers, HashMap<String, String> clubPasswordList, HashMap<String, NetworkUtil> clubNetworkUtilMap) {
         this.networkUtil = networkUtil;
         this.league = league;
-        this.club = club;
         this.transferListedPlayers = transferListedPlayers;
+        this.clubPasswordList = clubPasswordList;
         this.clubNetworkUtilMap = clubNetworkUtilMap;
         t = new Thread(this, "Read Thread Server");
         t.start();
@@ -39,7 +40,51 @@ public class ReadThreadServer implements Runnable{
                     break;
                 } catch (IOException | ClassNotFoundException ignored){}
             }
-            if (next instanceof BuyRequest){
+            if (next instanceof ClubLoginAuthentication){
+                String username = ((ClubLoginAuthentication) next).getUsername();
+                String password = ((ClubLoginAuthentication) next).getPassword();
+                System.out.println("New login request:\nUsername: " + username + " Password: " + password);
+                if (clubNetworkUtilMap.containsKey(username)){
+                    try {
+                        networkUtil.write(new RequestResponse(RequestResponse.Type.AlreadyLoggedIn));
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println("This user is already logged in to the network");
+                    isThreadOn = false;
+                }
+                else if (clubPasswordList.containsKey(username)){
+                    if (clubPasswordList.get(username).equals(password)) {
+                        try {
+                            networkUtil.write(new RequestResponse(RequestResponse.Type.LoginSuccessful));
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        clubNetworkUtilMap.put(username, networkUtil);
+                        club = league.FindClub(username);
+                        System.out.println("Login successful. New Read Thread Server opened");
+                    }
+                    else{
+                        try {
+                            networkUtil.write(new RequestResponse(RequestResponse.Type.IncorrectPassword));
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        System.out.println("Incorrect password");
+                        isThreadOn = false;
+                    }
+                }
+                else{
+                    try {
+                        networkUtil.write(new RequestResponse(RequestResponse.Type.UsernameNotRegistered));
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println("Username not registered on server");
+                    isThreadOn = false;
+                }
+            }
+            else if (next instanceof BuyRequest){
                 System.out.println(((BuyRequest) next).getPotentialBuyerClub() + " wants to buy " + ((BuyRequest) next).getPlayerName() + " from " + ((BuyRequest) next).getPlayerCurrentClub());
                 var p = league.FindPlayer(((BuyRequest) next).getPlayerName());
                 var buyer = league.FindClub(((BuyRequest) next).getPotentialBuyerClub());
@@ -88,10 +133,10 @@ public class ReadThreadServer implements Runnable{
                 else if (((Request) next).requestType == Request.Type.LogOut){
                     clubNetworkUtilMap.remove(((Request) next).getFrom());
                     System.out.println(((Request) next).getFrom() + " has been successfully logged out from the network");
-                    System.out.println("Quitting from this read thread server");
                     isThreadOn = false;
                 }
             }
+            System.out.println("Quitting from this read thread server");
         }
     }
 }
