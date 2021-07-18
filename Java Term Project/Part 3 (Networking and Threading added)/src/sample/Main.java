@@ -46,6 +46,17 @@ public class Main extends Application {
         myAlert.show();
     }
 
+    public void showLoadingPage() throws IOException {
+        var loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("/ViewFX/LoadingPageView.fxml"));
+        Parent root = loader.load();
+        primaryStage.setScene(new Scene(root));
+        primaryStage.setTitle("Loading.......");
+        primaryStage.setResizable(false);
+        primaryStage.centerOnScreen();
+        primaryStage.show();
+    }
+
     public void showLoginPage() throws IOException {
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/ClubLoginView.fxml"));
