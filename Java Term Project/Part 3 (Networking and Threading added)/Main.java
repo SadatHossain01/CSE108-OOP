@@ -1,8 +1,8 @@
 package sample;
 
 import Controllers.*;
-import DTO.ClubLoginAuthentication;
 import DataModel.Club;
+import DataModel.League;
 import DataModel.Player;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,68 +10,54 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
-import util.MyAlert;
-import util.NetworkUtil;
+import util.FileOperations;
 
 import java.io.IOException;
-import java.net.InetAddress;
-import java.net.Socket;
 import java.util.List;
 
 public class Main extends Application {
+    public static League FiveASideLeague;
     public Stage primaryStage;
     public static double screenHeight, screenWidth;
-    InetAddress LocalAddress;
-    Socket socket;
-    int port = 44444;
-    Club myClub;
-    NetworkUtil myNetworkUtil;
 
-    public void initiate() throws IOException {
+    public void initiate() throws Exception {
         var screen = Screen.getPrimary().getBounds();
         screenHeight = screen.getHeight();
         screenWidth = screen.getWidth();
-        LocalAddress = InetAddress.getLocalHost();
+        FiveASideLeague = new League();
+        var loaded = FileOperations.readPlayerDataFromFile("src/Assets/Text/players.txt"); //file name path tree starts from one step back of src, but others all start from src
+        for (Player p : loaded) {
+            FiveASideLeague.addPlayerToLeague(p);
+        }
         showLoginPage();
     }
 
-    public void ConnectToServer(String username, String password) throws IOException {
-        socket = new Socket(LocalAddress, port);
-        myNetworkUtil = new NetworkUtil(socket);
-        new ReadThreadClient(this);
-        myNetworkUtil.write(new ClubLoginAuthentication(username, password));
-    }
-
-    public void showAlertMessage(MyAlert myAlert){
-        myAlert.show();
-    }
-
     public void showLoginPage() throws IOException {
-        var loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("/ViewFX/ClubLoginView.fxml"));
-        Parent root = loader.load();
-        ClubLoginController controller = loader.getController();
-        controller.setClubClient(this);
-        primaryStage.setScene(new Scene(root));
-        primaryStage.setTitle("Login Page");
-        primaryStage.setResizable(false);
-        primaryStage.centerOnScreen();
-        primaryStage.show();
+        String club = "Liverpool";
+        club = League.FormatName(club);
+        showClubHomePage(club);
     }
 
     public void showClubHomePage(Club c) throws IOException {
+        assert c != null;
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/ClubHomePageView.fxml"));
         Parent root = loader.load();
         ClubHomePageController clubPageController = loader.getController();
         clubPageController.initiate(c);
-        clubPageController.setClubClient(this);
+        clubPageController.setMain(this);
         var scene = new Scene(root, 700, 400);
+        assert primaryStage != null;
         primaryStage.setTitle("Club Home Page");
         primaryStage.setResizable(false);
         primaryStage.setScene(scene);
         primaryStage.centerOnScreen();
         primaryStage.show();
+    }
+
+    public void showClubHomePage(String club) throws IOException {
+        Club c = FiveASideLeague.FindClub(club);
+        showClubHomePage(c);
     }
 
     public void showSearchPage(Club c) throws IOException {
@@ -90,17 +76,18 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-    public void showCountryWiseCount(Club club) throws IOException {
+    public void AskForTransferFee(SinglePlayerDetailController singlePlayerDetailController) throws IOException{
         Stage stage = new Stage();
         var loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("/ViewFX/CountryWiseResultView.fxml"));
+        loader.setLocation(getClass().getResource("/ViewFX/AskForTransferFee.fxml"));
         Parent root = loader.load();
-        CountryWiseResultController countryWiseResultController = loader.getController();
-        countryWiseResultController.setStage(stage);
-        countryWiseResultController.setMain(this);
-        countryWiseResultController.initiate(club.getCountryWisePlayerCount());
-        stage.setScene(new Scene(root));
-        stage.setTitle("Country Wise Result");
+        AskForTransferFeeController askForTransferFeeController = loader.getController();
+        askForTransferFeeController.setMain(this);
+        askForTransferFeeController.setStage(stage);
+        askForTransferFeeController.initiate(singlePlayerDetailController);
+        var scene = new Scene(root);
+        stage.setScene(scene);
+        stage.setTitle("Transfer Fee Input");
         stage.setResizable(false);
         stage.centerOnScreen();
         stage.show();
@@ -123,29 +110,29 @@ public class Main extends Application {
         stage.show();
     }
 
+    public void showCountryWiseCount(Club club) throws IOException {
+        Stage stage = new Stage();
+        var loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("/ViewFX/CountryWiseResultView.fxml"));
+        Parent root = loader.load();
+        CountryWiseResultController countryWiseResultController = loader.getController();
+        countryWiseResultController.setStage(stage);
+        countryWiseResultController.setMain(this);
+        countryWiseResultController.initiate(club.getCountryWisePlayerCount());
+        stage.setScene(new Scene(root));
+        stage.setTitle("Country Wise Result");
+        stage.setResizable(false);
+        stage.centerOnScreen();
+        stage.show();
+    }
+
     @Override
     public void start(Stage primaryStage) throws Exception {
         this.primaryStage = primaryStage;
         initiate();
     }
+
     public static void main(String[] args) {
         launch(args);
-    }
-
-    public void AskForTransferFee(SinglePlayerDetailController singlePlayerDetailController) throws IOException {
-        Stage stage = new Stage();
-        var loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("/ViewFX/AskForTransferFee.fxml"));
-        Parent root = loader.load();
-        AskForTransferFeeController askForTransferFeeController = loader.getController();
-        askForTransferFeeController.setMain(this);
-        askForTransferFeeController.setStage(stage);
-        askForTransferFeeController.initiate(singlePlayerDetailController);
-        var scene = new Scene(root);
-        stage.setScene(scene);
-        stage.setTitle("Transfer Fee Input");
-        stage.setResizable(false);
-        stage.centerOnScreen();
-        stage.show();
     }
 }

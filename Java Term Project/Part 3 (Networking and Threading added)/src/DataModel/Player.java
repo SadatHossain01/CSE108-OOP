@@ -100,6 +100,12 @@ public class Player implements Serializable {
         isTransferListed = transferListed;
     }
 
+    public synchronized int isTransferPossible(Club buyer){ //returns 0 on success, 1 on already bought, 2 on insufficient budget
+        if (!isTransferListed) return 1;
+        if (buyer.getTransferBudget() < TransferFee) return 2;
+        return 0;
+    }
+
     public void showDetails() {
         System.out.println("Name: " + name);
         System.out.println("Country: " + country);

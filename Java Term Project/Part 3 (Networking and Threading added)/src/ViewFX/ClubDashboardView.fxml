@@ -13,7 +13,6 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ClubDashboardController">
    <children>
       <VBox alignment="CENTER_RIGHT" prefHeight="540.0" prefWidth="209.0" style="-fx-background-color: #24ACF2;">
@@ -108,6 +107,39 @@
                      </image>
                   </ImageView>
                   <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" style="-fx-background-color: #FED45F; -fx-background-radius: 15 15 15 15;" styleClass="shadow" stylesheets="@../CSS/Main.css" text="Marketplace">
+                     <font>
+                        <Font name="Bookman Old Style Bold" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <ripplerFill>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.8157894611358643" green="0.1586257368326187" blue="0.1586257368326187" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </ripplerFill>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="73.0" prefWidth="129.0">
+               <children>
+                  <ImageView fitHeight="19.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/Image/Icons/logout_rounded_up_24px.png" />
+                     </image>
+                  </ImageView>
+                  <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" style="-fx-background-color: #FED45F; -fx-background-radius: 15 15 15 15;" styleClass="shadow" stylesheets="@../CSS/Main.css" text="Logout">
                      <font>
                         <Font name="Bookman Old Style Bold" size="18.0" />
                      </font>

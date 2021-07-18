@@ -44,7 +44,7 @@ public class ReadThreadServer implements Runnable{
                 String username = ((ClubLoginAuthentication) next).getUsername();
                 String password = ((ClubLoginAuthentication) next).getPassword();
                 System.out.println("New login request:\nUsername: " + username + " Password: " + password);
-                if (clubNetworkUtilMap.containsKey(username)){
+                if (clubNetworkUtilMap != null && clubNetworkUtilMap.containsKey(username)){
                     try {
                         networkUtil.write(new RequestResponse(RequestResponse.Type.AlreadyLoggedIn));
                     } catch (IOException e) {
@@ -62,7 +62,12 @@ public class ReadThreadServer implements Runnable{
                         }
                         clubNetworkUtilMap.put(username, networkUtil);
                         club = league.FindClub(username);
-                        System.out.println("Login successful. New Read Thread Server opened");
+                        try {
+                            networkUtil.write(club);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        System.out.println("Login successful. Club object has been sent");
                     }
                     else{
                         try {
@@ -89,32 +94,32 @@ public class ReadThreadServer implements Runnable{
                 var p = league.FindPlayer(((BuyRequest) next).getPlayerName());
                 var buyer = league.FindClub(((BuyRequest) next).getPotentialBuyerClub());
                 var seller = league.FindClub(((BuyRequest) next).getPlayerCurrentClub());
-                if (p.isTransferListed()){
+                int checkStatus = p.isTransferPossible(buyer);
+                if (checkStatus == 0){
                     System.out.println(((BuyRequest) next).getPlayerName() + " is currently indeed up for sale");
-                    if (buyer.getTransferBudget() >= p.getTransferFee()){
-                        System.out.println("Sufficient budget. Processing buying request....");
-                        league.transferPlayerToNewClub(p, seller, buyer);
-                        transferListedPlayers.remove(p);
-                        System.out.println("Player purchase successful. All budget update done");
-                        try {
-                            networkUtil.write(new NewPlayerPurchased(p));
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                    else{
-                        System.out.println("Insufficient transfer fee");
-                        try {
-                            networkUtil.write(new RequestResponse(RequestResponse.Type.InsufficientTransferFee));
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
+                    System.out.println("Sufficient budget. Processing buying request....");
+                    league.transferPlayerToNewClub(p, seller, buyer);
+                    transferListedPlayers.remove(p);
+                    System.out.println("Player purchase successful. All budget update done");
+                    try {
+                        networkUtil.write(new NewPlayerPurchased(p));
+                    } catch (IOException e) {
+                        e.printStackTrace();
                     }
                 }
-                else{
+                else if (checkStatus == 1){
                     System.out.println(p.getName() + " has already been bought by " + p.getClubName());
                     try {
                         networkUtil.write(new RequestResponse(RequestResponse.Type.AlreadyBought));
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+                else{
+                    System.out.println(((BuyRequest) next).getPlayerName() + " is currently indeed up for sale");
+                    System.out.println("Insufficient transfer fee");
+                    try {
+                        networkUtil.write(new RequestResponse(RequestResponse.Type.InsufficientTransferBudget));
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
@@ -136,7 +141,7 @@ public class ReadThreadServer implements Runnable{
                     isThreadOn = false;
                 }
             }
-            System.out.println("Quitting from this read thread server");
+            if (!isThreadOn) System.out.println("Quitting from this read thread server: " + club.getName());
         }
     }
 }

@@ -1,3 +1,11 @@
 .shadow {
-    -fx-effect: dropShadow(three-pass-box, rgba(0, 0, 0, 10), 10.0, 0.0, 0.0 10.0);
+    -fx-effect: dropShadow(three-pass-box, rgba(0, 0, 0, 0.1), 10.0, 0.0, 0.0, 10.0);
+}
+
+.linear-grid {
+    -fx-background-color: linear-gradient(to bottom left, #28A8EA, #81DB6A);
+}
+
+.transparent {
+    -fx-background-color: rgba(0, 0, 0, 0.0);
 }

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ClubLoginController">
+   <children>
+      <BorderPane prefHeight="540.0" prefWidth="960.0" style="-fx-background-color: #FFFFFF;">
+         <left>
+            <Pane prefHeight="540.0" prefWidth="463.0" styleClass="linear-grid" stylesheets="@../CSS/Main.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" layoutX="36.0" layoutY="165.0" prefHeight="105.0" prefWidth="392.0" text="Football Manager 2021">
+                     <font>
+                        <Font name="Showcard Gothic" size="30.0" />
+                     </font>
+                     <textFill>
+                        <RadialGradient centerX="0.8" centerY="0.3" cycleMethod="REFLECT" focusAngle="-56.31" radius="0.5">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.6184210777282715" green="0.08302875608205795" blue="0.2168768346309662" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.7441640004739898">
+                                 <color>
+                                    <Color red="0.8600000143051147" green="0.09459999948740005" blue="0.2859500050544739" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.8684210777282715" green="0.08845029026269913" blue="0.28344297409057617" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                  </Label>
+               </children></Pane>
+         </left>
+         <center>
+            <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Pane layoutY="-2.0" prefHeight="540.0" prefWidth="499.0" style="-fx-background-color: #EEEEEE;">
+                           <children>
+                              <TextField fx:id="username" layoutX="127.0" layoutY="190.0" prefHeight="35.0" prefWidth="259.0" promptText="Username" styleClass="transparent" stylesheets="@../CSS/Main.css">
+                                 <font>
+                                    <Font name="Bell MT Bold" size="18.0" />
+                                 </font>
+                              </TextField>
+                              <PasswordField fx:id="password" layoutX="127.0" layoutY="255.0" prefHeight="35.0" prefWidth="259.0" promptText="Password" styleClass="transparent" stylesheets="@../CSS/Main.css">
+                                 <font>
+                                    <Font name="Bell MT Bold" size="18.0" />
+                                 </font>
+                              </PasswordField>
+                              <Separator layoutX="139.0" layoutY="289.0" prefHeight="3.0" prefWidth="262.0" style="-fx-background-color: #3F3F3F;" />
+                              <JFXButton buttonType="RAISED" layoutX="283.0" layoutY="336.0" onAction="#DoSignIn" prefHeight="35.0" prefWidth="115.0" style="-fx-background-color: #81DB6A; -fx-background-radius: 20 20 20 20;" text="Sign In">
+                                 <font>
+                                    <Font name="Calisto MT Bold" size="18.0" />
+                                 </font>
+                              </JFXButton>
+                              <Separator layoutX="136.0" layoutY="179.0" orientation="VERTICAL" prefHeight="200.0" visible="false" />
+                              <Separator layoutX="394.0" layoutY="155.0" orientation="VERTICAL" prefHeight="200.0" visible="false" />
+                              <Separator layoutX="138.0" layoutY="223.0" prefHeight="3.0" prefWidth="262.0" style="-fx-background-color: #3F3F3F;" />
+                              <ImageView fitHeight="35.0" fitWidth="40.0" layoutX="87.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Assets/Image/Icons/user_male_26px.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="35.0" fitWidth="37.0" layoutX="88.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Assets/Image/Icons/password_64px.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+               </children>
+            </StackPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -24,6 +24,8 @@ public class Server {
         var loaded = FileOperations.readPlayerDataFromFile("src/Assets/Text/players.txt"); //file name path tree starts from one step back of src, but others all start from src
         for (var p : loaded) FiveASideLeague.addPlayerToLeague(p);
         System.out.println("Server up and running");
+        clubNetworkUtilMap = new HashMap<>();
+        transferListedPlayers = new ArrayList<>();
         serverSocket = new ServerSocket(port);
     }
 
