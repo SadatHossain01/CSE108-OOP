@@ -80,10 +80,9 @@ public class ReadThreadClient implements Runnable {
                 String buyerName = ((NewPlayerPurchased) next).getBuyer();
                 String sellerName = ((NewPlayerPurchased) next).getSeller();
                 if (c.getName().equalsIgnoreCase(buyerName)) {
-                    var playerInTransferList = c.FindPlayerInList(p.getName(), main.TransferListedPlayers);
-                    main.TransferListedPlayers.remove(playerInTransferList);
-                    playerInTransferList.setTransferListed(false);
-                    c.addPlayerToClub(playerInTransferList);
+                    c.addPlayerToClub(p);
+                    p.setClubName(c.getName());
+                    p.setTransferListed(false);
                     c.decreaseTransferBudget(p.getTransferFee());
                     Platform.runLater(() -> {
                                 main.dashboardController.budget.setText(Club.showSalary(c.getTransferBudget()));
@@ -98,9 +97,8 @@ public class ReadThreadClient implements Runnable {
                                 }
                             }
                     );
-                } else if (c.getName().equalsIgnoreCase(((NewPlayerPurchased) next).getSeller())) {
+                } else if (c.getName().equalsIgnoreCase(sellerName)) {
                     var playerInSellingClubList = c.FindPlayerInList(p.getName(), c.getPlayerList());
-                    main.TransferListedPlayers.remove(playerInSellingClubList);
                     c.getPlayerList().remove(playerInSellingClubList);
                     c.increseTransferBudget(p.getTransferFee());
                     Platform.runLater(() -> {
@@ -120,10 +118,8 @@ public class ReadThreadClient implements Runnable {
             } else if (next instanceof UpdatedTransferList) {
                 String to = ((UpdatedTransferList) next).getToWhichClub();
                 if (to.equalsIgnoreCase("all") || to.equalsIgnoreCase(c.getName())) {
-                    var transferList = ((UpdatedTransferList) next).getPlayerList();
+                    main.TransferListedPlayers = ((UpdatedTransferList) next).getPlayerList();
                     System.out.println("List updated:");
-                    for (var p : transferList) p.showDetails();
-                    main.TransferListedPlayers = transferList;
                 }
                 Platform.runLater(() -> {
                             try {

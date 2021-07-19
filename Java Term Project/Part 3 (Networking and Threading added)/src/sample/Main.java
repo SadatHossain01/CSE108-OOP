@@ -2,7 +2,6 @@ package sample;
 
 import Controllers.*;
 import DTO.ClubLoginAuthentication;
-import DTO.Request;
 import DataModel.Club;
 import DataModel.Player;
 import javafx.application.Application;
@@ -177,7 +176,6 @@ public class Main extends Application {
         resetAllButtons();
         mainPane.getChildren().clear();
         dashboardController.marketplaceButton.setStyle("-fx-background-color: #DA3A34; -fx-background-radius: 15 15 15 15");
-        myNetworkUtil.write(new Request(myClub.getName(), Request.Type.UpdatedListQuery));
         displayList(TransferListedPlayers, PlayerListViewController.PageType.TransferList);
     }
 

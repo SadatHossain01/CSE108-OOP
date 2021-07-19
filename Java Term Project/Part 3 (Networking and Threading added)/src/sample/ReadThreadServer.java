@@ -109,6 +109,14 @@ public class ReadThreadServer implements Runnable{
                     league.transferPlayerToNewClub(p, seller, buyer);
                     transferListedPlayers.remove(p);
                     System.out.println("Player purchase successful. All budget update done");
+                    for (var c : clubNetworkUtilMap.entrySet()){
+                        try {
+                            c.getValue().write(new UpdatedTransferList(transferListedPlayers, "all"));
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                    System.out.println("Updated list has been delivered to all active clubs");
                     try {
                         var newInfo = new NewPlayerPurchased(p, buyer.getName(), seller.getName());
                         networkUtil.write(newInfo);
