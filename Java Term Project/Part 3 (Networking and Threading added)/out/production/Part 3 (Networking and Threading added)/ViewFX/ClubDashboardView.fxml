@@ -22,7 +22,7 @@
                   <Insets bottom="20.0" top="30.0" />
                </VBox.margin>
             </ImageView>
-            <Label fx:id="clubName" alignment="CENTER" contentDisplay="CENTER" text="Club Name" textAlignment="CENTER">
+            <Label fx:id="clubName" alignment="CENTER" contentDisplay="CENTER" text="Club Name" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font name="Elephant" size="24.0" />
                </font>

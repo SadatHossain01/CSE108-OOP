@@ -34,33 +34,22 @@ public class ReadThreadClient implements Runnable {
                 try {
                     next = clientNetworkUtil.read();
                     break;
-                } catch (IOException | ClassNotFoundException ignored) {
-                }
+                } catch (IOException | ClassNotFoundException ignored) {}
             }
             if (next instanceof RequestResponse) {
                 var type = ((RequestResponse) next).type;
                 if (type == RequestResponse.Type.LoginSuccessful) {
                     System.out.println("Login successful");
                 } else if (type == RequestResponse.Type.AlreadyLoggedIn) {
-                    Platform.runLater(() -> {
-                        main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Already Logged In", "Sorry, this club is already logged in to the system"));
-                    });
+                    Platform.runLater(() -> main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Already Logged In", "Sorry, this club is already logged in to the system")));
                 } else if (type == RequestResponse.Type.UsernameNotRegistered) {
-                    Platform.runLater(() -> {
-                        main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Unregistered club", "Sorry, this club is not registered to the system"));
-                    });
+                    Platform.runLater(() -> main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Unregistered club", "Sorry, this club is not registered to the system")));
                 } else if (type == RequestResponse.Type.IncorrectPassword) {
-                    Platform.runLater(() -> {
-                        main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Incorrect password", "Sorry, the password you entered is incorrect"));
-                    });
+                    Platform.runLater(() -> main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Incorrect password", "Sorry, the password you entered is incorrect")));
                 } else if (type == RequestResponse.Type.InsufficientTransferBudget) {
-                    Platform.runLater(() -> {
-                        main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Insufficient budget", "Sorry, you do not have sufficient budget to buy this player"));
-                    });
+                    Platform.runLater(() -> main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Insufficient budget", "Sorry, you do not have sufficient budget to buy this player")));
                 } else if (type == RequestResponse.Type.AlreadyBought) {
-                    Platform.runLater(() -> {
-                        main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Player not for sale anymore", "Sorry, this player has been already bought"));
-                    });
+                    Platform.runLater(() -> main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Player not for sale anymore", "Sorry, this player has been already bought")));
                     System.out.println("Remove this player from transfer list");
                 }
             } else if (next instanceof Club) {
@@ -84,9 +73,7 @@ public class ReadThreadClient implements Runnable {
                     p.setClubName(c.getName());
                     p.setTransferListed(false);
                     c.decreaseTransferBudget(p.getTransferFee());
-                    Platform.runLater(() -> {
-                                main.dashboardController.budget.setText(Club.showSalary(c.getTransferBudget()));
-                            }
+                    Platform.runLater(() -> main.dashboardController.budget.setText(Club.showSalary(c.getTransferBudget()))
                     );
                     System.out.println(((NewPlayerPurchased) next).getPlayer().getName() + " has been bought.");
                     Platform.runLater(() -> {
@@ -101,9 +88,7 @@ public class ReadThreadClient implements Runnable {
                     var playerInSellingClubList = c.FindPlayerInList(p.getName(), c.getPlayerList());
                     c.getPlayerList().remove(playerInSellingClubList);
                     c.increseTransferBudget(p.getTransferFee());
-                    Platform.runLater(() -> {
-                                main.dashboardController.budget.setText(Club.showSalary(c.getTransferBudget()));
-                            }
+                    Platform.runLater(() -> main.dashboardController.budget.setText(Club.showSalary(c.getTransferBudget()))
                     );
                     System.out.println(p.getName() + " has been sold to " + p.getClubName());
                     Platform.runLater(() -> {

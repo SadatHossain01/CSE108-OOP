@@ -9,10 +9,6 @@ import static DataModel.League.FormatName;
 
 public class Club implements Serializable {
     private String name;
-    private double MAXIMUM_SALARY;
-    private int MAXIMUM_AGE;
-    private double MAXIMUM_HEIGHT;
-    private double TOTAL_WEEKLY_SALARY;
     private double TransferBudget = 120000000;
     private List<Player> PlayerList;
     public List<Integer> NumberTaken;
@@ -59,8 +55,10 @@ public class Club implements Serializable {
 
     public List<Player> SearchMaximumSalary() {
         List<Player> wantedPlayers = new ArrayList<>();
+        double maxSalary = 0;
+        for (var player : PlayerList) maxSalary = Math.max(maxSalary, player.getWeeklySalary());
         for (var player : PlayerList) {
-            if (player.getWeeklySalary() == MAXIMUM_SALARY) {
+            if (player.getWeeklySalary() == maxSalary) {
                 wantedPlayers.add(player);
             }
         }
@@ -69,8 +67,10 @@ public class Club implements Serializable {
 
     public List<Player> SearchMaximumAge() {
         List<Player> wantedPlayers = new ArrayList<>();
+        double maxAge = 0;
+        for (var player : PlayerList) maxAge = Math.max(maxAge, player.getAge());
         for (var player : PlayerList) {
-            if (player.getAge() == MAXIMUM_AGE) {
+            if (player.getAge() == maxAge) {
                 wantedPlayers.add(player);
             }
         }
@@ -79,8 +79,10 @@ public class Club implements Serializable {
 
     public List<Player> SearchMaximumHeight() {
         List<Player> wantedPlayers = new ArrayList<>();
+        double maxHeight = 0;
+        for (var player : PlayerList) maxHeight = Math.max(maxHeight, player.getHeight());
         for (var player : PlayerList) {
-            if (player.getHeight() == MAXIMUM_HEIGHT) {
+            if (player.getHeight() == maxHeight) {
                 wantedPlayers.add(player);
             }
         }
@@ -88,15 +90,13 @@ public class Club implements Serializable {
     }
 
     public double TotalYearlySalary() {
-        return TOTAL_WEEKLY_SALARY * 52;
+        double total_salary = 0;
+        for (var player : PlayerList) total_salary += player.getWeeklySalary();
+        return total_salary * 52;
     }
 
     public void addPlayerToClub(Player p) {
         //assuming the club size check is done in main
-        MAXIMUM_SALARY = Math.max(p.getWeeklySalary(), MAXIMUM_SALARY);
-        MAXIMUM_AGE = Math.max(p.getAge(), MAXIMUM_AGE);
-        MAXIMUM_HEIGHT = Math.max(p.getHeight(), MAXIMUM_HEIGHT);
-        TOTAL_WEEKLY_SALARY += p.getWeeklySalary();
         PlayerList.add(p);
         NumberTaken.add(p.getNumber());
     }
