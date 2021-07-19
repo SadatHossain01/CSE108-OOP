@@ -15,88 +15,82 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #009688;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.PlayerSearchController">
-   <VBox layoutX="270.0" layoutY="110.0" prefHeight="579.0" prefWidth="174.0" spacing="50.0">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="850.0" style="-fx-background-color: #DC511C;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.PlayerSearchController">
+   <VBox layoutX="203.0" layoutY="88.0" prefHeight="579.0" prefWidth="129.0" spacing="50.0">
       <Label text="Name" textFill="#5ceb1a">
          <font>
-            <Font name="Book Antiqua Bold" size="30.0" />
+            <Font name="Book Antiqua Bold" size="24.0" />
          </font>
       </Label>
       <Label text="Country" textFill="#5ceb1a">
          <font>
-            <Font name="Book Antiqua Bold" size="30.0" />
+            <Font name="Book Antiqua Bold" size="24.0" />
          </font>
       </Label>
       <Label text="Position" textFill="#5ceb1a">
          <font>
-            <Font name="Book Antiqua Bold" size="30.0" />
+            <Font name="Book Antiqua Bold" size="24.0" />
          </font>
       </Label>
       <Label text="Min Salary" textFill="#5ceb1a">
          <font>
-            <Font name="Book Antiqua Bold" size="30.0" />
+            <Font name="Book Antiqua Bold" size="24.0" />
          </font>
       </Label>
       <Label text="Max Salary" textFill="#5ceb1a">
          <font>
-            <Font name="Book Antiqua Bold" size="30.0" />
+            <Font name="Book Antiqua Bold" size="24.0" />
          </font>
       </Label>
       <padding>
          <Insets top="7.5" />
       </padding>
    </VBox>
-   <VBox accessibleRole="TEXT_FIELD" layoutX="444.0" layoutY="110.0" prefHeight="484.0" prefWidth="689.0" spacing="50.0">
-      <padding>
-         <Insets left="10.0" right="10.0" top="7.5" />
-      </padding>
-      <children>
-         <TextField fx:id="PlayerName" prefHeight="39.0" prefWidth="669.0">
-            <font>
-               <Font name="Elephant" size="18.0" />
-            </font></TextField>
-         <TextField fx:id="CountryName" prefHeight="39.0" prefWidth="669.0" promptText="Any">
-            <font>
-               <Font name="Bookman Old Style Bold" size="18.0" />
-            </font>
-         </TextField>
-         <MenuButton fx:id="PositionChoice" mnemonicParsing="false" prefHeight="34.0" prefWidth="157.0" text="Position" textAlignment="CENTER">
-           <items>
-               <MenuItem mnemonicParsing="false" onAction="#setAnyPosition" text="Any" />
-             <MenuItem mnemonicParsing="false" onAction="#setForward" text="Forward" />
-             <MenuItem mnemonicParsing="false" onAction="#setMidfielder" text="Midfielder" />
-               <MenuItem mnemonicParsing="false" onAction="#setDefender" text="Defender" />
-               <MenuItem mnemonicParsing="false" onAction="#setGoalkeeper" text="Goalkeeper" />
-           </items>
-            <font>
-               <Font name="Bookman Old Style Bold" size="18.0" />
-            </font>
-         </MenuButton>
-         <TextField fx:id="MinSalary" prefHeight="39.0" prefWidth="669.0">
-            <font>
-               <Font name="Bookman Old Style" size="18.0" />
-            </font>
-         </TextField>
-         <TextField fx:id="MaxSalary" prefHeight="39.0" prefWidth="669.0">
-            <font>
-               <Font name="Bookman Old Style" size="18.0" />
-            </font>
-         </TextField>
-      </children>
-   </VBox>
-   <JFXButton buttonType="RAISED" layoutX="540.0" layoutY="597.0" onAction="#showSearchResults" prefHeight="34.0" prefWidth="107.0" ripplerFill="#9e1818" style="-fx-background-color: #DDDDDD;" text="Search" textAlignment="CENTER" textFill="#eb2b55">
+   <TextField fx:id="PlayerName" layoutX="346.0" layoutY="92.0" prefHeight="24.0" prefWidth="450.0" promptText="Name">
+      <font>
+         <Font name="Elephant" size="18.0" />
+      </font>
+   </TextField>
+   <TextField fx:id="CountryName" layoutX="346.0" layoutY="177.0" prefHeight="39.0" prefWidth="450.0" promptText="Country">
+      <font>
+         <Font name="Bookman Old Style Bold" size="18.0" />
+      </font>
+   </TextField>
+   <MenuButton fx:id="PositionChoice" layoutX="346.0" layoutY="258.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="450.0" text="Position" textAlignment="CENTER">
+     <items>
+         <MenuItem mnemonicParsing="false" onAction="#setAnyPosition" text="Any" />
+       <MenuItem mnemonicParsing="false" onAction="#setForward" text="Forward" />
+       <MenuItem mnemonicParsing="false" onAction="#setMidfielder" text="Midfielder" />
+         <MenuItem mnemonicParsing="false" onAction="#setDefender" text="Defender" />
+         <MenuItem mnemonicParsing="false" onAction="#setGoalkeeper" text="Goalkeeper" />
+     </items>
+      <font>
+         <Font name="Bookman Old Style Bold" size="18.0" />
+      </font>
+   </MenuButton>
+   <TextField fx:id="MinSalary" layoutX="346.0" layoutY="339.0" prefHeight="39.0" prefWidth="450.0" promptText="Minimum Salary Range">
+      <font>
+         <Font name="Bookman Old Style Bold" size="18.0" />
+      </font>
+   </TextField>
+   <TextField fx:id="MaxSalary" layoutX="346.0" layoutY="416.0" prefHeight="39.0" prefWidth="450.0" promptText="Maximum Salary Range">
+      <font>
+         <Font name="Bookman Old Style Bold" size="18.0" />
+      </font>
+   </TextField>
+   <JFXButton buttonType="RAISED" layoutX="406.0" layoutY="480.0" onAction="#showSearchResults" prefHeight="34.0" prefWidth="107.0" ripplerFill="#9e1818" style="-fx-background-color: #DDDDDD;" text="Search" textAlignment="CENTER" textFill="#eb2b55">
       <font>
          <Font name="Elephant" size="18.0" />
       </font>
    </JFXButton>
-   <JFXButton buttonType="RAISED" layoutX="677.0" layoutY="597.0" onAction="#resetInput" prefHeight="34.0" prefWidth="107.0" ripplerFill="#9e1818" style="-fx-background-color: #DDDDDD;" text="Reset" textAlignment="CENTER" textFill="#eb2b55">
+   <JFXButton buttonType="RAISED" layoutX="555.0" layoutY="480.0" onAction="#resetInput" prefHeight="34.0" prefWidth="107.0" ripplerFill="#9e1818" style="-fx-background-color: #DDDDDD;" text="Reset" textAlignment="CENTER" textFill="#eb2b55">
       <font>
          <Font name="Elephant" size="18.0" />
       </font>
    </JFXButton>
-   <VBox layoutX="14.0" layoutY="93.0" prefHeight="484.0" prefWidth="229.0">
+   <VBox layoutX="14.0" layoutY="87.0" prefHeight="377.0" prefWidth="174.0">
       <children>
-         <JFXButton buttonType="RAISED" onAction="#showCountByCountry" prefHeight="100.0" prefWidth="252.0" style="-fx-background-color: #E3D561;" text="Player Count by Country" textFill="#d32626">
+         <JFXButton buttonType="RAISED" onAction="#showCountByCountry" prefHeight="75.0" prefWidth="175.0" style="-fx-background-color: #0DB2C2; -fx-background-radius: 15 15 15 15;" text="Player Count by Country" textFill="#d32626">
             <ripplerFill>
                <LinearGradient endX="1.0" endY="1.0">
                   <stops>
@@ -114,10 +108,13 @@
                </LinearGradient>
             </ripplerFill>
             <font>
-               <Font name="Bookman Old Style Bold" size="16.0" />
+               <Font name="Bodoni MT Bold" size="14.0" />
             </font>
+            <VBox.margin>
+               <Insets bottom="5.0" />
+            </VBox.margin>
          </JFXButton>
-         <JFXButton buttonType="RAISED" onAction="#showMaximumSalaryPlayers" prefHeight="100.0" prefWidth="236.0" style="-fx-background-color: #E3D561;" text="Maximum Salary" textFill="#d32626">
+         <JFXButton buttonType="RAISED" onAction="#showMaximumSalaryPlayers" prefHeight="75.0" prefWidth="175.0" style="-fx-background-color: #0DB2C2; -fx-background-radius: 15 15 15 15;" text="Maximum Salary" textFill="#d32626">
             <ripplerFill>
                <LinearGradient endX="1.0" endY="1.0">
                   <stops>
@@ -135,10 +132,13 @@
                </LinearGradient>
             </ripplerFill>
             <font>
-               <Font name="Bookman Old Style Bold" size="20.0" />
+               <Font name="Bodoni MT Bold" size="14.0" />
             </font>
+            <VBox.margin>
+               <Insets bottom="5.0" />
+            </VBox.margin>
          </JFXButton>
-         <JFXButton buttonType="RAISED" onAction="#showMaximumHeightPlayers" prefHeight="100.0" prefWidth="230.0" style="-fx-background-color: #E3D561;" text="Maximum Height" textFill="#d32626">
+         <JFXButton buttonType="RAISED" onAction="#showMaximumHeightPlayers" prefHeight="75.0" prefWidth="175.0" style="-fx-background-color: #0DB2C2; -fx-background-radius: 15 15 15 15;" text="Maximum Height" textFill="#d32626">
             <ripplerFill>
                <LinearGradient endX="1.0" endY="1.0">
                   <stops>
@@ -156,10 +156,13 @@
                </LinearGradient>
             </ripplerFill>
             <font>
-               <Font name="Bookman Old Style Bold" size="20.0" />
+               <Font name="Bodoni MT Bold" size="14.0" />
             </font>
+            <VBox.margin>
+               <Insets bottom="5.0" />
+            </VBox.margin>
          </JFXButton>
-         <JFXButton buttonType="RAISED" onAction="#showMaximumAgePlayers" prefHeight="100.0" prefWidth="228.0" style="-fx-background-color: #E3D561;" text="Maximum Age" textFill="#d32626">
+         <JFXButton buttonType="RAISED" onAction="#showMaximumAgePlayers" prefHeight="75.0" prefWidth="175.0" style="-fx-background-color: #0DB2C2; -fx-background-radius: 15 15 15 15;" text="Maximum Age" textFill="#d32626">
             <ripplerFill>
                <LinearGradient endX="1.0" endY="1.0">
                   <stops>
@@ -177,10 +180,13 @@
                </LinearGradient>
             </ripplerFill>
             <font>
-               <Font name="Bookman Old Style Bold" size="20.0" />
+               <Font name="Bodoni MT Bold" size="14.0" />
             </font>
+            <VBox.margin>
+               <Insets bottom="5.0" />
+            </VBox.margin>
          </JFXButton>
-         <JFXButton buttonType="RAISED" onAction="#showTotalAnnualSalary" prefHeight="100.0" prefWidth="230.0" style="-fx-background-color: #E3D561;" text="Total Annual Salary" textFill="#d32626">
+         <JFXButton buttonType="RAISED" onAction="#showTotalAnnualSalary" prefHeight="75.0" prefWidth="175.0" style="-fx-background-color: #0DB2C2; -fx-background-radius: 15 15 15 15;" text="Total Annual Salary" textFill="#d32626">
             <ripplerFill>
                <LinearGradient endX="1.0" endY="1.0">
                   <stops>
@@ -198,17 +204,20 @@
                </LinearGradient>
             </ripplerFill>
             <font>
-               <Font name="Bookman Old Style Bold" size="16.0" />
+               <Font name="Bodoni MT Bold" size="14.0" />
             </font>
+            <VBox.margin>
+               <Insets bottom="5.0" />
+            </VBox.margin>
          </JFXButton>
       </children>
    </VBox>
-   <Label fx:id="clubName" alignment="CENTER" layoutX="253.0" layoutY="14.0" prefHeight="78.0" prefWidth="880.0" stylesheets="@../CSS/Main.css" text="ClubName">
+   <Label fx:id="clubName" alignment="CENTER" layoutX="64.0" layoutY="5.0" prefHeight="78.0" prefWidth="880.0" stylesheets="@../CSS/Main.css" text="ClubName">
       <font>
-         <Font name="Bodoni MT Bold" size="64.0" />
+         <Font name="Imprint MT Shadow" size="64.0" />
       </font>
    </Label>
-   <ImageView fx:id="clubLogo" fitHeight="72.0" fitWidth="107.0" layoutX="356.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true" />
+   <ImageView fx:id="clubLogo" fitHeight="64.0" fitWidth="91.0" layoutX="241.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" />
    <JFXButton buttonType="RAISED" layoutX="1145.0" layoutY="44.0" onAction="#backToClubMainMenu" style="-fx-background-color: #FFFFFF;" text="Back">
       <font>
          <Font name="Franklin Gothic Heavy" size="24.0" />

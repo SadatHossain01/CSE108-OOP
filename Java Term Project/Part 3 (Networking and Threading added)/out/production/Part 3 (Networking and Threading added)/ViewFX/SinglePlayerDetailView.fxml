@@ -13,9 +13,9 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.SinglePlayerDetailController">
+<AnchorPane prefHeight="450.0" prefWidth="752.0" style="-fx-background-radius: 20 20 20 20;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.SinglePlayerDetailController">
    <children>
-      <VBox fx:id="playerCard" alignment="CENTER" layoutX="14.0" layoutY="53.0">
+      <VBox fx:id="playerCard" alignment="CENTER" layoutY="59.0" prefHeight="363.0" prefWidth="850.0" style="-fx-background-radius: 20 20 20 20; -fx-background-color: #CDCDCD;">
          <children>
             <HBox>
                <children>

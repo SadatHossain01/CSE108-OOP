@@ -19,7 +19,6 @@ public class ClubLoginController {
 
     @FXML
     void DoSignIn(ActionEvent event) throws IOException {
-//        main.showLoadingPage();
         String name = username.getText();
         String pass = password.getText();
         main.ConnectToServer(name, pass);
