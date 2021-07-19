@@ -144,16 +144,6 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-        this.primaryStage = primaryStage;
-        initiateApplication();
-    }
-
-    public static void main(String[] args) {
-        launch(args);
-    }
-
     public void AskForTransferFee(SinglePlayerDetailController singlePlayerDetailController) throws IOException {
         Stage stage = new Stage();
         var loader = new FXMLLoader();
@@ -192,5 +182,15 @@ public class Main extends Application {
             latestSearchedPlayers = newList;
             displayList(newList, PlayerListViewController.PageType.SimpleList);
         }
+    }
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        this.primaryStage = primaryStage;
+        initiateApplication();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
     }
 }

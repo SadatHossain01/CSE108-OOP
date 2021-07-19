@@ -19,12 +19,12 @@
          <children>
             <ImageView fx:id="clubLogo" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                <VBox.margin>
-                  <Insets bottom="20.0" top="30.0" />
+                  <Insets bottom="20.0" top="15.0" />
                </VBox.margin>
             </ImageView>
-            <Label fx:id="clubName" alignment="CENTER" contentDisplay="CENTER" text="Club Name" textAlignment="CENTER" wrapText="true">
+            <Label fx:id="clubName" alignment="CENTER" contentDisplay="CENTER" prefHeight="113.0" prefWidth="209.0" text="Club Name" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
                <font>
-                  <Font name="Elephant" size="24.0" />
+                  <Font name="Elephant" size="22.0" />
                </font>
                <VBox.margin>
                   <Insets bottom="15.0" />
@@ -38,7 +38,7 @@
                   <Insets bottom="15.0" />
                </VBox.margin>
             </Label>
-            <StackPane alignment="CENTER_LEFT" prefHeight="150.0" prefWidth="200.0" style="-fx-background-radius: 15 15 15 15;">
+            <StackPane alignment="CENTER_LEFT" prefHeight="135.0" prefWidth="200.0" style="-fx-background-radius: 15 15 15 15;">
                <children>
                   <JFXButton fx:id="myPlayerButton" alignment="CENTER_RIGHT" buttonType="RAISED" contentDisplay="CENTER" onAction="#ShowMyPlayers" prefHeight="63.0" prefWidth="215.0" style="-fx-background-color: #FED45F; -fx-background-radius: 15 15 15 15;" styleClass="shadow" stylesheets="@../CSS/Main.css" text="My Players">
                      <font>
@@ -80,7 +80,7 @@
                   <Insets bottom="5.0" />
                </VBox.margin>
             </StackPane>
-            <StackPane alignment="CENTER_LEFT" prefHeight="150.0" prefWidth="200.0" style="-fx-background-radius: 15 15 15 15;">
+            <StackPane alignment="CENTER_LEFT" prefHeight="135.0" prefWidth="200.0" style="-fx-background-radius: 15 15 15 15;">
                <VBox.margin>
                   <Insets bottom="5.0" />
                </VBox.margin>
@@ -119,7 +119,7 @@
                   </ImageView>
                </children>
             </StackPane>
-            <StackPane alignment="CENTER_LEFT" prefHeight="150.0" prefWidth="200.0" style="-fx-background-radius: 15 15 15 15;">
+            <StackPane alignment="CENTER_LEFT" prefHeight="135.0" prefWidth="200.0" style="-fx-background-radius: 15 15 15 15;">
                <VBox.margin>
                   <Insets bottom="5.0" />
                </VBox.margin>
@@ -158,7 +158,7 @@
                   </ImageView>
                </children>
             </StackPane>
-            <StackPane alignment="CENTER_LEFT" prefHeight="150.0" prefWidth="200.0" style="-fx-background-radius: 15 15 15 15;">
+            <StackPane alignment="CENTER_LEFT" prefHeight="135.0" prefWidth="200.0" style="-fx-background-radius: 15 15 15 15;">
                <VBox.margin>
                   <Insets />
                </VBox.margin>
