@@ -2,6 +2,7 @@ package sample;
 
 import Controllers.*;
 import DTO.ClubLoginAuthentication;
+import DTO.Request;
 import DataModel.Club;
 import DataModel.Player;
 import javafx.application.Application;
@@ -11,12 +12,14 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
+import util.CurrentPage;
 import util.MyAlert;
 import util.NetworkUtil;
 
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.Socket;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Main extends Application {
@@ -24,11 +27,14 @@ public class Main extends Application {
     public Parent RootOfAll;
     public AnchorPane mainPane;
     public ClubDashboardController dashboardController;
+    private boolean isFirstTime = true;
     public static double screenHeight, screenWidth;
     public InetAddress LocalAddress;
     public Socket socket;
     public int port = 44444;
     public Club myClub;
+    public CurrentPage.Type pageType;
+    public List<Player>TransferListedPlayers, latestSearchedPlayers;
     public NetworkUtil myNetworkUtil;
 
     public void initiateApplication() throws IOException {
@@ -51,6 +57,7 @@ public class Main extends Application {
     }
 
     public void showLoginPage() throws IOException {
+        pageType = CurrentPage.Type.LoginPage;
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/ClubLoginView.fxml"));
         Parent root = loader.load();
@@ -59,7 +66,10 @@ public class Main extends Application {
         primaryStage.setScene(new Scene(root));
         primaryStage.setTitle("Login Page");
         primaryStage.setResizable(false);
-        primaryStage.centerOnScreen();
+        if (isFirstTime) {
+            primaryStage.centerOnScreen();
+            isFirstTime = false;
+        }
         primaryStage.show();
     }
 
@@ -84,10 +94,12 @@ public class Main extends Application {
         resetAllButtons();
         mainPane.getChildren().clear();
         dashboardController.myPlayerButton.setStyle("-fx-background-color: #DA3A34; -fx-background-radius: 15 15 15 15");
+        pageType = CurrentPage.Type.ShowMyPlayers;
         displayList(myClub.getPlayerList(), PlayerListViewController.PageType.SimpleList);
     }
 
-    public void showSearchPage(Club c) throws IOException {
+    public void showSearchPage() throws IOException {
+        pageType = CurrentPage.Type.ShowSearchOptions;
         resetAllButtons();
         mainPane.getChildren().clear();
         dashboardController.searchPlayerButton.setStyle("-fx-background-color: #DA3A34; -fx-background-radius: 15 15 15 15");
@@ -97,10 +109,9 @@ public class Main extends Application {
         mainPane.getChildren().add(root);
         PlayerSearchController searchController = loader.getController();
         searchController.setMain(this);
-        searchController.initiate(c);
+        searchController.initiate(myClub);
         primaryStage.setTitle("Player Search Options");
         primaryStage.setResizable(false);
-        primaryStage.centerOnScreen();
         primaryStage.show();
     }
 
@@ -131,7 +142,6 @@ public class Main extends Application {
         playerListViewController.initiate(playerList, pageType);
         primaryStage.setTitle("Player List Display");
         primaryStage.setResizable(false);
-        primaryStage.centerOnScreen();
         primaryStage.show();
     }
 
@@ -160,5 +170,29 @@ public class Main extends Application {
         stage.setResizable(false);
         stage.centerOnScreen();
         stage.show();
+    }
+
+    public void showBuyablePlayers() throws IOException {
+        pageType = CurrentPage.Type.ShowMarketPlayers;
+        resetAllButtons();
+        mainPane.getChildren().clear();
+        dashboardController.marketplaceButton.setStyle("-fx-background-color: #DA3A34; -fx-background-radius: 15 15 15 15");
+        myNetworkUtil.write(new Request(myClub.getName(), Request.Type.UpdatedListQuery));
+        displayList(TransferListedPlayers, PlayerListViewController.PageType.TransferList);
+    }
+
+    public void refreshPage() throws IOException {
+        if (pageType == CurrentPage.Type.ShowMyPlayers) showMyPlayers();
+        else if (pageType == CurrentPage.Type.ShowMarketPlayers) showBuyablePlayers();
+        else if (pageType == CurrentPage.Type.ShowSearchedPlayers){
+            //refining the list
+            List<Player> newList = new ArrayList<>();
+            List<Player> clubPlayerList = myClub.getPlayerList();
+            for (var p : latestSearchedPlayers){
+                if (clubPlayerList.contains(p)) newList.add(p);
+            }
+            latestSearchedPlayers = newList;
+            displayList(newList, PlayerListViewController.PageType.SimpleList);
+        }
     }
 }

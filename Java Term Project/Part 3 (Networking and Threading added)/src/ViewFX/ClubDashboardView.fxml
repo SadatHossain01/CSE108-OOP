@@ -19,7 +19,7 @@
          <children>
             <ImageView fx:id="clubLogo" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                <VBox.margin>
-                  <Insets bottom="20.0" top="50.0" />
+                  <Insets bottom="20.0" top="30.0" />
                </VBox.margin>
             </ImageView>
             <Label fx:id="clubName" alignment="CENTER" contentDisplay="CENTER" text="Club Name" textAlignment="CENTER">
@@ -27,7 +27,15 @@
                   <Font name="Elephant" size="24.0" />
                </font>
                <VBox.margin>
-                  <Insets bottom="50.0" />
+                  <Insets bottom="15.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="budget" alignment="CENTER" prefHeight="56.0" prefWidth="209.0" text="Budget">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="15.0" />
                </VBox.margin>
             </Label>
             <StackPane alignment="CENTER_LEFT" prefHeight="150.0" prefWidth="200.0" style="-fx-background-radius: 15 15 15 15;">

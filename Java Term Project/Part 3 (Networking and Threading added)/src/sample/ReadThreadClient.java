@@ -1,6 +1,8 @@
 package sample;
 
+import DTO.NewPlayerPurchased;
 import DTO.RequestResponse;
+import DTO.UpdatedTransferList;
 import DataModel.Club;
 import javafx.application.Platform;
 import javafx.scene.control.Alert;
@@ -44,19 +46,19 @@ public class ReadThreadClient implements Runnable {
                         main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Already Logged In", "Sorry, this club is already logged in to the system"));
                     });
                 } else if (type == RequestResponse.Type.UsernameNotRegistered) {
-                    Platform.runLater(()->{
+                    Platform.runLater(() -> {
                         main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Unregistered club", "Sorry, this club is not registered to the system"));
                     });
                 } else if (type == RequestResponse.Type.IncorrectPassword) {
-                    Platform.runLater(()->{
+                    Platform.runLater(() -> {
                         main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Incorrect password", "Sorry, the password you entered is incorrect"));
                     });
                 } else if (type == RequestResponse.Type.InsufficientTransferBudget) {
-                    Platform.runLater(()->{
+                    Platform.runLater(() -> {
                         main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Insufficient budget", "Sorry, you do not have sufficient budget to buy this player"));
                     });
                 } else if (type == RequestResponse.Type.AlreadyBought) {
-                    Platform.runLater(()->{
+                    Platform.runLater(() -> {
                         main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Player not for sale anymore", "Sorry, this player has been already bought"));
                     });
                     System.out.println("Remove this player from transfer list");
@@ -64,6 +66,7 @@ public class ReadThreadClient implements Runnable {
             } else if (next instanceof Club) {
                 c = (Club) next;
                 main.myClub = c;
+                System.out.println("Club object received");
                 Platform.runLater(() ->
                 {
                     try {
@@ -72,6 +75,64 @@ public class ReadThreadClient implements Runnable {
                         e.printStackTrace();
                     }
                 });
+            } else if (next instanceof NewPlayerPurchased) {
+                var p = ((NewPlayerPurchased) next).getPlayer();
+                String buyerName = ((NewPlayerPurchased) next).getBuyer();
+                String sellerName = ((NewPlayerPurchased) next).getSeller();
+                if (c.getName().equalsIgnoreCase(buyerName)) {
+                    var playerInTransferList = c.FindPlayerInList(p.getName(), main.TransferListedPlayers);
+                    main.TransferListedPlayers.remove(playerInTransferList);
+                    playerInTransferList.setTransferListed(false);
+                    c.addPlayerToClub(playerInTransferList);
+                    c.decreaseTransferBudget(p.getTransferFee());
+                    Platform.runLater(() -> {
+                                main.dashboardController.budget.setText(Club.showSalary(c.getTransferBudget()));
+                            }
+                    );
+                    System.out.println(((NewPlayerPurchased) next).getPlayer().getName() + " has been bought.");
+                    Platform.runLater(() -> {
+                                try {
+                                    main.refreshPage();
+                                } catch (IOException e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                    );
+                } else if (c.getName().equalsIgnoreCase(((NewPlayerPurchased) next).getSeller())) {
+                    var playerInSellingClubList = c.FindPlayerInList(p.getName(), c.getPlayerList());
+                    main.TransferListedPlayers.remove(playerInSellingClubList);
+                    c.getPlayerList().remove(playerInSellingClubList);
+                    c.increseTransferBudget(p.getTransferFee());
+                    Platform.runLater(() -> {
+                                main.dashboardController.budget.setText(Club.showSalary(c.getTransferBudget()));
+                            }
+                    );
+                    System.out.println(p.getName() + " has been sold to " + p.getClubName());
+                    Platform.runLater(() -> {
+                                try {
+                                    main.refreshPage();
+                                } catch (IOException e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                    );
+                }
+            } else if (next instanceof UpdatedTransferList) {
+                String to = ((UpdatedTransferList) next).getToWhichClub();
+                if (to.equalsIgnoreCase("all") || to.equalsIgnoreCase(c.getName())) {
+                    var transferList = ((UpdatedTransferList) next).getPlayerList();
+                    System.out.println("List updated:");
+                    for (var p : transferList) p.showDetails();
+                    main.TransferListedPlayers = transferList;
+                }
+                Platform.runLater(() -> {
+                            try {
+                                main.refreshPage();
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+                        }
+                );
             }
             if (!isThreadOn) System.out.println("Quitting from this read thread client");
         }

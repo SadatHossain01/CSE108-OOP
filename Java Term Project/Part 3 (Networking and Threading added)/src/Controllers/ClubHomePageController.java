@@ -42,7 +42,7 @@ public class ClubHomePageController {
 
     @FXML
     void SearchPlayers(ActionEvent event) throws IOException {
-        main.showSearchPage(club);
+        main.showSearchPage();
     }
 
     @FXML

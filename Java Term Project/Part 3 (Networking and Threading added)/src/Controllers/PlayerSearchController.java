@@ -11,6 +11,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import sample.Main;
+import util.CurrentPage;
 import util.MyAlert;
 
 import java.io.IOException;
@@ -105,7 +106,11 @@ public class PlayerSearchController {
     void showSearchResults(ActionEvent event) throws IOException {
         var wantedList = doTheSearch();
         if (!willShowTheResult) return;
-        if (wantedList != null && !wantedList.isEmpty()) main.displayList(wantedList, PlayerListViewController.PageType.SimpleList);
+        if (wantedList != null && !wantedList.isEmpty()) {
+            main.pageType = CurrentPage.Type.ShowSearchedPlayers;
+            main.latestSearchedPlayers = wantedList;
+            main.displayList(wantedList, PlayerListViewController.PageType.SimpleList);
+        }
         else{
             new MyAlert(Alert.AlertType.INFORMATION, MyAlert.MessageType.NoPlayerFound).show();
         }

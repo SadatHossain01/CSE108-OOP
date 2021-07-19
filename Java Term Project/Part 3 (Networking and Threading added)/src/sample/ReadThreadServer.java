@@ -68,6 +68,14 @@ public class ReadThreadServer implements Runnable{
                             e.printStackTrace();
                         }
                         System.out.println("Login successful. Club object has been sent");
+                        try {
+                            var newTransferList = new UpdatedTransferList(transferListedPlayers, club.getName());
+                            networkUtil.write(newTransferList);
+                            for (var p : newTransferList.getPlayerList()) p.showDetails();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        System.out.println("Updated transfer list has been sent: ");
                     }
                     else{
                         try {
@@ -102,7 +110,10 @@ public class ReadThreadServer implements Runnable{
                     transferListedPlayers.remove(p);
                     System.out.println("Player purchase successful. All budget update done");
                     try {
-                        networkUtil.write(new NewPlayerPurchased(p));
+                        var newInfo = new NewPlayerPurchased(p, buyer.getName(), seller.getName());
+                        networkUtil.write(newInfo);
+                        var sellerNetworkUtil = clubNetworkUtilMap.get(seller.getName());
+                        sellerNetworkUtil.write(newInfo);
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
@@ -125,11 +136,31 @@ public class ReadThreadServer implements Runnable{
                     }
                 }
             }
+            else if (next instanceof SellRequest){
+                var that = (SellRequest)next;
+                var p = league.FindPlayer(that.getPlayerName());
+                System.out.println("New sell request from " + p.getClubName() + " for " + p.getTransferFee());
+                p.setTransferListed(true);
+                p.setTransferFee(that.getTransferFee());
+                transferListedPlayers.add(p);
+                var newList = new UpdatedTransferList(transferListedPlayers, "all");
+                for (var player : newList.getPlayerList()) player.showDetails();
+                System.out.println("Updated transfer list is being sent to all active clubs:");
+                for (var activeClubs : clubNetworkUtilMap.entrySet()){
+                    try {
+                        activeClubs.getValue().write(newList);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
             else if (next instanceof Request){
                 if (((Request) next).requestType == Request.Type.UpdatedListQuery) {
                     System.out.println("Received a request from " + ((Request) next).getFrom() + " to avail the updated transfer list");
+                    var newList = new UpdatedTransferList(transferListedPlayers, ((Request) next).getFrom());
+                    for (var p : newList.getPlayerList()) p.showDetails();
                     try {
-                        networkUtil.write(new UpdatedTransferList(transferListedPlayers, ((Request) next).getFrom()));
+                        networkUtil.write(newList);
                     } catch (IOException e) {
                         e.printStackTrace();
                     }

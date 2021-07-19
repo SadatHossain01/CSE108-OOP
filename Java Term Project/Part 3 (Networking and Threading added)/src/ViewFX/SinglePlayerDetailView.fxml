@@ -64,7 +64,7 @@
                      <children>
                         <VBox prefHeight="353.0" prefWidth="177.0">
                            <children>
-                              <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="297.0" text="Country: " textAlignment="RIGHT">
+                              <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="297.0" text="Country: " textAlignment="RIGHT" textOverrun="CENTER_WORD_ELLIPSIS">
                                  <font>
                                     <Font name="Calisto MT Bold" size="24.0" />
                                  </font>
@@ -72,7 +72,7 @@
                                     <Insets right="20.0" />
                                  </padding>
                               </Label>
-                              <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="300.0" text="Position: " textAlignment="RIGHT">
+                              <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="300.0" text="Position: " textAlignment="RIGHT" textOverrun="CENTER_WORD_ELLIPSIS">
                                  <font>
                                     <Font name="Calisto MT Bold" size="24.0" />
                                  </font>
@@ -80,7 +80,7 @@
                                     <Insets right="20.0" />
                                  </padding>
                               </Label>
-                              <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="303.0" text="Number: " textAlignment="RIGHT">
+                              <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="303.0" text="Number: " textAlignment="RIGHT" textOverrun="CENTER_WORD_ELLIPSIS">
                                  <font>
                                     <Font name="Calisto MT Bold" size="24.0" />
                                  </font>
@@ -88,7 +88,7 @@
                                     <Insets right="20.0" />
                                  </padding>
                               </Label>
-                              <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="300.0" text="Age: " textAlignment="RIGHT">
+                              <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="300.0" text="Age: " textAlignment="RIGHT" textOverrun="CENTER_WORD_ELLIPSIS">
                                  <font>
                                     <Font name="Calisto MT Bold" size="24.0" />
                                  </font>
@@ -96,7 +96,7 @@
                                     <Insets right="20.0" />
                                  </padding>
                               </Label>
-                              <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="304.0" text="Height: " textAlignment="RIGHT">
+                              <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="304.0" text="Height: " textAlignment="RIGHT" textOverrun="CENTER_WORD_ELLIPSIS">
                                  <font>
                                     <Font name="Calisto MT Bold" size="24.0" />
                                  </font>
@@ -104,7 +104,7 @@
                                     <Insets right="20.0" />
                                  </padding>
                               </Label>
-                              <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="304.0" text="Salary: " textAlignment="RIGHT">
+                              <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="304.0" text="Salary: " textAlignment="RIGHT" textOverrun="CENTER_WORD_ELLIPSIS">
                                  <font>
                                     <Font name="Calisto MT Bold" size="24.0" />
                                  </font>
@@ -112,7 +112,7 @@
                                     <Insets right="20.0" />
                                  </padding>
                               </Label>
-                              <Label fx:id="TransferLabel1" alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="303.0" textAlignment="RIGHT">
+                              <Label fx:id="TransferLabel1" alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="303.0" textAlignment="RIGHT" textOverrun="CENTER_WORD_ELLIPSIS">
                                  <font>
                                     <Font name="Calisto MT Bold" size="24.0" />
                                  </font>

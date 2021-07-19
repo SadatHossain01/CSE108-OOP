@@ -17,10 +17,6 @@ public class SellRequest implements Serializable {
         return playerName;
     }
 
-    public String getCurrentClub() {
-        return currentClub;
-    }
-
     public double getTransferFee() {
         return TransferFee;
     }

@@ -41,6 +41,9 @@ public class ClubDashboardController {
     public JFXButton logoutButton;
 
     @FXML
+    public Label budget;
+
+    @FXML
     private AnchorPane anchorPane;
 
     public void initiate(Club club){
@@ -48,6 +51,7 @@ public class ClubDashboardController {
         main.dashboardController = this;
         this.club = club;
         clubName.setText(club.getName());
+        budget.setText(Club.showSalary(club.getTransferBudget()));
         clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + club.getName() + ".png")), 150, 150, false, true));
     }
 
@@ -58,7 +62,8 @@ public class ClubDashboardController {
     }
 
     @FXML
-    void ShowBuyablePlayers(ActionEvent event) {
+    void ShowBuyablePlayers(ActionEvent event) throws IOException {
+        main.showBuyablePlayers();
         System.out.println("Show buyable players");
     }
 
@@ -69,7 +74,7 @@ public class ClubDashboardController {
 
     @FXML
     void ShowSearchOptions(ActionEvent event) throws IOException {
-        main.showSearchPage(club);
+        main.showSearchPage();
     }
 
 }

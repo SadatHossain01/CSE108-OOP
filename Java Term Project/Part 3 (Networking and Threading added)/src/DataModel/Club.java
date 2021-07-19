@@ -13,7 +13,7 @@ public class Club implements Serializable {
     private int MAXIMUM_AGE;
     private double MAXIMUM_HEIGHT;
     private double TOTAL_WEEKLY_SALARY;
-    private double TransferBudget = 5000000;
+    private double TransferBudget = 120000000;
     private List<Player> PlayerList;
     public List<Integer> NumberTaken;
 
@@ -166,6 +166,18 @@ public class Club implements Serializable {
         else if (salaryNumber >= 1e3) salary = "$" + salaryNumber/(1e3) + "k";
         else salary = "$" + salaryNumber;
         return salary;
+    }
+
+    public Player FindPlayerInList(String PlayerName, List<Player> list) { //will return null if club is not registered yet
+        Player wanted = null;
+        String FormattedPlayerName = FormatName(PlayerName);
+        for (var p : list) {
+            if (p.getName().equalsIgnoreCase(FormattedPlayerName)) {
+                wanted = p;
+                break;
+            }
+        }
+        return wanted;
     }
 
     public String FormatClubName(String name) {

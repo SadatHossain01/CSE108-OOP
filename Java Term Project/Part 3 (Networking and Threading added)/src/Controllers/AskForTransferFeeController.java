@@ -1,5 +1,6 @@
 package Controllers;
 
+import DTO.SellRequest;
 import DataModel.Club;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -11,6 +12,7 @@ import javafx.stage.Stage;
 import sample.Main;
 import util.MyAlert;
 
+import java.io.IOException;
 import java.util.Objects;
 
 public class AskForTransferFeeController {
@@ -33,7 +35,7 @@ public class AskForTransferFeeController {
     }
 
     @FXML
-    void confirmTransferListing(ActionEvent event) {
+    void confirmTransferListing(ActionEvent event) throws IOException {
         double transferFee;
         try {
             transferFee = Double.parseDouble(AskedTransferFee.getText()) * 1e6;
@@ -50,9 +52,10 @@ public class AskForTransferFeeController {
         player.setTransferFee(transferFee);
         player.setTransferListed(true);
         transferTag.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Rotated Seal.png"))));
-        transferButton.setText("Remove from Transfer List");
+        transferButton.setDisable(true);
         transferLabel1.setText("Transfer Fee:");
         transferLabel2.setText(Club.showSalary(transferFee));
+        main.myNetworkUtil.write(new SellRequest(player.getName(), main.myClub.getName(), transferFee));
         stage.close();
     }
     

@@ -3,14 +3,15 @@ package DTO;
 import DataModel.Player;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 public class UpdatedTransferList implements Serializable {
-    List<Player> playerList;
-    String toWhichClub;
+    private List<Player> playerList;
+    private String toWhichClub;
 
     public UpdatedTransferList(List<Player> playerList, String toWhichClub) {
-        this.playerList = playerList;
+        this.playerList = new ArrayList<>(playerList);
         this.toWhichClub = toWhichClub;
     }
 

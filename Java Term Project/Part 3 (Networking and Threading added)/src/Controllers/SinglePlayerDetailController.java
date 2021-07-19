@@ -1,5 +1,6 @@
 package Controllers;
 
+import DTO.BuyRequest;
 import DataModel.Club;
 import DataModel.Player;
 import com.jfoenix.controls.JFXButton;
@@ -86,15 +87,17 @@ public class SinglePlayerDetailController {
     @FXML
     private Label TransferLabel2;
 
-    public VBox initiate(Player p, PlayerListViewController.PageType pageType){
+    public VBox initiate(Player p, PlayerListViewController.PageType pageType) {
         this.pageType = pageType;
         this.player = p;
         System.out.println(p.getName());
         var loaded = Main.class.getResourceAsStream("/Assets/Image/Player Image/" + p.getName() + ".jpeg");
-        if (loaded == null) loaded = Main.class.getResourceAsStream("/Assets/Image/Player Image/" + p.getName() + ".jpg");
+        if (loaded == null)
+            loaded = Main.class.getResourceAsStream("/Assets/Image/Player Image/" + p.getName() + ".jpg");
         assert loaded != null;
         playerImage.setImage(new Image(loaded, 440, 220, false, true));
-        if (p.isTransferListed()) transferTag.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Rotated Seal.png"))));
+        if (p.isTransferListed())
+            transferTag.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Rotated Seal.png"))));
         Name.setText(p.getName());
         club.setText(p.getClubName());
         Country.setText(p.getCountry());
@@ -103,14 +106,14 @@ public class SinglePlayerDetailController {
         Position.setText(p.getPosition());
         Number.setText(String.valueOf(p.getNumber()));
         Salary.setText(Club.showSalary(p.getWeeklySalary()));
-        if (pageType == PlayerListViewController.PageType.SimpleList){
-            if (p.isTransferListed()) TransferStatusButton.setText("Remove From Transfer List");
-            else TransferStatusButton.setText("Add to Transfer List");
-        }
-        else{
+        if (pageType == PlayerListViewController.PageType.SimpleList) {
+            TransferStatusButton.setText("Add to Transfer List");
+            if (player.isTransferListed()) TransferStatusButton.setDisable(true);
+        } else if (pageType == PlayerListViewController.PageType.TransferList) {
             TransferStatusButton.setText("Buy Player");
+            if (player.getClubName().equalsIgnoreCase(main.myClub.getName())) TransferStatusButton.setDisable(true);
         }
-        if (pageType == PlayerListViewController.PageType.TransferList && player.isTransferListed()){
+        if (player.isTransferListed()) {
             TransferLabel1.setText("Transfer Fee:");
             TransferLabel2.setText(Club.showSalary(player.getTransferFee()));
         }
@@ -119,21 +122,11 @@ public class SinglePlayerDetailController {
 
     @FXML
     void doTransferAction(ActionEvent event) throws IOException {
-        if (pageType == PlayerListViewController.PageType.SimpleList){
-            if (!player.isTransferListed()){
-                main.AskForTransferFee(this);
-                System.out.println("Close the dialog box and send the transfer request to server");
-            }
-            else {
-                TransferStatusButton.setText("Add to Transfer List");
-                TransferLabel1.setText(null);
-                TransferLabel2.setText(null);
-                player.setTransferListed(false);
-                transferTag.setImage(null);
-                System.out.println("Remove this player from network's buying list");
-            }
-        }
-        else{
+        if (pageType == PlayerListViewController.PageType.SimpleList) {
+            main.AskForTransferFee(this);
+            System.out.println("Close the dialog box and send the transfer request to server");
+        } else {
+            main.myNetworkUtil.write(new BuyRequest(player.getName(), player.getClubName(), main.myClub.getName()));
             System.out.println("Send buying request to server");
         }
     }
