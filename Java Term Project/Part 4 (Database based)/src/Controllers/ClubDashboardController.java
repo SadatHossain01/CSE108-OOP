@@ -65,6 +65,7 @@ public class ClubDashboardController {
     @FXML
     void LogOut(ActionEvent event) throws IOException {
         main.myNetworkUtil.write(new Request(main.myClub.getName(), Request.Type.LogOut));
+        if (main.tempStage.isShowing()) main.tempStage.close();
         main.showLoginPage();
     }
 

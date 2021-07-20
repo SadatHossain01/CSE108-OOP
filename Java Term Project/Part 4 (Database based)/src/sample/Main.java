@@ -146,6 +146,7 @@ public class Main extends Application {
 
     public void AskForTransferFee(SinglePlayerDetailController singlePlayerDetailController) throws IOException {
         Stage stage = new Stage();
+        tempStage = stage;
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/AskForTransferFee.fxml"));
         Parent root = loader.load();
