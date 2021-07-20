@@ -55,6 +55,7 @@ public class AskForTransferFeeController {
         transferButton.setDisable(true);
         transferLabel1.setText("Transfer Fee:");
         transferLabel2.setText(Club.showSalary(transferFee));
+        main.TransferListedPlayers.add(player);
         main.myNetworkUtil.write(new SellRequest(player.getName(), main.myClub.getName(), transferFee));
         stage.close();
     }

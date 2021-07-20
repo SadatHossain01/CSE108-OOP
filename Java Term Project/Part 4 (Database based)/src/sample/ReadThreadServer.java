@@ -156,6 +156,7 @@ public class ReadThreadServer implements Runnable{
                 for (var player : newList.getPlayerList()) player.showDetails();
                 System.out.println("Updated transfer list is being sent to all active clubs:");
                 for (var activeClubs : clubNetworkUtilMap.entrySet()){
+                    if (activeClubs.getKey().equalsIgnoreCase(club.getName())) continue;
                     try {
                         activeClubs.getValue().write(newList);
                     } catch (IOException e) {

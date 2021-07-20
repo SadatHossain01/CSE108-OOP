@@ -36,5 +36,4 @@ public class PlayerListViewController {
             listView.getItems().add(pDetail.initiate(p, pageType));
         }
     }
-
 }
