@@ -22,7 +22,7 @@
                   <Insets bottom="20.0" top="15.0" />
                </VBox.margin>
             </ImageView>
-            <Label fx:id="clubName" alignment="CENTER" contentDisplay="CENTER" prefHeight="113.0" prefWidth="209.0" text="Club Name" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+            <Label fx:id="clubName" alignment="CENTER" contentDisplay="CENTER" prefHeight="180.0" prefWidth="209.0" text="Club Name" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
                <font>
                   <Font name="Elephant" size="18.0" />
                </font>
@@ -40,7 +40,7 @@
             </Label>
             <StackPane alignment="CENTER_LEFT" prefHeight="135.0" prefWidth="200.0" style="-fx-background-radius: 15 15 15 15;">
                <children>
-                  <JFXButton fx:id="myPlayerButton" alignment="CENTER_RIGHT" buttonType="RAISED" contentDisplay="CENTER" onAction="#ShowMyPlayers" prefHeight="63.0" prefWidth="215.0" style="-fx-background-color: #FED45F; -fx-background-radius: 15 15 15 15;" styleClass="shadow" stylesheets="@../CSS/Main.css" text="My Players">
+                  <JFXButton fx:id="myPlayerButton" alignment="CENTER_RIGHT" buttonType="RAISED" contentDisplay="CENTER" onAction="#ShowMyPlayers" prefHeight="50.0" prefWidth="215.0" style="-fx-background-color: #FED45F; -fx-background-radius: 15 15 15 15;" styleClass="shadow" stylesheets="@../CSS/Main.css" text="My Players">
                      <font>
                         <Font name="Bookman Old Style Bold" size="18.0" />
                      </font>
@@ -85,7 +85,7 @@
                   <Insets bottom="5.0" />
                </VBox.margin>
                <children>
-                  <JFXButton fx:id="searchPlayerButton" alignment="CENTER_RIGHT" buttonType="RAISED" contentDisplay="CENTER" onAction="#ShowSearchOptions" prefHeight="64.0" prefWidth="237.0" style="-fx-background-color: #FED45F; -fx-background-radius: 15 15 15 15;" styleClass="shadow" stylesheets="@../CSS/Main.css" text="Search Players">
+                  <JFXButton fx:id="searchPlayerButton" alignment="CENTER_RIGHT" buttonType="RAISED" contentDisplay="CENTER" onAction="#ShowSearchOptions" prefHeight="50.0" prefWidth="237.0" style="-fx-background-color: #FED45F; -fx-background-radius: 15 15 15 15;" styleClass="shadow" stylesheets="@../CSS/Main.css" text="Search Players">
                      <font>
                         <Font name="Bookman Old Style Bold" size="18.0" />
                      </font>
@@ -124,7 +124,7 @@
                   <Insets bottom="5.0" />
                </VBox.margin>
                <children>
-                  <JFXButton fx:id="marketplaceButton" alignment="CENTER_RIGHT" buttonType="RAISED" contentDisplay="CENTER" onAction="#ShowBuyablePlayers" prefHeight="62.0" prefWidth="221.0" style="-fx-background-color: #FED45F; -fx-background-radius: 15 15 15 15;" styleClass="shadow" stylesheets="@../CSS/Main.css" text="Marketplace">
+                  <JFXButton fx:id="marketplaceButton" alignment="CENTER_RIGHT" buttonType="RAISED" contentDisplay="CENTER" onAction="#ShowBuyablePlayers" prefHeight="50.0" prefWidth="221.0" style="-fx-background-color: #FED45F; -fx-background-radius: 15 15 15 15;" styleClass="shadow" stylesheets="@../CSS/Main.css" text="Marketplace">
                      <font>
                         <Font name="Bookman Old Style Bold" size="18.0" />
                      </font>
@@ -163,7 +163,7 @@
                   <Insets />
                </VBox.margin>
                <children>
-                  <JFXButton fx:id="logoutButton" alignment="CENTER_RIGHT" buttonType="RAISED" contentDisplay="CENTER" onAction="#LogOut" prefHeight="81.0" prefWidth="217.0" style="-fx-background-color: #FED45F; -fx-background-radius: 15 15 15 15;" styleClass="shadow" stylesheets="@../CSS/Main.css" text="Logout">
+                  <JFXButton fx:id="logoutButton" alignment="CENTER_RIGHT" buttonType="RAISED" contentDisplay="CENTER" onAction="#LogOut" prefHeight="50.0" prefWidth="217.0" style="-fx-background-color: #FED45F; -fx-background-radius: 15 15 15 15;" styleClass="shadow" stylesheets="@../CSS/Main.css" text="Logout">
                      <font>
                         <Font name="Bookman Old Style Bold" size="18.0" />
                      </font>

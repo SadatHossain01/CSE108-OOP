@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="434.0" prefWidth="762.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.CountryCountSingleViewController">
+   <children>
+      <HBox fx:id="countryCard" alignment="CENTER" layoutX="92.0" layoutY="62.0" prefHeight="310.0" prefWidth="579.0" style="-fx-background-radius: 25 25 25 25;">
+         <children>
+            <VBox>
+               <children>
+                  <ImageView fx:id="countryFlag" fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <VBox.margin>
+                        <Insets left="40.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Label fx:id="countryName" alignment="CENTER" prefHeight="203.0" prefWidth="269.0" text="Label" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                     <font>
+                        <Font name="Tw Cen MT Condensed Extra Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <Label fx:id="playerCount" alignment="CENTER" contentDisplay="CENTER" prefHeight="70.0" prefWidth="268.0" text="Label">
+               <font>
+                  <Font name="Tw Cen MT Condensed Extra Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
