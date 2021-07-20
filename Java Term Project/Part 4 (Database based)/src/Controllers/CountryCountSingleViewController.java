@@ -29,13 +29,19 @@ public class CountryCountSingleViewController {
     public void setMain(Main main) {
         this.main = main;
     }
-
     public HBox initiate(String name, int count){
         this.cName = name;
         this.pCount = count;
         countryName.setText(name);
         playerCount.setText("Player Count: " + pCount);
-        var image = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Assets/Image/Flags/" + name + ".png")));
+        Image image = null;
+        try{
+            var what = main.countryFlagMap.get(name);
+            if (what != null) image = new Image(what, true);
+            else throw new Exception("");
+        } catch (Exception e){
+            image = new Image("file:/src/Assets/Image/Flags/" + name + ".png", true);
+        }
         countryFlag.setImage(image);
         return countryCard;
     }

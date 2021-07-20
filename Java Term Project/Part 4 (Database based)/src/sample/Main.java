@@ -3,6 +3,7 @@ package sample;
 import Controllers.*;
 import DTO.ClubLoginAuthentication;
 import DataModel.Club;
+import DataModel.Country;
 import DataModel.Player;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -19,6 +20,7 @@ import java.io.IOException;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class Main extends Application {
@@ -34,6 +36,7 @@ public class Main extends Application {
     public Club myClub;
     public CurrentPage.Type pageType;
     public List<Player>TransferListedPlayers, latestSearchedPlayers;
+    public HashMap<String, String> countryFlagMap = new HashMap<>();
     public NetworkUtil myNetworkUtil;
 
     public void initiateApplication() throws IOException {

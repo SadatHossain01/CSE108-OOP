@@ -91,11 +91,10 @@ public class SinglePlayerDetailController {
         this.pageType = pageType;
         this.player = p;
         System.out.println(p.getName());
-        var loaded = Main.class.getResourceAsStream("/Assets/Image/Player Image/" + p.getName() + ".jpeg");
-        if (loaded == null)
-            loaded = Main.class.getResourceAsStream("/Assets/Image/Player Image/" + p.getName() + ".jpg");
+        var loaded = Main.class.getResourceAsStream("/Assets/Image/Player Image/" + p.getName() + ".png");
+        if (loaded == null) loaded = Main.class.getResourceAsStream("/Assets/Image/Player Image/Anonymous.png");
         assert loaded != null;
-        playerImage.setImage(new Image(loaded, 440, 220, false, true));
+        playerImage.setImage(new Image(loaded));
         if (p.isTransferListed())
             transferTag.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Rotated Seal.png"))));
         Name.setText(p.getName());

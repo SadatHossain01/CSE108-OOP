@@ -65,10 +65,11 @@ public class ReadThreadServer implements Runnable{
                         club = league.FindClub(username);
                         try {
                             networkUtil.write(club);
+                            networkUtil.write(new CountryList(league.getCountryList()));
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
-                        System.out.println("Login successful. Club object has been sent");
+                        System.out.println("Login successful. Club object and country list has been sent");
                         try {
                             var newTransferList = new UpdatedTransferList(transferListedPlayers, club.getName());
                             networkUtil.write(newTransferList);

@@ -53,19 +53,24 @@ public class ClubDashboardController {
         clubName.setText(club.getName());
         budget.setText(Club.showSalary(club.getTransferBudget()));
 //        clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + club.getName() + ".png")), 150, 150, false, true));
-        try{
-            Image img = new Image(club.getLogo(), true);
-            clubLogo.setImage(img);
-//            clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream(club.getLogo())), 150, 150, true, true));
+        try {
+            clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + club.getName() + ".png"))));
         } catch (Exception e){
             clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/No_Image.png")), 150, 150, true, true));
         }
+//        try{
+//            Image img = new Image(club.getLogo(), true);
+//            clubLogo.setImage(img);
+////            clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream(club.getLogo())), 150, 150, true, true));
+//        } catch (Exception e){
+//            clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/No_Image.png")), 150, 150, true, true));
+//        }
     }
 
     @FXML
     void LogOut(ActionEvent event) throws IOException {
         main.myNetworkUtil.write(new Request(main.myClub.getName(), Request.Type.LogOut));
-        if (main.tempStage.isShowing()) main.tempStage.close();
+        if (main.tempStage != null && main.tempStage.isShowing()) main.tempStage.close();
         main.showLoginPage();
     }
 

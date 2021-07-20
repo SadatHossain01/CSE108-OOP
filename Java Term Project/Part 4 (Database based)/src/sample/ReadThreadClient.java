@@ -1,9 +1,11 @@
 package sample;
 
+import DTO.CountryList;
 import DTO.NewPlayerPurchased;
 import DTO.RequestResponse;
 import DTO.UpdatedTransferList;
 import DataModel.Club;
+import DataModel.Country;
 import javafx.application.Platform;
 import javafx.scene.control.Alert;
 import util.CurrentPage;
@@ -11,6 +13,7 @@ import util.MyAlert;
 import util.NetworkUtil;
 
 import java.io.IOException;
+import java.util.List;
 
 public class ReadThreadClient implements Runnable {
     private Thread t;
@@ -35,12 +38,12 @@ public class ReadThreadClient implements Runnable {
                 try {
                     next = clientNetworkUtil.read();
                     break;
-                } catch (IOException | ClassNotFoundException ignored) {}
+                } catch (IOException | ClassNotFoundException ignored) {
+                }
             }
             if (next instanceof RequestResponse) {
                 var type = ((RequestResponse) next).type;
                 if (type == RequestResponse.Type.LoginSuccessful) {
-                    System.out.println("Login successful");
                 } else if (type == RequestResponse.Type.AlreadyLoggedIn) {
                     Platform.runLater(() -> main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Already Logged In", "Sorry, this club is already logged in to the system")));
                 } else if (type == RequestResponse.Type.UsernameNotRegistered) {
@@ -51,12 +54,10 @@ public class ReadThreadClient implements Runnable {
                     Platform.runLater(() -> main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Insufficient budget", "Sorry, you do not have sufficient budget to buy this player")));
                 } else if (type == RequestResponse.Type.AlreadyBought) {
                     Platform.runLater(() -> main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Player not for sale anymore", "Sorry, this player has been already bought")));
-                    System.out.println("Remove this player from transfer list");
                 }
             } else if (next instanceof Club) {
                 c = (Club) next;
                 main.myClub = c;
-                System.out.println("Club object received");
                 Platform.runLater(() ->
                 {
                     try {
@@ -76,7 +77,6 @@ public class ReadThreadClient implements Runnable {
                     c.decreaseTransferBudget(p.getTransferFee());
                     Platform.runLater(() -> main.dashboardController.budget.setText(Club.showSalary(c.getTransferBudget()))
                     );
-                    System.out.println(((NewPlayerPurchased) next).getPlayer().getName() + " has been bought.");
                     Platform.runLater(() -> {
                                 try {
                                     main.refreshPage();
@@ -91,7 +91,6 @@ public class ReadThreadClient implements Runnable {
                     c.increseTransferBudget(p.getTransferFee());
                     Platform.runLater(() -> main.dashboardController.budget.setText(Club.showSalary(c.getTransferBudget()))
                     );
-                    System.out.println(p.getName() + " has been sold to " + p.getClubName());
                     Platform.runLater(() -> {
                                 try {
                                     main.refreshPage();
@@ -105,7 +104,6 @@ public class ReadThreadClient implements Runnable {
                 String to = ((UpdatedTransferList) next).getToWhichClub();
                 if (to.equalsIgnoreCase("all") || to.equalsIgnoreCase(c.getName())) {
                     main.TransferListedPlayers = ((UpdatedTransferList) next).getPlayerList();
-                    System.out.println("List updated:");
                 }
                 Platform.runLater(() -> {
                             try {
@@ -115,8 +113,12 @@ public class ReadThreadClient implements Runnable {
                             }
                         }
                 );
+            } else if (next instanceof CountryList) {
+                var countryList = ((CountryList) next).getCountryList();
+                for (var c : countryList) {
+                    main.countryFlagMap.put(c.getName(), c.getFlagSource());
+                }
             }
-            if (!isThreadOn) System.out.println("Quitting from this read thread client");
         }
     }
 }

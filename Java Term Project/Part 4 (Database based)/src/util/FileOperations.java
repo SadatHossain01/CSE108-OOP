@@ -1,6 +1,8 @@
 package util;
 
 import DataModel.Club;
+import DataModel.Country;
+import DataModel.League;
 import DataModel.Player;
 
 import java.io.*;
@@ -47,6 +49,20 @@ public class FileOperations {
         }
         input.close();
         return clubPasswords;
+    }
+
+    public static void readCredentialsOfCountries(String FILE_NAME, League league) throws IOException {
+        BufferedReader input = new BufferedReader(new InputStreamReader(new FileInputStream(FILE_NAME)));
+        while (true){
+            String line = input.readLine();
+            if (line == null) break;
+            String[] tokens = line.split(";");
+            String name = tokens[1];
+            String flagLink = tokens[3];
+            var country = league.FindCountry(name);
+            if (country != null) country.setFlagSource(flagLink);
+        }
+        input.close();
     }
 
     public static void writePlayerDataToFile(String FILE_NAME, List<Player> playerList) throws Exception {

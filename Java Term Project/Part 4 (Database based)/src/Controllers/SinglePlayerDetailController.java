@@ -93,19 +93,12 @@ public class SinglePlayerDetailController {
     public VBox initiate(Player p, PlayerListViewController.PageType pageType) {
         this.pageType = pageType;
         this.player = p;
-        System.out.println(p.getName());
 //        var loaded = Main.class.getResourceAsStream("/Assets/Image/Player Image/" + p.getName() + ".jpeg");
 //        if (loaded == null)
 //            loaded = Main.class.getResourceAsStream("/Assets/Image/Player Image/" + p.getName() + ".jpg");
         InputStream loaded = null;
         try {
             Image img = new Image(player.getImageSource(), true);
-            img.progressProperty().addListener(new ChangeListener<Number>() {
-                @Override
-                public void changed(ObservableValue<? extends Number> observable, Number oldValue, Number newValue) {
-                    System.out.println("Progress: " + Math.rint(newValue.doubleValue() * 100) + "%");
-                }
-            });
             playerImage.setImage(img);
         } catch (Exception e){
             loaded = Main.class.getResourceAsStream("/Assets/Image/Player Image/Anonymous.jpg");
@@ -142,10 +135,8 @@ public class SinglePlayerDetailController {
     void doTransferAction(ActionEvent event) throws IOException {
         if (pageType == PlayerListViewController.PageType.SimpleList) {
             main.AskForTransferFee(this);
-            System.out.println("Close the dialog box and send the transfer request to server");
         } else {
             main.myNetworkUtil.write(new BuyRequest(player.getName(), player.getClubName(), main.myClub.getName()));
-            System.out.println("Send buying request to server");
         }
     }
 
