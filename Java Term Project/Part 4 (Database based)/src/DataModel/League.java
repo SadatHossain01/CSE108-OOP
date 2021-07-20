@@ -123,4 +123,8 @@ public class League {
         before.increseTransferBudget(p.getTransferFee());
         after.decreaseTransferBudget(p.getTransferFee());
     }
+
+    public List<Country> getCountryList() {
+        return CountryList;
+    }
 }
