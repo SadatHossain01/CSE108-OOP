@@ -21,15 +21,15 @@
                <children>
                   <VBox alignment="CENTER">
                      <children>
-                        <StackPane alignment="BOTTOM_CENTER">
+                        <StackPane alignment="BOTTOM_CENTER" prefHeight="189.0" prefWidth="440.0">
                            <children>
                               <ImageView fx:id="playerImage" fitHeight="225.0" fitWidth="440.0" pickOnBounds="true" preserveRatio="true" />
                               <ImageView fx:id="transferTag" fitHeight="127.0" fitWidth="198.0" pickOnBounds="true" preserveRatio="true" />
                            </children>
                         </StackPane>
-                        <Label fx:id="Name" alignment="CENTER" prefHeight="49.0" prefWidth="440.0" text="Name" textFill="#e81d90" textOverrun="CENTER_WORD_ELLIPSIS">
+                        <Label fx:id="Name" alignment="CENTER" prefHeight="101.0" prefWidth="440.0" text="Name" textAlignment="CENTER" textFill="#e81d90" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
                            <font>
-                              <Font name="Calisto MT Bold" size="36.0" />
+                              <Font name="Calisto MT Bold" size="24.0" />
                            </font>
                         </Label>
                         <Label fx:id="club" alignment="CENTER" prefHeight="34.0" prefWidth="441.0" text="Club" textAlignment="CENTER">
