@@ -11,7 +11,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.paint.LinearGradient?>
-<?import javafx.scene.paint.RadialGradient?>
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
@@ -88,9 +87,9 @@
          <Font name="Elephant" size="18.0" />
       </font>
    </JFXButton>
-   <VBox layoutX="14.0" layoutY="87.0" prefHeight="377.0" prefWidth="174.0">
+   <VBox alignment="CENTER" layoutX="36.0" layoutY="138.0" prefHeight="274.0" prefWidth="164.0">
       <children>
-         <JFXButton buttonType="RAISED" onAction="#showCountByCountry" prefHeight="75.0" prefWidth="175.0" style="-fx-background-color: #0DB2C2; -fx-background-radius: 15 15 15 15;" text="Player Count by Country" textFill="#d32626">
+         <JFXButton buttonType="RAISED" onAction="#showCountByCountry" prefHeight="50.0" prefWidth="175.0" style="-fx-background-color: #0DB2C2; -fx-background-radius: 15 15 15 15;" text="Player Count by Country" textFill="#d32626" wrapText="true">
             <ripplerFill>
                <LinearGradient endX="1.0" endY="1.0">
                   <stops>
@@ -114,7 +113,7 @@
                <Insets bottom="5.0" />
             </VBox.margin>
          </JFXButton>
-         <JFXButton buttonType="RAISED" onAction="#showMaximumSalaryPlayers" prefHeight="75.0" prefWidth="175.0" style="-fx-background-color: #0DB2C2; -fx-background-radius: 15 15 15 15;" text="Maximum Salary" textFill="#d32626">
+         <JFXButton buttonType="RAISED" onAction="#showMaximumSalaryPlayers" prefHeight="50.0" prefWidth="175.0" style="-fx-background-color: #0DB2C2; -fx-background-radius: 15 15 15 15;" text="Maximum Salary" textFill="#d32626" wrapText="true">
             <ripplerFill>
                <LinearGradient endX="1.0" endY="1.0">
                   <stops>
@@ -138,7 +137,7 @@
                <Insets bottom="5.0" />
             </VBox.margin>
          </JFXButton>
-         <JFXButton buttonType="RAISED" onAction="#showMaximumHeightPlayers" prefHeight="75.0" prefWidth="175.0" style="-fx-background-color: #0DB2C2; -fx-background-radius: 15 15 15 15;" text="Maximum Height" textFill="#d32626">
+         <JFXButton buttonType="RAISED" onAction="#showMaximumHeightPlayers" prefHeight="50.0" prefWidth="175.0" style="-fx-background-color: #0DB2C2; -fx-background-radius: 15 15 15 15;" text="Maximum Height" textFill="#d32626" wrapText="true">
             <ripplerFill>
                <LinearGradient endX="1.0" endY="1.0">
                   <stops>
@@ -162,7 +161,7 @@
                <Insets bottom="5.0" />
             </VBox.margin>
          </JFXButton>
-         <JFXButton buttonType="RAISED" onAction="#showMaximumAgePlayers" prefHeight="75.0" prefWidth="175.0" style="-fx-background-color: #0DB2C2; -fx-background-radius: 15 15 15 15;" text="Maximum Age" textFill="#d32626">
+         <JFXButton buttonType="RAISED" onAction="#showMaximumAgePlayers" prefHeight="50.0" prefWidth="175.0" style="-fx-background-color: #0DB2C2; -fx-background-radius: 15 15 15 15;" text="Maximum Age" textFill="#d32626" wrapText="true">
             <ripplerFill>
                <LinearGradient endX="1.0" endY="1.0">
                   <stops>
@@ -186,7 +185,7 @@
                <Insets bottom="5.0" />
             </VBox.margin>
          </JFXButton>
-         <JFXButton buttonType="RAISED" onAction="#showTotalAnnualSalary" prefHeight="75.0" prefWidth="175.0" style="-fx-background-color: #0DB2C2; -fx-background-radius: 15 15 15 15;" text="Total Annual Salary" textFill="#d32626">
+         <JFXButton buttonType="RAISED" onAction="#showTotalAnnualSalary" prefHeight="50.0" prefWidth="175.0" style="-fx-background-color: #0DB2C2; -fx-background-radius: 15 15 15 15;" text="Total Annual Salary" textFill="#d32626" wrapText="true">
             <ripplerFill>
                <LinearGradient endX="1.0" endY="1.0">
                   <stops>
@@ -218,41 +217,4 @@
       </font>
    </Label>
    <ImageView fx:id="clubLogo" fitHeight="64.0" fitWidth="91.0" layoutX="167.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" />
-   <JFXButton buttonType="RAISED" layoutX="1145.0" layoutY="44.0" onAction="#backToClubMainMenu" style="-fx-background-color: #FFFFFF;" text="Back">
-      <font>
-         <Font name="Franklin Gothic Heavy" size="24.0" />
-      </font>
-      <ripplerFill>
-         <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
-            <stops>
-               <Stop>
-                  <color>
-                     <Color red="0.3552631437778473" green="0.10197368264198303" blue="0.10197368264198303" />
-                  </color>
-               </Stop>
-               <Stop offset="1.0">
-                  <color>
-                     <Color red="1.0" green="1.0" blue="1.0" />
-                  </color>
-               </Stop>
-            </stops>
-         </RadialGradient>
-      </ripplerFill>
-      <textFill>
-         <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
-            <stops>
-               <Stop>
-                  <color>
-                     <Color red="0.8684210777282715" green="0.6513158082962036" blue="0.6513158082962036" />
-                  </color>
-               </Stop>
-               <Stop offset="1.0">
-                  <color>
-                     <Color red="0.05263157933950424" green="0.003898635506629944" blue="0.003898635506629944" />
-                  </color>
-               </Stop>
-            </stops>
-         </RadialGradient>
-      </textFill>
-   </JFXButton>
 </AnchorPane>
