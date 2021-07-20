@@ -6,6 +6,7 @@ import DTO.UpdatedTransferList;
 import DataModel.Club;
 import javafx.application.Platform;
 import javafx.scene.control.Alert;
+import util.CurrentPage;
 import util.MyAlert;
 import util.NetworkUtil;
 
@@ -108,7 +109,7 @@ public class ReadThreadClient implements Runnable {
                 }
                 Platform.runLater(() -> {
                             try {
-                                main.refreshPage();
+                                if (main.pageType == CurrentPage.Type.ShowMarketPlayers) main.refreshPage();
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
