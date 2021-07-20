@@ -41,7 +41,7 @@ public class ReadThreadServer implements Runnable{
                 } catch (IOException | ClassNotFoundException ignored){}
             }
             if (next instanceof ClubLoginAuthentication){
-                String username = ((ClubLoginAuthentication) next).getUsername();
+                String username = ((ClubLoginAuthentication) next).getUsername().strip();
                 String password = ((ClubLoginAuthentication) next).getPassword();
                 System.out.println("New login request:\nUsername: " + username + " Password: " + password);
                 if (clubNetworkUtilMap != null && clubNetworkUtilMap.containsKey(username)){
