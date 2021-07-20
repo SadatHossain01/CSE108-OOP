@@ -5,15 +5,13 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.ListView;
 import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
 import sample.Main;
 
 import java.io.IOException;
 import java.util.List;
 
 public class PlayerListViewController {
-    Main main;
-    Stage stage;
+    private Main main;
 
     public enum PageType{
         SimpleList, TransferList
