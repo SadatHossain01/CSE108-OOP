@@ -15,10 +15,6 @@ public class PlayerListViewController {
     Main main;
     Stage stage;
 
-    public void setStage(Stage stage) {
-        this.stage = stage;
-    }
-
     public enum PageType{
         SimpleList, TransferList
     }

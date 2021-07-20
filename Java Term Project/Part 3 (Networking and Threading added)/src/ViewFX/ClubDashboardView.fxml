@@ -202,6 +202,6 @@
             </StackPane>
          </children>
       </VBox>
-      <AnchorPane fx:id="anchorPane" layoutX="209.0" prefHeight="550.0" prefWidth="850.0" />
+      <AnchorPane fx:id="anchorPane" layoutX="209.0" prefHeight="550.0" prefWidth="919.0" />
    </children>
 </AnchorPane>
