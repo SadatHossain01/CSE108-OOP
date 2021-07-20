@@ -10,6 +10,7 @@ import javafx.scene.control.MenuButton;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.stage.Stage;
 import sample.Main;
 import util.CurrentPage;
 import util.MyAlert;
@@ -118,7 +119,7 @@ public class PlayerSearchController {
 
     @FXML
     void showCountByCountry(ActionEvent event) throws IOException {
-        main.showCountryWiseCount(club);
+        main.showCountryWiseCount(new Stage(), club);
         System.out.println("Show country wise count");
     }
 

@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main extends Application {
-    public Stage primaryStage;
+    public Stage primaryStage, tempStage;
     public Parent RootOfAll;
     public AnchorPane mainPane;
     public ClubDashboardController dashboardController;
@@ -114,19 +114,19 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-    public void showCountryWiseCount(Club club) throws IOException {
-        Stage stage = new Stage();
+    public void showCountryWiseCount(Stage stage, Club club) throws IOException {
+        pageType = CurrentPage.Type.ShowCountryWiseCount;
+        tempStage = stage;
         var loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("/ViewFX/CountryWiseResultView.fxml"));
+        loader.setLocation(getClass().getResource("/ViewFX/CountryListView.fxml"));
         Parent root = loader.load();
-        CountryWiseResultController countryWiseResultController = loader.getController();
-        countryWiseResultController.setStage(stage);
-        countryWiseResultController.setMain(this);
-        countryWiseResultController.initiate(club.getCountryWisePlayerCount());
+        CountryListViewController c = loader.getController();
+        c.setStage(stage);
+        c.setMain(this);
+        c.initiate(club.getCountryWisePlayerCount());
         stage.setScene(new Scene(root));
-        stage.setTitle("Country Wise Result");
+        stage.setTitle("Country Wise Player Count");
         stage.setResizable(false);
-        stage.centerOnScreen();
         stage.show();
     }
 
@@ -181,6 +181,10 @@ public class Main extends Application {
             }
             latestSearchedPlayers = newList;
             displayList(newList, PlayerListViewController.PageType.SimpleList);
+        }
+        else if (pageType == CurrentPage.Type.ShowCountryWiseCount){
+            tempStage.close();
+            showCountryWiseCount(tempStage, myClub);
         }
     }
 
