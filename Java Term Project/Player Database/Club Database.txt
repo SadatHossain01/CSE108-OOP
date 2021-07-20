@@ -1,0 +1,9 @@
+Ligue 1;https://soccerprime.com/ligue-1-player-salaries/
+La Liga;https://soccerprime.com/la-liga-player-salaries/
+Serie A;https://soccerprime.com/serie-a-player-salaries-all-teams/
+Ligue 1;https://soccerprime.com/ligue-1-player-salaries/
+Bundesliga;https://soccerprime.com/bundesliga-player-salaries/
+Serie A;https://soccerprime.com/serie-a-player-salaries-all-teams/
+MLS Player Salaries;https://soccerprime.com/mls-player-salary/
+Premier League;https://soccerprime.com/premier-league-salary/
+La Liga;https://soccerprime.com/la-liga-player-salaries/
