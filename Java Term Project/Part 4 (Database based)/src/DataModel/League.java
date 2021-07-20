@@ -16,6 +16,10 @@ public class League {
         PositionList = new ArrayList<>();
     }
 
+    public List<Club> getClubList() {
+        return ClubList;
+    }
+
     public static String FormatName(String name) {
         StringBuilder str = new StringBuilder(name.trim());
         str.setCharAt(0, Character.toUpperCase(str.charAt(0)));

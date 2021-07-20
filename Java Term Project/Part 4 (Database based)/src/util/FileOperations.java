@@ -1,5 +1,6 @@
 package util;
 
+import DataModel.Club;
 import DataModel.Player;
 
 import java.io.*;
@@ -21,7 +22,7 @@ public class FileOperations {
 //                    tokens[4], tokens[5], Integer.parseInt(tokens[6]), Double.parseDouble(tokens[7]));
             String[] tokens = line.split(";");
             try {
-                Player p = new Player(tokens[1], tokens[6], tokens[2], tokens[10], Integer.parseInt(tokens[3]), tokens[4], Double.parseDouble(tokens[7]), tokens[9], Integer.parseInt(tokens[8]), Double.parseDouble(tokens[6]), 200000000);
+                Player p = new Player(tokens[1], tokens[5], tokens[2], tokens[10], Integer.parseInt(tokens[3]), tokens[4], Double.parseDouble(tokens[7]), tokens[9], Integer.parseInt(tokens[8]), Double.parseDouble(tokens[6]), 200000000);
                 if (tokens[11].equalsIgnoreCase("Left")) p.setPreferredFoot(Player.PreferredFoot.Left);
                 else if (tokens[11].equalsIgnoreCase("Right")) p.setPreferredFoot(Player.PreferredFoot.Right);
                 else p.setPreferredFoot(Player.PreferredFoot.Both);
@@ -53,6 +54,15 @@ public class FileOperations {
         for (Player p : playerList) {
             output.write(p.getName() + "," + p.getCountry() + "," + p.getAge() + "," + p.getHeight() + ","
                     + p.getClubName() + "," + p.getPosition() + "," + p.getNumber() + "," + p.getWeeklySalary());
+            output.write("\n");
+        }
+        output.close();
+    }
+
+    public static void writeClubCredentialsToFile(String FILE_NAME, List<Club> clubList) throws Exception {
+        BufferedWriter output = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(FILE_NAME)));
+        for (Club c : clubList) {
+            output.write(c.getName() + "," + c.getName().toLowerCase());
             output.write("\n");
         }
         output.close();

@@ -9,6 +9,7 @@ import util.NetworkUtil;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Locale;
 
 public class ReadThreadServer implements Runnable{
     private Thread t;
@@ -180,7 +181,7 @@ public class ReadThreadServer implements Runnable{
                     isThreadOn = false;
                 }
             }
-            if (!isThreadOn) System.out.println("Quitting from this read thread server: " + club.getName());
+            if (!isThreadOn && club != null) System.out.println("Quitting from this read thread server: " + club.getName());
         }
     }
 }

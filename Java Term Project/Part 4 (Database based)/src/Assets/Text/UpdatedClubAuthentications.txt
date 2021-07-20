@@ -1,0 +1,3145 @@
+FC Nordsjaelland (Retired),fc nordsjaelland (retired)
+Servette FC,servette fc
+AIK,aik
+Chorley FC,chorley fc
+Walsall,walsall
+Preston North End (Retired),preston north end (retired)
+Beitar Jerusalem,beitar jerusalem
+Cheltenham Town,cheltenham town
+Crawley Town,crawley town
+Fylkir (Retired),fylkir (retired)
+Preston North End,preston north end
+Morecambe (Retired),morecambe (retired)
+Southend United,southend united
+Colchester United,colchester united
+AS Monaco,as monaco
+Rangers,rangers
+Unknown,unknown
+Leyton Orient (Retired),leyton orient (retired)
+West Bromwich Albion (Retired),west bromwich albion (retired)
+Grimsby Town,grimsby town
+Hokkaido Consadole Sapporo,hokkaido consadole sapporo
+Tranmere Rovers (Retired),tranmere rovers (retired)
+Ceské Budejovice (Retired),ceské budejovice (retired)
+Portimonense SC,portimonense sc
+Woking (Retired),woking (retired)
+Shamrock Rovers,shamrock rovers
+Derby County,derby county
+Salford City,salford city
+Huddersfield Town,huddersfield town
+Reading,reading
+Newport County,newport county
+Dagenham & Redbridge (Retired),dagenham & redbridge (retired)
+FC Groningen,fc groningen
+Charlton Athletic,charlton athletic
+Annecy FC (Retired),annecy fc (retired)
+SS Lazio,ss lazio
+Altrincham (Retired),altrincham (retired)
+Barrow AFC,barrow afc
+Notts County,notts county
+Tranmere Rovers,tranmere rovers
+Rochdale,rochdale
+Bolton Wanderers,bolton wanderers
+Dundee,dundee
+Barcelona,barcelona
+Derby County (Retired),derby county (retired)
+Al Nassr,al nassr
+Juventus,juventus
+Doncaster Rovers (Retired),doncaster rovers (retired)
+Sunderland (Retired),sunderland (retired)
+Manchester United,manchester united
+Ebbsfleet United,ebbsfleet united
+LASK Linz (Retired),lask linz (retired)
+Blackburn Rovers,blackburn rovers
+Chesterfield,chesterfield
+Wellington Phoenix,wellington phoenix
+Rotherham United (Retired),rotherham united (retired)
+FC Kobenhavn (Retired),fc kobenhavn (retired)
+Norwich City,norwich city
+Burton Albion (Retired),burton albion (retired)
+Crewe Alexandra,crewe alexandra
+Brisbane Roar,brisbane roar
+Burnley,burnley
+FC Halifax Town,fc halifax town
+Sheffield United,sheffield united
+Sunderland,sunderland
+Harrogate Town (Retired),harrogate town (retired)
+Waterford FC,waterford fc
+Liverpool,liverpool
+Nottingham Forest,nottingham forest
+Bamber Bridge,bamber bridge
+Mansfield Town,mansfield town
+Swansea City,swansea city
+Plymouth Argyle (Retired),plymouth argyle (retired)
+Leicester City (Retired),leicester city (retired)
+Chesterfield (Retired),chesterfield (retired)
+West Ham United,west ham united
+Everton (Retired),everton (retired)
+Milton Keynes Dons,milton keynes dons
+Glenavon,glenavon
+Luton Town,luton town
+Fleetwood Town,fleetwood town
+Rotherham United,rotherham united
+Wycombe Wanderers,wycombe wanderers
+Bradford City,bradford city
+Bristol City (Retired),bristol city (retired)
+Levski Sofia,levski sofia
+US Lecce,us lecce
+AC Milan,ac milan
+Genoa CFC,genoa cfc
+Kayserispor,kayserispor
+WSG Tirol,wsg tirol
+SC Sagamihara,sc sagamihara
+Fluminense,fluminense
+Newell’s Old Boys,newell’s old boys
+US Sambenedettese,us sambenedettese
+Pafos FC,pafos fc
+FC Cartagena,fc cartagena
+CA Aldosivi,ca aldosivi
+Cerezo Osaka,cerezo osaka
+Mansfield Town (Retired),mansfield town (retired)
+Real Betis,real betis
+Red Star,red star
+Olbia Calcio 1905,olbia calcio 1905
+Real Zaragoza,real zaragoza
+Ajax,ajax
+Chievo Verona (Retired),chievo verona (retired)
+Galatasaray SK,galatasaray sk
+BK Häcken,bk häcken
+Malmö FF (Retired),malmö ff (retired)
+Flamengo,flamengo
+Internazionale,internazionale
+Tsarsko Selo Sofia,tsarsko selo sofia
+Vissel Kobe,vissel kobe
+Alianza Lima,alianza lima
+FC Schalke 04 (Retired),fc schalke 04 (retired)
+Boavista FC (Retired),boavista fc (retired)
+SPAL (Retired),spal (retired)
+Sporting CP (Retired),sporting cp (retired)
+Racing Club,racing club
+Aris Thessaloniki,aris thessaloniki
+Grêmio,grêmio
+Boavista FC,boavista fc
+Zenit Saint Petersburg,zenit saint petersburg
+Khimki,khimki
+Royal Excel Mouscron,royal excel mouscron
+Venados FC,venados fc
+Krylia Sovetov Samara (Retired),krylia sovetov samara (retired)
+Vélez Sársfield (Retired),vélez sársfield (retired)
+São Paulo FC,são paulo fc
+Fenerbahçe SK,fenerbahçe sk
+Sevilla,sevilla
+Al Sadd SC,al sadd sc
+Villarreal CF,villarreal cf
+Al Ittihad,al ittihad
+Al Shahaniya SC,al shahaniya sc
+Sport Boys,sport boys
+AZ Alkmaar (Retired),az alkmaar (retired)
+FC Utrecht,fc utrecht
+River Plate,river plate
+Huracán (Retired),huracán (retired)
+Udinese Calcio,udinese calcio
+Pachuca,pachuca
+Estudiantes De LP (Retired),estudiantes de lp (retired)
+FC Kairat Almaty,fc kairat almaty
+OFI Crete,ofi crete
+Sydney FC,sydney fc
+Avaí FC,avaí fc
+Athletico Paranaense (Retired),athletico paranaense (retired)
+Boca Juniors,boca juniors
+FC Porto,fc porto
+Botafogo PB (Retired),botafogo pb (retired)
+Vitória De Guimarães,vitória de guimarães
+Argentinos Juniors (Retired),argentinos juniors (retired)
+Cruzeiro,cruzeiro
+Real Sociedad,real sociedad
+CSKA Moskva,cska moskva
+Botafogo FR,botafogo fr
+Fatih Karagümrük,fatih karagümrük
+Wolverhampton Wanderers,wolverhampton wanderers
+Girondins Bordeaux,girondins bordeaux
+FC Crotone (Retired),fc crotone (retired)
+Fortaleza EC,fortaleza ec
+Real Madrid,real madrid
+ACF Fiorentina,acf fiorentina
+CA Talleres (Retired),ca talleres (retired)
+Ludogorets Razgrad,ludogorets razgrad
+Banfield,banfield
+FC Minaj,fc minaj
+Inter Miami CF,inter miami cf
+FK Jablonec,fk jablonec
+Ural Yekaterinburg,ural yekaterinburg
+RSC Anderlecht (Retired),rsc anderlecht (retired)
+Zulte Waregem (Retired),zulte waregem (retired)
+RSC Anderlecht,rsc anderlecht
+Philadelphia Union,philadelphia union
+Royal Antwerp,royal antwerp
+Inhulets Petrove,inhulets petrove
+SonderjyskE (Retired),sonderjyske (retired)
+PAS Lamia 1964,pas lamia 1964
+TSG Balingen,tsg balingen
+Dijon FCO,dijon fco
+Gornik Zabrze,gornik zabrze
+CF Montréal (Retired),cf montréal (retired)
+Inner Mongolia Zhongyou,inner mongolia zhongyou
+FK Žalgiris Vilnius,fk žalgiris vilnius
+SC Internacional,sc internacional
+KSC Lokeren (Retired),ksc lokeren (retired)
+Partick Thistle,partick thistle
+Reggina 1914,reggina 1914
+Yokohama FC,yokohama fc
+FC Chiasso,fc chiasso
+Umraniyespor,umraniyespor
+Manchester City,manchester city
+Baník Ostrava,baník ostrava
+Dunfermline Athletic (Retired),dunfermline athletic (retired)
+Stenhousemuir,stenhousemuir
+Stoke City,stoke city
+WSG Tirol (Retired),wsg tirol (retired)
+SS Lazio (Retired),ss lazio (retired)
+Stade Lavallois (Retired),stade lavallois (retired)
+Aldershot Town,aldershot town
+Cagliari,cagliari
+Junior FC,junior fc
+Arbroath,arbroath
+Fortuna Düsseldorf,fortuna düsseldorf
+Deportes Colina,deportes colina
+Aberdeen,aberdeen
+Deportes Antofagasta,deportes antofagasta
+Universidad Católica,universidad católica
+Curicó Unido,curicó unido
+FC Voluntari,fc voluntari
+Ayr United,ayr united
+Legia Warszawa,legia warszawa
+Ludogorets Razgrad (Retired),ludogorets razgrad (retired)
+Raith Rovers,raith rovers
+Heart Of Midlothian,heart of midlothian
+CS Universitatea Craiova,cs universitatea craiova
+KV Mechelen,kv mechelen
+Montrose,montrose
+Heart Of Midlothian (Retired),heart of midlothian (retired)
+Kilmarnock,kilmarnock
+Radnički Niš (Retired),radnički niš (retired)
+Guangzhou City,guangzhou city
+FC Kufstein,fc kufstein
+OGC Nice,ogc nice
+AS Saint-Etienne,as saint-etienne
+AS Saint-Etienne (Retired),as saint-etienne (retired)
+Al Hilal SC,al hilal sc
+Zeleznicar Pancevo (Retired),zeleznicar pancevo (retired)
+SM Caen (Retired),sm caen (retired)
+FK Partizan,fk partizan
+Mladost Lučani (Retired),mladost lučani (retired)
+Slavia Sofia,slavia sofia
+FC Volendam,fc volendam
+Dobrudzha (Retired),dobrudzha (retired)
+Fernández Vial,fernández vial
+Antalyaspor,antalyaspor
+Boston River SC,boston river sc
+CD Everton (Retired),cd everton (retired)
+Southampton,southampton
+Kisvárda FC,kisvárda fc
+NEC Nijmegen,nec nijmegen
+O'Higgins FC,o'higgins fc
+Olympique Marseille,olympique marseille
+Al Sailiya,al sailiya
+Wolfsberger AC (Retired),wolfsberger ac (retired)
+FK Sindjelić Beograd,fk sindjelić beograd
+River Plate De Montevideo,river plate de montevideo
+Grasshopper-Club (Retired),grasshopper-club (retired)
+FC Zurich,fc zurich
+RC Lens,rc lens
+KFC Dessel Sport,kfc dessel sport
+LB Châteauroux,lb châteauroux
+FC Oss,fc oss
+Go Ahead Eagles,go ahead eagles
+Krylia Sovetov Samara,krylia sovetov samara
+FC Tuggen,fc tuggen
+Le Mans FC,le mans fc
+FC Rostov,fc rostov
+Istanbul Başakşehir,istanbul başakşehir
+Real Sporting,real sporting
+SPAL,spal
+Kozani FC,kozani fc
+LR Vicenza,lr vicenza
+Palmeiras,palmeiras
+Tigres UANL,tigres uanl
+Rampla Juniors,rampla juniors
+Danubio,danubio
+Atlético Tucumán,atlético tucumán
+Atlético Madrid,atlético madrid
+Gazélec Ajaccio,gazélec ajaccio
+CD Everton,cd everton
+EA Guingamp (Retired),ea guingamp (retired)
+SC Bastia,sc bastia
+Slovan Bratislava,slovan bratislava
+Bhayangkara Solo,bhayangkara solo
+Stade Rennais,stade rennais
+FC Lorient,fc lorient
+FK Šiauliai,fk šiauliai
+FC Sion,fc sion
+Athletic Club,athletic club
+CA Tigre,ca tigre
+Elche CF,elche cf
+US Cremonese,us cremonese
+Virtus Entella,virtus entella
+Lanús,lanús
+Universidad César Vallejo,universidad césar vallejo
+Sassuolo,sassuolo
+Independiente Rivadavia,independiente rivadavia
+Portland Timbers,portland timbers
+AC Monza,ac monza
+Annecy FC,annecy fc
+Standard Liège (Retired),standard liège (retired)
+Ascoli Calcio (Retired),ascoli calcio (retired)
+Barcelona SC,barcelona sc
+CD Palestino,cd palestino
+Western United,western united
+US Alessandria,us alessandria
+Belgrano (Retired),belgrano (retired)
+Nacional,nacional
+Boluspor (Retired),boluspor (retired)
+AS Béziers,as béziers
+FC RB Salzburg,fc rb salzburg
+Empoli (Retired),empoli (retired)
+Bayern München II,bayern münchen ii
+EN Paralimni,en paralimni
+New York City FC,new york city fc
+Arsenal De Sarandí,arsenal de sarandí
+Jahn Regensburg,jahn regensburg
+SV Wehen Wiesbaden (Retired),sv wehen wiesbaden (retired)
+RCD Espanyol,rcd espanyol
+Sampdoria,sampdoria
+Aurora Pro Patria,aurora pro patria
+Tottenham Hotspur,tottenham hotspur
+Atlanta United,atlanta united
+Colorado Rapids,colorado rapids
+Montpellier HSC (Retired),montpellier hsc (retired)
+Estudiantes De Mérida,estudiantes de mérida
+Nashville SC,nashville sc
+Atlético San Luis (Retired),atlético san luis (retired)
+Club Marino (Retired),club marino (retired)
+Toronto FC,toronto fc
+Elche CF (Retired),elche cf (retired)
+Hapoel Haifa,hapoel haifa
+Club América,club américa
+12 De Octubre,12 de octubre
+AS Monaco (Retired),as monaco (retired)
+Ceará SC (Retired),ceará sc (retired)
+San Jose Earthquakes,san jose earthquakes
+Leicester City,leicester city
+PAOK,paok
+KV Mechelen (Retired),kv mechelen (retired)
+Hertha BSC,hertha bsc
+Zamalek SC,zamalek sc
+SD Eibar,sd eibar
+Cruz Azul,cruz azul
+FK Borec,fk borec
+Parma,parma
+Bursaspor (Retired),bursaspor (retired)
+RB Leipzig,rb leipzig
+SC Paderborn 07,sc paderborn 07
+AEK Larnaca,aek larnaca
+Guadalajara,guadalajara
+AD Alcorcón,ad alcorcón
+Deportes Magallanes (Retired),deportes magallanes (retired)
+Club Tijuana,club tijuana
+UD Oliveirense,ud oliveirense
+Beşiktaş JK,beşiktaş jk
+Kyoto Sanga,kyoto sanga
+Maardu Linnameeskond,maardu linnameeskond
+Dundee United,dundee united
+Rayo Vallecano,rayo vallecano
+VVV-Venlo (Retired),vvv-venlo (retired)
+Olimpik Donetsk (Retired),olimpik donetsk (retired)
+Tuzlaspor,tuzlaspor
+FK Teplice,fk teplice
+1. FC Slovácko,1. fc slovácko
+SC Espinho,sc espinho
+Olympiacos (Retired),olympiacos (retired)
+1.FK Príbram (Retired),1.fk príbram (retired)
+Dukla Praha (Retired),dukla praha (retired)
+Viktoria Žižkov (Retired),viktoria žižkov (retired)
+Club Plaza Colonia,club plaza colonia
+FC Cincinnati,fc cincinnati
+FC Twente,fc twente
+Vasco Da Gama,vasco da gama
+IFK Göteborg,ifk göteborg
+Granada CF,granada cf
+FK Haugesund (Retired),fk haugesund (retired)
+Brescia Calcio,brescia calcio
+SCR Altach,scr altach
+FK Fyllingsdalen (Retired),fk fyllingsdalen (retired)
+FC Tambov (Retired),fc tambov (retired)
+Viking FK,viking fk
+Atromitos,atromitos
+Cove Rangers,cove rangers
+Greenock Morton,greenock morton
+UNAM Pumas,unam pumas
+Necaxa,necaxa
+Amsterdamsche FC,amsterdamsche fc
+FK Panevėžys,fk panevėžys
+Cardiff City,cardiff city
+Rosenborg BK,rosenborg bk
+Kawasaki Frontale,kawasaki frontale
+FC Imabari,fc imabari
+Panionios,panionios
+Chiangmai FC,chiangmai fc
+Albirex Niigata,albirex niigata
+Machida Zelvia,machida zelvia
+Víkingur,víkingur
+Altay SK,altay sk
+Bologna FC,bologna fc
+ADO Den Haag,ado den haag
+Torino,torino
+Franciacorta FC,franciacorta fc
+SK Brann,sk brann
+Alanyaspor,alanyaspor
+Paganese Calcio (Retired),paganese calcio (retired)
+RKC Waalwijk,rkc waalwijk
+Orlando City SC,orlando city sc
+Ittihad,ittihad
+Figueirense,figueirense
+Spartak Trnava,spartak trnava
+Lindome GIF,lindome gif
+Kagoshima United (Retired),kagoshima united (retired)
+Queens Park Rangers,queens park rangers
+Kawasaki Frontale (Retired),kawasaki frontale (retired)
+Eintracht Frankfurt,eintracht frankfurt
+Urawa Red Diamonds,urawa red diamonds
+MFK Karviná,mfk karviná
+FC Ryukyu,fc ryukyu
+Adelaide United,adelaide united
+Aalborg BK (Retired),aalborg bk (retired)
+AC Perugia,ac perugia
+RC Strasbourg Alsace,rc strasbourg alsace
+Tochigi SC,tochigi sc
+Chrobry Glogow,chrobry glogow
+Neftçi,neftçi
+FC Luzern (Retired),fc luzern (retired)
+Sheffield Wednesday,sheffield wednesday
+Metal Kharkiv,metal kharkiv
+Znamya Noginsk,znamya noginsk
+FC Wil,fc wil
+Cádiz CF (Retired),cádiz cf (retired)
+FC Lugano,fc lugano
+Estudiantes De LP,estudiantes de lp
+Apollon Limassol,apollon limassol
+Hammarby IF (Retired),hammarby if (retired)
+IF Brommapojkarna,if brommapojkarna
+IF Elfsborg (Retired),if elfsborg (retired)
+IF Elfsborg,if elfsborg
+Kataller Toyama,kataller toyama
+Fujieda MYFC,fujieda myfc
+Júbilo Iwata,júbilo iwata
+HJK Helsinki,hjk helsinki
+Tokyo Verdy,tokyo verdy
+Fagiano Okayama,fagiano okayama
+Benevento Calcio,benevento calcio
+Sporting De Braga,sporting de braga
+V-Varen Nagasaki,v-varen nagasaki
+Silkeborg IF (Retired),silkeborg if (retired)
+FC Tokyo,fc tokyo
+FC Basel (Retired),fc basel (retired)
+FC Köniz,fc köniz
+Western United (Retired),western united (retired)
+Shonan Bellmare,shonan bellmare
+FC Winterthur (Retired),fc winterthur (retired)
+Ventforet Kofu,ventforet kofu
+Los Angeles FC,los angeles fc
+Club Africain,club africain
+SJK,sjk
+Avispa Fukuoka,avispa fukuoka
+Sektzia Nes Tziona,sektzia nes tziona
+Kagoshima United,kagoshima united
+Perth Glory,perth glory
+Étoile Du Sahel,étoile du sahel
+Arsenal Tula,arsenal tula
+Newcastle Jets,newcastle jets
+Concordia Chiajna,concordia chiajna
+Macarthur FC (Retired),macarthur fc (retired)
+Toronto FC (Retired),toronto fc (retired)
+Newcastle Jets (Retired),newcastle jets (retired)
+Eendracht Aalst (Retired),eendracht aalst (retired)
+Ionikos,ionikos
+Académica De Coimbra,académica de coimbra
+K Beerschot VA,k beerschot va
+Hapoel Umm Al Fahm,hapoel umm al fahm
+FC Sumy (Retired),fc sumy (retired)
+Berço SC,berço sc
+Gimnasia La Plata,gimnasia la plata
+Rio Ave,rio ave
+AFC Bournemouth,afc bournemouth
+Apollon Smyrnis,apollon smyrnis
+Cova Da Piedade,cova da piedade
+Maccabi Tel Aviv,maccabi tel aviv
+TSV Hartberg,tsv hartberg
+SK Rapid Wien,sk rapid wien
+SV Mattersburg,sv mattersburg
+Watford,watford
+Szeged 2011,szeged 2011
+MFK Zemplín Michalovce,mfk zemplín michalovce
+FC Admira,fc admira
+KF Vllaznia,kf vllaznia
+Club León,club león
+FC Penafiel,fc penafiel
+Helsingborgs IF,helsingborgs if
+Östers IF,östers if
+Eastleigh FC,eastleigh fc
+Montevideo Wanderers,montevideo wanderers
+Halmstads BK,halmstads bk
+Kalmar FF (Retired),kalmar ff (retired)
+Kalmar FF,kalmar ff
+Le Havre AC,le havre ac
+Solihull Moors,solihull moors
+Ulsan Hyundai,ulsan hyundai
+AEK Athens,aek athens
+Stranraer (Retired),stranraer (retired)
+Trabzonspor,trabzonspor
+Cosenza Calcio,cosenza calcio
+Swindon Town,swindon town
+Club Querétaro (Retired),club querétaro (retired)
+Bristol City,bristol city
+Coritiba,coritiba
+Pyramids FC,pyramids fc
+Charlotte FC,charlotte fc
+Wisla Kraków (Retired),wisla kraków (retired)
+Hammarby IF,hammarby if
+AFC Wimbledon,afc wimbledon
+Akropolis IF,akropolis if
+Nea Salamina,nea salamina
+SFC Opava (Retired),sfc opava (retired)
+KV Kortrijk,kv kortrijk
+Malmö FF,malmö ff
+FC Seoul,fc seoul
+CA Rentistas,ca rentistas
+Independiente Medellín,independiente medellín
+Peñarol,peñarol
+Sportivo Luqueño,sportivo luqueño
+Millwall,millwall
+Sol De América,sol de américa
+Port Vale,port vale
+Molde FK (Retired),molde fk (retired)
+KMSK Deinze,kmsk deinze
+East Bengal,east bengal
+Orebro SK,orebro sk
+Warrenpoint Town,warrenpoint town
+Baerum SK,baerum sk
+Odds BK,odds bk
+HIFK,hifk
+Girona FC,girona fc
+Arameiska-Syrianska Botkyrka IF,arameiska-syrianska botkyrka if
+Wisla Kraków,wisla kraków
+Reggiana 1919 (Retired),reggiana 1919 (retired)
+Spezia Calcio,spezia calcio
+Henan Songshan Longmen,henan songshan longmen
+GKS Jastrzebie,gks jastrzebie
+Danubio (Retired),danubio (retired)
+FC Lahti,fc lahti
+Tromso IL,tromso il
+HB Koge,hb koge
+Odds BK (Retired),odds bk (retired)
+Cork City,cork city
+Slavoj Vysehrad,slavoj vysehrad
+Wisla Plock,wisla plock
+FC St. Pauli (Retired),fc st. pauli (retired)
+Sioni Bolnisi,sioni bolnisi
+Asker Fotball,asker fotball
+Stevenage,stevenage
+NK Lokomotiva (Retired),nk lokomotiva (retired)
+Stromsgodset IF,stromsgodset if
+Deportivo Maldonado,deportivo maldonado
+SS Juve Stabia,ss juve stabia
+Qatar SC,qatar sc
+FC Helsingor,fc helsingor
+SpVgg Unterhaching,spvgg unterhaching
+Cambridge United,cambridge united
+Viktoria 1889 Berlin,viktoria 1889 berlin
+Olympiacos,olympiacos
+AS Roma,as roma
+FK Pohronie,fk pohronie
+Hellas Verona,hellas verona
+Sportist Svoge,sportist svoge
+SK Zápy,sk zápy
+St. Johnstone,st. johnstone
+UD Melilla,ud melilla
+Casa Pia AC,casa pia ac
+NK Varaždin,nk varaždin
+Yeovil Town,yeovil town
+Volyn Lutsk (Retired),volyn lutsk (retired)
+Greenock Morton (Retired),greenock morton (retired)
+Harrogate Town,harrogate town
+Mlada Boleslav,mlada boleslav
+Alloa Athletic,alloa athletic
+Oxford United,oxford united
+Vitesse (Retired),vitesse (retired)
+Falkirk,falkirk
+AS Poissy,as poissy
+Burton Albion,burton albion
+Raith Rovers (Retired),raith rovers (retired)
+Bromley FC,bromley fc
+RFC Liège,rfc liège
+Chelsea,chelsea
+Stevenage (Retired),stevenage (retired)
+Hibernian,hibernian
+KAA Gent,kaa gent
+Clyde,clyde
+Boluspor,boluspor
+Ravenna FC,ravenna fc
+Grenoble Foot 38 (Retired),grenoble foot 38 (retired)
+Novara Calcio,novara calcio
+Hellas Verona (Retired),hellas verona (retired)
+AC Ajaccio,ac ajaccio
+Charlotte Independence,charlotte independence
+Peterhead,peterhead
+Airdrieonians,airdrieonians
+Crystal Palace,crystal palace
+Brechin City,brechin city
+Venezia FC,venezia fc
+Stranraer,stranraer
+Brescia Calcio (Retired),brescia calcio (retired)
+AS Cittadella,as cittadella
+1. FC Nürnberg,1. fc nürnberg
+SS Arezzo,ss arezzo
+Marbella FC (Retired),marbella fc (retired)
+Sporting CP,sporting cp
+Cádiz CF,cádiz cf
+CF Fuenlabrada,cf fuenlabrada
+East Fife,east fife
+Hamilton Academical,hamilton academical
+Bayern München,bayern münchen
+KAS Eupen,kas eupen
+Shandong Taishan,shandong taishan
+Queen Of The South (Retired),queen of the south (retired)
+Leeds United,leeds united
+Borussia Dortmund,borussia dortmund
+Bursaspor,bursaspor
+Balıkesirspor,balıkesirspor
+Lille OSC,lille osc
+Telstar (Retired),telstar (retired)
+Adana Demirspor,adana demirspor
+FC Aarau,fc aarau
+Yeovil Town (Retired),yeovil town (retired)
+Club Libertad,club libertad
+Kirşehir Belediyespor,kirşehir belediyespor
+Manisa FK,manisa fk
+Yeni Malatyaspor,yeni malatyaspor
+Galatasaray SK (Retired),galatasaray sk (retired)
+Royal Antwerp (Retired),royal antwerp (retired)
+Konyaspor,konyaspor
+LASK Linz,lask linz
+FC Schaffhausen,fc schaffhausen
+Adanaspor,adanaspor
+SK Slavia Praha,sk slavia praha
+SK Sturm Graz (Retired),sk sturm graz (retired)
+CFR Cluj,cfr cluj
+Belenenses SAD,belenenses sad
+FK Vojvodina,fk vojvodina
+Cangzhou Mighty Lions,cangzhou mighty lions
+Bohemians 1905,bohemians 1905
+Akhisarspor,akhisarspor
+Internacional De Madrid,internacional de madrid
+CD Castellón,cd castellón
+1.FK Príbram,1.fk príbram
+1. FC Slovácko (Retired),1. fc slovácko (retired)
+Viktoria Plzeň (Retired),viktoria plzeň (retired)
+Sigma Olomouc,sigma olomouc
+BSC Young Boys,bsc young boys
+1. FC Kaiserslautern,1. fc kaiserslautern
+Varzim SC,varzim sc
+Oxford United (Retired),oxford united (retired)
+Frosinone Calcio,frosinone calcio
+Boreham Wood,boreham wood
+Villarreal CF (Retired),villarreal cf (retired)
+Bruk-Bet Termalica Nieciecza,bruk-bet termalica nieciecza
+SD Logroñés,sd logroñés
+FC Zlín,fc zlín
+SD Huesca,sd huesca
+Hyderabad FC (Retired),hyderabad fc (retired)
+SL Benfica,sl benfica
+Torquay United,torquay united
+KTP,ktp
+CP Cacereño (Retired),cp cacereño (retired)
+Vitória De Setúbal,vitória de setúbal
+USD Cavese,usd cavese
+Altrincham,altrincham
+AC Pisa,ac pisa
+Hertha BSC (Retired),hertha bsc (retired)
+AC Oulu,ac oulu
+Deportes La Serena,deportes la serena
+EC Bahia,ec bahia
+Defensor Sporting,defensor sporting
+Pescara Calcio,pescara calcio
+Matsumoto Yamaga,matsumoto yamaga
+Júbilo Iwata (Retired),júbilo iwata (retired)
+AC Bellinzona,ac bellinzona
+Neuchâtel Xamax,neuchâtel xamax
+Universitario De Deportes,universitario de deportes
+Calcio Padova,calcio padova
+Modena,modena
+Vis Pesaro 1898,vis pesaro 1898
+Ehime FC,ehime fc
+Alfredo Salinas,alfredo salinas
+RGV FC Toros,rgv fc toros
+JEF United Chiba,jef united chiba
+Matsumoto Yamaga (Retired),matsumoto yamaga (retired)
+Carlos A. Mannucci,carlos a. mannucci
+Kashima Antlers (Retired),kashima antlers (retired)
+Lodzki KS,lodzki ks
+Sanfrecce Hiroshima,sanfrecce hiroshima
+Deportivo Cuenca,deportivo cuenca
+Coyotes De Tlaxcala,coyotes de tlaxcala
+CA Villa Teresa,ca villa teresa
+Liverpool De Montevideo (Retired),liverpool de montevideo (retired)
+Corinthians,corinthians
+Los Angeles Galaxy,los angeles galaxy
+Chicago Fire,chicago fire
+Central Coast Mariners,central coast mariners
+Athletico Paranaense,athletico paranaense
+Botafogo PB,botafogo pb
+FC Gifu,fc gifu
+Cerro Porteño,cerro porteño
+CA Platense,ca platense
+Kashima Antlers,kashima antlers
+CA Atenas,ca atenas
+Montevideo City Torque,montevideo city torque
+CA Cerro,ca cerro
+AS Cittadella (Retired),as cittadella (retired)
+Imolese Calcio 1919,imolese calcio 1919
+Santos FC,santos fc
+Vegalta Sendai,vegalta sendai
+Deportivo Llacuabamba,deportivo llacuabamba
+Paris Saint-Germain,paris saint-germain
+Al Sharjah,al sharjah
+Guarani FC,guarani fc
+Argentinos Juniors,argentinos juniors
+Comerciantes Unidos,comerciantes unidos
+Independiente Santa Fé,independiente santa fé
+CS San Lorenzo,cs san lorenzo
+Club Always Ready,club always ready
+San Lorenzo,san lorenzo
+Independiente Del Valle,independiente del valle
+Beijing Guoan,beijing guoan
+Club Querétaro,club querétaro
+Odense BK,odense bk
+Caykur Rizespor,caykur rizespor
+Asteras Tripolis,asteras tripolis
+D.C. United,d.c. united
+Godoy Cruz,godoy cruz
+Eskişehirspor,eskişehirspor
+Menemenspor,menemenspor
+AO Xanthi (Retired),ao xanthi (retired)
+Brondby IF,brondby if
+Hobro IK (Retired),hobro ik (retired)
+Dunfermline Athletic,dunfermline athletic
+Indy Eleven,indy eleven
+AC Horsens (Retired),ac horsens (retired)
+FC Haka,fc haka
+Bala Town,bala town
+Shrewsbury Town,shrewsbury town
+UC AlbinoLeffe,uc albinoleffe
+FC Ufa,fc ufa
+NK Domžale,nk domžale
+AFC Fylde,afc fylde
+Macarthur FC,macarthur fc
+Stockport County,stockport county
+Hartlepool United,hartlepool united
+NK Lokomotiva,nk lokomotiva
+Miami FC,miami fc
+AJ Auxerre,aj auxerre
+Olympique Lyonnais,olympique lyonnais
+SC Gjilani,sc gjilani
+Budafoki MTE,budafoki mte
+Auckland City,auckland city
+Brighton And Hove Albion,brighton and hove albion
+SM Caen,sm caen
+Montevideo Wanderers (Retired),montevideo wanderers (retired)
+HNK Šibenik,hnk šibenik
+Everton,everton
+Dynamo Kyiv,dynamo kyiv
+FC Astana,fc astana
+FK Kauno Žalgiris,fk kauno žalgiris
+FK Indjija,fk indjija
+Audax Italiano,audax italiano
+Rudar Pljevlja,rudar pljevlja
+Guaireña FC,guaireña fc
+Real Valladolid,real valladolid
+Deportes Melipilla,deportes melipilla
+Bayer Leverkusen,bayer leverkusen
+Defensa Y Justicia,defensa y justicia
+Mazatlán FC,mazatlán fc
+TSV 1860 München (Retired),tsv 1860 münchen (retired)
+CD Cobresal,cd cobresal
+Maccabi Haifa,maccabi haifa
+Zeleznicar Pancevo,zeleznicar pancevo
+CD Motagua,cd motagua
+Universidad De Chile,universidad de chile
+Deportivo Ñublense,deportivo ñublense
+Club Brugge KV,club brugge kv
+FK Rad,fk rad
+FK Baltika Kaliningrad,fk baltika kaliningrad
+Fernández Vial (Retired),fernández vial (retired)
+PAS Giannina (Retired),pas giannina (retired)
+Unión La Calera,unión la calera
+Guangzhou,guangzhou
+LD Alajuelense,ld alajuelense
+Sporting Charleroi,sporting charleroi
+Zulte Waregem,zulte waregem
+IK Start,ik start
+FC Den Bosch,fc den bosch
+FC Nitra,fc nitra
+Volos NFC,volos nfc
+Bayer Leverkusen (Retired),bayer leverkusen (retired)
+PSV (Retired),psv (retired)
+Ismaily SC,ismaily sc
+Holstein Kiel,holstein kiel
+Willem II (Retired),willem ii (retired)
+Arka Gdynia,arka gdynia
+Sparta Praha,sparta praha
+MSK Púchov,msk púchov
+FC Koper,fc koper
+Lechia Gdańsk,lechia gdańsk
+SSC Napoli,ssc napoli
+CD Lugo,cd lugo
+CD Tenerife (Retired),cd tenerife (retired)
+SC Wiener Neustadt,sc wiener neustadt
+Jagiellonia Bialystok,jagiellonia bialystok
+Leixões SC (Retired),leixões sc (retired)
+Dagenham & Redbridge,dagenham & redbridge
+ACF Fiorentina (Retired),acf fiorentina (retired)
+Zlaté Moravce,zlaté moravce
+FK Voždovac (Retired),fk voždovac (retired)
+Deportivo Toluca,deportivo toluca
+AC Omonia Nicosia,ac omonia nicosia
+Derry City,derry city
+Debreceni VSC,debreceni vsc
+Independiente Cauquenes,independiente cauquenes
+Al Shabab,al shabab
+IFK Mariehamn,ifk mariehamn
+FC Juárez,fc juárez
+Houston Dynamo,houston dynamo
+Szombathelyi Haladás,szombathelyi haladás
+Debreceni VSC (Retired),debreceni vsc (retired)
+KFC Komárno,kfc komárno
+MTK Budapest (Retired),mtk budapest (retired)
+CD Cobreloa,cd cobreloa
+Larne FC,larne fc
+Guayaquil City (Retired),guayaquil city (retired)
+Gyirmót SE,gyirmót se
+Sporting De Braga (Retired),sporting de braga (retired)
+Ethnikos Achna,ethnikos achna
+Obolon Kyiv,obolon kyiv
+Balkany Zorya,balkany zorya
+Zorya Luhansk (Retired),zorya luhansk (retired)
+Melbourne City FC,melbourne city fc
+CA Fénix,ca fénix
+FC Ajka,fc ajka
+Paksi SE,paksi se
+Kaposvári Rákóczi,kaposvári rákóczi
+Deportivo Pereira,deportivo pereira
+UE Sant Julià,ue sant julià
+CA Cerro (Retired),ca cerro (retired)
+Unione Triestina,unione triestina
+Montevideo City Torque (Retired),montevideo city torque (retired)
+Sebail FK (Retired),sebail fk (retired)
+Arsenal Kyiv (Retired),arsenal kyiv (retired)
+Middlesbrough,middlesbrough
+Ferencvárosi TC,ferencvárosi tc
+SS Monopoli 1966,ss monopoli 1966
+HamKam,hamkam
+Central Español,central español
+Újpest FC,újpest fc
+Vasas SC,vasas sc
+Stade Briochin,stade briochin
+Ards,ards
+Carrick Rangers,carrick rangers
+Glentoran,glentoran
+Prachuap FC,prachuap fc
+Gaz Metan Mediaş (Retired),gaz metan mediaş (retired)
+Mladost Lučani,mladost lučani
+Farul Constanţa,farul constanţa
+CS Balotești,cs balotești
+SKF Sereď,skf sereď
+West Bromwich Albion,west bromwich albion
+Peterborough United,peterborough united
+Birmingham City,birmingham city
+Ascoli Calcio,ascoli calcio
+Angers SCO,angers sco
+Roda JC Kerkrade,roda jc kerkrade
+Morecambe,morecambe
+FC Gullegem,fc gullegem
+Jeonbuk Motors (Retired),jeonbuk motors (retired)
+US Créteil,us créteil
+Shanghai Port,shanghai port
+FC Arouca,fc arouca
+SC Freiburg,sc freiburg
+Mons Calpe SC,mons calpe sc
+PAE Chania,pae chania
+AE Larissa,ae larissa
+Mamelodi Sundowns,mamelodi sundowns
+FK Sarajevo,fk sarajevo
+Real Oviedo,real oviedo
+OH Leuven (Retired),oh leuven (retired)
+VfL Bochum,vfl bochum
+Racing Ferrol,racing ferrol
+FC Schalke 04,fc schalke 04
+HB Tórshavn,hb tórshavn
+Wuhan,wuhan
+Beijing Renhe,beijing renhe
+Dalian Professional,dalian professional
+Chengdu Rongcheng (Retired),chengdu rongcheng (retired)
+Suzhou Dongwu,suzhou dongwu
+Chengdu Rongcheng,chengdu rongcheng
+Black Leopards,black leopards
+Chongqing Liangjiang Athletic,chongqing liangjiang athletic
+Club Puebla,club puebla
+Flota Świnoujście,flota świnoujście
+Correcaminos UAT,correcaminos uat
+FK Kolubara,fk kolubara
+Zaglebie Sosnowiec,zaglebie sosnowiec
+Wuhan (Retired),wuhan (retired)
+Zibo Cuju,zibo cuju
+Göztepe SK,göztepe sk
+Shaanxi Chang'an Athletic,shaanxi chang'an athletic
+Piast Gliwice,piast gliwice
+Hebei,hebei
+KKS 1925 Kalisz,kks 1925 kalisz
+Atlante (Retired),atlante (retired)
+Slask Wroclaw,slask wroclaw
+Atlético Morelia,atlético morelia
+Blaublitz Akita,blaublitz akita
+Korona Kielce,korona kielce
+Olimpia Grudziadz,olimpia grudziadz
+Hamrun Spartans,hamrun spartans
+Sagan Tosu (Retired),sagan tosu (retired)
+Hokkaido Consadole Sapporo (Retired),hokkaido consadole sapporo (retired)
+Borussia Dortmund (Retired),borussia dortmund (retired)
+Kashiwa Reysol,kashiwa reysol
+Gwangju FC (Retired),gwangju fc (retired)
+Nagoya Grampus,nagoya grampus
+Alebrijes De Oaxaca,alebrijes de oaxaca
+Omiya Ardija,omiya ardija
+Port FC,port fc
+Seongnam FC,seongnam fc
+Gyeongnam FC (Retired),gyeongnam fc (retired)
+FC Chertanovo,fc chertanovo
+Pohang Steelers,pohang steelers
+Incheon United,incheon united
+Suwon Bluewings,suwon bluewings
+Jeonbuk Motors,jeonbuk motors
+Lee Man,lee man
+Kamatamare Sanuki,kamatamare sanuki
+Motor Lublin,motor lublin
+Busan IPark,busan ipark
+Oita Trinita,oita trinita
+Pogoń Grodzisk Mazowiecki,pogoń grodzisk mazowiecki
+Warta Poznan,warta poznan
+Melbourne Victory,melbourne victory
+Gyeongju KHNP,gyeongju khnp
+Deportivo Cali (Retired),deportivo cali (retired)
+Unión Magdalena,unión magdalena
+Gangwon FC (Retired),gangwon fc (retired)
+Falkenbergs FF (Retired),falkenbergs ff (retired)
+Suwon FC,suwon fc
+Sud América,sud américa
+Santiago Wanderers,santiago wanderers
+América De Cali,américa de cali
+Rionegro Águilas,rionegro águilas
+Atlético Bucaramanga,atlético bucaramanga
+Boyacá Chicó,boyacá chicó
+Inter Turku,inter turku
+Cortuluá,cortuluá
+Deportes Santa Cruz,deportes santa cruz
+CJ Wilstermann,cj wilstermann
+Belgrano,belgrano
+Rosario Central,rosario central
+Deportivo Pasto,deportivo pasto
+Rapid Bucureşti,rapid bucureşti
+Atlas,atlas
+CS Mioveni,cs mioveni
+San Francisco FC,san francisco fc
+EO Sidi Bouzid,eo sidi bouzid
+SO Cholet,so cholet
+Villa Española,villa española
+CA Progreso,ca progreso
+CA Sarmiento,ca sarmiento
+CD La Equidad,cd la equidad
+Atlético Huila,atlético huila
+Boca Juniors De Cali,boca juniors de cali
+Colón,colón
+Universitario Popayán,universitario popayán
+Metaloglobus București,metaloglobus bucurești
+Quilmes AC,quilmes ac
+Club Nacional,club nacional
+FC Argeș Pitesti,fc argeș pitesti
+Once Municipal,once municipal
+Metalurh Zaporizhzhya,metalurh zaporizhzhya
+Shakhtar Donetsk,shakhtar donetsk
+FC Sochi,fc sochi
+Botev Vratsa,botev vratsa
+CSKA Sofia,cska sofia
+PFC Belasitsa,pfc belasitsa
+Liverpool De Montevideo,liverpool de montevideo
+Once Caldas (Retired),once caldas (retired)
+Chernomorets Balchik,chernomorets balchik
+Metalurgistul Cugir,metalurgistul cugir
+Lech II Poznań,lech ii poznań
+APOEL (Retired),apoel (retired)
+Gençlerbirliği,gençlerbirliği
+Ergene Velimeşe SK,ergene velimeşe sk
+Maritsa Plovdiv,maritsa plovdiv
+Botev Vratsa (Retired),botev vratsa (retired)
+Isloch Minsk Raion,isloch minsk raion
+Zorya Luhansk,zorya luhansk
+FK Mariupol (Retired),fk mariupol (retired)
+Lokomotiv Plovdiv,lokomotiv plovdiv
+Deportivo Saprissa,deportivo saprissa
+FC Orenburg,fc orenburg
+Ohod Club,ohod club
+Belshina,belshina
+Anorthosis Famagusta,anorthosis famagusta
+CSKA 1948 Sofia,cska 1948 sofia
+Pontevedra CF,pontevedra cf
+Sportivo Iteño,sportivo iteño
+Smorgon,smorgon
+Sporting FC,sporting fc
+Kolos Kovalivka,kolos kovalivka
+Sportivo Trinidense,sportivo trinidense
+Dynamo Moskva,dynamo moskva
+Montedio Yamagata,montedio yamagata
+Arsenal,arsenal
+NK Međimurje,nk međimurje
+Chornomorets Odessa,chornomorets odessa
+FC Gorodeya (Retired),fc gorodeya (retired)
+FC Minsk,fc minsk
+Energetik-BGU Minsk,energetik-bgu minsk
+FC Krasnodar,fc krasnodar
+FC Vitebsk,fc vitebsk
+Torpedo Kutaisi,torpedo kutaisi
+Septemvri Sofia,septemvri sofia
+Desna Chernihiv,desna chernihiv
+FC Lida,fc lida
+FC Seoul (Retired),fc seoul (retired)
+Club River Plate,club river plate
+FC Alashkert,fc alashkert
+Vorskla Poltava (Retired),vorskla poltava (retired)
+Al Ahli SC,al ahli sc
+IK Sirius FK (Retired),ik sirius fk (retired)
+IK Start (Retired),ik start (retired)
+Giresunspor,giresunspor
+AFC Eskilstuna,afc eskilstuna
+Doxa Katokopias,doxa katokopias
+Orense SC,orense sc
+SD Aucas,sd aucas
+Rukh Lviv,rukh lviv
+Molde FK,molde fk
+First Vienna,first vienna
+Aalesunds FK,aalesunds fk
+Torpedo Moskva,torpedo moskva
+Minnesota United,minnesota united
+Sanlıurfaspor,sanlıurfaspor
+Gaziantep FK,gaziantep fk
+Ankaraspor,ankaraspor
+El Nacional,el nacional
+Dalian Professional (Retired),dalian professional (retired)
+Guizhou,guizhou
+Beijing Sport University,beijing sport university
+Beijing Guoan (Retired),beijing guoan (retired)
+Wuhan Three Towns,wuhan three towns
+Municipal Limeño,municipal limeño
+Parma (Retired),parma (retired)
+Club General Díaz,club general díaz
+Feralpisalò,feralpisalò
+Sichuan Jiuniu,sichuan jiuniu
+Cartaginés,cartaginés
+Xinjiang Tianshan Leopard,xinjiang tianshan leopard
+Hegelmann Litauen,hegelmann litauen
+DFK Dainava,dfk dainava
+Hapoel Tel Aviv,hapoel tel aviv
+Deportivo Municipal,deportivo municipal
+FC Džiugas Telšiai,fc džiugas telšiai
+FK Banga,fk banga
+FC Zurich (Retired),fc zurich (retired)
+Rigas Futbola Skola (Retired),rigas futbola skola (retired)
+FK Sūduva,fk sūduva
+BFC Daugavpils (Retired),bfc daugavpils (retired)
+Hapoel Umm Al Fahm (Retired),hapoel umm al fahm (retired)
+FK Jonava (Retired),fk jonava (retired)
+Levadia Tallinn,levadia tallinn
+FK Jelgava (Retired),fk jelgava (retired)
+Tartu Tammeka,tartu tammeka
+Al Thaid,al thaid
+FC Vytis Vilnius,fc vytis vilnius
+TJK Legion,tjk legion
+St. Patrick's Athletic,st. patrick's athletic
+NK Bravo,nk bravo
+ND Gorica,nd gorica
+Al Wahda,al wahda
+NK Aluminij,nk aluminij
+NK Maribor,nk maribor
+Drogheda United,drogheda united
+NS Mura,ns mura
+TSG 1899 Hoffenheim,tsg 1899 hoffenheim
+Budapest Honvéd,budapest honvéd
+KS Cracovia,ks cracovia
+NK Olimpija,nk olimpija
+NK Maribor (Retired),nk maribor (retired)
+Al Adalah,al adalah
+Sligo Rovers,sligo rovers
+NK Tabor Sežana,nk tabor sežana
+Dundalk,dundalk
+Helsingborgs IF (Retired),helsingborgs if (retired)
+FC Petržalka (Retired),fc petržalka (retired)
+CA Patronato,ca patronato
+Atlético Mineiro,atlético mineiro
+Panathinaikos,panathinaikos
+Chapecoense AF,chapecoense af
+Grêmio (Retired),grêmio (retired)
+Zaglebie Lubin (Retired),zaglebie lubin (retired)
+Deportivo Zacapa,deportivo zacapa
+Lokomotiv Moskva,lokomotiv moskva
+Umm Salal,umm salal
+Veracruz (Retired),veracruz (retired)
+Deportivo Coopsol,deportivo coopsol
+CS Unión Huaral,cs unión huaral
+Colegio Nacional De Iquitos,colegio nacional de iquitos
+Universidad De Concepción,universidad de concepción
+Oeste FC,oeste fc
+MKE Ankaragücü,mke ankaragücü
+Puskás Akadémia FC,puskás akadémia fc
+NK Istra 1961,nk istra 1961
+FK Budućnost Dobanovci,fk budućnost dobanovci
+AEL,ael
+FK Voždovac,fk voždovac
+TSC Backa Topola,tsc backa topola
+CS Patria,cs patria
+Politehnica Iași,politehnica iași
+Győri ETO,győri eto
+NK Slaven Belupo (Retired),nk slaven belupo (retired)
+UTA Arad,uta arad
+Chindia Târgovişte,chindia târgovişte
+FK Napredak Kruševac (Retired),fk napredak kruševac (retired)
+Mezőkövesd-Zsóry SE,mezőkövesd-zsóry se
+Tianjin Jinmen Tiger (Retired),tianjin jinmen tiger (retired)
+FC Kosice,fc kosice
+Dorogi FC,dorogi fc
+Stal Rzeszów,stal rzeszów
+AC Cesena,ac cesena
+Dunav Ruse,dunav ruse
+Cherno More,cherno more
+FK Žalgiris Vilnius (Retired),fk žalgiris vilnius (retired)
+Etar Veliko Tarnovo,etar veliko tarnovo
+FC Admira (Retired),fc admira (retired)
+Pro Vercelli,pro vercelli
+FK Austria Wien,fk austria wien
+Hvidovre IF (Retired),hvidovre if (retired)
+FC Wacker Innsbruck,fc wacker innsbruck
+SonderjyskE,sonderjyske
+FC Kobenhavn,fc kobenhavn
+FK Senica,fk senica
+FC Petržalka,fc petržalka
+MFK Ružomberok,mfk ružomberok
+Viktoria Plzeň,viktoria plzeň
+FC Sozopol,fc sozopol
+Eintracht Frankfurt (Retired),eintracht frankfurt (retired)
+1. FSV Mainz 05,1. fsv mainz 05
+ZP Podbrezová,zp podbrezová
+KFC Mandel United,kfc mandel united
+CS Herediano,cs herediano
+Sint-Truidense VV,sint-truidense vv
+Dender EH,dender eh
+Borussia Mönchengladbach,borussia mönchengladbach
+FC Basel,fc basel
+FSV Zwickau (Retired),fsv zwickau (retired)
+EA Guingamp,ea guingamp
+FSV Zwickau,fsv zwickau
+Fimleikafélag Hafnarfjarðar,fimleikafélag hafnarfjarðar
+Bandirmaspor,bandirmaspor
+CD Leganés,cd leganés
+Karlsruher SC,karlsruher sc
+KV Oostende,kv oostende
+Ross County,ross county
+Aberdeen (Retired),aberdeen (retired)
+FC Villefranche,fc villefranche
+Pau FC,pau fc
+Celtic,celtic
+Hapoel Beer Sheva,hapoel beer sheva
+Hibernian (Retired),hibernian (retired)
+Sivasspor,sivasspor
+Shenzhen FC,shenzhen fc
+Ayia Napa,ayia napa
+Waasland-Beveren,waasland-beveren
+Tepatitlán FC,tepatitlán fc
+Wealdstone FC,wealdstone fc
+Maccabi Netanya,maccabi netanya
+Apollon Larissa,apollon larissa
+SC Heerenveen,sc heerenveen
+GAS Ialysos 1948,gas ialysos 1948
+Hatta Club,hatta club
+UD Ibiza,ud ibiza
+Modafen FK,modafen fk
+FK Proleter,fk proleter
+Apollon Limassol (Retired),apollon limassol (retired)
+SV Horn,sv horn
+NK Osijek,nk osijek
+CE Sabadell,ce sabadell
+ASD Nocerina,asd nocerina
+Real Sociedad (Retired),real sociedad (retired)
+AD Fafe,ad fafe
+CE Sabadell (Retired),ce sabadell (retired)
+CD Feirense,cd feirense
+FC Vaduz,fc vaduz
+Catania Calcio,catania calcio
+SS Teramo Calcio,ss teramo calcio
+AZ Picerno,az picerno
+SD Ponferradina,sd ponferradina
+SSC Bari,ssc bari
+Atlético Baleares,atlético baleares
+RCD Mallorca,rcd mallorca
+Pordenone Calcio,pordenone calcio
+ACR Messina,acr messina
+Sacachispas FC,sacachispas fc
+FC Zbrojovka Brno,fc zbrojovka brno
+Atlético San Luis,atlético san luis
+Sichuan Longfor (Retired),sichuan longfor (retired)
+Seattle Sounders,seattle sounders
+Central Córdoba SdE,central córdoba sde
+Carlos Stein,carlos stein
+UE Sant Julià (Retired),ue sant julià (retired)
+Deportivo La Guaira,deportivo la guaira
+América Mineiro,américa mineiro
+Dinamo Batumi,dinamo batumi
+FK Budućnost,fk budućnost
+1. FC Union Berlin,1. fc union berlin
+Chievo Verona,chievo verona
+FK Mačva Šabac (Retired),fk mačva šabac (retired)
+Club Puebla (Retired),club puebla (retired)
+Getafe CF,getafe cf
+FK Slavija (Retired),fk slavija (retired)
+FK Sloboda Tuzla,fk sloboda tuzla
+NK Slaven Belupo,nk slaven belupo
+Ankara Keçiörengücü,ankara keçiörengücü
+NK Celje,nk celje
+Crvena Zvezda,crvena zvezda
+SV Meppen,sv meppen
+Unión Española,unión española
+PSM Makassar,psm makassar
+FK Željezničar,fk željezničar
+BFC Siófok,bfc siófok
+KF Llapi,kf llapi
+Spartak Moskva,spartak moskva
+Fukushima United,fukushima united
+Djurgårdens IF,djurgårdens if
+Metal Kharkiv (Retired),metal kharkiv (retired)
+Deportivo JBL,deportivo jbl
+FC Anyang,fc anyang
+Mineros De Guayana,mineros de guayana
+Bnei Sakhnin,bnei sakhnin
+Gamba Osaka,gamba osaka
+Cumbayá FC,cumbayá fc
+Zamora FC,zamora fc
+Delfines FC,delfines fc
+Sarpsborg 08 FF,sarpsborg 08 ff
+United Africa Tigers (Retired),united africa tigers (retired)
+AmaZulu,amazulu
+Valencia CF,valencia cf
+Lyngby BK,lyngby bk
+Vélez Sársfield,vélez sársfield
+SK Sturm Graz,sk sturm graz
+St. Mirren,st. mirren
+FK Teplice (Retired),fk teplice (retired)
+UT Cotopaxi,ut cotopaxi
+Club Rubio Ñú,club rubio ñú
+Málaga CF,málaga cf
+Feyenoord,feyenoord
+Beroe Stara Zagora (Retired),beroe stara zagora (retired)
+Grenoble Foot 38,grenoble foot 38
+Podbeskidzie Bielsko-Biała,podbeskidzie bielsko-biała
+TSV 1860 München,tsv 1860 münchen
+MFK Dubnica,mfk dubnica
+Black Stars Basel,black stars basel
+MKS Chojniczanka,mks chojniczanka
+Persepolis,persepolis
+Viktoria Köln,viktoria köln
+Motherwell,motherwell
+Livingston,livingston
+Edinburgh City,edinburgh city
+Gillingham,gillingham
+Sporting KC,sporting kc
+Deportivo Táchira,deportivo táchira
+BSC Glasgow,bsc glasgow
+US Salernitana,us salernitana
+Fulham,fulham
+Ironi Kiryat Shmona,ironi kiryat shmona
+Elazığspor,elazığspor
+SC Farense,sc farense
+St. Andrews,st. andrews
+APOEL,apoel
+Al Masry,al masry
+SD Amorebieta,sd amorebieta
+Oldham Athletic,oldham athletic
+Los Angeles FC (Retired),los angeles fc (retired)
+Atlético Mineiro (Retired),atlético mineiro (retired)
+Hapoel Kfar-Saba,hapoel kfar-saba
+Sol De Mayo,sol de mayo
+Othellos Athienou,othellos athienou
+Espérance De Tunis,espérance de tunis
+CD Pinhalnovense,cd pinhalnovense
+Independiente,independiente
+AC LALA FC,ac lala fc
+Leixões SC,leixões sc
+GOŠK Gabela,gošk gabela
+Zalaegerszegi TE,zalaegerszegi te
+ASU Politehnica Timișoara,asu politehnica timișoara
+CS Blooming,cs blooming
+Mes Rafsanjan,mes rafsanjan
+Örgryte IS,örgryte is
+VfL Wolfsburg (Retired),vfl wolfsburg (retired)
+FK Grafičar,fk grafičar
+Paykan,paykan
+Stade Brestois 29,stade brestois 29
+Pirin Blagoevgrad,pirin blagoevgrad
+FK Napredak Kruševac,fk napredak kruševac
+Viktoria Žižkov,viktoria žižkov
+Yantra Gabrovo,yantra gabrovo
+Al Arabi,al arabi
+Blackpool,blackpool
+Valur,valur
+Al Ain FC,al ain fc
+FK Novi Pazar,fk novi pazar
+Ruch Chorzów,ruch chorzów
+Diósgyőri VTK,diósgyőri vtk
+US Avranches,us avranches
+Stade Lavallois,stade lavallois
+Almere City,almere city
+Heracles Almelo (Retired),heracles almelo (retired)
+FC Augsburg,fc augsburg
+FC Fleury 91,fc fleury 91
+RC Deportivo,rc deportivo
+Rapide Oued Zem,rapide oued zem
+BG Pathum United,bg pathum united
+SV Lafnitz,sv lafnitz
+FC U Craiova 1948,fc u craiova 1948
+RB Bragantino,rb bragantino
+Bray Wanderers,bray wanderers
+Sutton United,sutton united
+Carlisle United,carlisle united
+Lincoln City,lincoln city
+FC St. Gallen (Retired),fc st. gallen (retired)
+SC Kriens,sc kriens
+US Boulogne,us boulogne
+Al Wasl (Retired),al wasl (retired)
+AIK (Retired),aik (retired)
+Ratchaburi FC,ratchaburi fc
+Syrianska FC,syrianska fc
+Weymouth,weymouth
+Exeter City,exeter city
+Wrexham,wrexham
+Forest Green Rovers,forest green rovers
+Doxa Dramas,doxa dramas
+Liga De Quito,liga de quito
+Orihuela CF,orihuela cf
+CS Dock Sud,cs dock sud
+Newcastle United,newcastle united
+Kocaelispor,kocaelispor
+CSYD Santamarina,csyd santamarina
+Eyüpspor,eyüpspor
+FC Nantes,fc nantes
+Toulouse FC,toulouse fc
+UE Llagostera,ue llagostera
+CA Osasuna,ca osasuna
+MAS Fès,mas fès
+Polissya Zhytomyr,polissya zhytomyr
+BATE,bate
+Real Salt Lake,real salt lake
+FC Akzhayik,fc akzhayik
+Oita Trinita (Retired),oita trinita (retired)
+KuPS,kups
+PK-35 Vantaa,pk-35 vantaa
+Gyeongnam FC,gyeongnam fc
+Kirikhanspor,kirikhanspor
+Millonarios,millonarios
+Deportes Puerto Montt,deportes puerto montt
+HŠK Zrinjski,hšk zrinjski
+Renofa Yamaguchi,renofa yamaguchi
+FK Skopje,fk skopje
+Deportivo Binacional,deportivo binacional
+Shanghai Shenhua,shanghai shenhua
+Tianjin Jinmen Tiger,tianjin jinmen tiger
+Vorskla Poltava,vorskla poltava
+Dynamo Bryansk,dynamo bryansk
+Al Batin,al batin
+Liaoning FC,liaoning fc
+Envigado,envigado
+Sporting Cristal,sporting cristal
+NAC Breda,nac breda
+FC Lienden,fc lienden
+Santos De Guápiles,santos de guápiles
+MSV Duisburg,msv duisburg
+Aalesunds FK (Retired),aalesunds fk (retired)
+Granada CF (Retired),granada cf (retired)
+FC Honka,fc honka
+Rubin Kazan,rubin kazan
+Zaglebie Lubin,zaglebie lubin
+Atlético Nacional,atlético nacional
+Guayaquil City,guayaquil city
+Daegu FC,daegu fc
+Dinamo Zagreb,dinamo zagreb
+Radnički Niš,radnički niš
+Yenisey Krasnoyarsk,yenisey krasnoyarsk
+Western Sydney Wanderers,western sydney wanderers
+Wolfsberger AC,wolfsberger ac
+FK Rad (Retired),fk rad (retired)
+Real Avilés,real avilés
+FK Borac Banja Luka (Retired),fk borac banja luka (retired)
+Sandefjord Fotball,sandefjord fotball
+FK Trayal Krusevac,fk trayal krusevac
+SV Sandhausen,sv sandhausen
+Ural Yekaterinburg (Retired),ural yekaterinburg (retired)
+PFC Neftochimic,pfc neftochimic
+Viitorul Târgu Jiu,viitorul târgu jiu
+Inter Zaprešić,inter zaprešić
+Bischofswerdaer FV 08,bischofswerdaer fv 08
+OFC Pomorie,ofc pomorie
+CD Nacional,cd nacional
+SV Ried (Retired),sv ried (retired)
+Esbjerg FB,esbjerg fb
+Sportfreunde Siegen,sportfreunde siegen
+Lech Poznań,lech poznań
+Club Cienciano,club cienciano
+Seongnam FC (Retired),seongnam fc (retired)
+Raja Casablanca,raja casablanca
+Hradec Králové,hradec králové
+VfL Wolfsburg,vfl wolfsburg
+Lommel SK,lommel sk
+Chonburi,chonburi
+FC Aarau (Retired),fc aarau (retired)
+Olimpik Donetsk,olimpik donetsk
+DVS'33,dvs'33
+Wigan Athletic,wigan athletic
+SC Verl,sc verl
+Real Potosí,real potosí
+Panetolikos,panetolikos
+Bristol Rovers,bristol rovers
+Esteghlal,esteghlal
+FC Midtjylland,fc midtjylland
+Seoul E-Land FC,seoul e-land fc
+FCSB,fcsb
+TSV Hartberg (Retired),tsv hartberg (retired)
+Buriram United,buriram united
+KS Bylis Ballsh,ks bylis ballsh
+Sepahan,sepahan
+KFC Uerdingen 05,kfc uerdingen 05
+Jeunesse Esch,jeunesse esch
+FC Ararat,fc ararat
+Queen's Park (Retired),queen's park (retired)
+Shelbourne FC,shelbourne fc
+Alania Vladikavkaz (Retired),alania vladikavkaz (retired)
+Shimizu S-Pulse (Retired),shimizu s-pulse (retired)
+Hendon FC,hendon fc
+Atalanta BC,atalanta bc
+Hyderabad FC,hyderabad fc
+FK Ventspils,fk ventspils
+UD Almería,ud almería
+Maccabi Petah Tikva,maccabi petah tikva
+FC Crotone,fc crotone
+Gangwon FC,gangwon fc
+FK Qarabag,fk qarabag
+FK Oleksandria,fk oleksandria
+FC Zlín (Retired),fc zlín (retired)
+Dnepr Mogilev,dnepr mogilev
+Rotor Volgograd,rotor volgograd
+Northampton Town,northampton town
+Krumkachy Minsk,krumkachy minsk
+Inner Mongolia Zhongyou (Retired),inner mongolia zhongyou (retired)
+FK Riteriai,fk riteriai
+Werder Bremen,werder bremen
+ASWH,aswh
+FK Mačva Šabac,fk mačva šabac
+Standard Liège,standard liège
+Petrocub Hîncești,petrocub hîncești
+Rapperswil-Jona,rapperswil-jona
+Thespakusatsu Gunma,thespakusatsu gunma
+Erzgebirge Aue,erzgebirge aue
+Académico De Viseu,académico de viseu
+VfL Wolfsburg II,vfl wolfsburg ii
+AS Nancy Lorraine,as nancy lorraine
+Brentford,brentford
+Deportivo Santaní,deportivo santaní
+Kuwait SC,kuwait sc
+Dover Athletic,dover athletic
+New England Revolution,new england revolution
+VPK-Ahro Shevchenkivka,vpk-ahro shevchenkivka
+Academia Puerto Cabello,academia puerto cabello
+IFK Norrköping,ifk norrköping
+Casertana FC,casertana fc
+VfB Lübeck,vfb lübeck
+Telstar,telstar
+Botev Plovdiv,botev plovdiv
+Vålerenga IF,vålerenga if
+FC Ingolstadt 04,fc ingolstadt 04
+Astra Giurgiu,astra giurgiu
+GAIS,gais
+Club Aurora (Retired),club aurora (retired)
+Shukura Kobuleti,shukura kobuleti
+Cancún FC (Retired),cancún fc (retired)
+Dinamo Brest,dinamo brest
+FC Chambly Oise,fc chambly oise
+Polonia Warszawa,polonia warszawa
+PFK Andijan,pfk andijan
+Yokohama F. Marinos,yokohama f. marinos
+Nõmme Kalju,nõmme kalju
+Paços De Ferreira,paços de ferreira
+Pandurii Târgu-Jiu,pandurii târgu-jiu
+Cultural Santa Rosa,cultural santa rosa
+Hwaseong FC,hwaseong fc
+FC Botoşani,fc botoşani
+Guangdong Southern Tigers,guangdong southern tigers
+SD Tarazona,sd tarazona
+Al Zawraa SC,al zawraa sc
+US Quevilly-Rouen,us quevilly-rouen
+Riga FC,riga fc
+Columbus Crew,columbus crew
+CP Villarrobledo,cp villarrobledo
+SpVgg Unterhaching (Retired),spvgg unterhaching (retired)
+Cleopatra FC,cleopatra fc
+Aswan SC,aswan sc
+Atlético De Kolkata,atlético de kolkata
+Misr El Makasa,misr el makasa
+Monterrey,monterrey
+GD Chaves,gd chaves
+KS Lushnja,ks lushnja
+El Paso Locomotive,el paso locomotive
+Godoy Cruz (Retired),godoy cruz (retired)
+Ceará SC,ceará sc
+Thonon Évian (Retired),thonon évian (retired)
+Bruno's Magpies,bruno's magpies
+Bank Al Ahly,bank al ahly
+Stabaek IF,stabaek if
+Miedź Legnica,miedź legnica
+FC Juniors OÖ (Retired),fc juniors oö (retired)
+Al Ahly,al ahly
+Nam Dịnh FC,nam dịnh fc
+Accrington Stanley,accrington stanley
+Atlético Porteño,atlético porteño
+CD Mushuc Runa (Retired),cd mushuc runa (retired)
+JS Kabylie,js kabylie
+PSV,psv
+Smouha SC,smouha sc
+Deportivo Cali,deportivo cali
+Padideh Khorasan (Retired),padideh khorasan (retired)
+Paide Linnameeskond,paide linnameeskond
+Levante UD,levante ud
+US Hostert,us hostert
+Cape Umoya United,cape umoya united
+Hannover 96 (Retired),hannover 96 (retired)
+Botafogo SP,botafogo sp
+TPS,tps
+Mjallby AIF,mjallby aif
+Chippa United,chippa united
+Chainat FC,chainat fc
+El Gouna,el gouna
+Ljungskile SK,ljungskile sk
+FC Dallas,fc dallas
+San Marcos De Arica,san marcos de arica
+CD Tudelano,cd tudelano
+Inverness CT,inverness ct
+Huracán FC,huracán fc
+VfL Osnabrück,vfl osnabrück
+Moghreb Tétouan,moghreb tétouan
+Metropolitanos FC,metropolitanos fc
+Al Fateh SC,al fateh sc
+WKS Gryf Wejherowo,wks gryf wejherowo
+Carabobo FC,carabobo fc
+FK Dinamo Vranje,fk dinamo vranje
+FK Grafičar (Retired),fk grafičar (retired)
+Al Nasr SC,al nasr sc
+Hansa Rostock,hansa rostock
+KF Laçi,kf laçi
+ND Primorje,nd primorje
+Stal Mielec,stal mielec
+Sandecja NS,sandecja ns
+Cimarrones De Sonora,cimarrones de sonora
+Nasaf Qarshi,nasaf qarshi
+FC Augsburg (Retired),fc augsburg (retired)
+OH Leuven,oh leuven
+Bytovia Bytów,bytovia bytów
+Kristiansund BK,kristiansund bk
+Racing FC UL,racing fc ul
+Corona Braşov,corona braşov
+Szeged 2011 (Retired),szeged 2011 (retired)
+Gaz Metan Mediaş,gaz metan mediaş
+GIF Sundsvall,gif sundsvall
+FK Sileks,fk sileks
+FC Oborishte,fc oborishte
+Aarhus GF,aarhus gf
+KFC Uerdingen 05 (Retired),kfc uerdingen 05 (retired)
+Türkgücü München,türkgücü münchen
+Club Marino,club marino
+Randers FC (Retired),randers fc (retired)
+FC Eindhoven,fc eindhoven
+Slovan Liberec,slovan liberec
+Hannover 96,hannover 96
+SpVgg Greuther Fürth,spvgg greuther fürth
+Leyton Orient,leyton orient
+Samsunspor,samsunspor
+SSV Ulm 1846,ssv ulm 1846
+Pahang FA,pahang fa
+Liga De Portoviejo,liga de portoviejo
+Al Gharafa,al gharafa
+Eintracht Braunschweig,eintracht braunschweig
+FC Metz,fc metz
+AC Horsens,ac horsens
+Yverdon Sport,yverdon sport
+Bnei Yehuda,bnei yehuda
+Valour FC,valour fc
+Radnički 1923,radnički 1923
+ASM Belfort,asm belfort
+Maidenhead United,maidenhead united
+Plymouth Argyle,plymouth argyle
+FC Taraz,fc taraz
+Boston United,boston united
+HNK Rijeka,hnk rijeka
+Hapoel Ramat Gan,hapoel ramat gan
+Sariyer SK,sariyer sk
+Karmiotissa,karmiotissa
+King's Lynn Town,king's lynn town
+Al Shamal SC,al shamal sc
+Sakaryaspor,sakaryaspor
+Estrela Da Amadora,estrela da amadora
+Alki Oroklini,alki oroklini
+CD Tondela,cd tondela
+AD Fafe (Retired),ad fafe (retired)
+Sporting Covilhã,sporting covilhã
+Haringey Borough,haringey borough
+CD Trofense,cd trofense
+Gil Vicente FC,gil vicente fc
+Falkenbergs FF,falkenbergs ff
+FC Jeunesse Canach,fc jeunesse canach
+Moreirense FC,moreirense fc
+Virtus Verona,virtus verona
+CD Santa Clara,cd santa clara
+Carrarese Calcio,carrarese calcio
+UD Vilafranquense,ud vilafranquense
+Grasshopper-Club,grasshopper-club
+Los Caimanes,los caimanes
+Ullensaker/Kisa IL,ullensaker/kisa il
+Denizlispor,denizlispor
+CD Rangers,cd rangers
+Calcio Foggia 1920,calcio foggia 1920
+The Strongest,the strongest
+Al Ettifaq,al ettifaq
+FC Zugdidi,fc zugdidi
+Racing Club De Montevideo,racing club de montevideo
+Huracán,huracán
+Tampico Madero FC,tampico madero fc
+Al Wehda,al wehda
+Comunicaciones,comunicaciones
+San Carlos,san carlos
+Nacional Potosí,nacional potosí
+Guadalupe FC,guadalupe fc
+Rukh Brest,rukh brest
+Paganese Calcio,paganese calcio
+Barrio México,barrio méxico
+FC Smolevichi,fc smolevichi
+AD Oliveirense,ad oliveirense
+FC Metalist Kharkiv,fc metalist kharkiv
+Podillya Khmelnytskyi,podillya khmelnytskyi
+AD Guanacasteca,ad guanacasteca
+Nantong Zhiyun,nantong zhiyun
+Zhejiang,zhejiang
+FK Olimp-Dolgoprudnyi,fk olimp-dolgoprudnyi
+Beijing Renhe (Retired),beijing renhe (retired)
+Pogon Szczecin,pogon szczecin
+Mito Hollyhock,mito hollyhock
+ADR Jicaral,adr jicaral
+Hunan Billows,hunan billows
+Hebei Elite,hebei elite
+Changchun Yatai,changchun yatai
+Jiangxi Beidamen,jiangxi beidamen
+Lillestrøm SK,lillestrøm sk
+Qingdao,qingdao
+Nakhon Ratchasima,nakhon ratchasima
+Al Hazem,al hazem
+SV Ried,sv ried
+Cerro Largo,cerro largo
+Shakhter Karagandy,shakhter karagandy
+Vancouver Whitecaps,vancouver whitecaps
+Guangdong Southern Tigers (Retired),guangdong southern tigers (retired)
+GIF Sundsvall (Retired),gif sundsvall (retired)
+Ranheim IL,ranheim il
+Municipal Grecia,municipal grecia
+Giravanz Kitakyushu,giravanz kitakyushu
+FK Mariupol,fk mariupol
+Fakel Voronezh,fakel voronezh
+Orebro SK (Retired),orebro sk (retired)
+AS Trenčín,as trenčín
+Holstein Kiel II,holstein kiel ii
+Gwangju FC,gwangju fc
+Neman Grodno,neman grodno
+FC Luzern,fc luzern
+Amiens SC,amiens sc
+Manta FC,manta fc
+Meizhou Hakka,meizhou hakka
+Tokushima Vortis,tokushima vortis
+Suzhou Dongwu (Retired),suzhou dongwu (retired)
+Arda Kardzhali,arda kardzhali
+Keşla FK,keşla fk
+Finn Harps,finn harps
+Dobrudzha,dobrudzha
+Galway United,galway united
+Vejle BK,vejle bk
+FK Riteriai (Retired),fk riteriai (retired)
+AC Barnechea,ac barnechea
+Cúcuta Deportivo,cúcuta deportivo
+FC Ilves,fc ilves
+Universitatea Cluj,universitatea cluj
+Noah Jurmala,noah jurmala
+Austin FC,austin fc
+FK Liepaja,fk liepaja
+Arminia Bielefeld (Retired),arminia bielefeld (retired)
+Randers FC,randers fc
+Cliftonville,cliftonville
+El Entag El Harby,el entag el harby
+Incheon United (Retired),incheon united (retired)
+Ipswich Town,ipswich town
+Deportivo Alavés,deportivo alavés
+Paysandu SC,paysandu sc
+FC Vizela,fc vizela
+Nassaji Mazandaran,nassaji mazandaran
+Shimizu S-Pulse,shimizu s-pulse
+SV Darmstadt 98,sv darmstadt 98
+Al Jazira,al jazira
+Sepsi Sfântu Gheorghe,sepsi sfântu gheorghe
+Sport Recife,sport recife
+TSG Hoffenheim II,tsg hoffenheim ii
+Shabab Al Ahli Dubai,shabab al ahli dubai
+HNK Orijent 1919,hnk orijent 1919
+Al Rayyan,al rayyan
+MyPa,mypa
+Athlone Town (Retired),athlone town (retired)
+FK Sloboda Užice,fk sloboda užice
+Navbahor Namangan,navbahor namangan
+FK Zlatibor Čajetina,fk zlatibor čajetina
+Hull City,hull city
+Náutico,náutico
+Ceské Budejovice,ceské budejovice
+Sumqayit FK,sumqayit fk
+Cuiabá EC,cuiabá ec
+Beroe Stara Zagora,beroe stara zagora
+Oţelul Galaţi,oţelul galaţi
+Las Rozas CF,las rozas cf
+Celta Vigo,celta vigo
+Academica Clinceni,academica clinceni
+Fehérvár FC,fehérvár fc
+Radnik Bijeljina,radnik bijeljina
+FC Nordsjaelland,fc nordsjaelland
+Raków Częstochowa,raków częstochowa
+Instituto AC,instituto ac
+Puszcza Niepolomice,puszcza niepolomice
+1. FC Heidenheim 1846,1. fc heidenheim 1846
+SK Austria Klagenfurt,sk austria klagenfurt
+CD Izarra,cd izarra
+FC St. Pauli,fc st. pauli
+Quick Boys (Retired),quick boys (retired)
+SKN St.Pölten,skn st.pölten
+Portuguesa Santista,portuguesa santista
+1. FC Köln II,1. fc köln ii
+SG Sonnenhof Großaspach,sg sonnenhof großaspach
+Dynamo Dresden,dynamo dresden
+NK Opatija,nk opatija
+Montpellier HSC,montpellier hsc
+Preussen Münster,preussen münster
+PAE Kalamata,pae kalamata
+AS Arta/Solar 7,as arta/solar 7
+FK Jelgava,fk jelgava
+Stade Lausanne-Ouchy,stade lausanne-ouchy
+1. FC Saarbrücken,1. fc saarbrücken
+CF Montréal,cf montréal
+Ittihad Kalba,ittihad kalba
+Fanja SC,fanja sc
+Lyngby BK (Retired),lyngby bk (retired)
+Paris FC,paris fc
+SC Cham,sc cham
+Rigas Futbola Skola,rigas futbola skola
+Akhmat Grozny,akhmat grozny
+Royal Pari,royal pari
+CD Alcoyano,cd alcoyano
+Bonner SC,bonner sc
+Athlone Town,athlone town
+FK Krupa,fk krupa
+VfB Stuttgart,vfb stuttgart
+US Granville,us granville
+New Edubiase United,new edubiase united
+Saint Eloi Lupopo,saint eloi lupopo
+Żejtun Corinthians,żejtun corinthians
+PAS Giannina,pas giannina
+Amed SK,amed sk
+Al Khor SC,al khor sc
+FC Ashdod,fc ashdod
+Fatih Karagümrük (Retired),fatih karagümrük (retired)
+Sliema Wanderers,sliema wanderers
+Ankara Demirspor,ankara demirspor
+Thór,thór
+Rodez AF (Retired),rodez af (retired)
+Ermis Aradippou,ermis aradippou
+Portsmouth,portsmouth
+CD Toledo,cd toledo
+CD Tenerife,cd tenerife
+CF La Nucía,cf la nucía
+Afjet Afyonspor,afjet afyonspor
+Egaleo,egaleo
+Pogon Szczecin (Retired),pogon szczecin (retired)
+CS Maritimo,cs maritimo
+FC Prishtina,fc prishtina
+Palermo FC,palermo fc
+Ternana Calcio,ternana calcio
+Reggiana 1919,reggiana 1919
+Queen's Park,queen's park
+FK Mash'al Mubarek (Retired),fk mash'al mubarek (retired)
+El Gouna (Retired),el gouna (retired)
+Real Unión,real unión
+Akron Tolyatti,akron tolyatti
+AS Bisceglie Calcio,as bisceglie calcio
+DPMM FC,dpmm fc
+FC Zhetysu,fc zhetysu
+Club Agropecuario,club agropecuario
+Coventry City,coventry city
+Al Ain,al ain
+Cerro Porteño (Retired),cerro porteño (retired)
+Zweigen Kanazawa,zweigen kanazawa
+Sagan Tosu,sagan tosu
+Ventforet Kofu (Retired),ventforet kofu (retired)
+Trelleborgs FF,trelleborgs ff
+FK Haugesund,fk haugesund
+Liga De Loja,liga de loja
+Sport Huancayo,sport huancayo
+US Pistoiese,us pistoiese
+Dorados De Sinaloa,dorados de sinaloa
+Arab Contractors,arab contractors
+Roasso Kumamoto,roasso kumamoto
+Sandnes Ulf,sandnes ulf
+Al Fujairah SC,al fujairah sc
+Colo Colo,colo colo
+Rot-Weiß Essen,rot-weiß essen
+Deportes Recoleta,deportes recoleta
+FC Atyrau,fc atyrau
+IK Sirius FK,ik sirius fk
+Gimpo Citizen,gimpo citizen
+CD Marathón,cd marathón
+Jeju United (Retired),jeju united (retired)
+Jeonnam Dragons,jeonnam dragons
+SV Spakenburg,sv spakenburg
+RC Recreativo,rc recreativo
+Atromitos (Retired),atromitos (retired)
+Honduras Progreso,honduras progreso
+Jeju United,jeju united
+ES Troyes AC,es troyes ac
+Hallescher FC,hallescher fc
+Club Olimpia,club olimpia
+Al Tai,al tai
+Gornik Leczna,gornik leczna
+FK Tobol,fk tobol
+Shinnik Yaroslavl,shinnik yaroslavl
+Istanbulspor AŞ,istanbulspor aş
+FK Pirmasens,fk pirmasens
+Al Wakrah SC,al wakrah sc
+USM Bel Abbès,usm bel abbès
+1. FC Magdeburg,1. fc magdeburg
+Hobro IK,hobro ik
+FC Emmen (Retired),fc emmen (retired)
+Al Ahli Jeddah,al ahli jeddah
+FK Radnik Surdulica,fk radnik surdulica
+Lausanne-Sport,lausanne-sport
+FK Cukaricki,fk cukaricki
+FK Olimpik Sarajevo,fk olimpik sarajevo
+FK Zarkovo,fk zarkovo
+FK Kabel,fk kabel
+FK Zvijezda 09,fk zvijezda 09
+Selangor FA,selangor fa
+FC Winterthur,fc winterthur
+Ayutthaya United,ayutthaya united
+Hapoel Afula,hapoel afula
+Aalborg BK,aalborg bk
+Stuttgarter Kickers,stuttgarter kickers
+Petrolul Ploiești,petrolul ploiești
+PFC Montana,pfc montana
+MFK Frýdek-Místek,mfk frýdek-místek
+Stade De Reims,stade de reims
+Ludogorets Razgrad II,ludogorets razgrad ii
+Nyíregyháza Spartacus,nyíregyháza spartacus
+Merani Martvili,merani martvili
+Hong Kong Pegasus,hong kong pegasus
+Lierse Kempenzonen,lierse kempenzonen
+Étoile Carouge (Retired),étoile carouge (retired)
+FK Aktobe,fk aktobe
+FK Csíkszereda,fk csíkszereda
+MTK Budapest,mtk budapest
+Sebail FK,sebail fk
+FK Dinamo Vranje (Retired),fk dinamo vranje (retired)
+Varzim SC (Retired),varzim sc (retired)
+Gloria Buzău,gloria buzău
+Hapoel Hadera,hapoel hadera
+Diriangén FC,diriangén fc
+Universitario De Sucre,universitario de sucre
+CSM Slatina,csm slatina
+FK Javor Ivanjica (Retired),fk javor ivanjica (retired)
+Jaguares De Córdoba,jaguares de córdoba
+FELDA United,felda united
+CA Temperley,ca temperley
+Volyn Lutsk,volyn lutsk
+Shamrock Rovers (Retired),shamrock rovers (retired)
+Unión Santa Fe,unión santa fe
+Clube Do Remo,clube do remo
+KF Tirana,kf tirana
+Degerfors IF,degerfors if
+Willem II,willem ii
+UD Las Palmas,ud las palmas
+CD Cinfães,cd cinfães
+CD Huachipato,cd huachipato
+AZ Alkmaar,az alkmaar
+FK MAS Táborsko,fk mas táborsko
+US Lusitanos Saint-Maur,us lusitanos saint-maur
+Independiente CG,independiente cg
+Clermont Foot 63,clermont foot 63
+Alianza Universidad,alianza universidad
+Giana Erminio,giana erminio
+Bourg En Bresse Péronnas,bourg en bresse péronnas
+1. FC Köln,1. fc köln
+Shakhtyor Soligorsk,shakhtyor soligorsk
+Valenciennes,valenciennes
+Le Puy Foot 43,le puy foot 43
+Lyon La Duchère,lyon la duchère
+Rayo Majadahonda,rayo majadahonda
+Vanraure Hachinohe,vanraure hachinohe
+US Pergolettese,us pergolettese
+SC Vila Real,sc vila real
+Ajman Club,ajman club
+Lleida Esportiu,lleida esportiu
+Persela Lamongan,persela lamongan
+FK Borac Banja Luka,fk borac banja luka
+FK Jerv,fk jerv
+HNK Gorica,hnk gorica
+07 Vestur,07 vestur
+Deportes Copiapó,deportes copiapó
+RFC Seraing United (Retired),rfc seraing united (retired)
+Goa,goa
+RoPS,rops
+HamKam (Retired),hamkam (retired)
+Sancaktepe Belediyespor,sancaktepe belediyespor
+VVSB,vvsb
+Kano Pillars,kano pillars
+Hapoel Nof HaGalil,hapoel nof hagalil
+Linares Deportivo,linares deportivo
+Barakaldo CF,barakaldo cf
+Johor Darul Takzim,johor darul takzim
+Kasimpaşa SK,kasimpaşa sk
+Brasiliense,brasiliense
+New York RB,new york rb
+CD Badajoz,cd badajoz
+De Graafschap,de graafschap
+União De Leiria,união de leiria
+CD San Fernando,cd san fernando
+Celaya FC,celaya fc
+FC Kyzylzhar,fc kyzylzhar
+AO Trikala,ao trikala
+Rayo Vallecano (Retired),rayo vallecano (retired)
+VVV-Venlo,vvv-venlo
+CS Sedan,cs sedan
+Pecsi MFC,pecsi mfc
+PAE Veria,pae veria
+Alianza FC,alianza fc
+AC Renate,ac renate
+Al Faisaly FC,al faisaly fc
+MKS Świt,mks świt
+UCAM Murcia,ucam murcia
+Maritzburg United,maritzburg united
+Barnsley,barnsley
+Hamburger SV,hamburger sv
+Würzburger Kickers,würzburger kickers
+SV Wehen Wiesbaden,sv wehen wiesbaden
+Étoile Carouge,étoile carouge
+Veres Rivne,veres rivne
+AO Xanthi,ao xanthi
+Empoli,empoli
+Al Jabalain,al jabalain
+Perak FA,perak fa
+Avanhard Kramatorsk,avanhard kramatorsk
+US Pianese,us pianese
+Antigua GFC,antigua gfc
+Clodiense SSD,clodiense ssd
+Lokomotiv Moskva (Retired),lokomotiv moskva (retired)
+AC Savoia 1908,ac savoia 1908
+Universidad Católica Del Ecuador,universidad católica del ecuador
+GKS Belchatów,gks belchatów
+Khor Fakkan Club,khor fakkan club
+CD Ebro,cd ebro
+SC Cambuur,sc cambuur
+Litex Lovech,litex lovech
+Varese Calcio,varese calcio
+Rot-Weiß Oberhausen,rot-weiß oberhausen
+Yokohama SCC,yokohama scc
+FK Jagodina,fk jagodina
+Floriana,floriana
+FC Samtredia,fc samtredia
+Penang FA,penang fa
+CS Alagoano,cs alagoano
+Zob Ahan,zob ahan
+FC Noah,fc noah
+PEC Zwolle,pec zwolle
+Coruxo,coruxo
+AC Rimini,ac rimini
+KVC Westerlo,kvc westerlo
+Östers IF (Retired),östers if (retired)
+Skovshoved IF,skovshoved if
+Lion City Sailors,lion city sailors
+Kongsvinger IL,kongsvinger il
+Neuchâtel Xamax (Retired),neuchâtel xamax (retired)
+F91 Dudelange,f91 dudelange
+FK Pardubice,fk pardubice
+OFK Petrovac,ofk petrovac
+Xelajú MC,xelajú mc
+Daejeon Citizen,daejeon citizen
+Shanghai Shenxin,shanghai shenxin
+Kaizer Chiefs,kaizer chiefs
+FK Partizani,fk partizani
+Okzhetpes Kokshetau,okzhetpes kokshetau
+Amkar Perm,amkar perm
+Lori FC,lori fc
+Vitesse,vitesse
+Mjondalen IF,mjondalen if
+Al Dhafra SCC,al dhafra scc
+Santiago Morning,santiago morning
+Doncaster Rovers,doncaster rovers
+RC Relizane,rc relizane
+Borac Čačak,borac čačak
+CS Macará,cs macará
+Dinamo Bucureşti,dinamo bucureşti
+Cancún FC,cancún fc
+Spartak Subotica,spartak subotica
+Sandefjord Fotball (Retired),sandefjord fotball (retired)
+RWD Molenbeek 47,rwd molenbeek 47
+Avenir Beggen,avenir beggen
+Calcio Lecco,calcio lecco
+Fotbal Třinec,fotbal třinec
+FK Zeta,fk zeta
+Fortuna Sittard,fortuna sittard
+CD Mafra,cd mafra
+RD Águeda,rd águeda
+Portuguesa,portuguesa
+Vendsyssel FF,vendsyssel ff
+Santos Laguna,santos laguna
+ENPPI,enppi
+Gimhae FC,gimhae fc
+Baniyas SC (Retired),baniyas sc (retired)
+FC Sochaux-Montbéliard,fc sochaux-montbéliard
+Hatayspor,hatayspor
+SpVgg Bayreuth,spvgg bayreuth
+Garbarnia Kraków,garbarnia kraków
+Deportes Naval,deportes naval
+Unión San Felipe,unión san felipe
+Rodez AF,rodez af
+Kryvbas Kryvy Rih,kryvbas kryvy rih
+Pars Jonoubi Jam,pars jonoubi jam
+Inter Club D'Escaldes,inter club d'escaldes
+Helmond Sport,helmond sport
+Atlético Rafaela,atlético rafaela
+Birkirkara,birkirkara
+CD Mushuc Runa,cd mushuc runa
+AC Nagano Parceiro,ac nagano parceiro
+Club Atlético Mitre,club atlético mitre
+FC Lugano (Retired),fc lugano (retired)
+USL Dunkerque,usl dunkerque
+Dalkurd FF,dalkurd ff
+Tours FC,tours fc
+Sport Boys Warnes,sport boys warnes
+Aris Limassol,aris limassol
+San Martín De San Juan,san martín de san juan
+Alianza Petrolera,alianza petrolera
+Al Qadisiyah,al qadisiyah
+CA Atlanta,ca atlanta
+CS Constantine,cs constantine
+Cercle Brugge,cercle brugge
+FC Chavdar Etropole,fc chavdar etropole
+CD Fátima,cd fátima
+Kokand 1912,kokand 1912
+Ostersunds FK,ostersunds fk
+UVB Vöcklamarkt,uvb vöcklamarkt
+KS Teuta,ks teuta
+Nîmes Olympique,nîmes olympique
+Deportivo Capiatá,deportivo capiatá
+Nueve De Octubre,nueve de octubre
+Gomel,gomel
+Associação Desportiva De Castro Daire,associação desportiva de castro daire
+NK Radomlje,nk radomlje
+Tuzla City,tuzla city
+CF Badalona,cf badalona
+Kuban,kuban
+FC Thun,fc thun
+Salamanca CF,salamanca cf
+Aston Villa,aston villa
+VV UNA,vv una
+Sloga Kraljevo,sloga kraljevo
+Altinordu FK,altinordu fk
+Talavera De La Reina,talavera de la reina
+Hekimoğlu Trabzon,hekimoğlu trabzon
+Maccabi Ahi Nazareth,maccabi ahi nazareth
+Manaus FC,manaus fc
+Lorca FC,lorca fc
+Panachaiki GE,panachaiki ge
+CD Calahorra,cd calahorra
+Al Quwa Al Jawiya,al quwa al jawiya
+Cusco FC,cusco fc
+KRC Genk,krc genk
+Deportes Quindío,deportes quindío
+CS Cerrito,cs cerrito
+Chiangrai United,chiangrai united
+Chungnam Asan,chungnam asan
+FK Novi Pazar (Retired),fk novi pazar (retired)
+FC Slutsk,fc slutsk
+Austria Lustenau,austria lustenau
+FC Dordoi Bishkek,fc dordoi bishkek
+Arminia Bielefeld,arminia bielefeld
+Wiener Sport-Club,wiener sport-club
+Dukla Praha,dukla praha
+Dumbarton,dumbarton
+FC Andorra,fc andorra
+Olympiakos Nicosia,olympiakos nicosia
+Deportivo Guastatoya,deportivo guastatoya
+Abahani Limited Dhaka,abahani limited dhaka
+TJ Jiskra Domažlice,tj jiskra domažlice
+Sigma Olomouc (Retired),sigma olomouc (retired)
+Foolad FC,foolad fc
+Sputnik Rechitsa,sputnik rechitsa
+SKU Amstetten,sku amstetten
+Kitchee SC,kitchee sc
+GD Estoril Praia,gd estoril praia
+Heilongjiang Ice City,heilongjiang ice city
+UD Logroñés,ud logroñés
+Radomiak Radom,radomiak radom
+Burgos CF (Retired),burgos cf (retired)
+SC Dnipro-1,sc dnipro-1
+MVV Maastricht,mvv maastricht
+KF Feronikeli,kf feronikeli
+Utaş Uşakspor,utaş uşakspor
+FK DAC 1904,fk dac 1904
+Lija Athletic,lija athletic
+SCU Torreense,scu torreense
+Erzurumspor BB,erzurumspor bb
+FC Famalicão,fc famalicão
+Heracles Almelo,heracles almelo
+Düzcespor,düzcespor
+Gümüşhanespor,gümüşhanespor
+Como 1907,como 1907
+Pendikspor,pendikspor
+Nizhny Novgorod,nizhny novgorod
+Atlético Grau,atlético grau
+Nkana FC,nkana fc
+Ayacucho FC,ayacucho fc
+FC Giessen,fc giessen
+Santa Lucía Cotzumalguapa,santa lucía cotzumalguapa
+FC Balzers,fc balzers
+Deportivo Malacateco,deportivo malacateco
+FK Velež Mostar,fk velež mostar
+Melaka United,melaka united
+Anadia FC,anadia fc
+AE Karaiskakis Artas,ae karaiskakis artas
+Wacker Burghausen,wacker burghausen
+Universidad San Martin Porres,universidad san martin porres
+L'Hospitalet,l'hospitalet
+TSV Buchbach,tsv buchbach
+Al Shabab Al Ahmadi,al shabab al ahmadi
+FC Ilves (Retired),fc ilves (retired)
+Celta Vigo (Retired),celta vigo (retired)
+Zulia FC,zulia fc
+SV Babelsberg 03,sv babelsberg 03
+Al Wasl,al wasl
+Djurgårdens IF (Retired),djurgårdens if (retired)
+Guayaquil SC,guayaquil sc
+Baniyas SC,baniyas sc
+Coquimbo Unido,coquimbo unido
+Gimnasia Y Tiro,gimnasia y tiro
+Atlético Santo Domingo,atlético santo domingo
+Burgos CF,burgos cf
+APO Levadiakos,apo levadiakos
+Hércules,hércules
+Rapperswil-Jona (Retired),rapperswil-jona (retired)
+Tom Tomsk,tom tomsk
+Lucena CF,lucena cf
+CS Emelec,cs emelec
+Lokomotiv Tashkent,lokomotiv tashkent
+FK Metalac GM,fk metalac gm
+CD Técnico Universitario,cd técnico universitario
+Holbaek B&I,holbaek b&i
+Hajduk Split,hajduk split
+FC Mauerwerk,fc mauerwerk
+Skive IK,skive ik
+Caracas FC,caracas fc
+University Of Pretoria,university of pretoria
+Lautaro De Buin,lautaro de buin
+Atlético Venezuela,atlético venezuela
+Sabah FK,sabah fk
+IK Frej,ik frej
+AS Soliman,as soliman
+Deportes Colchagua,deportes colchagua
+Kremin Kremenchuk,kremin kremenchuk
+San Antonio FC,san antonio fc
+Hrvatski Dragovoljac,hrvatski dragovoljac
+CS Sfaxien,cs sfaxien
+FC Kitzbühel,fc kitzbühel
+Etimesgut Belediyespor,etimesgut belediyespor
+Njardvík FC,njardvík fc
+Deportivo Quito (Retired),deportivo quito (retired)
+Sport Victoria,sport victoria
+CSM Reșița,csm reșița
+Cascavel CR,cascavel cr
+Diegem Sport,diegem sport
+FC Midtjylland (Retired),fc midtjylland (retired)
+Jahn Regensburg (Retired),jahn regensburg (retired)
+Hong Kong Rangers,hong kong rangers
+Deportes Linares,deportes linares
+Hong Kong Pegasus (Retired),hong kong pegasus (retired)
+KF Shkëndija 79,kf shkëndija 79
+FC Urartu,fc urartu
+Queen Of The South,queen of the south
+Speranța Nisporeni,speranța nisporeni
+FC Emmen,fc emmen
+Envigado (Retired),envigado (retired)
+Varbergs BoIS,varbergs bois
+FK IMT,fk imt
+Dunărea Călărași,dunărea călărași
+NK Varaždin (Retired),nk varaždin (retired)
+OFK Titograd Podgorica,ofk titograd podgorica
+AS Beauvais Oise,as beauvais oise
+Legnago Salus,legnago salus
+Entente SSG,entente ssg
+FK Jonava,fk jonava
+Karpaty Lviv,karpaty lviv
+Niger Tornadoes (Retired),niger tornadoes (retired)
+AD Confiança,ad confiança
+Wydad AC,wydad ac
+Crusaders,crusaders
+Arzachena Costa Smeralda,arzachena costa smeralda
+Mérida AD,mérida ad
+Liaoning Shenyang Urban,liaoning shenyang urban
+Kunshan FC,kunshan fc
+UD Socuéllamos,ud socuéllamos
+Zibo Cuju (Retired),zibo cuju (retired)
+Henan Songshan Longmen (Retired),henan songshan longmen (retired)
+Hangzhou Wuyue Qiantang,hangzhou wuyue qiantang
+SK Lisen,sk lisen
+Zhejiang (Retired),zhejiang (retired)
+Shanghai Shenxin (Retired),shanghai shenxin (retired)
+CD Guijuelo,cd guijuelo
+PS Barito Putera,ps barito putera
+Qingdao Jonoon,qingdao jonoon
+Gimnástica Segoviana,gimnástica segoviana
+Jiangsu FC (Retired),jiangsu fc (retired)
+Sichuan Longfor,sichuan longfor
+Karaköprü Belediyespor,karaköprü belediyespor
+Vasalunds IF,vasalunds if
+CD Mirandés,cd mirandés
+Bergama Belediyespor (Retired),bergama belediyespor (retired)
+Havant & Waterlooville,havant & waterlooville
+Tshakhuma TM,tshakhuma tm
+FC Santa Coloma,fc santa coloma
+Chavelines Juniors,chavelines juniors
+Santos De Nasca,santos de nasca
+Virtus Bolzano,virtus bolzano
+FC Bastia Borgo,fc bastia borgo
+US Orléans Loiret,us orléans loiret
+Real España,real españa
+Deportes Tolima,deportes tolima
+FC Kaisar,fc kaisar
+Negeri Sembilan FA,negeri sembilan fa
+Gran Valencia,gran valencia
+CDSC Iberia,cdsc iberia
+Balzan FC,balzan fc
+St Joseph's FC,st joseph's fc
+Brasil De Pelotas,brasil de pelotas
+Aberystwyth Town,aberystwyth town
+US Concarneau,us concarneau
+SAS Épinal,sas épinal
+Sportfreunde Lotte,sportfreunde lotte
+FC Encamp,fc encamp
+FC Rouen,fc rouen
+Achyronas Liopetriou,achyronas liopetriou
+WA Tlemcen,wa tlemcen
+SV Elversberg,sv elversberg
+FC 08 Homburg,fc 08 homburg
+MC Oujda,mc oujda
+TuS Koblenz,tus koblenz
+Woking,woking
+SP Tre Penne,sp tre penne
+FK Smederevo,fk smederevo
+Real Estelí,real estelí
+FC Pipinsried,fc pipinsried
+Pelikan Lowicz,pelikan lowicz
+Gangneung City,gangneung city
+Bohemian FC,bohemian fc
+Dungannon Swifts,dungannon swifts
+Stirling Albion,stirling albion
+Cabinteely FC,cabinteely fc
+Kahramanmaraşspor,kahramanmaraşspor
+Lamontville Golden Arrows,lamontville golden arrows
+Stabaek IF (Retired),stabaek if (retired)
+Sarawak FA,sarawak fa
+Sogdiana Jizzakh,sogdiana jizzakh
+Treaty United,treaty united
+Linfield,linfield
+BAK Spor,bak spor
+Wexford FC,wexford fc
+Serik Belediyespor,serik belediyespor
+Southern District,southern district
+Sirens FC,sirens fc
+USV Eschen/Mauren,usv eschen/mauren
+Coleraine,coleraine
+Limerick,limerick
+Mosta FC,mosta fc
+GS Loures,gs loures
+Happy Valley AA,happy valley aa
+Cobh Ramblers,cobh ramblers
+Ballymena United,ballymena united
+Trans Narva,trans narva
+SBV Excelsior,sbv excelsior
+SKA Khabarovsk,ska khabarovsk
+MSK Zilina,msk zilina
+FK Bačka Palanka,fk bačka palanka
+FC Rustavi,fc rustavi
+Desportivo Das Aves,desportivo das aves
+Mikkelin Palloilijat,mikkelin palloilijat
+FF Jaro,ff jaro
+Ekenäs IF,ekenäs if
+Atlético Pantoja,atlético pantoja
+AD Ceuta,ad ceuta
+Universitario De Sucre (Retired),universitario de sucre (retired)
+Atlético Palmaflor,atlético palmaflor
+Cobán Imperial,cobán imperial
+AD Juventud Escazuceña,ad juventud escazuceña
+CS Uruguay,cs uruguay
+Persija,persija
+Pérez Zeledón,pérez zeledón
+Barnet,barnet
+Central Español (Deceased),central español (deceased)
+CD Guabirá,cd guabirá
+Deportivo Lara,deportivo lara
+Silkeborg IF,silkeborg if
+Moroka Swallows,moroka swallows
+Universidad De Costa Rica,universidad de costa rica
+CD Alfonso Ugarte,cd alfonso ugarte
+CD Hermanos Colmenarez,cd hermanos colmenarez
+Yaracuyanos FC,yaracuyanos fc
+Estudiantes De Caracas,estudiantes de caracas
+Limón FC,limón fc
+Bangkok United,bangkok united
+Unión Comercio,unión comercio
+Municipal Liberia,municipal liberia
+URSL Visé,ursl visé
+Palermo FC (Retired),palermo fc (retired)
+Machine Sazi,machine sazi
+FK Kukësi,fk kukësi
+Shahin Bushehr,shahin bushehr
+Fajr Sepasi,fajr sepasi
+FK Turon,fk turon
+Al Duhail SC,al duhail sc
+Persib Bandung,persib bandung
+Rudar Prijedor,rudar prijedor
+Orduspor,orduspor
+AS Gubbio 1910,as gubbio 1910
+Tauro,tauro
+Patro Eisden,patro eisden
+Naft Masjed Soleyman,naft masjed soleyman
+Union Omaha,union omaha
+Deportes Temuco,deportes temuco
+Jaguares De Córdoba (Retired),jaguares de córdoba (retired)
+Krymteplytsia,krymteplytsia
+Llaneros,llaneros
+KF Drenica,kf drenica
+Saipa,saipa
+FK Drita,fk drita
+Dinamo Tbilisi,dinamo tbilisi
+Patriotas Boyacá,patriotas boyacá
+Leones Vegetarianos,leones vegetarianos
+Cultural Leonesa,cultural leonesa
+Veracruz,veracruz
+Puntarenas FC,puntarenas fc
+Hajduk Split (Retired),hajduk split (retired)
+Rocha FC,rocha fc
+Universidad De Guadalajara,universidad de guadalajara
+Dukla BB,dukla bb
+Pierikos,pierikos
+STK 1914 Samorín,stk 1914 samorín
+SFC Opava,sfc opava
+Al Raed,al raed
+Chamois Niortais,chamois niortais
+Gimnàstic Tarragona,gimnàstic tarragona
+UD Poblense,ud poblense
+Hibernians FC,hibernians fc
+Hallescher FC (Retired),hallescher fc (retired)
+UD Sanse De Los Reyes,ud sanse de los reyes
+Odisha FC,odisha fc
+Tekstilac Derventa,tekstilac derventa
+Hapoel Petah Tikva,hapoel petah tikva
+Tarxien Rainbows,tarxien rainbows
+Mantova FC,mantova fc
+Bolívar,bolívar
+Tractor Club,tractor club
+FC Hermannstadt (Retired),fc hermannstadt (retired)
+FC Bavois,fc bavois
+Lusitânia Lourosa,lusitânia lourosa
+CA Patronato (Retired),ca patronato (retired)
+Cheonan City,cheonan city
+FK Javor Ivanjica,fk javor ivanjica
+Al Riffa SC,al riffa sc
+Muğlaspor,muğlaspor
+Kazincbarcikai SC,kazincbarcikai sc
+Goiânia EC,goiânia ec
+Mladost Doboj Kakanj,mladost doboj kakanj
+Seregno Calcio,seregno calcio
+NA Hussein Dey,na hussein dey
+Francs Borains,francs borains
+SV Waldhof Mannheim,sv waldhof mannheim
+Samut Prakan City,samut prakan city
+US Vibonese,us vibonese
+CD Olmedo,cd olmedo
+Operário Ferroviário EC,operário ferroviário ec
+Once Caldas,once caldas
+DOVO,dovo
+Santa Tecla,santa tecla
+SS Cosmos,ss cosmos
+Anagennisi Karditsa,anagennisi karditsa
+Sheriff Tiraspol,sheriff tiraspol
+Ituano FC,ituano fc
+İnegölspor,i̇negölspor
+Vanspor FK,vanspor fk
+Diyarbakirspor,diyarbakirspor
+FC Roskilde,fc roskilde
+FK Mornar,fk mornar
+Surkhon Termez,surkhon termez
+Zira FK,zira fk
+FK Čelik Nikšić,fk čelik nikšić
+América De Quito,américa de quito
+Tvaakers IF,tvaakers if
+Delfín SC,delfín sc
+North East United,north east united
+Grazer AK,grazer ak
+FC Hebar Pazardzhik,fc hebar pazardzhik
+Hapoel Ra'anana,hapoel ra'anana
+Umea FC,umea fc
+SV Grödig,sv grödig
+Naestved BK,naestved bk
+Blau-Weiß Linz,blau-weiß linz
+Viborg FF,viborg ff
+José Gálvez FBC (Retired),josé gálvez fbc (retired)
+SCR Peña Deportiva,scr peña deportiva
+Breiðablik,breiðablik
+KFUM-Kameratene Oslo,kfum-kameratene oslo
+Bodo/Glimt,bodo/glimt
+Istiqlol Dushanbe,istiqlol dushanbe
+Eastern AA,eastern aa
+Strumska Slava,strumska slava
+Atlético FC,atlético fc
+Tala'ea El Gaish SC,tala'ea el gaish sc
+Al Mesaimeer SC,al mesaimeer sc
+Hienghène Sport,hienghène sport
+Szolnoki MÁV FC,szolnoki máv fc
+Szentlorinci SE,szentlorinci se
+Soroksár SC,soroksár sc
+GKS Katowice,gks katowice
+Valletta,valletta
+Wealdstone FC (Retired),wealdstone fc (retired)
+Santa Cruz,santa cruz
+Widzew Lodz,widzew lodz
+SC Bastia (Retired),sc bastia (retired)
+Lincoln Red Imps,lincoln red imps
+Piacenza Calcio 1919,piacenza calcio 1919
+Sporting Club Toulon,sporting club toulon
+FC Dordrecht,fc dordrecht
+Albacete Balompié,albacete balompié
+Jamshedpur FC,jamshedpur fc
+VV IJsselmeervogels,vv ijsselmeervogels
+Recreativo Granada,recreativo granada
+Stomil Olsztyn,stomil olsztyn
+FC Pyunik,fc pyunik
+Forfar Athletic,forfar athletic
+FC Caspiy,fc caspiy
+Sivas Belediye Spor,sivas belediye spor
+Bashundhara Kings,bashundhara kings
+FK Dubočica Leskovac,fk dubočica leskovac
+Kickers Offenbach,kickers offenbach
+San Diego Loyal,san diego loyal
+Radnički Pirot,radnički pirot
+RB Linense,rb linense
+Al Taawon,al taawon
+FCSR Haguenau,fcsr haguenau
+CD Olimpia,cd olimpia
+Chennaiyin FC,chennaiyin fc
+Mineros De Zacatecas,mineros de zacatecas
+Lorca Deportiva,lorca deportiva
+Ranheim IL (Retired),ranheim il (retired)
+KP Starogard Gdański,kp starogard gdański
+Sporting San Miguelito,sporting san miguelito
+Deportivo Morón,deportivo morón
+US Mondorf-les-Bains,us mondorf-les-bains
+Ripensia Timisoara,ripensia timisoara
+York United,york united
+Ittihad Riadi Tanger,ittihad riadi tanger
+Chemnitzer FC,chemnitzer fc
+Artvin Hopaspor,artvin hopaspor
+FC Hlucín,fc hlucín
+BSG Chemie Leipzig,bsg chemie leipzig
+VSG Altglienicke,vsg altglienicke
+Türkgücü München (Retired),türkgücü münchen (retired)
+FC Wegberg-Beeck,fc wegberg-beeck
+AS Mangasport,as mangasport
+CA Talleres,ca talleres
+US Rumelange,us rumelange
+JK Tallinna Kalev,jk tallinna kalev
+FC Sète,fc sète
+Lokomotiv Gorna Oryahovitsa,lokomotiv gorna oryahovitsa
+Ofspor Kulübü,ofspor kulübü
+Chernomorets Burgas,chernomorets burgas
+KSC Lokeren,ksc lokeren
+Sài Gòn FC,sài gòn fc
+Iwate Grulla Morioka,iwate grulla morioka
+Institute,institute
+HHC Hardenberg (Retired),hhc hardenberg (retired)
+UCD,ucd
+Jagiellonia Bialystok (Retired),jagiellonia bialystok (retired)
+Septemvri Simitli,septemvri simitli
+Unionistas De Salamanca,unionistas de salamanca
+FC Pocheon,fc pocheon
+Viljandi Tulevik,viljandi tulevik
+Emirates Club,emirates club
+ABC,abc
+FC Sydvest 05,fc sydvest 05
+Békéscsaba SE,békéscsaba se
+Brondby IF (Retired),brondby if (retired)
+Fethiyespor,fethiyespor
+1922 Konyaspor,1922 konyaspor
+Nevşehir Belediyespor,nevşehir belediyespor
+Real Jaén,real jaén
+Daejeon Korail FC,daejeon korail fc
+Atlético Sanluqueño,atlético sanluqueño
+Bogotá FC,bogotá fc
+Welling United,welling united
+AS Lucchese,as lucchese
+Dacia Unirea Brăila,dacia unirea brăila
+Virtus Francavilla,virtus francavilla
+Sporting Praia Cruz,sporting praia cruz
+Fermana FC,fermana fc
+AFC Leopards (Retired),afc leopards (retired)
+FC Lviv,fc lviv
+Floridsdorfer AC,floridsdorfer ac
+Cibao FC,cibao fc
+FC St. Gallen,fc st. gallen
+Bodrumspor,bodrumspor
+FSV Optik Rathenow,fsv optik rathenow
+Hellerup IK,hellerup ik
+FC Ararat-Armenia,fc ararat-armenia
+Ağsu FK,ağsu fk
+AE Prat,ae prat
+Deportes Valdivia,deportes valdivia
+Metallurg Lipetsk,metallurg lipetsk
+All Boys,all boys
+Akademija Pandev,akademija pandev
+Clube De Regatas Brasil,clube de regatas brasil
+ASDC Gozzano,asdc gozzano
+Marbella FC,marbella fc
+US Avellino,us avellino
+Viterbese Calcio,viterbese calcio
+Ansan Greeners,ansan greeners
+Nueva Chicago,nueva chicago
+Forlì FC,forlì fc
+Torpedo Zhodino,torpedo zhodino
+Prykarpattia Ivano-Frankivsk,prykarpattia ivano-frankivsk
+Persipura Jayapura,persipura jayapura
+Alania Vladikavkaz,alania vladikavkaz
+VPS,vps
+Austin Bold,austin bold
+FK Shkupi,fk shkupi
+Rot-Weiß Koblenz,rot-weiß koblenz
+Union Titus Pétange,union titus pétange
+Patro Eisden (Retired),patro eisden (retired)
+Wadi Degla,wadi degla
+Panserraikos,panserraikos
+Macclesfield Town (Retired),macclesfield town (retired)
+Algeciras CF,algeciras cf
+FCM Traiskirchen,fcm traiskirchen
+Kokkolan Palloveikot,kokkolan palloveikot
+United City,united city
+York United (Retired),york united (retired)
+Scunthorpe United,scunthorpe united
+FK Zemun,fk zemun
+IF Sylvia,if sylvia
+FK Igalo 1929,fk igalo 1929
+CA Juventud,ca juventud
+Alianza Atlético,alianza atlético
+Deportes Magallanes,deportes magallanes
+Oriente Petrolero,oriente petrolero
+Odra Opole,odra opole
+Deportes Iquique,deportes iquique
+Rodelindo Román,rodelindo román
+Union Saint-Gilloise,union saint-gilloise
+Partizán Bardejov,partizán bardejov
+Racing De Córdoba,racing de córdoba
+Eintracht Norderstedt 03,eintracht norderstedt 03
+Turgutluspor,turgutluspor
+Extremadura UD,extremadura ud
+CR Belouizdad,cr belouizdad
+Acireale Calcio 1946,acireale calcio 1946
+MFK Mykolaiv,mfk mykolaiv
+Matelica Calcio,matelica calcio
+Resovia Rzeszów,resovia rzeszów
+Almagro,almagro
+Raya2 Expansión,raya2 expansión
+Brusque FC,brusque fc
+Bayrampaşa SK,bayrampaşa sk
+Pedras Rubras,pedras rubras
+MC Oran,mc oran
+Fujian Tianxin,fujian tianxin
+Shenzhen Pengcheng,shenzhen pengcheng
+Jilin Baijia,jilin baijia
+ES Sétif,es sétif
+Central Córdoba De Rosario,central córdoba de rosario
+NK Šmartno 1928,nk šmartno 1928
+Barracas Central,barracas central
+VfB Auerbach,vfb auerbach
+Sertanense FC,sertanense fc
+Fortuna Köln,fortuna köln
+Atlético Goianiense,atlético goianiense
+MFK Skalica,mfk skalica
+Ho Chi Minh City,ho chi minh city
+Stade Tunisien,stade tunisien
+VfR Aalen,vfr aalen
+Borussia Dortmund II,borussia dortmund ii
+AO Platanias,ao platanias
+Portadown,portadown
+Radunia Stezyca,radunia stezyca
+Longford Town,longford town
+FC Wiltz 71,fc wiltz 71
+CA Bella Vista (Retired),ca bella vista (retired)
+Tampines Rovers,tampines rovers
+Tegevajaro Miyazaki,tegevajaro miyazaki
+Baltyk Gdynia,baltyk gdynia
+FK Podgorica,fk podgorica
+Aragua FC,aragua fc
+SD Ejea,sd ejea
+Llandudno FC,llandudno fc
+Tekirdagspor,tekirdagspor
+Olympique De Médéa,olympique de médéa
+Kirklarelispor,kirklarelispor
+Atlético Saguntino,atlético saguntino
+Deportes Concepción,deportes concepción
+Blacktown City,blacktown city
+Guaraní Antonio Franco,guaraní antonio franco
+Zonguldak Kömürspor,zonguldak kömürspor
+Gudja United,gudja united
+SU 1° De Dezembro,su 1° de dezembro
+Leones FC,leones fc
+Rijnsburgse Boys,rijnsburgse boys
+Tristan Suárez,tristan suárez
+Gainare Tottori,gainare tottori
+NSÍ Runavík,nsí runavík
+Oakland Roots,oakland roots
+Viettel FC,viettel fc
+Azul Claro Numazu,azul claro numazu
+Bucheon FC 1995,bucheon fc 1995
+NK Zvijezda,nk zvijezda
+Inner Mongolia Caoshangfei,inner mongolia caoshangfei
+US Saint-Malo,us saint-malo
+Morvant Caledonia United,morvant caledonia united
+SC Chaika,sc chaika
+Deportivo Madryn,deportivo madryn
+Hirnyk-Sport Komsomolsk,hirnyk-sport komsomolsk
+Gefle IF,gefle if
+Spartak Varna,spartak varna
+Ahrobiznes Volochysk,ahrobiznes volochysk
+Sogndal IL,sogndal il
+FC Chiasso (Retired),fc chiasso (retired)
+MFK Vítkovice,mfk vítkovice
+FC Vlasim,fc vlasim
+FC Wohlen,fc wohlen
+1º De Agosto,1º de agosto
+VV SteDoCo,vv stedoco
+União Sport Club Paredes,união sport club paredes
+Royal Excelsior Virton,royal excelsior virton
+Richmond Kickers,richmond kickers
+Merelinense FC,merelinense fc
+Real Ávila CF,real ávila cf
+Hvidovre IF,hvidovre if
+FK Blansko,fk blansko
+Nyva Vinnytsia,nyva vinnytsia
+FSV Frankfurt,fsv frankfurt
+GKS Tychy,gks tychy
+Muangthong United,muangthong united
+Potenza SC,potenza sc
+Deportivo Iztapa,deportivo iztapa
+FC Trollhättan,fc trollhättan
+Bayburt Özelidarespor,bayburt özelidarespor
+Sevilla Atlético,sevilla atlético
+Villarreal CF B,villarreal cf b
+FC Grosseto SSD,fc grosseto ssd
+Marignane Gignac FC,marignane gignac fc
+KSV Roeselare,ksv roeselare
+FC Dordrecht (Retired),fc dordrecht (retired)
+UD Alzira,ud alzira
+NK Solin,nk solin
+Port Melbourne Sharks,port melbourne sharks
+Berwick Rangers,berwick rangers
+Sparta Rotterdam,sparta rotterdam
+Avangard Kursk (Retired),avangard kursk (retired)
+Zenit-2,zenit-2
+Tekstilshchik Ivanovo,tekstilshchik ivanovo
+BFC Daugavpils,bfc daugavpils
+Damac FC,damac fc
+Legion Dynamo Makhachkala,legion dynamo makhachkala
+FK Chita,fk chita
+FC Kalush,fc kalush
+Karlstad BK,karlstad bk
+Arendal Fotball,arendal fotball
+KFC VW Hamme,kfc vw hamme
+FC Breitenrain Bern,fc breitenrain bern
+FC Thun (Retired),fc thun (retired)
+KRC Gent-Zeehaven,krc gent-zeehaven
+Hoogstraten VV,hoogstraten vv
+FK Varnsdorf,fk varnsdorf
+BSV SW Rehden,bsv sw rehden
+US Créteil (Retired),us créteil (retired)
+Vysočina Jihlava,vysočina jihlava
+NK Dubrava,nk dubrava
+CS Fola Esch,cs fola esch
+Kotwica Kolobrzeg,kotwica kolobrzeg
+Olimpia Zambrów,olimpia zambrów
+Junior Sevan,junior sevan
+Turan PFK,turan pfk
+US Folgore Caratese,us folgore caratese
+Hegelmann Litauen (Retired),hegelmann litauen (retired)
+FC Hermannstadt,fc hermannstadt
+Viktoria Aschaffenburg,viktoria aschaffenburg
+Trasandino,trasandino
+Real Racing Club,real racing club
+Deportes Ovalle,deportes ovalle
+Deportes Vallenar,deportes vallenar
+San Pedro Pirates,san pedro pirates
+Atlante,atlante
+Bozüyükspor,bozüyükspor
+Kemerspor,kemerspor
+Sestao River Club,sestao river club
+JA Drancy,ja drancy
+Thisted FC,thisted fc
+Kastamonuspor,kastamonuspor
+İskenderun DÇ,i̇skenderun dç
+Bucaspor,bucaspor
+Círculo Deportivo,círculo deportivo
+Club Guaraní,club guaraní
+Zakho FC,zakho fc
+Chacaritas FC,chacaritas fc
+Alverca (Deceased),alverca (deceased)
+HNK Cibalia,hnk cibalia
+Al Shoalah,al shoalah
+UE Cornellà,ue cornellà
+FK Spartaks Jūrmala,fk spartaks jūrmala
+FC Edmonton,fc edmonton
+Kavala,kavala
+Trat FC,trat fc
+Changwon City,changwon city
+IL Hodd,il hodd
+Suphanburi FC,suphanburi fc
+Unirea Slobozia,unirea slobozia
+SC Brühl,sc brühl
+FK Králuv Dvur,fk králuv dvur
+MFK Chrudim,mfk chrudim
+SK Uničov,sk uničov
+Antequera CF,antequera cf
+FC Písek,fc písek
+SK Rapid Wien (Retired),sk rapid wien (retired)
+Viitorul Constanţa (Retired),viitorul constanţa (retired)
+FK Kom,fk kom
+NK Croatia Zmijavci,nk croatia zmijavci
+Podhale Nowy Targ,podhale nowy targ
+Asante Kotoko,asante kotoko
+SV Rödinghausen,sv rödinghausen
+NK Jedinstvo Bihać,nk jedinstvo bihać
+Joinville EC,joinville ec
+Birmingham Legion,birmingham legion
+NK Kustosija,nk kustosija
+NK Sesvete,nk sesvete
+Persebaya,persebaya
+FC Rieti,fc rieti
+Bray Wanderers (Retired),bray wanderers (retired)
+Leiknir Reykjavík,leiknir reykjavík
+ZED FC,zed fc
+VfR Garching,vfr garching
+Llaneros FC,llaneros fc
+Stourbridge FC,stourbridge fc
+HHC Hardenberg,hhc hardenberg
+Cavalry FC,cavalry fc
+Eintracht Trier,eintracht trier
+Tepecikspor,tepecikspor
+ONS Sneek,ons sneek
+US Pontedera,us pontedera
+Excelsior '31,excelsior '31
+Hacettepe SK,hacettepe sk
+FC Sumy,fc sumy
+FC Orenburg (Retired),fc orenburg (retired)
+Levadia Tallinn (Retired),levadia tallinn (retired)
+CSK Uherský Brod,csk uherský brod
+FC Münsingen,fc münsingen
+HNK Šibenik (Retired),hnk šibenik (retired)
+Olympiakos Volou,olympiakos volou
+1.SC Znojmo,1.sc znojmo
+Górnik Konin,górnik konin
+FK Auda,fk auda
+Radnički Sombor,radnički sombor
+FK Iskra Danilovgrad,fk iskra danilovgrad
+FC Astoria Walldorf,fc astoria walldorf
+1. FSV Mainz 05 II,1. fsv mainz 05 ii
+AS Livorno,as livorno
+NK Dekani,nk dekani
+Atlético Madrid B,atlético madrid b
+USM Alger,usm alger
+FC Rodange 91,fc rodange 91
+Pineto Calcio,pineto calcio
+Union ArzignanoChiampo,union arzignanochiampo
+SSD Pro Sesto Calcio,ssd pro sesto calcio
+Villarrubia CF,villarrubia cf
+Deportivo Petapa,deportivo petapa
+Pioneros De Cancún,pioneros de cancún
+Inter Playa Del Carmen,inter playa del carmen
+Pumas Tabasco,pumas tabasco
+Naftan Novopolotsk,naftan novopolotsk
+Alverca,alverca
+Goiás,goiás
+FC Tambov,fc tambov
+San Antonio Unido,san antonio unido
+San Luis De Quillota,san luis de quillota
+SC São João De Ver,sc são joão de ver
+Operário-MT,operário-mt
+Phoenix Rising FC,phoenix rising fc
+Cerezo Osaka (Retired),cerezo osaka (retired)
+Beijing IT,beijing it
+North Carolina FC,north carolina fc
+Qingdao Red Lions,qingdao red lions
+Mokpo City,mokpo city
+Suwon Bluewings (Retired),suwon bluewings (retired)
+Gondomar SC,gondomar sc
+Yanbian Beiguo,yanbian beiguo
+Cheongju FC,cheongju fc
+Guizhou (Retired),guizhou (retired)
+Mitra Kukar,mitra kukar
+Universidad Técnica De Cajamarca,universidad técnica de cajamarca
+Club Deportivo Maipú,club deportivo maipú
+Milwaukee Torrent,milwaukee torrent
+Jönköpings Södra,jönköpings södra
+Torns IF,torns if
+Sollentuna FK,sollentuna fk
+Qviding FIF,qviding fif
+FC Linköping City,fc linköping city
+Utsiktens BK,utsiktens bk
+Kristianstads FF,kristianstads ff
+KS Kastrioti,ks kastrioti
+EC Vitória,ec vitória
+Real Santa Cruz,real santa cruz
+Barrow AFC (Retired),barrow afc (retired)
+Somaspor,somaspor
+Derince Belediyespor,derince belediyespor
+Magni Grenivík,magni grenivík
+Club Destroyers,club destroyers
+HFX Wanderers,hfx wanderers
+TS Galaxy,ts galaxy
+NK Dugopolje,nk dugopolje
+Vasteras SK,vasteras sk
+Dinamo Minsk,dinamo minsk
+Team ThorenGruppen,team thorengruppen
+SC Beira-Mar,sc beira-mar
+Diagoras FC,diagoras fc
+The New Saints,the new saints
+Cádiz CF B,cádiz cf b
+NK Bratstvo Gračanica,nk bratstvo gračanica
+BK Frem,bk frem
+Vejgaard,vejgaard
+Deportivo Alavés B,deportivo alavés b
+Slavia Mozyr,slavia mozyr
+NK Rudeš,nk rudeš
+Gwarek Tarnowskie Góry,gwarek tarnowskie góry
+CS Maritimo (Retired),cs maritimo (retired)
+Grindavík,grindavík
+Yunnan Kunlu,yunnan kunlu
+Hubei Chufeng Heli,hubei chufeng heli
+Zhejiang Yiteng,zhejiang yiteng
+Jiangsu Yancheng Dingli,jiangsu yancheng dingli
+Dalian Chanjoy,dalian chanjoy
+Shenzhen FC (Retired),shenzhen fc (retired)
+FC Kairat Almaty (Retired),fc kairat almaty (retired)
+Energie Cottbus,energie cottbus
+Carpi,carpi
+Berliner AK 07,berliner ak 07
+SV Lippstadt 08,sv lippstadt 08
+Billericay Town,billericay town
+Cefn Druids,cefn druids
+FC Shirak,fc shirak
+York City,york city
+FK Loznica,fk loznica
+HNK Capljina,hnk capljina
+Al Shorta,al shorta
+Atlético Ottawa,atlético ottawa
+Wuppertaler SV,wuppertaler sv
+FK Zlatibor Čajetina (Retired),fk zlatibor čajetina (retired)
+SC Schiltigheim,sc schiltigheim
+AS Bakaridjan,as bakaridjan
+1. FC Schweinfurt 05 (Retired),1. fc schweinfurt 05 (retired)
+AC Amiens,ac amiens
+SO Romorantin,so romorantin
+Aubagne FC,aubagne fc
+Fredrikstad FK,fredrikstad fk
+CA San Telmo,ca san telmo
+Dalum IF,dalum if
+Hannover 96 II,hannover 96 ii
+NK Brežice 1919,nk brežice 1919
+Kuressaare,kuressaare
+Ustí Nad Labem,ustí nad labem
+IK Brage,ik brage
+Modriča Maksima,modriča maksima
+HFX Wanderers (Retired),hfx wanderers (retired)
+CSD Municipal,csd municipal
+Hoang Anh Gia Lai,hoang anh gia lai
+RFC Seraing United,rfc seraing united
+Ha Noi FC,ha noi fc
+Club Portugalete,club portugalete
+North East Stars,north east stars
+Thesprotos FC,thesprotos fc
+Real San Andrés,real san andrés
+Barranquilla FC,barranquilla fc
+US Ben Guerdane,us ben guerdane
+US Monastir,us monastir
+FK Kozara Gradiška,fk kozara gradiška
+Legia Warszawa (Retired),legia warszawa (retired)
+Shonan Bellmare (Retired),shonan bellmare (retired)
+Strommen IF,strommen if
+CA Bizertin,ca bizertin
+Forge FC,forge fc
+CD Don Benito,cd don benito
+Grêmio Anápolis,grêmio anápolis
+FC Felgueiras 1932,fc felgueiras 1932
+Anzhi Makhachkala,anzhi makhachkala
+TSV Steinbach,tsv steinbach
+Veles Moskva,veles moskva
+Zvezda Perm,zvezda perm
+VfB Oldenburg,vfb oldenburg
+FC KamAZ,fc kamaz
+SFC CRFSO Smolensk,sfc crfso smolensk
+Royal Charleroi Fleurus,royal charleroi fleurus
+Locomotive Tbilisi,locomotive tbilisi
+Inhulets Petrove (Retired),inhulets petrove (retired)
+Valmiera FC,valmiera fc
+Stade Nyonnais,stade nyonnais
+Yverdon Sport (Retired),yverdon sport (retired)
+Airbus UK,airbus uk
+Sokol Brozany,sokol brozany
+Ergotelis,ergotelis
+Gol Gohar Sirjan,gol gohar sirjan
+FK DAC 1904 (Retired),fk dac 1904 (retired)
+CD Águila,cd águila
+SC Mirandela,sc mirandela
+FC Differdange 03,fc differdange 03
+NK Istra 1961 (Retired),nk istra 1961 (retired)
+Notodden FK,notodden fk
+Naesby BK,naesby bk
+Asane Fotball,asane fotball
+3 De Febrero,3 de febrero
+Kolding IF,kolding if
+AFC Tubize,afc tubize
+Motala AIF,motala aif
+Middelfart Fodbold,middelfart fodbold
+Aarhus Fremad,aarhus fremad
+East Riffa Club,east riffa club
+Once Deportivo,once deportivo
+Arka Gdynia (Retired),arka gdynia (retired)
+NK Rogaška,nk rogaška
+FK Zarkovo (Retired),fk zarkovo (retired)
+Górnik Polkowice,górnik polkowice
+FC Botoşani (Retired),fc botoşani (retired)
+Radnički SM,radnički sm
+KS Skënderbeu,ks skënderbeu
+Albion FC,albion fc
+AJ Auxerre (Deceased),aj auxerre (deceased)
+VfB Germania Halberstadt,vfb germania halberstadt
+Adanaspor (Retired),adanaspor (retired)
+US Adriese,us adriese
+Oxford City,oxford city
+Arsenal Kyiv,arsenal kyiv
+FC Shevardeni,fc shevardeni
+Manisaspor,manisaspor
+FK Austria Amateure,fk austria amateure
+Cumbernauld Colts,cumbernauld colts
+Geylang International,geylang international
+FC Struga,fc struga
+FK Nevėžis,fk nevėžis
+Bidvest Wits,bidvest wits
+Landskrona BoIS,landskrona bois
+AC Mestre,ac mestre
+Sportivo Las Parejas,sportivo las parejas
+FC Telavi,fc telavi
+Monagas SC,monagas sc
+Chikhura Sachkhere,chikhura sachkhere
+Erzurumspor BB (Retired),erzurumspor bb (retired)
+Gölcükspor,gölcükspor
+MEAP Nisou,meap nisou
+Sydney Olympic,sydney olympic
+FK Panevėžys (Retired),fk panevėžys (retired)
+HNK Gorica (Retired),hnk gorica (retired)
+General Velásquez,general velásquez
+Herrera FC,herrera fc
+Real Cartagena,real cartagena
+Fortaleza CEIF,fortaleza ceif
+EC Taubaté,ec taubaté
+CA Colegiales,ca colegiales
+Orsomarso SC,orsomarso sc
+FC Tyumen,fc tyumen
+San Martín De Tucumán,san martín de tucumán
+FC Leningradets,fc leningradets
+Avangard Kursk,avangard kursk
+Tekstilshchik Ivanovo (Retired),tekstilshchik ivanovo (retired)
+UD Almería B,ud almería b
+SKA Rostov,ska rostov
+PAEEK,paeek
+AO Episkopi,ao episkopi
+Kazanka Moskva,kazanka moskva
+FK Metalurg,fk metalurg
+Stjordals Blink IL,stjordals blink il
+Chayka Peschanokopskoye,chayka peschanokopskoye
+Yarud Mariupol,yarud mariupol
+La Louvière,la louvière
+FC Juniors OÖ,fc juniors oö
+Lokomotiva Vltavín,lokomotiva vltavín
+Cavalier FC,cavalier fc
+SCR Altach (Retired),scr altach (retired)
+Odra Petrkovice,odra petrkovice
+SR Delémont,sr delémont
+AFC Sudbury,afc sudbury
+Olympique Marseille (Retired),olympique marseille (retired)
+Koninklijke HFC,koninklijke hfc
+SCC Mohammédia,scc mohammédia
+Busan Transportation,busan transportation
+Tamworth,tamworth
+Bayswater City,bayswater city
+Dartford,dartford
+VV Noordwijk,vv noordwijk
+Colorado Springs Switchbacks,colorado springs switchbacks
+Academia Cantolao,academia cantolao
+SS Rende,ss rende
+KSK Heist,ksk heist
+Irtysh Omsk,irtysh omsk
+Chattanooga Red Wolves,chattanooga red wolves
+Auckland City (Retired),auckland city (retired)
+Norrby IF,norrby if
+Viking FK (Retired),viking fk (retired)
+Brabrand IF,brabrand if
+Nykobing FC,nykobing fc
+Deportes Tolima (Retired),deportes tolima (retired)
+NK BSK Bijelo Brdo,nk bsk bijelo brdo
+Orange County SC,orange county sc
+Real Murcia,real murcia
+KA,ka
+Stal Stalowa Wola,stal stalowa wola
+FK Palanga,fk palanga
+FK Atlantas,fk atlantas
+Flora,flora
+UD Universitario,ud universitario
+Shaanxi Chang'an Athletic (Retired),shaanxi chang'an athletic (retired)
+Taizhou Yuanda (Retired),taizhou yuanda (retired)
+NK Pomorac Kostrena,nk pomorac kostrena
+FC Tulsa,fc tulsa
+Peterborough United (Retired),peterborough united (retired)
+Piast Gliwice (Retired),piast gliwice (retired)
+FBC Melgar,fbc melgar
+Rushden & Diamonds,rushden & diamonds
+Juan Aurich,juan aurich
+SG Sacavenense,sg sacavenense
+Ferro De General Pico,ferro de general pico
+Estudiantes De Río Cuarto,estudiantes de río cuarto
+Paradou AC,paradou ac
+Louisville City,louisville city
+FC Etzella Ettelbruck,fc etzella ettelbruck
+Alemannia Aachen,alemannia aachen
+Al Faisaly,al faisaly
+EC Água Santa,ec água santa
+Volgar Astrakhan,volgar astrakhan
+FC Martigues,fc martigues
+ASEC Mimosas,asec mimosas
+Ostia Mare Lido,ostia mare lido
+NK Široki Brijeg,nk široki brijeg
+Brackley Town,brackley town
+Bedford Town,bedford town
+Egersunds IK,egersunds ik
+Kallithea,kallithea
+FK Bačka Palanka (Retired),fk bačka palanka (retired)
+Chacarita Juniors,chacarita juniors
+FK Slavija,fk slavija
+HNK Orašje,hnk orašje
+Al Mina'a SC,al mina'a sc
+Capivariano FC,capivariano fc
+1. SK Prostejov,1. sk prostejov
+Dinamo Tirana,dinamo tirana
+Pacific FC,pacific fc
+Bronshoj BK,bronshoj bk
+Bourg En Bresse Péronnas (Retired),bourg en bresse péronnas (retired)
+CA Fénix (Retired),ca fénix (retired)
+Deportivo Petare,deportivo petare
+Ermis Aradippou (Retired),ermis aradippou (retired)
+Ethnikos Achna (Retired),ethnikos achna (retired)
+Arda Kardzhali (Retired),arda kardzhali (retired)
+FCM Baia Mare,fcm baia mare
+Hapoel Jerusalem,hapoel jerusalem
+Moura AC,moura ac
+Olympique De Safi,olympique de safi
+CA Estudiantes BA,ca estudiantes ba
+FC Dornbirn 1913,fc dornbirn 1913
+SC Wiedenbrück 2000,sc wiedenbrück 2000
+Olympique Béja,olympique béja
+IF Grótta,if grótta
+Abia Warriors,abia warriors
+SD Compostela,sd compostela
+Iraklis,iraklis
+OF Ierapetras,of ierapetras
+FS METTA/LU,fs metta/lu
+Córdoba CF,córdoba cf
+Sacramento Republic,sacramento republic
+Fremad Amager,fremad amager
+FUS Rabat,fus rabat
+FAR Rabat,far rabat
+CD Real Sociedad,cd real sociedad
+Portmore United,portmore united
+Sandvikens IF,sandvikens if
+Manchester 62 FC,manchester 62 fc
+B36 Tórshavn,b36 tórshavn
+FCI Tallinn,fci tallinn
+Al Nasr Benghazi,al nasr benghazi
+Mohammedan SC Dhaka,mohammedan sc dhaka
+Vihren Sandanski,vihren sandanski
+Vila Nova,vila nova
+CD Chalatenango,cd chalatenango
+SD Formentera,sd formentera
+California United,california united
+Harbour View,harbour view
+Hartford Athletic,hartford athletic
+Medeama SC,medeama sc
+CD El Ejido,cd el ejido
+FC Echallens,fc echallens
+GFK Tikvesh,gfk tikvesh
+Forward Madison,forward madison
+Pittsburgh Riverhounds,pittsburgh riverhounds
+Charleston Battery,charleston battery
+CD FAS,cd fas
+Minyor Pernik,minyor pernik
+FK Rabotnički,fk rabotnički
+KSZO Ostrowiec Świętokrzyski,kszo ostrowiec świętokrzyski
+Lokomotiv Sofia,lokomotiv sofia
+ÍBV,íbv
+Pirata FC,pirata fc
+CD El Palo,cd el palo
+Waterhouse FC,waterhouse fc
+Las Vegas Lights,las vegas lights
+Enyimba,enyimba
+Academia Cantolao (Retired),academia cantolao (retired)
