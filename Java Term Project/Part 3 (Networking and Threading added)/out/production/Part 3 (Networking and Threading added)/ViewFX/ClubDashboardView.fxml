@@ -24,7 +24,7 @@
             </ImageView>
             <Label fx:id="clubName" alignment="CENTER" contentDisplay="CENTER" prefHeight="113.0" prefWidth="209.0" text="Club Name" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
                <font>
-                  <Font name="Elephant" size="22.0" />
+                  <Font name="Elephant" size="18.0" />
                </font>
                <VBox.margin>
                   <Insets bottom="15.0" />

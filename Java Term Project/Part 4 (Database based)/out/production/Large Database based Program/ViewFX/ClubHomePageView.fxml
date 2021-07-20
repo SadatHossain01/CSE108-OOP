@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="441.0" prefWidth="724.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ClubHomePageController">
+   <children>
+      <HBox alignment="CENTER" layoutX="34.0" layoutY="115.0" prefHeight="261.0" prefWidth="594.0">
+         <children>
+            <VBox>
+               <children>
+                  <JFXButton alignment="CENTER" buttonType="RAISED" onAction="#showMyPlayers" prefHeight="88.0" prefWidth="326.0" style="-fx-background-color: #90caf9;" text="My Players" textFill="#a84a4a">
+                     <font>
+                        <Font name="Bookman Old Style Bold" size="36.0" />
+                     </font>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.8157894611358643" green="0.22660818696022034" blue="0.3935428857803345" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.8552631735801697" green="0.24549220502376556" blue="0.24549220502376556" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                  </JFXButton>
+                  <JFXButton alignment="CENTER" buttonType="RAISED" onAction="#showBuyablePlayers" prefHeight="88.0" prefWidth="326.0" style="-fx-background-color: #90caf9;" text="Buy Players" textFill="#a84a4a">
+                     <font>
+                        <Font name="Bookman Old Style Bold" size="36.0" />
+                     </font>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.8157894611358643" green="0.22660818696022034" blue="0.3935428857803345" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.8552631735801697" green="0.24549220502376556" blue="0.24549220502376556" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                  </JFXButton>
+                  <JFXButton alignment="CENTER" buttonType="RAISED" onAction="#SearchPlayers" prefHeight="88.0" prefWidth="325.0" style="-fx-background-color: #90caf9;" text="Search Players" textFill="#a84a4a">
+                     <font>
+                        <Font name="Bookman Old Style Bold" size="36.0" />
+                     </font>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.8157894611358643" green="0.22660818696022034" blue="0.3935428857803345" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.8552631735801697" green="0.24549220502376556" blue="0.24549220502376556" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                  </JFXButton>
+               </children>
+            </VBox>
+            <ImageView fx:id="logo" fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin></ImageView>
+         </children>
+      </HBox>
+      <Label fx:id="welcomeMessage" alignment="CENTER" layoutX="70.0" layoutY="53.0" prefHeight="40.0" prefWidth="585.0" text="Welcome Message">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

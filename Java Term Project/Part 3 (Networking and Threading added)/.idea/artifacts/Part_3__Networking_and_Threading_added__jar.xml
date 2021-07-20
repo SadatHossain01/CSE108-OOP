@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Part 3 (Networking and Threading added):jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Part_3__Networking_and_Threading_added__jar</output-path>
+    <root id="archive" name="Part 3 (Networking and Threading added).jar">
+      <element id="module-output" name="Part 3 (Networking and Threading added)" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/jfoenix-9.0.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib/javafx.graphics.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
