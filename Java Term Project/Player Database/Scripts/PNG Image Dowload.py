@@ -11,4 +11,4 @@ def downloadImage(url, file_path, file_name):
 url = 'https://cdn.soccerwiki.org/images/player/2772.png'
 file_name = 'Messi'
 
-downloadImage(url, 'Images/', file_name)
+downloadImage(url, 'E:\\1-2\\CSE108\\Offlines Repo\\CSE108-Offlines\\Java Term Project\\Player Database\\Club Logo\\', file_name)
