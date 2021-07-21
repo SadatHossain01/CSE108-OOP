@@ -91,7 +91,7 @@ public class MinimalPlayerDetailController {
         countryName.setText(p.getCountry());
         age.setText(String.valueOf(p.getAge()));
         position.setText(p.getPosition());
-        salary.setText(String.valueOf(p.getWeeklySalary()));
+        salary.setText(Club.showSalary(p.getWeeklySalary()));
         if (pageType == PlayerListViewController.PageType.SimpleList){
             transferButton.setText("Sell Player");
             if (player.isTransferListed()) transferButton.setDisable(true);

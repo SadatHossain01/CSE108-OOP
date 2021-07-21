@@ -66,7 +66,7 @@
             <Font name="Times New Roman Bold" size="18.0" />
          </font>
          <padding>
-            <Insets left="10.0" />
+            <Insets left="5.0" />
          </padding>
       </Label>
       <VBox layoutX="366.0" layoutY="56.0">
@@ -95,7 +95,7 @@
                   </HBox>
                   <HBox prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <Label fx:id="pName" prefHeight="39.0" prefWidth="318.0" text="pName">
+                        <Label fx:id="pName" prefHeight="39.0" prefWidth="318.0" text="pName" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
                            <font>
                               <Font name="Rockwell Bold" size="18.0" />
                            </font>
@@ -103,7 +103,7 @@
                               <Insets left="5.0" />
                            </padding>
                         </Label>
-                        <Label fx:id="pDoB" prefHeight="41.0" prefWidth="318.0" text="pDoB">
+                        <Label fx:id="pDoB" prefHeight="41.0" prefWidth="318.0" text="pDoB" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
                            <font>
                               <Font name="Rockwell Bold" size="18.0" />
                            </font>
@@ -115,7 +115,7 @@
                   </HBox>
                </children>
             </VBox>
-            <VBox prefHeight="78.0" prefWidth="635.0">
+            <VBox alignment="CENTER_LEFT" prefHeight="78.0" prefWidth="635.0" style="-fx-background-color: #DDECFD;">
                <children>
                   <HBox prefHeight="100.0" prefWidth="200.0">
                      <children>
@@ -139,7 +139,7 @@
                   </HBox>
                   <HBox prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <Label fx:id="pClub" prefHeight="39.0" prefWidth="318.0" text="pClub">
+                        <Label fx:id="pClub" prefHeight="39.0" prefWidth="318.0" text="pClub" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
                            <font>
                               <Font name="Rockwell Bold" size="18.0" />
                            </font>
@@ -147,7 +147,7 @@
                               <Insets left="5.0" />
                            </padding>
                         </Label>
-                        <Label fx:id="pCountry" prefHeight="41.0" prefWidth="318.0" text="pCountry">
+                        <Label fx:id="pCountry" prefHeight="41.0" prefWidth="318.0" text="pCountry" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
                            <font>
                               <Font name="Rockwell Bold" size="18.0" />
                            </font>
@@ -183,7 +183,7 @@
                   </HBox>
                   <HBox prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <Label fx:id="pHeight" prefHeight="39.0" prefWidth="318.0" text="pHeight">
+                        <Label fx:id="pHeight" prefHeight="39.0" prefWidth="318.0" text="pHeight" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
                            <font>
                               <Font name="Rockwell Bold" size="18.0" />
                            </font>
@@ -191,7 +191,7 @@
                               <Insets left="5.0" />
                            </padding>
                         </Label>
-                        <Label fx:id="pWeight" prefHeight="41.0" prefWidth="318.0" text="pWeight">
+                        <Label fx:id="pWeight" prefHeight="41.0" prefWidth="318.0" text="pWeight" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
                            <font>
                               <Font name="Rockwell Bold" size="18.0" />
                            </font>
@@ -203,7 +203,7 @@
                   </HBox>
                </children>
             </VBox>
-            <VBox prefHeight="78.0" prefWidth="635.0">
+            <VBox prefHeight="78.0" prefWidth="635.0" style="-fx-background-color: #DDECFD;">
                <children>
                   <HBox prefHeight="100.0" prefWidth="200.0">
                      <children>
@@ -227,7 +227,7 @@
                   </HBox>
                   <HBox prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <Label fx:id="pPosition" prefHeight="39.0" prefWidth="318.0" text="pPosition">
+                        <Label fx:id="pPosition" prefHeight="39.0" prefWidth="318.0" text="pPosition" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
                            <font>
                               <Font name="Rockwell Bold" size="18.0" />
                            </font>
@@ -235,7 +235,7 @@
                               <Insets left="5.0" />
                            </padding>
                         </Label>
-                        <Label fx:id="pNumber" prefHeight="41.0" prefWidth="318.0" text="pNumber">
+                        <Label fx:id="pNumber" prefHeight="41.0" prefWidth="318.0" text="pNumber" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
                            <font>
                               <Font name="Rockwell Bold" size="18.0" />
                            </font>
@@ -271,7 +271,7 @@
                   </HBox>
                   <HBox prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <Label fx:id="pFoot" prefHeight="39.0" prefWidth="318.0" text="pFoot">
+                        <Label fx:id="pFoot" prefHeight="39.0" prefWidth="318.0" text="pFoot" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
                            <font>
                               <Font name="Rockwell Bold" size="18.0" />
                            </font>
@@ -279,7 +279,7 @@
                               <Insets left="5.0" />
                            </padding>
                         </Label>
-                        <Label fx:id="pSalary" prefHeight="41.0" prefWidth="318.0" text="pSalary">
+                        <Label fx:id="pSalary" prefHeight="41.0" prefWidth="318.0" text="pSalary" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
                            <font>
                               <Font name="Rockwell Bold" size="18.0" />
                            </font>
@@ -291,7 +291,7 @@
                   </HBox>
                </children>
             </VBox>
-            <VBox prefHeight="78.0" prefWidth="635.0">
+            <VBox prefHeight="78.0" prefWidth="635.0" style="-fx-background-color: #DDECFD;">
                <children>
                   <HBox prefHeight="100.0" prefWidth="200.0">
                      <children>
@@ -315,7 +315,7 @@
                   </HBox>
                   <HBox prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <Label fx:id="pStatus" prefHeight="39.0" prefWidth="318.0" text="pStatus">
+                        <Label fx:id="pStatus" prefHeight="39.0" prefWidth="318.0" text="pStatus" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
                            <font>
                               <Font name="Rockwell Bold" size="18.0" />
                            </font>
@@ -323,7 +323,7 @@
                               <Insets left="5.0" />
                            </padding>
                         </Label>
-                        <Label fx:id="pFee" prefHeight="41.0" prefWidth="318.0" text="pFee">
+                        <Label fx:id="pFee" prefHeight="41.0" prefWidth="318.0" text="pFee" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
                            <font>
                               <Font name="Rockwell Bold" size="18.0" />
                            </font>

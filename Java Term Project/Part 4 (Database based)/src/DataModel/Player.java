@@ -137,6 +137,10 @@ public class Player implements Serializable {
         return ImageSource;
     }
 
+    public PreferredFoot getPreferredFoot() {
+        return preferredFoot;
+    }
+
     public void setPreferredFoot(PreferredFoot preferredFoot) {
         this.preferredFoot = preferredFoot;
     }
