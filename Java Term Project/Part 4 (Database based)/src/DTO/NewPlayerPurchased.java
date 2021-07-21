@@ -9,7 +9,7 @@ public class NewPlayerPurchased implements Serializable {
     private String buyer, seller;
 
     public NewPlayerPurchased(Player player, String buyer, String seller) {
-        this.player = player;
+        this.player = new Player(player);
         this.buyer = buyer;
         this.seller = seller;
     }

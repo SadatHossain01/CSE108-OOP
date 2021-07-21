@@ -44,6 +44,23 @@ public class Player implements Serializable {
         WeeklySalary = weeklySalary;
     }
 
+    public Player(Player player) {
+        this.name = player.name;
+        this.country = player.country;
+        this.ClubName = player.ClubName;
+        this.position = player.position;
+        this.age = player.age;
+        this.number = player.number;
+        this.height = player.height;
+        this.WeeklySalary = player.WeeklySalary;
+        this.isTransferListed = player.isTransferListed;
+        this.TransferFee = player.TransferFee;
+        this.preferredFoot = player.preferredFoot;
+        this.weight = player.weight;
+        this.DoB = player.DoB;
+        this.ImageSource = player.ImageSource;
+    }
+
     public String getName() {
         return name;
     }

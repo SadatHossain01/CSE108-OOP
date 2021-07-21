@@ -26,16 +26,16 @@ public class Player implements Serializable {
     }
 
     public Player(Player player) {
-        this.name = player.getName();
-        this.country = player.getCountry();
-        this.ClubName = player.getClubName();
-        this.position = player.getPosition();
-        this.age = player.getAge();
-        this.number = player.getNumber();
-        this.height = player.getHeight();
-        this.WeeklySalary = player.getWeeklySalary();
-        this.isTransferListed = player.isTransferListed();
-        this.TransferFee = player.getTransferFee();
+        this.name = player.name;
+        this.country = player.country;
+        this.ClubName = player.ClubName;
+        this.position = player.position;
+        this.age = player.age;
+        this.number = player.number;
+        this.height = player.height;
+        this.WeeklySalary = player.WeeklySalary;
+        this.isTransferListed = player.isTransferListed;
+        this.TransferFee = player.TransferFee;
     }
 
     public String getName() {
