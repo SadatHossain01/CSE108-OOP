@@ -27,9 +27,11 @@ public class PlayerListViewController {
     public void initiate(List<Player> players, PageType pageType) throws IOException {
         for (var p : players) {
             var newLoader = new FXMLLoader();
-            newLoader.setLocation(getClass().getResource("/ViewFX/SinglePlayerDetailView.fxml"));
+//            newLoader.setLocation(getClass().getResource("/ViewFX/SinglePlayerDetailView.fxml"));
+            newLoader.setLocation(getClass().getResource("/ViewFX/MinimalPlayerDetailView.fxml"));
             newLoader.load();
-            SinglePlayerDetailController pDetail = newLoader.getController();
+//            SinglePlayerDetailController pDetail = newLoader.getController();
+            MinimalPlayerDetailController pDetail = newLoader.getController();
             pDetail.setMain(main);
             listView.getItems().add(pDetail.initiate(p, pageType));
         }

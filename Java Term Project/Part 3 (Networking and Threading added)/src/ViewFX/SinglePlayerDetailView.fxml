@@ -59,6 +59,9 @@
                            </ripplerFill>
                         </JFXButton>
                      </children>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="10.0" top="5.0" />
+                     </HBox.margin>
                   </VBox>
                   <HBox>
                      <children>

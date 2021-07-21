@@ -16,10 +16,10 @@
                <children>
                   <ImageView fx:id="countryFlag" fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <VBox.margin>
-                        <Insets left="40.0" top="10.0" />
+                        <Insets left="40.0" top="25.0" />
                      </VBox.margin>
                   </ImageView>
-                  <Label fx:id="countryName" alignment="CENTER" prefHeight="203.0" prefWidth="269.0" text="Label" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                  <Label fx:id="countryName" alignment="CENTER" prefHeight="69.0" prefWidth="269.0" text="Label" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
                      <font>
                         <Font name="Tw Cen MT Condensed Extra Bold" size="24.0" />
                      </font>
