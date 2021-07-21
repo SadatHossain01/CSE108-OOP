@@ -5,11 +5,12 @@ import DataModel.Player;
 import java.io.Serializable;
 
 public class NewPlayerPurchased implements Serializable {
-    private Player player;
-    private String buyer, seller;
+    private final Player player;
+    private final String buyer;
+    private final String seller;
 
     public NewPlayerPurchased(Player player, String buyer, String seller) {
-        this.player = player;
+        this.player = new Player(player);
         this.buyer = buyer;
         this.seller = seller;
     }
