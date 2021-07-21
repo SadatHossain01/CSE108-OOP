@@ -2,6 +2,6 @@ package util;
 
 public class CurrentPage {
     public enum Type{
-        ShowMyPlayers, ShowSearchedPlayers, ShowSearchOptions, ShowMarketPlayers, ShowCountryWiseCount, LoginPage
+        ShowMyPlayers, ShowSearchedPlayers, ShowSearchOptions, ShowMarketPlayers, ShowCountryWiseCount, LoginPage, ShowAPlayerDetail
     }
 }

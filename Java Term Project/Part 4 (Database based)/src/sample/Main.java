@@ -3,13 +3,15 @@ package sample;
 import Controllers.*;
 import DTO.ClubLoginAuthentication;
 import DataModel.Club;
-import DataModel.Country;
 import DataModel.Player;
 import javafx.application.Application;
+import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.Modality;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import util.CurrentPage;
@@ -33,7 +35,8 @@ public class Main extends Application {
     public InetAddress LocalAddress;
     public Socket socket;
     public int port = 44444;
-    public Club myClub;
+    public Club myClub, latestCountryWiseCountClub;
+    public Player latestDetailedPlayer;
     public CurrentPage.Type pageType;
     public List<Player>TransferListedPlayers, latestSearchedPlayers;
     public HashMap<String, String> countryFlagMap = new HashMap<>();
@@ -65,7 +68,22 @@ public class Main extends Application {
         Parent root = loader.load();
         ClubLoginController controller = loader.getController();
         controller.setClubClient(this);
-        primaryStage.setScene(new Scene(root));
+        var scene = new Scene(root);
+        scene.setOnKeyPressed(new EventHandler<KeyEvent>() {
+            @Override
+            public void handle(KeyEvent event) {
+                switch (event.getCode())
+                {
+                    case ENTER:
+                        try {
+                            controller.SignIn();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                }
+            }
+        });
+        primaryStage.setScene(scene);
         primaryStage.setTitle("Login Page");
         primaryStage.setResizable(false);
         if (isFirstTime) {
@@ -119,6 +137,7 @@ public class Main extends Application {
 
     public void showCountryWiseCount(Stage stage, Club club) throws IOException {
         pageType = CurrentPage.Type.ShowCountryWiseCount;
+        latestCountryWiseCountClub = club;
         tempStage = stage;
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/CountryListView.fxml"));
@@ -130,6 +149,25 @@ public class Main extends Application {
         stage.setScene(new Scene(root));
         stage.setTitle("Country Wise Player Count");
         stage.setResizable(false);
+        stage.initModality(Modality.APPLICATION_MODAL);
+        stage.show();
+    }
+
+    public void showPlayerDetail(Stage stage, Player player) throws IOException {
+        latestDetailedPlayer = player;
+        tempStage = stage;
+        pageType = CurrentPage.Type.ShowAPlayerDetail;
+        var loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("/ViewFX/PlayerCardView.fxml"));
+        Parent root = loader.load();
+        PlayerCardController p = loader.getController();
+        p.setMain(this);
+        p.setStage(stage);
+        p.initiate(player);
+        stage.setScene(new Scene(root));
+        stage.setTitle("Player Detail");
+        stage.setResizable(false);
+        stage.initModality(Modality.APPLICATION_MODAL);
         stage.show();
     }
 
@@ -147,21 +185,22 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-    public void AskForTransferFee(SinglePlayerDetailController singlePlayerDetailController) throws IOException {
+    public void AskForTransferFee(MinimalPlayerDetailController singlePlayerDetailController) throws IOException {
         Stage stage = new Stage();
         tempStage = stage;
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/AskForTransferFee.fxml"));
         Parent root = loader.load();
-        AskForTransferFeeController askForTransferFeeController = loader.getController();
-        askForTransferFeeController.setMain(this);
-        askForTransferFeeController.setStage(stage);
-        askForTransferFeeController.initiate(singlePlayerDetailController);
+        AskForTransferFeeController minimalDetailController = loader.getController();
+        minimalDetailController.setMain(this);
+        minimalDetailController.setStage(stage);
+        minimalDetailController.initiate(singlePlayerDetailController);
         var scene = new Scene(root);
         stage.setScene(scene);
         stage.setTitle("Transfer Fee Input");
         stage.setResizable(false);
         stage.centerOnScreen();
+        stage.initModality(Modality.APPLICATION_MODAL);
         stage.show();
     }
 
@@ -185,6 +224,10 @@ public class Main extends Application {
             }
             latestSearchedPlayers = newList;
             displayList(newList, PlayerListViewController.PageType.SimpleList);
+        }
+        else if (pageType == CurrentPage.Type.ShowAPlayerDetail) showPlayerDetail(tempStage, latestDetailedPlayer);
+        else if (pageType == CurrentPage.Type.ShowCountryWiseCount){
+            this.showCountryWiseCount(tempStage, latestCountryWiseCountClub);
         }
     }
 

@@ -134,7 +134,7 @@ public class SinglePlayerDetailController {
     @FXML
     void doTransferAction(ActionEvent event) throws IOException {
         if (pageType == PlayerListViewController.PageType.SimpleList) {
-            main.AskForTransferFee(this);
+//            main.AskForTransferFee(this);
         } else {
             main.myNetworkUtil.write(new BuyRequest(player.getName(), player.getClubName(), main.myClub.getName()));
         }

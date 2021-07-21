@@ -4,6 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyEvent;
 import sample.Main;
 
 import java.io.IOException;
@@ -17,11 +18,15 @@ public class ClubLoginController {
     @FXML
     private PasswordField password;
 
-    @FXML
-    void DoSignIn(ActionEvent event) throws IOException {
+    public void SignIn() throws IOException {
         String name = username.getText();
         String pass = password.getText();
         main.ConnectToServer(name, pass);
+    }
+
+    @FXML
+    void DoSignIn(ActionEvent event) throws IOException {
+        SignIn();
     }
 
     public void setClubClient(Main main) {

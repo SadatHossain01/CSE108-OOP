@@ -17,7 +17,7 @@ import java.util.Objects;
 
 public class AskForTransferFeeController {
     private Main main;
-    private SinglePlayerDetailController singlePlayerDetailController;
+    private MinimalPlayerDetailController minimalPlayerDetailController;
     private Stage stage;
 
     public void setMain(Main main) {
@@ -30,8 +30,8 @@ public class AskForTransferFeeController {
     @FXML
     private TextField AskedTransferFee;
 
-    public void initiate(SinglePlayerDetailController singlePlayerDetailController){
-        this.singlePlayerDetailController = singlePlayerDetailController;
+    public void initiate(MinimalPlayerDetailController minimalPlayerDetailController){
+        this.minimalPlayerDetailController = minimalPlayerDetailController;
     }
 
     @FXML
@@ -44,17 +44,15 @@ public class AskForTransferFeeController {
             new MyAlert(Alert.AlertType.ERROR, MyAlert.MessageType.InvalidSalaryInput).show();
             return;
         }
-        var player = singlePlayerDetailController.getPlayer();
-        var transferTag = singlePlayerDetailController.getTransferTag();
-        var transferButton = singlePlayerDetailController.getTransferStatusButton();
-        var transferLabel1 = singlePlayerDetailController.getTransferLabel1();
-        var transferLabel2 = singlePlayerDetailController.getTransferLabel2();
+        var player = minimalPlayerDetailController.getPlayer();
+        var transferLabel = minimalPlayerDetailController.getTransferLabel();
+        var transferButton = minimalPlayerDetailController.getTransferButton();
+        var fee = minimalPlayerDetailController.getFee();
         player.setTransferFee(transferFee);
         player.setTransferListed(true);
-        transferTag.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Rotated Seal.png"))));
+        transferLabel.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Stamp.png"))));
         transferButton.setDisable(true);
-        transferLabel1.setText("Transfer Fee:");
-        transferLabel2.setText(Club.showSalary(transferFee));
+        fee.setText(Club.showSalary(transferFee));
         main.TransferListedPlayers.add(player);
         main.myNetworkUtil.write(new SellRequest(player.getName(), main.myClub.getName(), transferFee));
         stage.close();

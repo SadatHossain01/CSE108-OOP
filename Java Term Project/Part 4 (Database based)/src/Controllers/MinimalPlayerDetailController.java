@@ -1,15 +1,19 @@
 package Controllers;
 
+import DTO.BuyRequest;
 import DataModel.Club;
 import DataModel.Player;
+import com.jfoenix.controls.JFXButton;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 import sample.Main;
 
-import java.io.InputStream;
+import java.io.IOException;
 import java.util.Objects;
 
 public class MinimalPlayerDetailController {
@@ -60,6 +64,25 @@ public class MinimalPlayerDetailController {
     @FXML
     private ImageView transferLabel;
 
+    @FXML
+    private JFXButton transferButton;
+
+    public Label getFee() {
+        return fee;
+    }
+
+    public void setFee(Label fee) {
+        this.fee = fee;
+    }
+
+    public ImageView getTransferLabel() {
+        return transferLabel;
+    }
+
+    public JFXButton getTransferButton() {
+        return transferButton;
+    }
+
     public VBox initiate(Player p, PlayerListViewController.PageType pageType) {
         this.pageType = pageType;
         this.player = p;
@@ -69,8 +92,16 @@ public class MinimalPlayerDetailController {
         age.setText(String.valueOf(p.getAge()));
         position.setText(p.getPosition());
         salary.setText(String.valueOf(p.getWeeklySalary()));
+        if (pageType == PlayerListViewController.PageType.SimpleList){
+            transferButton.setText("Sell Player");
+            if (player.isTransferListed()) transferButton.setDisable(true);
+        }
+        else if (pageType == PlayerListViewController.PageType.TransferList) {
+            transferButton.setText("Buy Player");
+            if (player.getClubName().equalsIgnoreCase(main.myClub.getName())) transferButton.setDisable(true);
+        }
         if (p.isTransferListed()){
-            fee.setText(String.valueOf(p.getTransferFee()));
+            fee.setText(Club.showSalary(p.getTransferFee()));
             transferLabel.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Stamp.png"))));
         }
         else {
@@ -78,5 +109,19 @@ public class MinimalPlayerDetailController {
             transferLabel.setImage(null);
         }
         return playerPane;
+    }
+
+    @FXML
+    void DoTransferAction(ActionEvent event) throws IOException {
+        if (pageType == PlayerListViewController.PageType.SimpleList) {
+            main.AskForTransferFee(this);
+        } else {
+            main.myNetworkUtil.write(new BuyRequest(player.getName(), player.getClubName(), main.myClub.getName()));
+        }
+    }
+
+    @FXML
+    void showPlayerDetails(ActionEvent event) throws IOException {
+        main.showPlayerDetail(new Stage(), player);
     }
 }
