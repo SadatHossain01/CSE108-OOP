@@ -21,7 +21,6 @@ public class ClubLoginController {
     public void SignIn() throws IOException {
         String name = username.getText();
         String pass = password.getText();
-        main.showLoadingScreen();
         main.ConnectToServer(name, pass);
     }
 
