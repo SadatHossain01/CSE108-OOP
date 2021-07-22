@@ -21,8 +21,10 @@ public class Server {
     public Server(int port) throws Exception {
         FiveASideLeague = new League();
         clubPasswordList = FileOperations.readCredentialsOfClubs("src/Assets/Text/ClubAuthentications.txt");
+        System.out.println("Loaded credentials of " + clubPasswordList.size() + " clubs");
         var loaded = FileOperations.readPlayerDataFromFile("src/Assets/Text/players.txt"); //file name path tree starts from one step back of src, but others all start from src
         for (var p : loaded) FiveASideLeague.addPlayerToLeague(p);
+        System.out.println("Loaded data of " + FiveASideLeague.CentralPlayerDatabase.size() + " players");
         System.out.println("Server up and running");
         clubNetworkUtilMap = new HashMap<>();
         transferListedPlayers = new ArrayList<>();

@@ -19,10 +19,8 @@ public class FileOperations {
             String line = input.readLine();
             if (line == null)
                 break;
-//            String[] tokens = line.split(",");
-//            Player p = new Player(tokens[0], tokens[1], Integer.parseInt(tokens[2]), Double.parseDouble(tokens[3]),
-//                    tokens[4], tokens[5], Integer.parseInt(tokens[6]), Double.parseDouble(tokens[7]));
             String[] tokens = line.split(";");
+//            String name, String country, String clubName, String position, int age, String doB, double weight, String image_source, int number, double height, double weeklySalary
             try {
                 Player p = new Player(tokens[1], tokens[5], tokens[2], tokens[10], Integer.parseInt(tokens[3]), tokens[4], Double.parseDouble(tokens[7]), tokens[9], Integer.parseInt(tokens[8]), Double.parseDouble(tokens[6]), 200000000);
                 if (tokens[11].equalsIgnoreCase("Left")) p.setPreferredFoot(Player.PreferredFoot.Left);

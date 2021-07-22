@@ -38,7 +38,7 @@ public class Main extends Application {
     public Club myClub, latestCountryWiseCountClub;
     public Image cLogo;
     public Player latestDetailedPlayer;
-    public CurrentPage.Type pageType;
+    public CurrentPage.Type currentPageType, previousPageType;
     public List<Player>TransferListedPlayers, latestSearchedPlayers;
     public HashMap<String, String> countryFlagMap = new HashMap<>();
     public NetworkUtil myNetworkUtil;
@@ -63,7 +63,7 @@ public class Main extends Application {
     }
 
     public void showLoginPage() throws IOException {
-        pageType = CurrentPage.Type.LoginPage;
+        currentPageType = CurrentPage.Type.LoginPage;
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/ClubLoginView.fxml"));
         Parent root = loader.load();
@@ -110,12 +110,12 @@ public class Main extends Application {
         resetAllButtons();
         mainPane.getChildren().clear();
         dashboardController.myPlayerButton.setStyle("-fx-background-color: #DA3A34; -fx-background-radius: 15 15 15 15");
-        pageType = CurrentPage.Type.ShowMyPlayers;
+        currentPageType = CurrentPage.Type.ShowMyPlayers;
         displayList(myClub.getPlayerList(), PlayerListViewController.PageType.SimpleList);
     }
 
     public void showSearchPage() throws IOException {
-        pageType = CurrentPage.Type.ShowSearchOptions;
+        currentPageType = CurrentPage.Type.ShowSearchOptions;
         resetAllButtons();
         mainPane.getChildren().clear();
         dashboardController.searchPlayerButton.setStyle("-fx-background-color: #DA3A34; -fx-background-radius: 15 15 15 15");
@@ -132,7 +132,8 @@ public class Main extends Application {
     }
 
     public void showCountryWiseCount(Stage stage, Club club) throws IOException {
-        pageType = CurrentPage.Type.ShowCountryWiseCount;
+        previousPageType = currentPageType;
+        currentPageType = CurrentPage.Type.ShowCountryWiseCount;
         latestCountryWiseCountClub = club;
         tempStage = stage;
         var loader = new FXMLLoader();
@@ -152,7 +153,8 @@ public class Main extends Application {
     public void showPlayerDetail(Stage stage, Player player) throws IOException {
         latestDetailedPlayer = player;
         tempStage = stage;
-        pageType = CurrentPage.Type.ShowAPlayerDetail;
+        previousPageType = currentPageType;
+        currentPageType = CurrentPage.Type.ShowAPlayerDetail;
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/PlayerCardView.fxml"));
         Parent root = loader.load();
@@ -184,6 +186,8 @@ public class Main extends Application {
     public void AskForTransferFee(MinimalPlayerDetailController singlePlayerDetailController) throws IOException {
         Stage stage = new Stage();
         tempStage = stage;
+        previousPageType = currentPageType;
+        currentPageType = CurrentPage.Type.AskForTransferFee;
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/AskForTransferFee.fxml"));
         Parent root = loader.load();
@@ -210,7 +214,7 @@ public class Main extends Application {
     }
 
     public void showBuyablePlayers() throws IOException {
-        pageType = CurrentPage.Type.ShowMarketPlayers;
+        currentPageType = CurrentPage.Type.ShowMarketPlayers;
         resetAllButtons();
         mainPane.getChildren().clear();
         dashboardController.marketplaceButton.setStyle("-fx-background-color: #DA3A34; -fx-background-radius: 15 15 15 15");
@@ -218,9 +222,9 @@ public class Main extends Application {
     }
 
     public void refreshPage() throws IOException {
-        if (pageType == CurrentPage.Type.ShowMyPlayers) showMyPlayers();
-        else if (pageType == CurrentPage.Type.ShowMarketPlayers) showBuyablePlayers();
-        else if (pageType == CurrentPage.Type.ShowSearchedPlayers){
+        if (currentPageType == CurrentPage.Type.ShowMyPlayers) showMyPlayers();
+        else if (currentPageType == CurrentPage.Type.ShowMarketPlayers) showBuyablePlayers();
+        else if (currentPageType == CurrentPage.Type.ShowSearchedPlayers){
             //refining the list
             List<Player> newList = new ArrayList<>();
             List<Player> clubPlayerList = myClub.getPlayerList();
@@ -230,8 +234,8 @@ public class Main extends Application {
             latestSearchedPlayers = newList;
             displayList(newList, PlayerListViewController.PageType.SimpleList);
         }
-        else if (pageType == CurrentPage.Type.ShowAPlayerDetail) showPlayerDetail(tempStage, latestDetailedPlayer);
-        else if (pageType == CurrentPage.Type.ShowCountryWiseCount){
+        else if (currentPageType == CurrentPage.Type.ShowAPlayerDetail) showPlayerDetail(tempStage, latestDetailedPlayer);
+        else if (currentPageType == CurrentPage.Type.ShowCountryWiseCount){
             this.showCountryWiseCount(tempStage, latestCountryWiseCountClub);
         }
     }

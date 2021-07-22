@@ -5,7 +5,6 @@ import DTO.NewPlayerPurchased;
 import DTO.RequestResponse;
 import DTO.UpdatedTransferList;
 import DataModel.Club;
-import DataModel.Country;
 import javafx.application.Platform;
 import javafx.scene.control.Alert;
 import javafx.scene.image.Image;
@@ -14,7 +13,6 @@ import util.MyAlert;
 import util.NetworkUtil;
 
 import java.io.IOException;
-import java.util.List;
 import java.util.Objects;
 
 public class ReadThreadClient implements Runnable {
@@ -114,7 +112,7 @@ public class ReadThreadClient implements Runnable {
                 }
                 Platform.runLater(() -> {
                             try {
-                                if (main.pageType == CurrentPage.Type.ShowMarketPlayers) main.refreshPage();
+                                if (main.currentPageType == CurrentPage.Type.ShowMarketPlayers) main.refreshPage();
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }

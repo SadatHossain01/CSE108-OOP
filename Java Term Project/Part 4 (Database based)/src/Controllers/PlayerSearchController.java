@@ -108,7 +108,7 @@ public class PlayerSearchController {
         var wantedList = doTheSearch();
         if (!willShowTheResult) return;
         if (wantedList != null && !wantedList.isEmpty()) {
-            main.pageType = CurrentPage.Type.ShowSearchedPlayers;
+            main.currentPageType = CurrentPage.Type.ShowSearchedPlayers;
             main.latestSearchedPlayers = wantedList;
             main.displayList(wantedList, PlayerListViewController.PageType.SimpleList);
         }
