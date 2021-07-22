@@ -116,8 +116,8 @@ public class PlayerCardController {
         pDoB.setText(player.getDoB());
         pClub.setText(club_name);
         pCountry.setText(player.getCountry());
-        pHeight.setText(String.valueOf(player.getHeight()));
-        pWeight.setText(String.valueOf(player.getWeight()));
+        pHeight.setText(player.getHeight() + " cm");
+        pWeight.setText(player.getWeight() + " kg");
         pPosition.setText(player.getPosition());
         pNumber.setText(String.valueOf(player.getNumber()));
         pFoot.setText(String.valueOf(player.getPreferredFoot()));

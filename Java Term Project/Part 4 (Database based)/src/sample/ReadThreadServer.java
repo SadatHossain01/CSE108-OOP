@@ -112,6 +112,7 @@ public class ReadThreadServer implements Runnable{
                     transferListedPlayers.remove(p);
                     System.out.println("Player purchase successful. All budget update done");
                     for (var c : clubNetworkUtilMap.entrySet()){
+                        if (buyer.getName().equalsIgnoreCase(c.getKey()) || seller.getName().equalsIgnoreCase(c.getKey())) continue;
                         try {
                             c.getValue().write(new UpdatedTransferList(transferListedPlayers, "all"));
                         } catch (IOException e) {

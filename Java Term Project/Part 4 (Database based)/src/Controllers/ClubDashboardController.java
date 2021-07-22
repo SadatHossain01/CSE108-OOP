@@ -65,7 +65,6 @@ public class ClubDashboardController {
     @FXML
     void ShowBuyablePlayers(ActionEvent event) throws IOException {
         main.showBuyablePlayers();
-        System.out.println("Show buyable players");
     }
 
     @FXML

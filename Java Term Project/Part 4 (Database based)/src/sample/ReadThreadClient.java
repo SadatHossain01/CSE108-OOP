@@ -60,7 +60,7 @@ public class ReadThreadClient implements Runnable {
                 main.myClub = c;
                 try {
                     main.cLogo = new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + c.getName() + ".png")));
-                } catch (Exception e){
+                } catch (Exception e) {
                     main.cLogo = new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/No_Image.png")));
                 }
                 Platform.runLater(() ->
@@ -75,49 +75,119 @@ public class ReadThreadClient implements Runnable {
                 var p = ((NewPlayerPurchased) next).getPlayer();
                 String buyerName = ((NewPlayerPurchased) next).getBuyer();
                 String sellerName = ((NewPlayerPurchased) next).getSeller();
+                System.out.println(p.getName() + " has been bought by " + buyerName + " from " + sellerName);
                 if (c.getName().equalsIgnoreCase(buyerName)) {
+                    System.out.println("I am the buyer");
                     c.addPlayerToClub(p);
+                    var toBeRemovedFromTransferList = c.FindPlayerInList(p.getName(), main.TransferListedPlayers);
+                    main.TransferListedPlayers.remove(toBeRemovedFromTransferList);
                     p.setClubName(c.getName());
                     p.setTransferListed(false);
                     c.decreaseTransferBudget(p.getTransferFee());
                     Platform.runLater(() -> main.dashboardController.budget.setText(Club.showSalary(c.getTransferBudget()))
                     );
-                    Platform.runLater(() -> {
-                                try {
-                                    main.refreshPage();
-                                } catch (IOException e) {
-                                    e.printStackTrace();
+                    var currentPageType = main.currentPageType;
+                    if (currentPageType == CurrentPage.Type.AskForTransferFee){
+                        //so the previous page was MyPlayers, and to that list one new player has been added because of buying
+                        main.isMainListUpdatePending = true;
+                        System.out.println("Current page is \"asking for fee\" and isMainListUpdatePending set to true");
+                    }
+                    //if the current page is ShowPlayerDetail, two cases can happen
+                    //if a third party buys or sells this player? we will deal with that in UpdatedList
+                    else if (currentPageType == CurrentPage.Type.ShowAPlayerDetail){
+                        if (main.previousPageType == CurrentPage.Type.ShowMyPlayers) {
+                            System.out.println("Previous page type was ShowMyPlayers and isMainListUpdatePending set to true");
+                            main.isMainListUpdatePending = true;
+                        }
+                        else if (main.previousPageType == CurrentPage.Type.ShowMarketPlayers) {
+                            System.out.println("Previous page type was ShowMarketPlayers and isTransferListPending set to true");
+                            main.isTransferListUpdatePending = true;
+                        }
+                    }
+                    else {
+                        Platform.runLater(() -> {
+                                    try {
+                                        System.out.println("Refresh asked for");
+                                        main.refreshPage(main.currentPageType);
+                                    } catch (IOException e) {
+                                        e.printStackTrace();
+                                    }
                                 }
-                            }
-                    );
-                } else if (c.getName().equalsIgnoreCase(sellerName)) {
+                        );
+                    }
+                }
+                else if (c.getName().equalsIgnoreCase(sellerName)) {
                     var playerInSellingClubList = c.FindPlayerInList(p.getName(), c.getPlayerList());
                     c.getPlayerList().remove(playerInSellingClubList);
+                    main.TransferListedPlayers.remove(playerInSellingClubList);
                     c.increseTransferBudget(p.getTransferFee());
                     Platform.runLater(() -> main.dashboardController.budget.setText(Club.showSalary(c.getTransferBudget()))
                     );
-                    Platform.runLater(() -> {
+                    var currentPageType = main.currentPageType;
+                    if (currentPageType == CurrentPage.Type.AskForTransferFee){
+                        //so the previous page was MyPlayers, and from that list one player has to be removed as a result of selling
+                        System.out.println("Current page is \"asking for fee\" and isMainListUpdatePending set to true");
+                        main.isMainListUpdatePending = true;
+                    }
+                    //if the current page is ShowPlayerDetail, two cases can happen
+                    else if (currentPageType == CurrentPage.Type.ShowAPlayerDetail){
+                        if (main.previousPageType == CurrentPage.Type.ShowMyPlayers) {
+                            if (p.getName().equalsIgnoreCase(main.latestDetailedPlayer.getName())){
+                                Platform.runLater(()->{
+                                    main.tempStage.close();
+                                    try {
+                                        System.out.println("My Player asked to show");
+                                        main.refreshPage(CurrentPage.Type.ShowMyPlayers);
+                                    } catch (IOException e) {
+                                        e.printStackTrace();
+                                    }
+                                });
+                            }
+                            else main.isMainListUpdatePending = true;
+                        }
+                        else if (main.previousPageType == CurrentPage.Type.ShowMarketPlayers) main.isTransferListUpdatePending = true;
+                    }
+                    else {
+                        Platform.runLater(() -> {
+                                    try {
+                                        main.refreshPage(main.currentPageType);
+                                    } catch (IOException e) {
+                                        e.printStackTrace();
+                                    }
+                                }
+                        );
+                    }
+                }
+            } else if (next instanceof UpdatedTransferList) {
+                main.TransferListedPlayers = ((UpdatedTransferList) next).getPlayerList();
+                var currentPageType = main.currentPageType;
+                var previousPageType = main.previousPageType;
+                if (currentPageType == CurrentPage.Type.ShowAPlayerDetail){
+                    if (previousPageType == CurrentPage.Type.ShowMarketPlayers){
+                        var pp = c.FindPlayerInList(main.latestDetailedPlayer.getName(), main.TransferListedPlayers);
+                        if (pp == null){
+                            //this player has been bought, so you should not be able to see it any more
+                            Platform.runLater(()->{
+                                main.tempStage.close();
                                 try {
-                                    main.refreshPage();
+                                    main.refreshPage(CurrentPage.Type.ShowMarketPlayers);
                                 } catch (IOException e) {
                                     e.printStackTrace();
                                 }
-                            }
-                    );
-                }
-            } else if (next instanceof UpdatedTransferList) {
-                String to = ((UpdatedTransferList) next).getToWhichClub();
-                if (to.equalsIgnoreCase("all") || to.equalsIgnoreCase(c.getName())) {
-                    main.TransferListedPlayers = ((UpdatedTransferList) next).getPlayerList();
-                }
-                Platform.runLater(() -> {
-                            try {
-                                if (main.currentPageType == CurrentPage.Type.ShowMarketPlayers) main.refreshPage();
-                            } catch (IOException e) {
-                                e.printStackTrace();
-                            }
+                            });
                         }
-                );
+                        else main.isTransferListUpdatePending = true;
+                    }
+                }
+                else if (currentPageType == CurrentPage.Type.ShowMarketPlayers){
+                    Platform.runLater(()->{
+                        try {
+                            main.refreshPage(CurrentPage.Type.ShowMarketPlayers);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                    });
+                }
             } else if (next instanceof CountryList) {
                 var countryList = ((CountryList) next).getCountryList();
                 for (var c : countryList) {

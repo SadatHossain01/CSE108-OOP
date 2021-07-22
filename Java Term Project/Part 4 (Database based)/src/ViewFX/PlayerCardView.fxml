@@ -95,7 +95,7 @@
                   </HBox>
                   <HBox prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <Label fx:id="pName" prefHeight="39.0" prefWidth="318.0" text="pName" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+                        <Label fx:id="pName" prefHeight="39.0" prefWidth="318.0" text="pName" wrapText="true">
                            <font>
                               <Font name="Rockwell Bold" size="18.0" />
                            </font>

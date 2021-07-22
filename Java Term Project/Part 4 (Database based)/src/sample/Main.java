@@ -39,6 +39,7 @@ public class Main extends Application {
     public Image cLogo;
     public Player latestDetailedPlayer;
     public CurrentPage.Type currentPageType, previousPageType;
+    public boolean isMainListUpdatePending = false, isTransferListUpdatePending = false;
     public List<Player>TransferListedPlayers, latestSearchedPlayers;
     public HashMap<String, String> countryFlagMap = new HashMap<>();
     public NetworkUtil myNetworkUtil;
@@ -144,6 +145,9 @@ public class Main extends Application {
         c.setMain(this);
         c.initiate(club.getCountryWisePlayerCount());
         stage.setScene(new Scene(root));
+        stage.setOnCloseRequest(event -> {
+            currentPageType = previousPageType;
+        });
         stage.setTitle("Country Wise Player Count");
         stage.setResizable(false);
         if (!stage.isShowing()) stage.initModality(Modality.APPLICATION_MODAL);
@@ -162,7 +166,23 @@ public class Main extends Application {
         p.setMain(this);
         p.setStage(stage);
         p.initiate(player);
-        stage.setScene(new Scene(root));
+        var scene = new Scene(root);
+        stage.setOnCloseRequest(event -> {
+            try {
+                if (isTransferListUpdatePending) {
+                    refreshPage(CurrentPage.Type.ShowMarketPlayers);
+                    isTransferListUpdatePending = false;
+                }
+                else if (isMainListUpdatePending){
+                    refreshPage(CurrentPage.Type.ShowMyPlayers);
+                    isMainListUpdatePending = false;
+                }
+                else currentPageType = previousPageType;
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+        stage.setScene(scene);
         stage.setTitle("Player Detail");
         stage.setResizable(false);
         if (!stage.isShowing()) stage.initModality(Modality.APPLICATION_MODAL);
@@ -200,9 +220,25 @@ public class Main extends Application {
             if (event.getCode() == KeyCode.ENTER) {
                 try {
                     askForTransferFeeController.confirmListing();
+                    if (isMainListUpdatePending) {
+                        refreshPage(CurrentPage.Type.ShowMyPlayers);
+                        isMainListUpdatePending = false;
+                    }
+                    else currentPageType = CurrentPage.Type.ShowMyPlayers;
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
+            }
+        });
+        stage.setOnCloseRequest(event -> {
+            try {
+                if (isMainListUpdatePending) {
+                    refreshPage(CurrentPage.Type.ShowMyPlayers);
+                    isMainListUpdatePending = false;
+                }
+                else currentPageType = CurrentPage.Type.ShowMyPlayers;
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         });
         stage.setScene(scene);
@@ -221,10 +257,10 @@ public class Main extends Application {
         displayList(TransferListedPlayers, PlayerListViewController.PageType.TransferList);
     }
 
-    public void refreshPage() throws IOException {
-        if (currentPageType == CurrentPage.Type.ShowMyPlayers) showMyPlayers();
-        else if (currentPageType == CurrentPage.Type.ShowMarketPlayers) showBuyablePlayers();
-        else if (currentPageType == CurrentPage.Type.ShowSearchedPlayers){
+    public void refreshPage(CurrentPage.Type pageType) throws IOException {
+        if (pageType == CurrentPage.Type.ShowMyPlayers) showMyPlayers();
+        else if (pageType == CurrentPage.Type.ShowMarketPlayers) showBuyablePlayers();
+        else if (pageType == CurrentPage.Type.ShowSearchedPlayers){
             //refining the list
             List<Player> newList = new ArrayList<>();
             List<Player> clubPlayerList = myClub.getPlayerList();
@@ -234,9 +270,8 @@ public class Main extends Application {
             latestSearchedPlayers = newList;
             displayList(newList, PlayerListViewController.PageType.SimpleList);
         }
-        else if (currentPageType == CurrentPage.Type.ShowAPlayerDetail) showPlayerDetail(tempStage, latestDetailedPlayer);
-        else if (currentPageType == CurrentPage.Type.ShowCountryWiseCount){
-            this.showCountryWiseCount(tempStage, latestCountryWiseCountClub);
+        else if (pageType == CurrentPage.Type.ShowCountryWiseCount){
+            showCountryWiseCount(tempStage, latestCountryWiseCountClub);
         }
     }
 

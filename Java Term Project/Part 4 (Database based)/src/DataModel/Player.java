@@ -159,6 +159,6 @@ public class Player implements Serializable {
         System.out.println("Club: " + ClubName);
         System.out.println("Position: " + position);
         System.out.println("Number: " + number);
-        System.out.println("Weekly Salary: " + WeeklySalary);
+        System.out.println("Weekly Salary: " + Club.showSalary(WeeklySalary));
     }
 }
