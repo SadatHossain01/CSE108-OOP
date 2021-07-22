@@ -56,14 +56,9 @@ public class ReadThreadClient implements Runnable {
                 c = (Club) next;
                 main.myClub = c;
                 try {
-                    System.out.println(main.myClub.getLogoLink());
-                    System.out.println("starts");
                     main.cLogo = new Image(main.myClub.getLogoLink(), true);
-                    System.out.println("success");
-//                    main.cLogo = new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + c.getName() + ".png")));
                 } catch (Exception e) {
                     main.cLogo = new Image("https://www.shopinimizaj.com/frontend/web/images/no-image.png", true);
-//                    main.cLogo = new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/No_Image.png")));
                 }
                 Platform.runLater(() ->
                 {

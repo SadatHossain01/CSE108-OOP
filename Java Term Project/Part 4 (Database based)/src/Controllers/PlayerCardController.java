@@ -9,9 +9,6 @@ import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import sample.Main;
 
-import java.io.InputStream;
-import java.util.Objects;
-
 public class PlayerCardController {
     private Main main;
     private Stage stage;
