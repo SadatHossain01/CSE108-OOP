@@ -64,6 +64,19 @@ public class Main extends Application {
         myAlert.show();
     }
 
+    public void showLoadingScreen() throws IOException {
+        currentPageType = CurrentPage.Type.LoadingPage;
+        var loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("/ViewFX/LoadingScreen.fxml"));
+        Parent root = loader.load();
+        var scene = new Scene(root);
+        primaryStage.setScene(scene);
+        primaryStage.setOnCloseRequest(event -> System.exit(0));
+        primaryStage.setTitle("Loading...");
+        primaryStage.setResizable(false);
+        primaryStage.show();
+    }
+
     public void showLoginPage() throws IOException {
         currentPageType = CurrentPage.Type.LoginPage;
         var loader = new FXMLLoader();

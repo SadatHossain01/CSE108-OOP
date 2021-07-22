@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #222222;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ProgressIndicator layoutX="225.0" layoutY="125.0" minHeight="150.0" minWidth="150.0" prefHeight="184.0" prefWidth="75.0" style="-fx-background-radius: 50;">
+         <effect>
+            <DropShadow>
+               <input>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </input>
+               <color>
+                  <Color red="0.25974658131599426" green="0.47420403361320496" blue="0.5394737124443054" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ProgressIndicator>
+   </children>
+</AnchorPane>

@@ -52,6 +52,15 @@ public class ReadThreadClient implements Runnable {
                 } else if (type == RequestResponse.Type.AlreadyBought) {
                     Platform.runLater(() -> main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Player not for sale anymore", "Sorry, this player has been already bought")));
                 }
+                if (type != RequestResponse.Type.LoginSuccessful) {
+                    Platform.runLater(()->{
+                        try {
+                            main.showLoginPage();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                    });
+                }
             } else if (next instanceof Club) {
                 c = (Club) next;
                 main.myClub = c;
