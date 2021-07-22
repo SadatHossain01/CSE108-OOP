@@ -81,6 +81,7 @@ public class Main extends Application {
             }
         });
         primaryStage.setScene(scene);
+        primaryStage.setOnCloseRequest(event -> System.exit(0));
         primaryStage.setTitle("Login Page");
         primaryStage.setResizable(false);
         if (isFirstTime) {
@@ -151,7 +152,7 @@ public class Main extends Application {
         stage.setTitle("Country Wise Player Count");
         stage.setResizable(false);
         if (!stage.isShowing()) stage.initModality(Modality.APPLICATION_MODAL);
-        stage.show();
+        stage.showAndWait();
     }
 
     public void showPlayerDetail(Stage stage, Player player) throws IOException {
@@ -186,7 +187,7 @@ public class Main extends Application {
         stage.setTitle("Player Detail");
         stage.setResizable(false);
         if (!stage.isShowing()) stage.initModality(Modality.APPLICATION_MODAL);
-        stage.show();
+        stage.showAndWait();
     }
 
     public void displayList(List<Player> playerList, PlayerListViewController.PageType pageType) throws IOException {
@@ -246,7 +247,7 @@ public class Main extends Application {
         stage.setResizable(false);
         stage.centerOnScreen();
         if (!stage.isShowing()) stage.initModality(Modality.APPLICATION_MODAL);
-        stage.show();
+        stage.showAndWait();
     }
 
     public void showBuyablePlayers() throws IOException {
