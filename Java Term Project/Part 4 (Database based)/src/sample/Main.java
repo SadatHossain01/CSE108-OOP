@@ -42,6 +42,7 @@ public class Main extends Application {
     public boolean isMainListUpdatePending = false, isTransferListUpdatePending = false;
     public List<Player>TransferListedPlayers, latestSearchedPlayers;
     public HashMap<String, String> countryFlagMap = new HashMap<>();
+    public HashMap<String, String> clubLogoMap = new HashMap<>();
     public NetworkUtil myNetworkUtil;
 
     public void initiateApplication() throws IOException {

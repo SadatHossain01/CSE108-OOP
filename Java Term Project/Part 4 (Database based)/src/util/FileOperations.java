@@ -4,6 +4,7 @@ import DataModel.Club;
 import DataModel.Country;
 import DataModel.League;
 import DataModel.Player;
+import javafx.util.Pair;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -49,7 +50,8 @@ public class FileOperations {
         return clubPasswords;
     }
 
-    public static void readCredentialsOfCountries(String FILE_NAME, League league) throws IOException {
+    public static ArrayList<Pair<String, String>> readFlagLinkOfCountries(String FILE_NAME) throws IOException {
+        ArrayList<Pair<String, String>> countryFlagList = new ArrayList<>();
         BufferedReader input = new BufferedReader(new InputStreamReader(new FileInputStream(FILE_NAME)));
         while (true){
             String line = input.readLine();
@@ -57,10 +59,25 @@ public class FileOperations {
             String[] tokens = line.split(";");
             String name = tokens[1];
             String flagLink = tokens[3];
-            var country = league.FindCountry(name);
-            if (country != null) country.setFlagSource(flagLink);
+            countryFlagList.add(new Pair<>(name, flagLink));
         }
         input.close();
+        return countryFlagList;
+    }
+
+    public static ArrayList<Pair<String, String>> readLogoLinkOfClubs(String FILE_NAME) throws IOException {
+        ArrayList<Pair<String, String>> clubLogoList = new ArrayList<>();
+        BufferedReader input = new BufferedReader(new InputStreamReader(new FileInputStream(FILE_NAME)));
+        while (true){
+            String line = input.readLine();
+            if (line == null) break;
+            String[] tokens = line.split(";");
+            String name = tokens[1];
+            String logoLink = tokens[6];
+            clubLogoList.add(new Pair<>(name, logoLink));
+        }
+        input.close();
+        return clubLogoList;
     }
 
     public static void writePlayerDataToFile(String FILE_NAME, List<Player> playerList) throws Exception {

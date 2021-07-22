@@ -1,9 +1,6 @@
 package sample;
 
-import DTO.CountryList;
-import DTO.NewPlayerPurchased;
-import DTO.RequestResponse;
-import DTO.UpdatedTransferList;
+import DTO.*;
 import DataModel.Club;
 import javafx.application.Platform;
 import javafx.scene.control.Alert;
@@ -59,9 +56,14 @@ public class ReadThreadClient implements Runnable {
                 c = (Club) next;
                 main.myClub = c;
                 try {
-                    main.cLogo = new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + c.getName() + ".png")));
+                    System.out.println(main.myClub.getLogoLink());
+                    System.out.println("starts");
+                    main.cLogo = new Image(main.myClub.getLogoLink(), true);
+                    System.out.println("success");
+//                    main.cLogo = new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + c.getName() + ".png")));
                 } catch (Exception e) {
-                    main.cLogo = new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/No_Image.png")));
+                    main.cLogo = new Image("https://www.shopinimizaj.com/frontend/web/images/no-image.png", true);
+//                    main.cLogo = new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/No_Image.png")));
                 }
                 Platform.runLater(() ->
                 {
@@ -188,10 +190,14 @@ public class ReadThreadClient implements Runnable {
                         }
                     });
                 }
-            } else if (next instanceof CountryList) {
-                var countryList = ((CountryList) next).getCountryList();
+            } else if (next instanceof ClubCountryImageData) {
+                var countryList = ((ClubCountryImageData) next).getCountryFlagList();
                 for (var c : countryList) {
-                    main.countryFlagMap.put(c.getName(), c.getFlagSource());
+                    main.countryFlagMap.put(c.getKey(), c.getValue());
+                }
+                var clubList = ((ClubCountryImageData) next).getClubLogoList();
+                for (var c : clubList) {
+                    main.clubLogoMap.put(c.getKey(), c.getValue());
                 }
             }
         }

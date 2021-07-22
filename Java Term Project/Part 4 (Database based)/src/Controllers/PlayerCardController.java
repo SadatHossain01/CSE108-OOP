@@ -104,9 +104,9 @@ public class PlayerCardController {
         if (player.getClubName().equalsIgnoreCase(main.myClub.getName())) logo.setImage(main.cLogo);
         else {
             try {
-                logo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + clubName + ".png"))));
+                logo.setImage(new Image(main.clubLogoMap.get(player.getClubName()), true));
             } catch (Exception e) {
-                logo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/No_Image.png"))));
+                logo.setImage(new Image("https://www.shopinimizaj.com/frontend/web/images/no-image.png", true));
             }
         }
 

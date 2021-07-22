@@ -9,7 +9,7 @@ import static DataModel.League.FormatName;
 
 public class Club implements Serializable {
     private String name;
-    private String Logo;
+    private String logoLink;
     private double TransferBudget = 120000000;
     private List<Player> PlayerList;
     public List<Integer> NumberTaken;
@@ -20,12 +20,20 @@ public class Club implements Serializable {
         NumberTaken = new ArrayList<>();
     }
 
-    public void setLogo(String logo) {
-        Logo = logo;
+    public Club(Club club){
+        this.name = club.name;
+        this.logoLink = club.logoLink;
+        this.TransferBudget = club.TransferBudget;
+        this.PlayerList = new ArrayList<>(PlayerList);
+        this.NumberTaken = new ArrayList<>(NumberTaken);
     }
 
-    public String getLogo() {
-        return Logo;
+    public void setLogoLink(String logoLink) {
+        this.logoLink = logoLink;
+    }
+
+    public String getLogoLink() {
+        return logoLink;
     }
 
     public void setName(String name) {

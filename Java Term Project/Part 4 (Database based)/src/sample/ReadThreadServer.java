@@ -4,6 +4,7 @@ import DTO.*;
 import DataModel.Club;
 import DataModel.League;
 import DataModel.Player;
+import javafx.util.Pair;
 import util.NetworkUtil;
 
 import java.io.IOException;
@@ -19,14 +20,18 @@ public class ReadThreadServer implements Runnable{
     private HashMap<String, String> clubPasswordList;
     private HashMap<String, NetworkUtil> clubNetworkUtilMap;
     private ArrayList<Player> transferListedPlayers;
+    private ArrayList<Pair<String, String>> countryFlagList;
+    private ArrayList<Pair<String, String>> clubLogoList;
     private boolean isThreadOn = true;
 
-    public ReadThreadServer(NetworkUtil networkUtil, League league, ArrayList<Player> transferListedPlayers, HashMap<String, String> clubPasswordList, HashMap<String, NetworkUtil> clubNetworkUtilMap) {
+    public ReadThreadServer(NetworkUtil networkUtil, League league, ArrayList<Player> transferListedPlayers, HashMap<String, String> clubPasswordList, HashMap<String, NetworkUtil> clubNetworkUtilMap, ArrayList<Pair<String, String>> countryFlagList, ArrayList<Pair<String, String>> clubLogoList) {
         this.networkUtil = networkUtil;
         this.league = league;
         this.transferListedPlayers = transferListedPlayers;
         this.clubPasswordList = clubPasswordList;
         this.clubNetworkUtilMap = clubNetworkUtilMap;
+        this.clubLogoList = clubLogoList;
+        this.countryFlagList = countryFlagList;
         t = new Thread(this, "Read Thread Server");
         t.start();
     }
@@ -65,7 +70,7 @@ public class ReadThreadServer implements Runnable{
                         club = league.FindClub(username);
                         try {
                             networkUtil.write(club);
-                            networkUtil.write(new CountryList(league.getCountryList()));
+                            networkUtil.write(new ClubCountryImageData(countryFlagList, clubLogoList));
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
