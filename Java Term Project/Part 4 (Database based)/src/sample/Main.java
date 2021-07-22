@@ -5,11 +5,11 @@ import DTO.ClubLoginAuthentication;
 import DataModel.Club;
 import DataModel.Player;
 import javafx.application.Application;
-import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.input.KeyEvent;
+import javafx.scene.image.Image;
+import javafx.scene.input.KeyCode;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Modality;
 import javafx.stage.Screen;
@@ -36,6 +36,7 @@ public class Main extends Application {
     public Socket socket;
     public int port = 44444;
     public Club myClub, latestCountryWiseCountClub;
+    public Image cLogo;
     public Player latestDetailedPlayer;
     public CurrentPage.Type pageType;
     public List<Player>TransferListedPlayers, latestSearchedPlayers;
@@ -69,17 +70,12 @@ public class Main extends Application {
         ClubLoginController controller = loader.getController();
         controller.setClubClient(this);
         var scene = new Scene(root);
-        scene.setOnKeyPressed(new EventHandler<KeyEvent>() {
-            @Override
-            public void handle(KeyEvent event) {
-                switch (event.getCode())
-                {
-                    case ENTER:
-                        try {
-                            controller.SignIn();
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
+        scene.setOnKeyPressed(event -> {
+            if (event.getCode() == KeyCode.ENTER) {
+                try {
+                    controller.SignIn();
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
             }
         });
@@ -149,7 +145,7 @@ public class Main extends Application {
         stage.setScene(new Scene(root));
         stage.setTitle("Country Wise Player Count");
         stage.setResizable(false);
-        stage.initModality(Modality.APPLICATION_MODAL);
+        if (!stage.isShowing()) stage.initModality(Modality.APPLICATION_MODAL);
         stage.show();
     }
 
@@ -167,7 +163,7 @@ public class Main extends Application {
         stage.setScene(new Scene(root));
         stage.setTitle("Player Detail");
         stage.setResizable(false);
-        stage.initModality(Modality.APPLICATION_MODAL);
+        if (!stage.isShowing()) stage.initModality(Modality.APPLICATION_MODAL);
         stage.show();
     }
 
@@ -191,16 +187,25 @@ public class Main extends Application {
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/AskForTransferFee.fxml"));
         Parent root = loader.load();
-        AskForTransferFeeController minimalDetailController = loader.getController();
-        minimalDetailController.setMain(this);
-        minimalDetailController.setStage(stage);
-        minimalDetailController.initiate(singlePlayerDetailController);
+        AskForTransferFeeController askForTransferFeeController = loader.getController();
+        askForTransferFeeController.setMain(this);
+        askForTransferFeeController.setStage(stage);
+        askForTransferFeeController.initiate(singlePlayerDetailController);
         var scene = new Scene(root);
+        scene.setOnKeyPressed(event -> {
+            if (event.getCode() == KeyCode.ENTER) {
+                try {
+                    askForTransferFeeController.confirmListing();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
         stage.setScene(scene);
         stage.setTitle("Transfer Fee Input");
         stage.setResizable(false);
         stage.centerOnScreen();
-        stage.initModality(Modality.APPLICATION_MODAL);
+        if (!stage.isShowing()) stage.initModality(Modality.APPLICATION_MODAL);
         stage.show();
     }
 

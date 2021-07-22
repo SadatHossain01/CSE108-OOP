@@ -8,12 +8,14 @@ import DataModel.Club;
 import DataModel.Country;
 import javafx.application.Platform;
 import javafx.scene.control.Alert;
+import javafx.scene.image.Image;
 import util.CurrentPage;
 import util.MyAlert;
 import util.NetworkUtil;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Objects;
 
 public class ReadThreadClient implements Runnable {
     private Thread t;
@@ -58,6 +60,11 @@ public class ReadThreadClient implements Runnable {
             } else if (next instanceof Club) {
                 c = (Club) next;
                 main.myClub = c;
+                try {
+                    main.cLogo = new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + c.getName() + ".png")));
+                } catch (Exception e){
+                    main.cLogo = new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/No_Image.png")));
+                }
                 Platform.runLater(() ->
                 {
                     try {

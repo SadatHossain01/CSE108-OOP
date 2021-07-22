@@ -86,6 +86,7 @@ public class PlayerCardController {
             playerImage.setImage(pImage);
         } catch (Exception e) {
             var loaded = Main.class.getResourceAsStream("/Assets/Image/Player Image/Anonymous.jpg");
+            assert loaded != null;
             playerImage.setImage(new Image(loaded));
         }
 
@@ -99,10 +100,14 @@ public class PlayerCardController {
         }
         flag.setImage(flagImage);
 
-        try {
-            logo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + clubName + ".png"))));
-        } catch (Exception e) {
-            logo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/No_Image.png")), 150, 150, true, true));
+
+        if (player.getClubName().equalsIgnoreCase(main.myClub.getName())) logo.setImage(main.cLogo);
+        else {
+            try {
+                logo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + clubName + ".png"))));
+            } catch (Exception e) {
+                logo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/No_Image.png"))));
+            }
         }
 
         countryName.setText(cName);
@@ -120,8 +125,7 @@ public class PlayerCardController {
         if (player.isTransferListed()) {
             pStatus.setText("Up for sale");
             pFee.setText(Club.showSalary(player.getTransferFee()));
-        }
-        else {
+        } else {
             pStatus.setText("Not for sale");
             pFee.setText("N/A");
         }

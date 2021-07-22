@@ -52,19 +52,7 @@ public class ClubDashboardController {
         this.club = club;
         clubName.setText(club.getName());
         budget.setText(Club.showSalary(club.getTransferBudget()));
-//        clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + club.getName() + ".png")), 150, 150, false, true));
-        try {
-            clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + club.getName() + ".png"))));
-        } catch (Exception e){
-            clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/No_Image.png")), 150, 150, true, true));
-        }
-//        try{
-//            Image img = new Image(club.getLogo(), true);
-//            clubLogo.setImage(img);
-////            clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream(club.getLogo())), 150, 150, true, true));
-//        } catch (Exception e){
-//            clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/No_Image.png")), 150, 150, true, true));
-//        }
+        clubLogo.setImage(main.cLogo);
     }
 
     @FXML

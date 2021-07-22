@@ -34,8 +34,7 @@ public class AskForTransferFeeController {
         this.minimalPlayerDetailController = minimalPlayerDetailController;
     }
 
-    @FXML
-    void confirmTransferListing(ActionEvent event) throws IOException {
+    public void confirmListing() throws IOException {
         double transferFee;
         try {
             transferFee = Double.parseDouble(AskedTransferFee.getText()) * 1e6;
@@ -56,6 +55,11 @@ public class AskForTransferFeeController {
         main.TransferListedPlayers.add(player);
         main.myNetworkUtil.write(new SellRequest(player.getName(), main.myClub.getName(), transferFee));
         stage.close();
+    }
+
+    @FXML
+    void confirmTransferListing(ActionEvent event) throws IOException {
+        confirmListing();
     }
     
     public void setStage(Stage stage) {
