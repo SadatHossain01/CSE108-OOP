@@ -81,7 +81,7 @@ public class ReadThreadClient implements Runnable {
                     p.setClubName(c.getName());
                     p.setTransferListed(false);
                     c.decreaseTransferBudget(p.getTransferFee());
-                    Platform.runLater(() -> main.dashboardController.budget.setText(Club.showSalary(c.getTransferBudget()))
+                    Platform.runLater(() -> main.dashboardController.budget.setText("Budget: " + Club.showSalary(c.getTransferBudget()))
                     );
                     var currentPageType = main.currentPageType;
                     if (currentPageType == CurrentPage.Type.AskForTransferFee){
@@ -118,7 +118,7 @@ public class ReadThreadClient implements Runnable {
                     c.getPlayerList().remove(playerInSellingClubList);
                     main.TransferListedPlayers.remove(playerInSellingClubList);
                     c.increseTransferBudget(p.getTransferFee());
-                    Platform.runLater(() -> main.dashboardController.budget.setText(Club.showSalary(c.getTransferBudget()))
+                    Platform.runLater(() -> main.dashboardController.budget.setText("Budget: " + Club.showSalary(c.getTransferBudget()))
                     );
                     var currentPageType = main.currentPageType;
                     if (currentPageType == CurrentPage.Type.AskForTransferFee){

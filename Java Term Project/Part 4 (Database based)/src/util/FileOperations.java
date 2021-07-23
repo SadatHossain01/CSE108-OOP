@@ -16,7 +16,7 @@ import java.util.List;
 public class FileOperations {
     public static List<Player> readPlayerDataFromFile(String FILE_NAME) throws Exception {
         List<Player> playerList = new ArrayList<>();
-        BufferedReader input = new BufferedReader(new InputStreamReader(new FileInputStream(FILE_NAME)));
+        BufferedReader input = new BufferedReader(new InputStreamReader(new FileInputStream(FILE_NAME), "windows-1252"));
         while (true) {
             String line = input.readLine();
             if (line == null)
@@ -37,7 +37,7 @@ public class FileOperations {
 
     public static HashMap<String, String> readCredentialsOfClubs(String FILE_NAME) throws IOException {
         HashMap<String, String> clubPasswords = new HashMap<>();
-        BufferedReader input = new BufferedReader(new InputStreamReader(new FileInputStream(FILE_NAME)));
+        BufferedReader input = new BufferedReader(new InputStreamReader(new FileInputStream(FILE_NAME), "windows-1252"));
         while (true){
             String line = input.readLine();
             if (line == null) break;
