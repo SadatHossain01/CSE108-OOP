@@ -7,8 +7,7 @@ class Club:
 
 
 club_list = list()
-clubs = open('E:\\1-2\\CSE108\\Offlines Repo\\CSE108-Offlines\\Java Term Project\\Player Database\\clubs.txt',
-             encoding='utf-8')
+clubs = open('../Database/clubs.txt', encoding='utf-8')
 for line in clubs:
     try:
         what = line.strip().split(';')
@@ -20,8 +19,7 @@ for line in clubs:
     except:
         continue
 clubs.close()
-countries = open('E:\\1-2\\CSE108\\Offlines Repo\\CSE108-Offlines\\Java Term Project\\Player Database\\countries.txt',
-                 encoding='utf-8')
+countries = open('../Database/countries.txt', encoding='utf-8')
 country_ID_list = dict()
 for line in countries:
     try:
@@ -32,8 +30,7 @@ for line in countries:
     except:
         continue
 countries.close()
-leagues = open('E:\\1-2\\CSE108\\Offlines Repo\\CSE108-Offlines\\Java Term Project\\Player Database\\leagues.txt',
-               encoding='utf-8')
+leagues = open('../Database/leagues.txt', encoding='utf-8')
 leagues_ID_list = dict()
 for line in leagues:
     try:

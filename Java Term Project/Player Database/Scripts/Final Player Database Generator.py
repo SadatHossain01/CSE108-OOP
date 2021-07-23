@@ -1,5 +1,4 @@
-clubs = open('E:\\1-2\\CSE108\\Offlines Repo\\CSE108-Offlines\\Java Term Project\\Player Database\\clubs.txt',
-             encoding='utf-8')
+clubs = open('../Database/clubs.txt', encoding='utf-8')
 club_map = dict()
 
 for line in clubs:
@@ -10,8 +9,7 @@ for line in clubs:
 
 clubs.close()
 
-countries = open('E:\\1-2\\CSE108\\Offlines Repo\\CSE108-Offlines\\Java Term Project\\Player Database\\countries.txt',
-                 encoding='utf-8')
+countries = open('../Database/countries.txt', encoding='utf-8')
 country_map = dict()
 
 for line in countries:
@@ -22,11 +20,9 @@ for line in countries:
 
 countries.close()
 
-players = open('E:\\1-2\\CSE108\\Offlines Repo\\CSE108-Offlines\\Java Term Project\\Player Database\\players.txt',
-               encoding='utf-8')
+players = open('../Database/players.txt', encoding='utf-8')
 
-AllPlayerDatabase = open('E:\\1-2\\CSE108\\Offlines Repo\\CSE108-Offlines\\Java Term Project\\Player '
-                         'Database\\AllPlayerDatabase.txt', 'a')
+AllPlayerDatabase = open('../Database/AllPlayerDatabase.txt', 'a')
 count = 0
 for line in players:
     buffer = ''

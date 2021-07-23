@@ -4,8 +4,8 @@ import requests
 for ID in range(1, 100000):
     Property = []
     if ID % 100 == 1:
-        f1 = open('Club Database.txt', 'a')
-        f2 = open('League Database.txt', 'a')
+        f1 = open('../Database/Club Database.txt', 'a')
+        f2 = open('../Database/League Database.txt', 'a')
     try:
         URL = 'https://en.soccerwiki.org/player.php?pid=' + str(ID)
         html_text = requests.get(URL).text

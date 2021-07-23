@@ -1,5 +1,4 @@
-clubs = open('E:\\1-2\\CSE108\\Offlines Repo\\CSE108-Offlines\\Java Term Project\\Player Database\\fcm\\clubs.txt',
-             encoding='utf-8')
+clubs = open('../fcm/clubs.txt', encoding='utf-8')
 club_map = dict()
 club_map['0'] = 'Free Agent'
 
@@ -11,8 +10,7 @@ for line in clubs:
 
 clubs.close()
 
-countries = open('E:\\1-2\\CSE108\\Offlines Repo\\CSE108-Offlines\\Java Term Project\\Player Database\\fcm\\countries.txt',
-                 encoding='utf-8')
+countries = open('../fcm/countries.txt', encoding='utf-8')
 country_map = dict()
 
 for line in countries:
@@ -23,11 +21,9 @@ for line in countries:
 
 countries.close()
 
-players = open('E:\\1-2\\CSE108\\Offlines Repo\\CSE108-Offlines\\Java Term Project\\Player Database\\fcm\\players.txt',
-               encoding='utf-8')
+players = open('../fcm/players.txt', encoding='utf-8')
 
-AllPlayerDatabase = open('E:\\1-2\\CSE108\\Offlines Repo\\CSE108-Offlines\\Java Term Project\\Player '
-                         'Database\\AllPlayerDatabaseFIFA.txt', 'a')
+AllPlayerDatabase = open('../Database/AllPlayerDatabaseFIFA.txt', 'a')
 count = 0
 for line in players:
     buffer = ''
