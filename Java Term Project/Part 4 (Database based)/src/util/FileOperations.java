@@ -23,7 +23,7 @@ public class FileOperations {
                 break;
             String[] tokens = line.split(";");
             try {
-                Player p = new Player(tokens[0], tokens[2], tokens[1], tokens[6], Integer.parseInt(tokens[3]), Double.parseDouble(tokens[8]), tokens[11], tokens[9], Integer.parseInt(tokens[5]), Club.decodeSalaryString(tokens[4]), Double.parseDouble(tokens[7]), Club.decodeSalaryString(tokens[10]));
+                Player p = new Player(tokens[0], tokens[1], tokens[3], tokens[2], tokens[7], Integer.parseInt(tokens[4]), Double.parseDouble(tokens[9]), tokens[12], tokens[10], Integer.parseInt(tokens[6]), Club.decodeSalaryString(tokens[5]), Double.parseDouble(tokens[8]), Club.decodeSalaryString(tokens[11]));
                 playerList.add(p);
             }
             catch (Exception e){
@@ -70,7 +70,7 @@ public class FileOperations {
         return countryFlagList;
     }
 
-    public static ArrayList<Pair<String, String>> readInformationOfClubs(String FILE_NAME, League league) throws IOException {
+    public static ArrayList<Pair<String, String>> readInformationOfClubs(String FILE_NAME, League league, HashMap<String, String> unaccented_accented) throws IOException {
         ArrayList<Pair<String, String>> clubLogoList = new ArrayList<>();
         BufferedReader input = new BufferedReader(new InputStreamReader(new FileInputStream(FILE_NAME)));
         while (true){
@@ -79,17 +79,23 @@ public class FileOperations {
             try {
                 String[] tokens = line.split(";");
                 String name = tokens[1];
-                double worth = Club.decodeSalaryString(tokens[2]);
-                double budget = Club.decodeSalaryString(tokens[3]);
-                String logoLink = tokens[4];
+                String unAccentedName = tokens[2];
+                double worth = Club.decodeSalaryString(tokens[3]);
+                double budget = Club.decodeSalaryString(tokens[4]);
+                String logoLink = tokens[5];
                 clubLogoList.add(new Pair<>(name, logoLink));
                 var club = league.FindClub(name);
                 if (club != null) {
                     club.setWorth(worth);
                     club.setTransferBudget(budget);
                     club.setLogoLink(logoLink);
+                    club.setUnAccentedName(unAccentedName);
+                    unaccented_accented.put(unAccentedName, club.getName());
                 }
-            } catch (Exception ignored) {}
+            } catch (Exception e) {
+                System.out.println(line);
+                e.printStackTrace();
+            }
         }
         input.close();
         return clubLogoList;
@@ -108,8 +114,8 @@ public class FileOperations {
     public static void writeClubCredentialsToFile(String FILE_NAME, List<Club> clubList) throws Exception {
         BufferedWriter output = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(FILE_NAME)));
         for (Club c : clubList) {
-            output.write(c.getName() + "," + c.getName().toLowerCase());
             System.out.println(c.getName());
+            output.write(c.getUnAccentedName() + "," + c.getUnAccentedName().toLowerCase());
             output.write("\n");
         }
         output.close();

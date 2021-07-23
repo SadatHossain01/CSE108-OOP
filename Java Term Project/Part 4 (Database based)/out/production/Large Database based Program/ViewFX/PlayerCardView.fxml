@@ -13,7 +13,7 @@
 
 <AnchorPane prefHeight="562.0" prefWidth="1030.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.PlayerCardController">
    <children>
-      <StackPane alignment="TOP_CENTER" layoutX="14.0" layoutY="36.0" style="-fx-background-color: #22A7F2;">
+      <StackPane alignment="TOP_CENTER" layoutX="14.0" layoutY="36.0" style="-fx-background-color: #000000;">
          <children>
             <ImageView fitHeight="490.0" fitWidth="362.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -43,7 +43,12 @@
                   <Font name="Bell MT Bold" size="18.0" />
                </font>
             </Label>
-            <Label fx:id="clubName" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="121.0" text="Label" textAlignment="CENTER" wrapText="true">
+            <ImageView fx:id="flag" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <StackPane.margin>
+                  <Insets right="135.0" top="275.0" />
+               </StackPane.margin>
+            </ImageView>
+            <Label fx:id="clubName" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="56.0" prefWidth="121.0" text="Label" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font name="Bell MT Bold" size="18.0" />
                </font>
@@ -51,14 +56,9 @@
                   <Insets left="135.0" top="365.0" />
                </StackPane.margin>
             </Label>
-            <ImageView fx:id="flag" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
-               <StackPane.margin>
-                  <Insets right="135.0" top="275.0" />
-               </StackPane.margin>
-            </ImageView>
          </children>
       </StackPane>
-      <Label layoutX="366.0" layoutY="36.0" prefHeight="20.0" prefWidth="635.0" style="-fx-background-color: #A2CAF7;" text="PLAYER DATA">
+      <Label layoutX="366.0" layoutY="36.0" prefHeight="20.0" prefWidth="635.0" style="-fx-background-color: #202334;" text="PLAYER DATA" textFill="#f2ecec">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>

@@ -9,6 +9,7 @@ import static DataModel.League.FormatName;
 
 public class Club implements Serializable {
     private String name;
+    private String unAccentedName;
     private String logoLink;
     private double TransferBudget, Worth;
     private List<Player> PlayerList;
@@ -22,6 +23,7 @@ public class Club implements Serializable {
 
     public Club(Club club){
         this.name = club.name;
+        this.unAccentedName = club.getUnAccentedName();
         this.logoLink = club.logoLink;
         this.TransferBudget = club.TransferBudget;
         this.PlayerList = new ArrayList<>(PlayerList);
@@ -67,6 +69,14 @@ public class Club implements Serializable {
 
     public void decreaseTransferBudget(double decrement){
         TransferBudget -= decrement;
+    }
+
+    public String getUnAccentedName() {
+        return unAccentedName;
+    }
+
+    public void setUnAccentedName(String unAccentedName) {
+        this.unAccentedName = unAccentedName;
     }
 
     public List<Player> getPlayerList(){return PlayerList;}
@@ -145,6 +155,18 @@ public class Club implements Serializable {
         return null;
     }
 
+    public List<Player> SearchByUnaccentedNameInClub(String name) {
+        List<Player> ans = new ArrayList<>();
+        String FormattedName = FormatName(name);
+        for (var p : PlayerList) {
+            if (p.getName().equalsIgnoreCase(FormattedName) || p.getUnAccentedName().equalsIgnoreCase(FormattedName)) {
+                ans.add(p);
+                return ans;
+            }
+        }
+        return null;
+    }
+
     public List<Player> SearchPlayerByCountryInClub(String country) {
         String FormattedCountryName = FormatName(country);
         List<Player> wantedPlayers = new ArrayList<>();
@@ -195,6 +217,9 @@ public class Club implements Serializable {
 
     public static double decodeSalaryString(String salary){
         int len = salary.length();
+        if (len == 2){
+            return Double.parseDouble(salary.substring(1, 2));
+        }
         double v = Double.parseDouble(salary.substring(1, len - 1));
         if (salary.endsWith("B")) return 1e9 * v;
         else if (salary.endsWith("M")) return 1e6 * v;

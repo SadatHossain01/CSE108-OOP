@@ -15,7 +15,7 @@
             <Font name="Bookman Old Style Bold Italic" size="18.0" />
          </font>
       </Label>
-      <TextField fx:id="AskedTransferFee" alignment="CENTER" layoutX="97.0" layoutY="174.0" prefHeight="45.0" prefWidth="230.0">
+      <TextField fx:id="AskedTransferFee" alignment="CENTER" layoutX="87.0" layoutY="174.0" prefHeight="25.0" prefWidth="230.0">
          <font>
             <Font name="Bookman Old Style" size="24.0" />
          </font>
@@ -25,17 +25,17 @@
             <Font name="Cooper Black" size="24.0" />
          </font>
       </JFXButton>
-      <MenuButton fx:id="multiplier" layoutX="333.0" layoutY="184.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="50.0">
+      <MenuButton fx:id="multiplier" layoutX="323.0" layoutY="181.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="50.0">
         <items>
           <MenuItem mnemonicParsing="false" onAction="#setM" text="M" />
           <MenuItem mnemonicParsing="false" onAction="#setK" text="K" />
             <MenuItem mnemonicParsing="false" onAction="#setNull" />
         </items>
          <font>
-            <Font name="System Bold" size="12.0" />
+            <Font name="Bookman Old Style Bold" size="16.0" />
          </font>
       </MenuButton>
-      <Label layoutX="386.0" layoutY="179.0" prefHeight="35.0" prefWidth="16.0" text="€">
+      <Label layoutX="384.0" layoutY="179.0" prefHeight="35.0" prefWidth="16.0" text="€">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>

@@ -58,6 +58,18 @@ public class League {
         return wanted;
     }
 
+    public Club FindClubWithUnaccentedName(String ClubName) { //will return null if club is not registered yet
+        Club wanted = null;
+        String FormattedClubName = FormatName(ClubName);
+        for (var c : ClubList) {
+            if (c.getUnAccentedName().equalsIgnoreCase(FormattedClubName)) {
+                wanted = c;
+                break;
+            }
+        }
+        return wanted;
+    }
+
     public Country FindCountry(String CountryName) { //will return null if club is not registered yet
         Country wanted = null;
         String FormattedCountryName = FormatName(CountryName);

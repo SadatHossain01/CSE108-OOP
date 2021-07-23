@@ -80,7 +80,7 @@ public class PlayerSearchController {
             willShowTheResult = false;
             return answer;
         }
-        if (!pName.isEmpty()) answer = club.SearchByNameInClub(pName);
+        if (!pName.isEmpty()) answer = club.SearchByUnaccentedNameInClub(pName);
         else {
             if (countryName.isEmpty()) countryName = "any";
             answer = club.SearchPlayerByCountryInClub(countryName);

@@ -21,33 +21,9 @@ public class Player implements Serializable {
     private boolean isTransferListed = false;
     private double TransferFee = 0;
 
-    public Player(String name, String country, int age, double height, String ClubName, String position, int number, double WeeklySalary) {
-        setName(name);
-        setCountry(country);
-        this.age = age;
-        this.height = height;
-        setClubName(ClubName);
-        this.position = position;
-        this.number = number;
-        this.WeeklySalary = WeeklySalary;
-    }
-
-    public Player(String name, String country, String clubName, String position, int age, String doB, double weight, String image_source, int number, double height, double weeklySalary) {
+    public Player(String name, String unAccentedName, String country, String clubName, String position, int age, double weight, String imageSource, String pFoot, int number, double estimatedValue, double height, double weeklySalary) {
         this.name = name;
-        this.country = country;
-        ClubName = clubName;
-        this.position = position;
-        this.age = age;
-        DoB = doB;
-        this.weight = weight;
-        ImageSource = image_source;
-        this.number = number;
-        this.height = height;
-        WeeklySalary = weeklySalary;
-    }
-
-    public Player(String name, String country, String clubName, String position, int age, double weight, String imageSource, String pFoot, int number, double estimatedValue, double height, double weeklySalary) {
-        this.name = name;
+        this.unAccentedName = unAccentedName;
         this.country = country;
         ClubName = clubName;
         this.position = position;
@@ -65,6 +41,7 @@ public class Player implements Serializable {
 
     public Player(Player player) {
         this.name = player.name;
+        this.unAccentedName = player.unAccentedName;
         this.country = player.country;
         this.ClubName = player.ClubName;
         this.position = player.position;
@@ -167,6 +144,14 @@ public class Player implements Serializable {
 
     public void setPreferredFoot(PreferredFoot preferredFoot) {
         this.preferredFoot = preferredFoot;
+    }
+
+    public String getUnAccentedName() {
+        return unAccentedName;
+    }
+
+    public void setUnAccentedName(String unAccentedName) {
+        this.unAccentedName = unAccentedName;
     }
 
     public synchronized int isTransferPossible(Club buyer) { //returns 0 on success, 1 on already bought, 2 on insufficient budget
