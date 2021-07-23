@@ -38,6 +38,7 @@ public class Server {
             else if (p.getClubName().equalsIgnoreCase("Free Agent")){
                 p.setTransferListed(true);
                 p.setTransferFee(0);
+                transferListedPlayers.add(p);
             }
         }
 //        FileOperations.writeClubCredentialsToFile("src/Assets/Text/ClubUsername_Password.txt", FiveASideLeague.getClubList());

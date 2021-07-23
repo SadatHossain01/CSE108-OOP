@@ -26,6 +26,7 @@ public class Club implements Serializable {
         this.TransferBudget = club.TransferBudget;
         this.PlayerList = new ArrayList<>(PlayerList);
         this.NumberTaken = new ArrayList<>(NumberTaken);
+        this.Worth = club.Worth;
     }
 
     public void setLogoLink(String logoLink) {
@@ -60,7 +61,7 @@ public class Club implements Serializable {
         Worth = worth;
     }
 
-    public void increseTransferBudget(double increment){
+    public void increaseTransferBudget(double increment){
         TransferBudget += increment;
     }
 
@@ -168,16 +169,23 @@ public class Club implements Serializable {
 
     public List<Player> SearchPlayerByPositionInClub(String position) {
         List<Player> wantedPlayers = new ArrayList<>();
+        List<String> applicablePositions;
+        if (position.equalsIgnoreCase("Forward")) applicablePositions = List.of("CF", "ST", "LW", "RW");
+        else if (position.equalsIgnoreCase("Midfielder")) applicablePositions = List.of("CDM", "RM", "LM", "CM", "CAM");
+        else if (position.equalsIgnoreCase("Defender")) applicablePositions = List.of("CB", "LB", "RB", "RWB", "LWB");
+        else applicablePositions = List.of("GK");
         for (var p : PlayerList) {
-            if (p.getPosition().equalsIgnoreCase(position)) {
+            var positionsOfThisPlayer = p.getPosition().split(" ");
+            for (var each : positionsOfThisPlayer) if (applicablePositions.contains(each)) {
                 wantedPlayers.add(p);
+                break;
             }
         }
         return wantedPlayers;
     }
 
     public static String showSalary(double salaryNumber){
-        String salary = "";
+        String salary;
         if (salaryNumber >= 1e9) salary = "€" + salaryNumber/(1e9) + "B";
         else if (salaryNumber >= 1e6) salary = "€" + salaryNumber/(1e6) + "M";
         else if (salaryNumber >= 1e3) salary = "€" + salaryNumber/(1e3) + "K";

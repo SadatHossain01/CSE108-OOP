@@ -19,6 +19,7 @@ import util.MyAlert;
 import util.NetworkUtil;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.util.ArrayList;
@@ -44,6 +45,7 @@ public class Main extends Application {
     public HashMap<String, String> countryFlagMap = new HashMap<>();
     public HashMap<String, String> clubLogoMap = new HashMap<>();
     public NetworkUtil myNetworkUtil;
+    public Image seal = new Image(getClass().getResourceAsStream("/Assets/Image/Stamp1.png"));
 
     public void initiateApplication() throws IOException {
         var screen = Screen.getPrimary().getBounds();

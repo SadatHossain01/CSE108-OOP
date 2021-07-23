@@ -10,7 +10,6 @@ import util.MyAlert;
 import util.NetworkUtil;
 
 import java.io.IOException;
-import java.util.Objects;
 
 public class ReadThreadClient implements Runnable {
     private Thread t;
@@ -117,7 +116,7 @@ public class ReadThreadClient implements Runnable {
                     var playerInSellingClubList = c.FindPlayerInList(p.getName(), c.getPlayerList());
                     c.getPlayerList().remove(playerInSellingClubList);
                     main.TransferListedPlayers.remove(playerInSellingClubList);
-                    c.increseTransferBudget(p.getTransferFee());
+                    c.increaseTransferBudget(p.getTransferFee());
                     Platform.runLater(() -> main.dashboardController.budget.setText("Budget: " + Club.showSalary(c.getTransferBudget()))
                     );
                     var currentPageType = main.currentPageType;

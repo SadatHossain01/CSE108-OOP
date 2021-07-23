@@ -120,7 +120,7 @@ public class League {
         while (after.NumberTaken.contains(jerseyNumber)) jerseyNumber++;
         p.setNumber(jerseyNumber);
         after.addPlayerToClub(p);
-        before.increseTransferBudget(p.getTransferFee());
+        before.increaseTransferBudget(p.getTransferFee());
         after.decreaseTransferBudget(p.getTransferFee());
     }
 

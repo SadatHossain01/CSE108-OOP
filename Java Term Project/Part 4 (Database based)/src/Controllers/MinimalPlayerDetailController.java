@@ -14,6 +14,7 @@ import javafx.stage.Stage;
 import sample.Main;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Objects;
 
 public class MinimalPlayerDetailController {
@@ -102,7 +103,7 @@ public class MinimalPlayerDetailController {
         }
         if (p.isTransferListed()){
             fee.setText(Club.showSalary(p.getTransferFee()));
-            transferLabel.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Stamp.png"))));
+            transferLabel.setImage(main.seal);
         }
         else {
             fee.setText("N/A");
