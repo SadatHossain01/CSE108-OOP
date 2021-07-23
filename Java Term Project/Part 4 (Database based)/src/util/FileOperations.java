@@ -8,6 +8,7 @@ import javafx.util.Pair;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -21,15 +22,14 @@ public class FileOperations {
             if (line == null)
                 break;
             String[] tokens = line.split(";");
-//            String name, String country, String clubName, String position, int age, String doB, double weight, String image_source, int number, double height, double weeklySalary
             try {
-                Player p = new Player(tokens[1], tokens[5], tokens[2], tokens[10], Integer.parseInt(tokens[3]), tokens[4], Double.parseDouble(tokens[7]), tokens[9], Integer.parseInt(tokens[8]), Double.parseDouble(tokens[6]), 200000000);
-                if (tokens[11].equalsIgnoreCase("Left")) p.setPreferredFoot(Player.PreferredFoot.Left);
-                else if (tokens[11].equalsIgnoreCase("Right")) p.setPreferredFoot(Player.PreferredFoot.Right);
-                else p.setPreferredFoot(Player.PreferredFoot.Both);
+                Player p = new Player(tokens[0], tokens[2], tokens[1], tokens[6], Integer.parseInt(tokens[3]), Double.parseDouble(tokens[8]), tokens[11], tokens[9], Integer.parseInt(tokens[5]), Club.decodeSalaryString(tokens[4]), Double.parseDouble(tokens[7]), Club.decodeSalaryString(tokens[10]));
                 playerList.add(p);
             }
-            catch (Exception ignored){}
+            catch (Exception e){
+                System.out.println(e);
+                System.out.println(Arrays.toString(tokens));
+            }
         }
         input.close();
         return playerList;
@@ -41,10 +41,13 @@ public class FileOperations {
         while (true){
             String line = input.readLine();
             if (line == null) break;
-            String[] tokens = line.split(",");
-            String username = tokens[0];
-            String password = tokens[1];
-            clubPasswords.put(username, password);
+            try {
+                String[] tokens = line.split(",");
+                String username = tokens[0];
+                String password = tokens[1];
+                clubPasswords.put(username, password);
+            }
+            catch (Exception ignored){}
         }
         input.close();
         return clubPasswords;
@@ -56,25 +59,37 @@ public class FileOperations {
         while (true){
             String line = input.readLine();
             if (line == null) break;
-            String[] tokens = line.split(";");
-            String name = tokens[1];
-            String flagLink = tokens[3];
-            countryFlagList.add(new Pair<>(name, flagLink));
+            try {
+                String[] tokens = line.split(";");
+                String name = tokens[1];
+                String flagLink = tokens[2];
+                countryFlagList.add(new Pair<>(name, flagLink));
+            } catch (Exception ignored) {}
         }
         input.close();
         return countryFlagList;
     }
 
-    public static ArrayList<Pair<String, String>> readLogoLinkOfClubs(String FILE_NAME) throws IOException {
+    public static ArrayList<Pair<String, String>> readInformationOfClubs(String FILE_NAME, League league) throws IOException {
         ArrayList<Pair<String, String>> clubLogoList = new ArrayList<>();
         BufferedReader input = new BufferedReader(new InputStreamReader(new FileInputStream(FILE_NAME)));
         while (true){
             String line = input.readLine();
             if (line == null) break;
-            String[] tokens = line.split(";");
-            String name = tokens[1];
-            String logoLink = tokens[6];
-            clubLogoList.add(new Pair<>(name, logoLink));
+            try {
+                String[] tokens = line.split(";");
+                String name = tokens[1];
+                double worth = Club.decodeSalaryString(tokens[2]);
+                double budget = Club.decodeSalaryString(tokens[3]);
+                String logoLink = tokens[4];
+                clubLogoList.add(new Pair<>(name, logoLink));
+                var club = league.FindClub(name);
+                if (club != null) {
+                    club.setWorth(worth);
+                    club.setTransferBudget(budget);
+                    club.setLogoLink(logoLink);
+                }
+            } catch (Exception ignored) {}
         }
         input.close();
         return clubLogoList;
@@ -94,6 +109,7 @@ public class FileOperations {
         BufferedWriter output = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(FILE_NAME)));
         for (Club c : clubList) {
             output.write(c.getName() + "," + c.getName().toLowerCase());
+            System.out.println(c.getName());
             output.write("\n");
         }
         output.close();

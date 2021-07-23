@@ -78,11 +78,10 @@ public class ReadThreadServer implements Runnable{
                         try {
                             var newTransferList = new UpdatedTransferList(transferListedPlayers, club.getName());
                             networkUtil.write(newTransferList);
-                            for (var p : newTransferList.getPlayerList()) p.showDetails();
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
-                        System.out.println("Updated transfer list has been sent: ");
+                        System.out.println("Updated transfer list has been sent.");
                     }
                     else{
                         try {
@@ -160,7 +159,6 @@ public class ReadThreadServer implements Runnable{
                 p.setTransferFee(that.getTransferFee());
                 transferListedPlayers.add(p);
                 var newList = new UpdatedTransferList(transferListedPlayers, "all");
-                for (var player : newList.getPlayerList()) player.showDetails();
                 System.out.println("Updated transfer list is being sent to all active clubs:");
                 for (var activeClubs : clubNetworkUtilMap.entrySet()){
                     if (activeClubs.getKey().equalsIgnoreCase(club.getName())) continue;

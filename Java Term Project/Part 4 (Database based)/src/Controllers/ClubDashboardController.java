@@ -46,12 +46,16 @@ public class ClubDashboardController {
     @FXML
     private AnchorPane anchorPane;
 
+    @FXML
+    private Label clubWorth;
+
     public void initiate(Club club){
         main.mainPane = anchorPane;
         main.dashboardController = this;
         this.club = club;
         clubName.setText(club.getName());
-        budget.setText(Club.showSalary(club.getTransferBudget()));
+        budget.setText("Budget: " + Club.showSalary(club.getTransferBudget()));
+        clubWorth.setText("Worth: " + Club.showSalary(club.getWorth()));
         clubLogo.setImage(main.cLogo);
     }
 

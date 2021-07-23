@@ -163,16 +163,10 @@ public class PlayerSearchController {
     public void initiate(Club c) {
         club = c;
         clubName.setText(c.getName());
-//        clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + c.getName() + ".png")), 200, 200, false, true));
         try {
             clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Club Logo/" + club.getName() + ".png"))));
         } catch (Exception e){
             clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/No_Image.png")), 150, 150, true, true));
         }
-//        try{
-//            clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream(club.getLogo())), 150, 150, true, true));
-//        } catch (Exception e){
-//            clubLogo.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/No_Image.png")), 150, 150, true, true));
-//        }
     }
 }

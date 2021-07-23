@@ -5,6 +5,8 @@ import DataModel.Club;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Label;
+import javafx.scene.control.MenuButton;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
@@ -20,6 +22,8 @@ public class AskForTransferFeeController {
     private Main main;
     private MinimalPlayerDetailController minimalPlayerDetailController;
     private Stage stage;
+    private String playerName;
+    private double marketValue;
 
     public void setMain(Main main) {
         this.main = main;
@@ -31,14 +35,33 @@ public class AskForTransferFeeController {
     @FXML
     private TextField AskedTransferFee;
 
+    @FXML
+    private Label pName;
+
+    @FXML
+    private MenuButton multiplier;
+
+    @FXML
+    private Label estimatedValue;
+
     public void initiate(MinimalPlayerDetailController minimalPlayerDetailController){
         this.minimalPlayerDetailController = minimalPlayerDetailController;
+        this.playerName = minimalPlayerDetailController.getPlayer().getName();
+        this.marketValue = minimalPlayerDetailController.getPlayer().getEstimatedValue();
+        pName.setText(playerName);
+        estimatedValue.setText(Club.showSalary(marketValue));
     }
 
     public void confirmListing() throws IOException {
         double transferFee;
+        double mul;
+
+        if (multiplier.getText() == null || multiplier.getText().isEmpty()) mul = 1;
+        else if (multiplier.getText().equalsIgnoreCase("K")) mul = 1e3;
+        else mul = 1e6;
+
         try {
-            transferFee = Double.parseDouble(AskedTransferFee.getText()) * 1e6;
+            transferFee = Double.parseDouble(AskedTransferFee.getText()) * mul;
             if (transferFee <= 0) throw new Exception();
         } catch (Exception e){
             new MyAlert(Alert.AlertType.ERROR, MyAlert.MessageType.InvalidSalaryInput).show();
@@ -66,6 +89,21 @@ public class AskForTransferFeeController {
             main.isMainListUpdatePending = false;
         }
         else main.currentPageType = CurrentPage.Type.ShowMyPlayers;
+    }
+
+    @FXML
+    void setK(ActionEvent event) {
+        multiplier.setText("K");
+    }
+
+    @FXML
+    void setM(ActionEvent event) {
+        multiplier.setText("M");
+    }
+
+    @FXML
+    void setNull(ActionEvent event) {
+        multiplier.setText("");
     }
     
     public void setStage(Stage stage) {

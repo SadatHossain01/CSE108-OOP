@@ -11,33 +11,32 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.paint.LinearGradient?>
-<?import javafx.scene.paint.RadialGradient?>
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="920.0" style="-fx-background-color: #DC511C;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.PlayerSearchController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="920.0" style="-fx-background-color: #8FDF7A;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.PlayerSearchController">
    <VBox layoutX="241.0" layoutY="83.0" prefHeight="579.0" prefWidth="129.0" spacing="50.0">
-      <Label text="Name" textFill="#5ceb1a">
+      <Label text="Name" textFill="#eb1c25">
          <font>
             <Font name="Book Antiqua Bold" size="24.0" />
          </font>
       </Label>
-      <Label text="Country" textFill="#5ceb1a">
+      <Label text="Country" textFill="#eb1c25">
          <font>
             <Font name="Book Antiqua Bold" size="24.0" />
          </font>
       </Label>
-      <Label text="Position" textFill="#5ceb1a">
+      <Label text="Position" textFill="#eb1c25">
          <font>
             <Font name="Book Antiqua Bold" size="24.0" />
          </font>
       </Label>
-      <Label text="Min Salary" textFill="#5ceb1a">
+      <Label text="Min Salary" textFill="#eb1c25">
          <font>
             <Font name="Book Antiqua Bold" size="24.0" />
          </font>
       </Label>
-      <Label text="Max Salary" textFill="#5ceb1a">
+      <Label text="Max Salary" textFill="#eb1c25">
          <font>
             <Font name="Book Antiqua Bold" size="24.0" />
          </font>
@@ -218,41 +217,4 @@
       </font>
    </Label>
    <ImageView fx:id="clubLogo" fitHeight="64.0" fitWidth="91.0" layoutX="167.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" />
-   <JFXButton buttonType="RAISED" layoutX="1145.0" layoutY="44.0" onAction="#backToClubMainMenu" style="-fx-background-color: #FFFFFF;" text="Back">
-      <font>
-         <Font name="Franklin Gothic Heavy" size="24.0" />
-      </font>
-      <ripplerFill>
-         <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
-            <stops>
-               <Stop>
-                  <color>
-                     <Color red="0.3552631437778473" green="0.10197368264198303" blue="0.10197368264198303" />
-                  </color>
-               </Stop>
-               <Stop offset="1.0">
-                  <color>
-                     <Color red="1.0" green="1.0" blue="1.0" />
-                  </color>
-               </Stop>
-            </stops>
-         </RadialGradient>
-      </ripplerFill>
-      <textFill>
-         <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
-            <stops>
-               <Stop>
-                  <color>
-                     <Color red="0.8684210777282715" green="0.6513158082962036" blue="0.6513158082962036" />
-                  </color>
-               </Stop>
-               <Stop offset="1.0">
-                  <color>
-                     <Color red="0.05263157933950424" green="0.003898635506629944" blue="0.003898635506629944" />
-                  </color>
-               </Stop>
-            </stops>
-         </RadialGradient>
-      </textFill>
-   </JFXButton>
 </AnchorPane>

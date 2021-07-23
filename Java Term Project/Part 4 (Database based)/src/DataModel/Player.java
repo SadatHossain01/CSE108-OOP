@@ -8,12 +8,13 @@ public class Player implements Serializable {
     private String ClubName;
     private final String position;
     private final int age;
-    private String DoB;
+    private String DoB = "";
     private double weight;
     private String ImageSource;
     public enum PreferredFoot {Left, Right, Both};
     private PreferredFoot preferredFoot;
     private int number;
+    private double estimatedValue;
     private final double height;
     private final double WeeklySalary;
     private boolean isTransferListed = false;
@@ -44,6 +45,23 @@ public class Player implements Serializable {
         WeeklySalary = weeklySalary;
     }
 
+    public Player(String name, String country, String clubName, String position, int age, double weight, String imageSource, String pFoot, int number, double estimatedValue, double height, double weeklySalary) {
+        this.name = name;
+        this.country = country;
+        ClubName = clubName;
+        this.position = position;
+        this.age = age;
+        this.weight = weight;
+        ImageSource = imageSource;
+        if (pFoot.equalsIgnoreCase("Left")) this.preferredFoot = PreferredFoot.Left;
+        else if (pFoot.equalsIgnoreCase("Right")) this.preferredFoot = PreferredFoot.Right;
+        else this.preferredFoot = PreferredFoot.Both;
+        this.number = number;
+        this.estimatedValue = estimatedValue;
+        this.height = height;
+        WeeklySalary = weeklySalary;
+    }
+
     public Player(Player player) {
         this.name = player.name;
         this.country = player.country;
@@ -58,7 +76,12 @@ public class Player implements Serializable {
         this.preferredFoot = player.preferredFoot;
         this.weight = player.weight;
         this.DoB = player.DoB;
+        this.estimatedValue = player.estimatedValue;
         this.ImageSource = player.ImageSource;
+    }
+
+    public double getEstimatedValue() {
+        return estimatedValue;
     }
 
     public String getName() {
@@ -155,10 +178,14 @@ public class Player implements Serializable {
         System.out.println("Name: " + name);
         System.out.println("Country: " + country);
         System.out.println("Age: " + age + " years");
-        System.out.println("Height: " + height + "m");
+        System.out.println("Height: " + height + "cm");
+        System.out.println("Weight: " + weight + "kg");
         System.out.println("Club: " + ClubName);
+        System.out.println("Country: " + country);
         System.out.println("Position: " + position);
         System.out.println("Number: " + number);
+        System.out.println("Preferred Foot: " + preferredFoot);
         System.out.println("Weekly Salary: " + Club.showSalary(WeeklySalary));
+        System.out.println("Value: " + Club.showSalary(estimatedValue));
     }
 }

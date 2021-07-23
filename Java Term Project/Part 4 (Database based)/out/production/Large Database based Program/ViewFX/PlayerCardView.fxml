@@ -83,7 +83,7 @@
                               <Insets left="5.0" />
                            </padding>
                         </Label>
-                        <Label prefHeight="41.0" prefWidth="318.0" text="Date of Birth">
+                        <Label prefHeight="41.0" prefWidth="318.0" text="Market Value">
                            <font>
                               <Font name="Rockwell" size="18.0" />
                            </font>
@@ -103,7 +103,7 @@
                               <Insets left="5.0" />
                            </padding>
                         </Label>
-                        <Label fx:id="pDoB" prefHeight="41.0" prefWidth="318.0" text="pDoB" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+                        <Label fx:id="pValue" prefHeight="41.0" prefWidth="318.0" text="pValue" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
                            <font>
                               <Font name="Rockwell Bold" size="18.0" />
                            </font>
@@ -303,7 +303,7 @@
                               <Insets left="5.0" />
                            </padding>
                         </Label>
-                        <Label prefHeight="41.0" prefWidth="318.0" text="Transfer Fee">
+                        <Label prefHeight="41.0" prefWidth="318.0" text="Transfer Fee Asked For">
                            <font>
                               <Font name="Rockwell" size="18.0" />
                            </font>

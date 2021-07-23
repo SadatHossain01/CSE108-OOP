@@ -10,7 +10,7 @@ import static DataModel.League.FormatName;
 public class Club implements Serializable {
     private String name;
     private String logoLink;
-    private double TransferBudget = 120000000;
+    private double TransferBudget, Worth;
     private List<Player> PlayerList;
     public List<Integer> NumberTaken;
 
@@ -46,6 +46,18 @@ public class Club implements Serializable {
 
     public double getTransferBudget() {
         return TransferBudget;
+    }
+
+    public void setTransferBudget(double transferBudget) {
+        TransferBudget = transferBudget;
+    }
+
+    public double getWorth() {
+        return Worth;
+    }
+
+    public void setWorth(double worth) {
+        Worth = worth;
     }
 
     public void increseTransferBudget(double increment){
@@ -166,11 +178,20 @@ public class Club implements Serializable {
 
     public static String showSalary(double salaryNumber){
         String salary = "";
-        if (salaryNumber >= 1e9) salary = "$" + salaryNumber/(1e9) + " Billion";
-        else if (salaryNumber >= 1e6) salary = "$" + salaryNumber/(1e6) + " Million";
-        else if (salaryNumber >= 1e3) salary = "$" + salaryNumber/(1e3) + "k";
-        else salary = "$" + salaryNumber;
+        if (salaryNumber >= 1e9) salary = "€" + salaryNumber/(1e9) + "B";
+        else if (salaryNumber >= 1e6) salary = "€" + salaryNumber/(1e6) + "M";
+        else if (salaryNumber >= 1e3) salary = "€" + salaryNumber/(1e3) + "K";
+        else salary = "€" + salaryNumber;
         return salary;
+    }
+
+    public static double decodeSalaryString(String salary){
+        int len = salary.length();
+        double v = Double.parseDouble(salary.substring(1, len - 1));
+        if (salary.endsWith("B")) return 1e9 * v;
+        else if (salary.endsWith("M")) return 1e6 * v;
+        else if (salary.endsWith("K")) return 1e3 * v;
+        else return Double.parseDouble(salary.substring(1, len));
     }
 
     public Player FindPlayerInList(String PlayerName, List<Player> list) { //will return null if club is not registered yet

@@ -23,25 +23,30 @@ public class Server {
 
     public Server(int port) throws Exception {
         FiveASideLeague = new League();
+        clubNetworkUtilMap = new HashMap<>();
+        transferListedPlayers = new ArrayList<>();
+        serverSocket = new ServerSocket(port);
         //Reading all the club passwords
         clubPasswordList = FileOperations.readCredentialsOfClubs("src/Assets/Text/ClubUsername_Password.txt");
         System.out.println("Loaded credentials of " + clubPasswordList.size() + " clubs");
         //Reading player data
-        var loaded = FileOperations.readPlayerDataFromFile("src/Assets/Text/AllPlayerData.txt"); //file name path tree starts from one step back of src, but others all start from src
-        for (var p : loaded) FiveASideLeague.addPlayerToLeague(p);
+
+        var loaded = FileOperations.readPlayerDataFromFile("src/Assets/Text/fifacm/AllPlayerDatabaseFIFA.txt"); //file name path tree starts from one step back of src, but others all start from src
+        for (var p : loaded) {
+            FiveASideLeague.addPlayerToLeague(p);
+            if (p.isTransferListed()) transferListedPlayers.add(p);
+            else if (p.getClubName().equalsIgnoreCase("Free Agent")){
+                p.setTransferListed(true);
+                p.setTransferFee(0);
+            }
+        }
+//        FileOperations.writeClubCredentialsToFile("src/Assets/Text/ClubUsername_Password.txt", FiveASideLeague.getClubList());
         System.out.println("Loaded data of " + FiveASideLeague.CentralPlayerDatabase.size() + " players");
         //Reading Country Data
-        countryFlagList = FileOperations.readFlagLinkOfCountries("src/Assets/Text/Country_Flag.txt");
+        countryFlagList = FileOperations.readFlagLinkOfCountries("src/Assets/Text/fifacm/Country_Flag.txt");
         //Reading Club Data
-        clubLogoList = FileOperations.readLogoLinkOfClubs("src/Assets/Text/Club_Logo.txt");
-        for (var e : clubLogoList){
-            var club = FiveASideLeague.FindClub(e.getKey());
-            if (club != null) club.setLogoLink(e.getValue());
-        }
+        clubLogoList = FileOperations.readInformationOfClubs("src/Assets/Text/fifacm/Club_Data.txt", FiveASideLeague);
         System.out.println("Server up and running");
-        clubNetworkUtilMap = new HashMap<>();
-        transferListedPlayers = new ArrayList<>();
-        serverSocket = new ServerSocket(port);
     }
 
     public void serve(Socket clientSocket) throws IOException {

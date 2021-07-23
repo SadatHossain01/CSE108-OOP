@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox fx:id="playerPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="887.0" style="-fx-background-color: #0F77EC; -fx-background-radius: 20 20 20 20;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MinimalPlayerDetailController">
+<VBox fx:id="playerPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="887.0" style="-fx-background-color: #000000; -fx-background-radius: 20 20 20 20;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MinimalPlayerDetailController">
    <children>
       <HBox alignment="CENTER" prefHeight="204.0" prefWidth="850.0" style="-fx-background-radius: 20 20 20 20;">
          <children>
@@ -48,7 +48,7 @@
                         <Font name="Times New Roman Bold" size="18.0" />
                      </font>
                   </Label>
-                  <Label alignment="CENTER_RIGHT" prefHeight="49.0" prefWidth="175.0" text="Transfer Fee:" textFill="WHITE">
+                  <Label alignment="CENTER_RIGHT" prefHeight="49.0" prefWidth="175.0" text="Asked Fee:" textFill="WHITE">
                      <font>
                         <Font name="Times New Roman Bold" size="18.0" />
                      </font>

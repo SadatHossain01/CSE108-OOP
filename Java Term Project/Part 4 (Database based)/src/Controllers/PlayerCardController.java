@@ -33,7 +33,7 @@ public class PlayerCardController {
     private Label pName;
 
     @FXML
-    private Label pDoB;
+    private Label pValue;
 
     @FXML
     private Label pClub;
@@ -110,7 +110,7 @@ public class PlayerCardController {
         countryName.setText(cName);
         clubName.setText(club_name);
         pName.setText(player.getName());
-        pDoB.setText(player.getDoB());
+        pValue.setText(Club.showSalary(player.getEstimatedValue()));
         pClub.setText(club_name);
         pCountry.setText(player.getCountry());
         pHeight.setText(player.getHeight() + " cm");
