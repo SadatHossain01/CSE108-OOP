@@ -160,3 +160,4 @@
 160;Latvia;https://flagpedia.net/data/flags/w580/lv.png;
 161;North Macedonia;https://flagpedia.net/data/flags/w580/mk.png;
 162;Kosovo;https://flagpedia.net/data/flags/w580/xk.png;
+163;Bangladesh;https://flagpedia.net/data/flags/w580/bd.png;

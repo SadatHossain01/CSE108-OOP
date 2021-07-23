@@ -27,12 +27,12 @@
                   </Label>
                   <Label fx:id="clubWorth" alignment="CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="209.0" text="Worth" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
                      <font>
-                        <Font name="Bookman Old Style Bold" size="24.0" />
+                        <Font name="Bookman Old Style Bold" size="20.0" />
                      </font>
                   </Label>
                   <Label fx:id="budget" alignment="CENTER" prefHeight="50.0" prefWidth="209.0" text="Budget">
                      <font>
-                        <Font name="Bookman Old Style Bold" size="24.0" />
+                        <Font name="Bookman Old Style Bold" size="20.0" />
                      </font>
                   </Label>
                </children>
