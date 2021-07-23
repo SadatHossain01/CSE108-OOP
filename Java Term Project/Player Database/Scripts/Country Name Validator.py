@@ -11,7 +11,7 @@ for path in pathlib.Path(directory).iterdir():
 print(available_flags)
 print(len(available_flags))
 
-with open('../Database/Country List.txt', 'r') as f:
+with open('../Database/Tentative Country List.txt', 'r') as f:
     for line in f:
         wanted_country = line.strip()
         if wanted_country not in available_flags:

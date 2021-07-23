@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class Player implements Serializable {
     private String name;
+    private String unAccentedName;
     private String country;
     private String ClubName;
     private final String position;

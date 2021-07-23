@@ -23,7 +23,7 @@ countries.close()
 
 players = open('../fcm/players.txt', encoding='utf-8')
 
-AllPlayerDatabase = open('../Database/AllPlayerDatabaseFIFA.txt', 'a')
+AllPlayerDatabase = open('../fcm/finalplayerdatabase.txt', 'a')
 count = 0
 for line in players:
     buffer = ''
