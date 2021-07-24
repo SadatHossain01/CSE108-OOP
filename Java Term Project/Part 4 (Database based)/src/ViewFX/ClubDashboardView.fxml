@@ -15,22 +15,22 @@
 
 <AnchorPane prefHeight="550.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ClubDashboardController">
    <children>
-      <VBox alignment="CENTER" prefHeight="550.0" prefWidth="209.0" style="-fx-background-color: #24ACF2;">
+      <VBox alignment="CENTER" prefHeight="550.0" prefWidth="209.0" style="-fx-background-color: #000000;">
          <children>
             <VBox alignment="CENTER">
                <children>
                   <ImageView fx:id="clubLogo" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" />
-                  <Label fx:id="clubName" alignment="CENTER" contentDisplay="CENTER" prefHeight="62.0" prefWidth="209.0" text="Club Name" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                  <Label fx:id="clubName" alignment="CENTER" contentDisplay="CENTER" prefHeight="62.0" prefWidth="209.0" text="Club Name" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" wrapText="true">
                      <font>
                         <Font name="Elephant" size="18.0" />
                      </font>
                   </Label>
-                  <Label fx:id="clubWorth" alignment="CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="209.0" text="Worth" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                  <Label fx:id="clubWorth" alignment="CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="209.0" text="Worth" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" wrapText="true">
                      <font>
                         <Font name="Bookman Old Style Bold" size="20.0" />
                      </font>
                   </Label>
-                  <Label fx:id="budget" alignment="CENTER" prefHeight="50.0" prefWidth="209.0" text="Budget">
+                  <Label fx:id="budget" alignment="CENTER" prefHeight="50.0" prefWidth="209.0" text="Budget" textFill="WHITE">
                      <font>
                         <Font name="Bookman Old Style Bold" size="20.0" />
                      </font>

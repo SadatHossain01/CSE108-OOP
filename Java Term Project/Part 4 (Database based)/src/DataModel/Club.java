@@ -208,10 +208,26 @@ public class Club implements Serializable {
 
     public static String showSalary(double salaryNumber){
         String salary;
-        if (salaryNumber >= 1e9) salary = "€" + salaryNumber/(1e9) + "B";
-        else if (salaryNumber >= 1e6) salary = "€" + salaryNumber/(1e6) + "M";
-        else if (salaryNumber >= 1e3) salary = "€" + salaryNumber/(1e3) + "K";
-        else salary = "€" + salaryNumber;
+        double num;
+        String suffix;
+        if (salaryNumber >= 1e9){
+            num = salaryNumber/(1e9);
+            suffix = "B";
+        }
+        else if (salaryNumber >= 1e6){
+            num = salaryNumber/(1e6);
+            suffix = "M";
+        }
+        else if (salaryNumber >= 1e3){
+            num = salaryNumber/(1e3);
+            suffix = "K";
+        }
+        else{
+            num = salaryNumber;
+            suffix = "";
+        }
+        num = Math.round(num*1000.0)/1000.0;
+        salary = "€" + num + suffix;
         return salary;
     }
 

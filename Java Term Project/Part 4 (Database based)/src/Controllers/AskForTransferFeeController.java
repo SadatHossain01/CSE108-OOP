@@ -49,7 +49,7 @@ public class AskForTransferFeeController {
         this.playerName = minimalPlayerDetailController.getPlayer().getName();
         this.marketValue = minimalPlayerDetailController.getPlayer().getEstimatedValue();
         pName.setText(playerName);
-        estimatedValue.setText(Club.showSalary(marketValue));
+        estimatedValue.setText("Market Value: " + Club.showSalary(marketValue));
     }
 
     public void confirmListing() throws IOException {
