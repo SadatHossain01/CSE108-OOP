@@ -49,7 +49,7 @@ public class Server {
         countryFlagList = FileOperations.readFlagLinkOfCountries("src/Assets/Text/fifacm/Country_Flag.txt");
         //Reading Club Data
         clubLogoList = FileOperations.readInformationOfClubs("src/Assets/Text/FixedClubDatabase.txt", FiveASideLeague, unaccented_accented);
-        for (var e : unaccented_accented.entrySet()) System.out.println(e.getKey() + " " + e.getValue());
+//        for (var e : unaccented_accented.entrySet()) System.out.println(e.getKey() + " " + e.getValue());
 //        FileOperations.generateClubPasswords("src/Assets/Text/ClubUsername_Password.txt", FiveASideLeague.getClubList());
         System.out.println("Server up and running");
     }
@@ -63,27 +63,27 @@ public class Server {
     public static void main(String[] args) throws Exception {
         int port = 44444;
         Server server = new Server(port);
-//        new Thread(()-> {
-//            Scanner scanner = new Scanner(System.in);
-//            String next;
-//            while (true){
-//                next = scanner.nextLine();
-//                if (next.strip().equalsIgnoreCase("Stop")){
-//                    try {
-//                        FileOperations.writePlayerDataToFile("src/Assets/Text/FixedPlayerDatabase.txt", FiveASideLeague.CentralPlayerDatabase);
-//                    } catch (Exception e) {
-//                        e.printStackTrace();
-//                    }
-//                    try {
-//                        FileOperations.writeClubInformationToFile("src/Assets/Text/FixedClubDatabase.txt", FiveASideLeague.getClubList());
-//                    } catch (Exception e) {
-//                        e.printStackTrace();
-//                    }
-//                    System.out.println("Good Bye");
-//                    System.exit(0);
-//                }
-//            }
-//        }).start();
+        new Thread(()-> {
+            Scanner scanner = new Scanner(System.in);
+            String next;
+            while (true){
+                next = scanner.nextLine();
+                if (next.strip().equalsIgnoreCase("Stop")){
+                    try {
+                        FileOperations.writePlayerDataToFile("src/Assets/Text/FixedPlayerDatabase.txt", FiveASideLeague.CentralPlayerDatabase);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                    try {
+                        FileOperations.writeClubInformationToFile("src/Assets/Text/FixedClubDatabase.txt", FiveASideLeague.getClubList());
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println("Good Bye");
+                    System.exit(0);
+                }
+            }
+        }).start();
         while (true){
             var cs = server.serverSocket.accept();
             server.serve(cs);

@@ -1,684 +1,661 @@
-Piemonte Calcio;Piemonte Calcio;â‚¬1.7B;â‚¬105M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114153.png;;
-PeÃ±arol;Penarol;â‚¬13.2M;â‚¬4.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101110.png;;
-BolÃ­var;Bolivar;â‚¬7.9M;â‚¬3.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110968.png;;
-FC Barcelona;FC Barcelona;â‚¬3.2B;â‚¬180.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l241.png;;
-Bayern MÃ¼nchen;Bayern Munchen;â‚¬2.9B;â‚¬100M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l21.png;;
-Real Madrid;Real Madrid;â‚¬3.5B;â‚¬188.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l243.png;;
-Manchester United;Manchester United;â‚¬3.3B;â‚¬177M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l11.png;;
-Nacional de Montevideo;Nacional de Montevideo;â‚¬15M;â‚¬5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111325.png;;
-Liverpool;Liverpool;â‚¬2.7B;â‚¬90M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l9.png;;
-Inter;Inter;â‚¬983M;â‚¬99.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l44.png;;
-AtlÃ©tico de Madrid;Atletico de Madrid;â‚¬1.2B;â‚¬68.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l240.png;;
-The Strongest;The Strongest;â‚¬5.6M;â‚¬2.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110969.png;;
-Borussia Dortmund;Borussia Dortmund;â‚¬1.3B;â‚¬60M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l22.png;;
-Chelsea;Chelsea;â‚¬2.2B;â‚¬85M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l5.png;;
-Universitario de Deportes;Universitario de Deportes;â‚¬8.5M;â‚¬3.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111014.png;;
-Tottenham Hotspur;Tottenham Hotspur;â‚¬2.1B;â‚¬75M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l18.png;;
-Arsenal;Arsenal;â‚¬1.8B;â‚¬80M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1.png;;
-Manchester City;Manchester City;â‚¬2.7B;â‚¬176M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l10.png;;
-Milan;Milan;â‚¬526M;â‚¬37M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l47.png;;
-Paris Saint-Germain;Paris Saint-Germain;â‚¬2B;â‚¬130M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l73.png;;
-Ajax;Ajax;â‚¬432M;â‚¬29.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l245.png;;
-Eintracht Frankfurt;Eintracht Frankfurt;â‚¬246.8M;â‚¬25M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1824.png;;
-Galatasaray;Galatasaray;â‚¬150M;â‚¬25.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l325.png;;
-Corinthians;Corinthians;â‚¬134M;â‚¬16.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1041.png;;
-Flamengo;Flamengo;â‚¬364.6M;â‚¬42.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1043.png;;
-BeÅŸiktaÅŸ;Besiktas;â‚¬160M;â‚¬26.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l327.png;;
-Fluminense;Fluminense;â‚¬30M;â‚¬4.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l567.png;;
-Guadalajara;Guadalajara;â‚¬170M;â‚¬27.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1880.png;;
-LDU Quito;LDU Quito;â‚¬3.7M;â‚¬2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110986.png;;
-Sevilla FC;Sevilla FC;â‚¬540M;â‚¬34.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l481.png;;
-AmÃ©rica;America;â‚¬140M;â‚¬15.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1879.png;;
-Emelec;Emelec;â‚¬3.9M;â‚¬2.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110984.png;;
-FenerbahÃ§e;Fenerbahce;â‚¬160M;â‚¬26.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l326.png;;
-Shakhtar Donetsk;Shakhtar Donetsk;â‚¬250M;â‚¬16.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101059.png;;
-Generic Capitale;Generic Capitale;â‚¬602M;â‚¬46M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114912.png;;
-Middlesbrough;Middlesbrough;â‚¬70M;â‚¬8.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l12.png;;
-AtlÃ©tico Nacional;Atletico Nacional;â‚¬56.5M;â‚¬9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101100.png;;
-Buenos Aires;Buenos Aires;â‚¬107.5M;â‚¬15M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114149.png;;
-NÃºÃ±ez;Nunez;â‚¬100M;â‚¬19M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114144.png;;
-FC Porto;FC Porto;â‚¬240M;â‚¬23M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l236.png;;
-1. FC KÃ¶ln;1. FC Koln;â‚¬168.5M;â‚¬12.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l31.png;;
-Los Angeles Galaxy;Los Angeles Galaxy;â‚¬432M;â‚¬37.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l697.png;;
-SL Benfica;SL Benfica;â‚¬320M;â‚¬25.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l234.png;;
-Olympique de Marseille;Olympique de Marseille;â‚¬120M;â‚¬14M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l219.png;;
-FC Schalke 04;FC Schalke 04;â‚¬700.1M;â‚¬20M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l34.png;;
-Palmeiras;Palmeiras;â‚¬111M;â‚¬20.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l383.png;;
-Independiente;Independiente;â‚¬121.3M;â‚¬12M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110093.png;;
-Olimpia AsunciÃ³n;Olimpia Asuncion;â‚¬13M;â‚¬6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101108.png;;
-Valencia CF;Valencia CF;â‚¬530M;â‚¬60M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l461.png;;
-Urawa Reds;Urawa Reds;â‚¬62.5M;â‚¬10.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111575.png;;
-Olympiacos;Olympiacos;â‚¬100M;â‚¬19M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l280.png;;
-PSV;PSV;â‚¬220M;â‚¬21.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l247.png;;
-Libertad;Libertad;â‚¬6.7M;â‚¬3.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111008.png;;
-CSKA Moskva;CSKA Moskva;â‚¬220M;â‚¬13.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l315.png;;
-Feyenoord;Feyenoord;â‚¬170M;â‚¬13.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l246.png;;
-AmÃ©rica de Cali;America de Cali;â‚¬5.5M;â‚¬2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101099.png;;
-Jorge Wilstermann;Jorge Wilstermann;â‚¬3.5M;â‚¬2.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110974.png;;
-Racing Club de Avellaneda;Racing Club de Avellaneda;â‚¬81.2M;â‚¬9.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101085.png;;
-Dynamo Kyiv;Dynamo Kyiv;â‚¬150M;â‚¬12.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101047.png;;
-FCSB;FCSB;â‚¬9M;â‚¬4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100761.png;;
-Sporting Cristal;Sporting Cristal;â‚¬8.3M;â‚¬3.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111013.png;;
-Aston Villa;Aston Villa;â‚¬401.6M;â‚¬37.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l2.png;;
-Olympique Lyonnais;Olympique Lyonnais;â‚¬543M;â‚¬43.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l66.png;;
-Everton;Everton;â‚¬533.3M;â‚¬51M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l7.png;;
-Atlanta United FC;Atlanta United FC;â‚¬450M;â‚¬38.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112885.png;;
-Napoli;Napoli;â‚¬590M;â‚¬56M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l48.png;;
-Werder Bremen;Werder Bremen;â‚¬141.7M;â‚¬12M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l38.png;;
-VfB Stuttgart;VfB Stuttgart;â‚¬275.1M;â‚¬20M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l36.png;;
-San Lorenzo de Almagro;San Lorenzo de Almagro;â‚¬60.5M;â‚¬8.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1013.png;;
-Hamburger SV;Hamburger SV;â‚¬139.4M;â‚¬18M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l28.png;;
-Borussia M'gladbach;Borussia M'gladbach;â‚¬357.9M;â‚¬25M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l23.png;;
-West Ham United;West Ham United;â‚¬568.5M;â‚¬35M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l19.png;;
-Newcastle United;Newcastle United;â‚¬505M;â‚¬30M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l13.png;;
-Leeds United;Leeds United;â‚¬100M;â‚¬16.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l8.png;;
-SÃ£o Paulo;Sao Paulo;â‚¬50M;â‚¬11.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l598.png;;
-Sporting CP;Sporting CP;â‚¬220M;â‚¬21.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l237.png;;
-Celtic;Celtic;â‚¬65M;â‚¬14.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l78.png;;
-Cruz Azul;Cruz Azul;â‚¬187M;â‚¬30.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1878.png;;
-Rangers;Rangers;â‚¬40M;â‚¬8.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l86.png;;
-Spartak Moskva;Spartak Moskva;â‚¬200M;â‚¬20M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100767.png;;
-FC Twente;FC Twente;â‚¬75M;â‚¬9.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1908.png;;
-Villarreal CF;Villarreal CF;â‚¬370M;â‚¬32.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l483.png;;
-FC Seoul;FC Seoul;â‚¬12.8M;â‚¬5.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l982.png;;
-FC KÃ¸benhavn;FC Kobenhavn;â‚¬63.3M;â‚¬10.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l819.png;;
-Dynamo Dresden;Dynamo Dresden;â‚¬11.3M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l503.png;;
-Monterrey;Monterrey;â‚¬165M;â‚¬24.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1032.png;;
-Braga;Braga;â‚¬100M;â‚¬14M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1896.png;;
-Panathinaikos;Panathinaikos;â‚¬45M;â‚¬5.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1884.png;;
-BSC Young Boys;BSC Young Boys;â‚¬60.8M;â‚¬7.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l900.png;;
-AEK;AEK;â‚¬65M;â‚¬12.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l278.png;;
-Lech PoznaÅ„;Lech Poznan;â‚¬8M;â‚¬2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l873.png;;
-Independiente Santa Fe;Independiente Santa Fe;â‚¬20.5M;â‚¬7.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101104.png;;
-Deportivo Cali;Deportivo Cali;â‚¬80M;â‚¬7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101102.png;;
-Junior de Barranquilla;Junior de Barranquilla;â‚¬19.5M;â‚¬5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101101.png;;
-MKE AnkaragÃ¼cÃ¼;MKE Ankaragucu;â‚¬7.2M;â‚¬2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101007.png;;
-Pumas U.N.A.M.;Pumas U.N.A.M.;â‚¬100M;â‚¬8.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1881.png;;
-FC Basel;FC Basel;â‚¬75.3M;â‚¬8.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l896.png;;
-Estudiantes de La Plata;Estudiantes de La Plata;â‚¬47.1M;â‚¬5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101083.png;;
-AtlÃ©tico Mineiro;Atletico Mineiro;â‚¬100M;â‚¬19M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1035.png;;
-Daegu FC;Daegu FC;â‚¬11M;â‚¬4.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l2056.png;;
-Trabzonspor;Trabzonspor;â‚¬75M;â‚¬13.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l436.png;;
-Athletic Club de Bilbao;Athletic Club de Bilbao;â‚¬250M;â‚¬18.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l448.png;;
-Al Ittihad;Al Ittihad;â‚¬85.5M;â‚¬15M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l607.png;;
-RCD Espanyol;RCD Espanyol;â‚¬60M;â‚¬6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l452.png;;
-MÃ¡laga CF;Malaga CF;â‚¬105M;â‚¬9.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l573.png;;
-AS Saint-Ã‰tienne;AS Saint-Etienne;â‚¬100M;â‚¬12.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1819.png;;
-RC Celta de Vigo;RC Celta de Vigo;â‚¬110M;â‚¬11.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l450.png;;
-1. FC Union Berlin;1. FC Union Berlin;â‚¬65.5M;â‚¬6.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1831.png;;
-CE Sabadell;CE Sabadell;â‚¬2.7M;â‚¬1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15021.png;;
-Botafogo;Botafogo;â‚¬22M;â‚¬4.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l517.png;;
-Real Sociedad;Real Sociedad;â‚¬150M;â‚¬15.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l457.png;;
-Legia Warszawa;Legia Warszawa;â‚¬7.1M;â‚¬3.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1871.png;;
-Internacional;Internacional;â‚¬35M;â‚¬7.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1048.png;;
-Atlas;Atlas;â‚¬40M;â‚¬6.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101114.png;;
-Istanbul BaÅŸakÅŸehir FK;Istanbul Basaksehir FK;â‚¬90M;â‚¬13.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101014.png;;
-Jeonbuk Hyundai Motors;Jeonbuk Hyundai Motors;â‚¬19M;â‚¬7.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1477.png;;
-GrÃªmio;Gremio;â‚¬45M;â‚¬7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1629.png;;
-Lokomotiv Moskva;Lokomotiv Moskva;â‚¬200M;â‚¬15.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100765.png;;
-Portsmouth;Portsmouth;â‚¬4.5M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1790.png;;
-Al Hilal;Al Hilal;â‚¬135.6M;â‚¬23.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l605.png;;
-Guangzhou FC;Guangzhou FC;â‚¬91.1M;â‚¬22.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111839.png;;
-Leicester City;Leicester City;â‚¬552.5M;â‚¬45M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l95.png;;
-Barcelona SC Guayaquil;Barcelona SC Guayaquil;â‚¬13M;â‚¬4.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110981.png;;
-Orlando Pirates;Orlando Pirates;â‚¬10.5M;â‚¬2.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110930.png;;
-Kaizer Chiefs;Kaizer Chiefs;â‚¬10M;â‚¬2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110929.png;;
-Cerro PorteÃ±o;Cerro Porteno;â‚¬10.4M;â‚¬3.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112716.png;;
-KV Mechelen;KV Mechelen;â‚¬30M;â‚¬4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110724.png;;
-Torino;Torino;â‚¬147M;â‚¬15.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l54.png;;
-Lazio;Lazio;â‚¬328M;â‚¬39M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l46.png;;
-1. FC Magdeburg;1. FC Magdeburg;â‚¬9.5M;â‚¬800K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110588.png;;
-Seattle Sounders;Seattle Sounders;â‚¬364.5M;â‚¬32.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111144.png;;
-Melbourne Victory;Melbourne Victory;â‚¬11.5M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111397.png;;
-Beijing Guoan;Beijing Guoan;â‚¬226M;â‚¬30.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111768.png;;
-RB Leipzig;RB Leipzig;â‚¬471.2M;â‚¬50M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112172.png;;
-AS Monaco;AS Monaco;â‚¬330M;â‚¬34.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l69.png;;
-Toronto FC;Toronto FC;â‚¬355.5M;â‚¬31.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111651.png;;
-Derby County;Derby County;â‚¬85M;â‚¬9.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l91.png;;
-Shanghai Port;Shanghai Port;â‚¬85.4M;â‚¬21.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112540.png;;
-Sunderland;Sunderland;â‚¬13M;â‚¬5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l106.png;;
-Orlando City SC;Orlando City SC;â‚¬265.5M;â‚¬25M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112606.png;;
-West Bromwich Albion;West Bromwich Albion;â‚¬180M;â‚¬18.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l109.png;;
-Rosario Central;Rosario Central;â‚¬30M;â‚¬5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110580.png;;
-Los Angeles FC;Los Angeles FC;â‚¬427.5M;â‚¬36.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112996.png;;
-FC St. Pauli;FC St. Pauli;â‚¬32.2M;â‚¬2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110329.png;;
-Rapid Wien;Rapid Wien;â‚¬50M;â‚¬5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l254.png;;
-Club Brugge;Club Brugge;â‚¬180M;â‚¬25.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l231.png;;
-Fiorentina;Fiorentina;â‚¬222M;â‚¬25M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110374.png;;
-Yokohama FÂ·Marinos;Yokohama F.Marinos;â‚¬42.5M;â‚¬10.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101151.png;;
-LanÃºs;Lanus;â‚¬32.5M;â‚¬7.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110395.png;;
-Nottingham Forest;Nottingham Forest;â‚¬78M;â‚¬16.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l14.png;;
-Newell's Old Boys;Newell's Old Boys;â‚¬24M;â‚¬4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110396.png;;
-Standard LiÃ¨ge;Standard Liege;â‚¬85M;â‚¬12.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l232.png;;
-Sturm Graz;Sturm Graz;â‚¬19M;â‚¬5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l209.png;;
-Anderlecht;Anderlecht;â‚¬130M;â‚¬14.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l229.png;;
-1. FC Kaiserslautern;1. FC Kaiserslautern;â‚¬12.2M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l29.png;;
-Sparta Praha;Sparta Praha;â‚¬60M;â‚¬7.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l267.png;;
-Vitesse;Vitesse;â‚¬77M;â‚¬16.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1909.png;;
-Al Ahli;Al Ahli;â‚¬64.7M;â‚¬14.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112387.png;;
-Al Nassr;Al Nassr;â‚¬82.8M;â‚¬17.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112139.png;;
-Watford;Watford;â‚¬415M;â‚¬35M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1795.png;;
-Jiangsu FC;Jiangsu FC;â‚¬29.6M;â‚¬9.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112162.png;;
-Stoke City;Stoke City;â‚¬85M;â‚¬8.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1806.png;;
-Sheffield Wednesday;Sheffield Wednesday;â‚¬45M;â‚¬5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1807.png;;
-Brighton & Hove Albion;Brighton & Hove Albion;â‚¬383.3M;â‚¬36M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1808.png;;
-Carlos A. Mannucci;Carlos A. Mannucci;â‚¬4.3M;â‚¬2.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114619.png;;
-Bahia;Bahia;â‚¬20M;â‚¬3.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1598.png;;
-Sanfrecce Hiroshima;Sanfrecce Hiroshima;â‚¬27.5M;â‚¬8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113157.png;;
-Inter Miami;Inter Miami;â‚¬330M;â‚¬30M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112893.png;;
-Yokohama FC;Yokohama FC;â‚¬12.5M;â‚¬2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113197.png;;
-New York City FC;New York City FC;â‚¬346.5M;â‚¬31.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112828.png;;
-Santos;Santos;â‚¬40M;â‚¬6.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1053.png;;
-VÃ¥lerenga Fotball;Valerenga Fotball;â‚¬7.5M;â‚¬2.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l920.png;;
-SK Brann;SK Brann;â‚¬10.9M;â‚¬3.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l919.png;;
-Ulsan Hyundai;Ulsan Hyundai;â‚¬13.3M;â‚¬4.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1473.png;;
-Pohang Steelers;Pohang Steelers;â‚¬9M;â‚¬3.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1474.png;;
-CFR Cluj;CFR Cluj;â‚¬7.2M;â‚¬3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114385.png;;
-Busan IPark;Busan IPark;â‚¬7.9M;â‚¬3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1476.png;;
-Nacional AsunciÃ³n;Nacional Asuncion;â‚¬5.5M;â‚¬2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112671.png;;
-FC Midtjylland;FC Midtjylland;â‚¬31.5M;â‚¬9.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1516.png;;
-FC St. Gallen;FC St. Gallen;â‚¬16M;â‚¬4.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l898.png;;
-Gamba Osaka;Gamba Osaka;â‚¬43M;â‚¬8.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112093.png;;
-Nagoya Grampus;Nagoya Grampus;â‚¬45M;â‚¬8.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112092.png;;
-Tigres U.A.N.L.;Tigres U.A.N.L.;â‚¬170M;â‚¬20.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1970.png;;
-LeÃ³n;Leon;â‚¬20M;â‚¬3.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110781.png;;
-HJK Helsinki;HJK Helsinki;â‚¬4.1M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100325.png;;
-Dinamo BucureÈ™ti;Dinamo Bucuresti;â‚¬2.5M;â‚¬1.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100757.png;;
-Fortuna DÃ¼sseldorf;Fortuna Dusseldorf;â‚¬54.3M;â‚¬7.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110636.png;;
-SV Darmstadt 98;SV Darmstadt 98;â‚¬20M;â‚¬3.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110502.png;;
-Eintracht Braunschweig;Eintracht Braunschweig;â‚¬12.3M;â‚¬900K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110500.png;;
-GÃ¶ztepe;Goztepe;â‚¬9.1M;â‚¬3.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101026.png;;
-Viktoria PlzeÅˆ;Viktoria Plzen;â‚¬30M;â‚¬6.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110468.png;;
-ColÃ³n;Colon;â‚¬22.5M;â‚¬4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110406.png;;
-Shanghai Shenhua;Shanghai Shenhua;â‚¬51.8M;â‚¬13.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110955.png;;
-Vissel Kobe;Vissel Kobe;â‚¬80M;â‚¬16.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101146.png;;
-VÃ©lez Sarsfield;Velez Sarsfield;â‚¬51.2M;â‚¬5.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101088.png;;
-FC Tokyo;FC Tokyo;â‚¬40M;â‚¬10M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101150.png;;
-Cerezo Osaka;Cerezo Osaka;â‚¬32M;â‚¬6.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101148.png;;
-CÃ¡diz CF;Cadiz CF;â‚¬3.5M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1968.png;;
-Cardiff City;Cardiff City;â‚¬80M;â‚¬9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1961.png;;
-Bristol City;Bristol City;â‚¬60M;â‚¬10M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1919.png;;
-Karlsruher SC;Karlsruher SC;â‚¬9.4M;â‚¬800K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1832.png;;
-FC Lausanne-Sport;FC Lausanne-Sport;â‚¬13.5M;â‚¬5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1862.png;;
-HuracÃ¡n;Huracan;â‚¬18.3M;â‚¬4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111711.png;;
-WisÅ‚a KrakÃ³w;Wisla Krakow;â‚¬3M;â‚¬1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1873.png;;
-Al Ain FC (UAE);Al Ain FC (UAE);â‚¬76M;â‚¬13.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111701.png;;
-Club Tijuana;Club Tijuana;â‚¬34M;â‚¬7.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111678.png;;
-Deportivo TÃ¡chira;Deportivo Tachira;â‚¬3.5M;â‚¬1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110990.png;;
-Sydney FC;Sydney FC;â‚¬12.5M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111400.png;;
-VitÃ³ria GuimarÃ£es;Vitoria Guimaraes;â‚¬40.5M;â‚¬5.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1887.png;;
-FC Utrecht;FC Utrecht;â‚¬72M;â‚¬15.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1903.png;;
-AZ;AZ;â‚¬95M;â‚¬9.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1906.png;;
-Perth Glory;Perth Glory;â‚¬8.7M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111399.png;;
-sc Heerenveen;sc Heerenveen;â‚¬66M;â‚¬6.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1913.png;;
-FC Groningen;FC Groningen;â‚¬62M;â‚¬7.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1915.png;;
-Kashima Antlers;Kashima Antlers;â‚¬60M;â‚¬8.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101147.png;;
-GÃ³rnik Zabrze;Gornik Zabrze;â‚¬4M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l420.png;;
-Hibernian;Hibernian;â‚¬8M;â‚¬3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l81.png;;
-LOSC Lille;LOSC Lille;â‚¬120M;â‚¬14M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l65.png;;
-BrÃ¸ndby IF;Brondby IF;â‚¬21.5M;â‚¬5.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l269.png;;
-Southampton;Southampton;â‚¬455.5M;â‚¬35M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l17.png;;
-Slavia Praha;Slavia Praha;â‚¬60M;â‚¬6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l266.png;;
-Austria Wien;Austria Wien;â‚¬39M;â‚¬7.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l256.png;;
-Hansa Rostock;Hansa Rostock;â‚¬9.9M;â‚¬650K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l27.png;;
-Real Zaragoza;Real Zaragoza;â‚¬7M;â‚¬2.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l244.png;;
-Antwerp;Antwerp;â‚¬80M;â‚¬20.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l230.png;;
-Real Betis BalompiÃ©;Real Betis Balompie;â‚¬175M;â‚¬16.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l449.png;;
-New York Red Bulls;New York Red Bulls;â‚¬261M;â‚¬24.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l689.png;;
-Parma;Parma;â‚¬56M;â‚¬8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l50.png;;
-Rosenborg BK;Rosenborg BK;â‚¬25.5M;â‚¬8.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l298.png;;
-Shamrock Rovers;Shamrock Rovers;â‚¬1.2M;â‚¬700K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l306.png;;
-Atalanta;Atalanta;â‚¬200M;â‚¬28M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l39.png;;
-PAOK;PAOK;â‚¬80M;â‚¬16.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l393.png;;
-Stade Rennais;Stade Rennais;â‚¬80M;â‚¬12.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l74.png;;
-Gent;Gent;â‚¬150M;â‚¬15.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l674.png;;
-Genk;Genk;â‚¬140M;â‚¬17.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l673.png;;
-OGC Nice;OGC Nice;â‚¬75M;â‚¬10.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l72.png;;
-FC Nantes;FC Nantes;â‚¬70M;â‚¬8.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l71.png;;
-MalmÃ¶ FF;Malmo FF;â‚¬63.5M;â‚¬8.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l320.png;;
-Bayer 04 Leverkusen;Bayer 04 Leverkusen;â‚¬455.8M;â‚¬39M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l32.png;;
-Montpellier HSC;Montpellier HSC;â‚¬54.5M;â‚¬8.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l70.png;;
-Universitatea Craiova;Universitatea Craiova;â‚¬6.4M;â‚¬2.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l308.png;;
-Real Sporting de GijÃ³n;Real Sporting de Gijon;â‚¬17M;â‚¬4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l459.png;;
-Dinamo Zagreb;Dinamo Zagreb;â‚¬150M;â‚¬11.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l211.png;;
-Hannover 96;Hannover 96;â‚¬121.3M;â‚¬10M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l485.png;;
-Girondins de Bordeaux;Girondins de Bordeaux;â‚¬75M;â‚¬10.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l59.png;;
-TSV 1860 MÃ¼nchen;TSV 1860 Munchen;â‚¬3.8M;â‚¬1000K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l33.png;;
-RC Lens;RC Lens;â‚¬40M;â‚¬7.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l64.png;;
-Molde FK;Molde FK;â‚¬17M;â‚¬5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l417.png;;
-VfL Bochum;VfL Bochum;â‚¬17.3M;â‚¬3.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l160.png;;
-Hertha BSC;Hertha BSC;â‚¬520M;â‚¬60M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l166.png;;
-Arminia Bielefeld;Arminia Bielefeld;â‚¬39M;â‚¬2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l159.png;;
-1. FC NÃ¼rnberg;1. FC Nurnberg;â‚¬58.4M;â‚¬5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l171.png;;
-Wolverhampton Wanderers;Wolverhampton Wanderers;â‚¬400M;â‚¬45M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110.png;;
-Rayo Vallecano;Rayo Vallecano;â‚¬10M;â‚¬3.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l480.png;;
-Gangwon FC;Gangwon FC;â‚¬9.2M;â‚¬3.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112115.png;;
-VfL OsnabrÃ¼ck;VfL Osnabruck;â‚¬7.7M;â‚¬520K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l487.png;;
-Al Taawoun;Al Taawoun;â‚¬22.1M;â‚¬4.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112393.png;;
-SD Ponferradina;SD Ponferradina;â‚¬4.4M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l2023.png;;
-Sampdoria;Sampdoria;â‚¬127M;â‚¬12M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1837.png;;
-RC Strasbourg;RC Strasbourg;â‚¬43M;â‚¬8.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l76.png;;
-Cagliari;Cagliari;â‚¬62M;â‚¬10M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1842.png;;
-Cork City;Cork City;â‚¬1.1M;â‚¬600K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l422.png;;
-SC Paderborn 07;SC Paderborn 07;â‚¬29.3M;â‚¬5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l10030.png;;
-Levante UD;Levante UD;â‚¬49M;â‚¬9.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1853.png;;
-Bournemouth;Bournemouth;â‚¬374M;â‚¬36.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1943.png;;
-Zulte Waregem;Zulte Waregem;â‚¬35M;â‚¬6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15005.png;;
-UD AlmerÃ­a;UD Almeria;â‚¬47M;â‚¬10.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1861.png;;
-AIK;AIK;â‚¬15.3M;â‚¬4.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l433.png;;
-Real Valladolid;Real Valladolid;â‚¬8.9M;â‚¬3.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l462.png;;
-Willem II;Willem II;â‚¬30M;â‚¬4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1907.png;;
-SD Eibar;SD Eibar;â‚¬29M;â‚¬6.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l467.png;;
-MjÃ¸ndalen IF;Mjondalen IF;â‚¬3M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112420.png;;
-Blackpool;Blackpool;â‚¬3M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1926.png;;
-1. FC SaarbrÃ¼cken;1. FC Saarbrucken;â‚¬4.5M;â‚¬1.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l523.png;;
-UD Las Palmas;UD Las Palmas;â‚¬50M;â‚¬6.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l472.png;;
-Huddersfield Town;Huddersfield Town;â‚¬60M;â‚¬6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1939.png;;
-Granada CF;Granada CF;â‚¬55M;â‚¬7.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110832.png;;
-MarÃ­timo;Maritimo;â‚¬14.5M;â‚¬3.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1893.png;;
-UD LogroÃ±Ã©s;UD Logrones;â‚¬3M;â‚¬1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l476.png;;
-CA Osasuna;CA Osasuna;â‚¬15M;â‚¬4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l479.png;;
-Toluca;Toluca;â‚¬52M;â‚¬7.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1882.png;;
-Hull City;Hull City;â‚¬32M;â‚¬4.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1952.png;;
-Swansea City;Swansea City;â‚¬110M;â‚¬10.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1960.png;;
-Western Sydney Wanderers;Western Sydney Wanderers;â‚¬6.3M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112427.png;;
-RCD Mallorca;RCD Mallorca;â‚¬6.8M;â‚¬2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l453.png;;
-Benevento;Benevento;â‚¬22M;â‚¬5.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112026.png;;
-Piast Gliwice;Piast Gliwice;â‚¬5M;â‚¬1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111086.png;;
-Bologna;Bologna;â‚¬85M;â‚¬15M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l189.png;;
-KasÄ±mpaÅŸa;Kasimpasa;â‚¬31M;â‚¬4.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111339.png;;
-RB Salzburg;RB Salzburg;â‚¬175M;â‚¬20.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l191.png;;
-Ipswich Town;Ipswich Town;â‚¬6.5M;â‚¬2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l94.png;;
-Genoa;Genoa;â‚¬101M;â‚¬8.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110556.png;;
-SV Waldhof Mannheim;SV Waldhof Mannheim;â‚¬3.5M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110532.png;;
-Hellas Verona;Hellas Verona;â‚¬75M;â‚¬8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l206.png;;
-Charlton Athletic;Charlton Athletic;â‚¬8M;â‚¬2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l89.png;;
-Al Shabab;Al Shabab;â‚¬38.5M;â‚¬9.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111674.png;;
-Jagiellonia BiaÅ‚ystok;Jagiellonia Bialystok;â‚¬5M;â‚¬2.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110745.png;;
-Cracovia KrakÃ³w;Cracovia Krakow;â‚¬5.6M;â‚¬2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110747.png;;
-Real Oviedo;Real Oviedo;â‚¬3.9M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110827.png;;
-Real Salt Lake;Real Salt Lake;â‚¬211.5M;â‚¬20.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111065.png;;
-Argentinos Juniors;Argentinos Juniors;â‚¬16.5M;â‚¬2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111019.png;;
-Fulham;Fulham;â‚¬130M;â‚¬16.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l144.png;;
-Mineros de Guayana;Mineros de Guayana;â‚¬1.9M;â‚¬1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110992.png;;
-CF MontrÃ©al;CF Montreal;â‚¬189M;â‚¬19.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111139.png;;
-Portland Timbers;Portland Timbers;â‚¬351M;â‚¬31.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111140.png;;
-Universidad CatÃ³lica;Universidad Catolica;â‚¬41M;â‚¬8.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110975.png;;
-VfL Wolfsburg;VfL Wolfsburg;â‚¬329.1M;â‚¬40M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l175.png;;
-1. FC Heidenheim;1. FC Heidenheim;â‚¬14.4M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111235.png;;
-Birmingham City;Birmingham City;â‚¬25M;â‚¬5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l88.png;;
-Puebla;Puebla;â‚¬29M;â‚¬3.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110152.png;;
-Sivasspor;Sivasspor;â‚¬29M;â‚¬4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101041.png;;
-Kashiwa Reysol;Kashiwa Reysol;â‚¬35M;â‚¬7.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101145.png;;
-Tianjin Jinmen Tiger;Tianjin Jinmen Tiger;â‚¬16.9M;â‚¬6.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111774.png;;
-GenÃ§lerbirliÄŸi;Genclerbirligi;â‚¬21M;â‚¬3.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101025.png;;
-CD CastellÃ³n;CD Castellon;â‚¬2.6M;â‚¬1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100852.png;;
-Wolfsberger AC;Wolfsberger AC;â‚¬15M;â‚¬4.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111822.png;;
-Stade de Reims;Stade de Reims;â‚¬45M;â‚¬7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l379.png;;
-Aberdeen;Aberdeen;â‚¬7.5M;â‚¬2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l77.png;;
-San Jose Earthquakes;San Jose Earthquakes;â‚¬247.5M;â‚¬23.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111928.png;;
-Servette FC;Servette FC;â‚¬9.7M;â‚¬3.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l324.png;;
-Gimnasia y Esgrima La Plata;Gimnasia y Esgrima La Plata;â‚¬10M;â‚¬3.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101084.png;;
-IFK GÃ¶teborg;IFK Goteborg;â‚¬10.1M;â‚¬2.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l319.png;;
-Pachuca;Pachuca;â‚¬40M;â‚¬4.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110147.png;;
-LASK;LASK;â‚¬30M;â‚¬6.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l252.png;;
-Deportes Tolima;Deportes Tolima;â‚¬8.7M;â‚¬3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111722.png;;
-CD Tenerife;CD Tenerife;â‚¬5M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l260.png;;
-Aarhus GF;Aarhus GF;â‚¬8.5M;â‚¬3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l271.png;;
-Shandong Taishan;Shandong Taishan;â‚¬29.5M;â‚¬8.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111724.png;;
-Vancouver Whitecaps;Vancouver Whitecaps;â‚¬193.5M;â‚¬19.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101112.png;;
-Kawasaki Frontale;Kawasaki Frontale;â‚¬50M;â‚¬9.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111730.png;;
-Bohemians;Bohemians;â‚¬975K;â‚¬530K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l305.png;;
-Sparta Rotterdam;Sparta Rotterdam;â‚¬22M;â‚¬5.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100646.png;;
-Astra Giurgiu;Astra Giurgiu;â‚¬2.5M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112847.png;;
-PogoÅ„ Szczecin;Pogon Szczecin;â‚¬5M;â‚¬1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110746.png;;
-Odds Ballklubb;Odds Ballklubb;â‚¬6.2M;â‚¬2.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1456.png;;
-ADO Den Haag;ADO Den Haag;â‚¬46M;â‚¬5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l650.png;;
-Crystal Palace;Crystal Palace;â‚¬418.5M;â‚¬30M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1799.png;;
-Coventry City;Coventry City;â‚¬4M;â‚¬1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1800.png;;
-Preston North End;Preston North End;â‚¬20M;â‚¬3.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1801.png;;
-Hammarby IF;Hammarby IF;â‚¬14.9M;â‚¬4.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l708.png;;
-FC Dallas;FC Dallas;â‚¬198M;â‚¬19.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l695.png;;
-FC Luzern;FC Luzern;â‚¬12M;â‚¬3.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l897.png;;
-Suwon Bluewings;Suwon Bluewings;â‚¬13M;â‚¬2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l983.png;;
-Burnley;Burnley;â‚¬378.5M;â‚¬27M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1796.png;;
-Beerschot;Beerschot;â‚¬20M;â‚¬5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l675.png;;
-Shonan Bellmare;Shonan Bellmare;â‚¬25M;â‚¬3.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113161.png;;
-Norwich City;Norwich City;â‚¬336M;â‚¬20M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1792.png;;
-Qingdao FC;Qingdao FC;â‚¬25M;â‚¬7.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112961.png;;
-Seongnam FC;Seongnam FC;â‚¬7.7M;â‚¬2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l981.png;;
-Reading;Reading;â‚¬30M;â‚¬4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1793.png;;
-Houston Dynamo;Houston Dynamo;â‚¬252M;â‚¬23.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l698.png;;
-FC NordsjÃ¦lland;FC Nordsjalland;â‚¬13.6M;â‚¬2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1788.png;;
-Sheffield United;Sheffield United;â‚¬355M;â‚¬20M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1794.png;;
-AJ Auxerre;AJ Auxerre;â‚¬21M;â‚¬4.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l57.png;;
-Bolton Wanderers;Bolton Wanderers;â‚¬5M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l4.png;;
-Bradford City;Bradford City;â‚¬3.2M;â‚¬1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1804.png;;
-DjurgÃ¥rdens IF;Djurgardens IF;â‚¬15.3M;â‚¬4.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l710.png;;
-Antalyaspor;Antalyaspor;â‚¬41M;â‚¬6.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l741.png;;
-Oita Trinita;Oita Trinita;â‚¬20M;â‚¬4.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113183.png;;
-SV Ried;SV Ried;â‚¬10M;â‚¬3.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l780.png;;
-FC Viitorul;FC Viitorul;â‚¬6.9M;â‚¬2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113180.png;;
-D.C. United;D.C. United;â‚¬297M;â‚¬27.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l688.png;;
-Charleroi;Charleroi;â‚¬40M;â‚¬6.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l670.png;;
-MSV Duisburg;MSV Duisburg;â‚¬10.1M;â‚¬800K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1825.png;;
-Dundalk;Dundalk;â‚¬1.5M;â‚¬900K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l837.png;;
-Aalborg BK;Aalborg BK;â‚¬7.4M;â‚¬2.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l820.png;;
-Guayaquil City;Guayaquil City;â‚¬3.5M;â‚¬1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113723.png;;
-AtlÃ©tico de San Luis;Atletico de San Luis;â‚¬17M;â‚¬5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112678.png;;
-Holstein Kiel;Holstein Kiel;â‚¬11.9M;â‚¬1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l576.png;;
-Talleres de CÃ³rdoba;Talleres de Cordoba;â‚¬20M;â‚¬5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112670.png;;
-Cercle Brugge;Cercle Brugge;â‚¬30M;â‚¬5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1750.png;;
-Blackburn Rovers;Blackburn Rovers;â‚¬35M;â‚¬7.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l3.png;;
-FC ZÃ¼rich;FC Zurich;â‚¬10M;â‚¬3.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l894.png;;
-MacarÃ¡;Macara;â‚¬4M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114578.png;;
-Santos Laguna;Santos Laguna;â‚¬46M;â‚¬9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110144.png;;
-GuabirÃ¡;Guabira;â‚¬1.6M;â‚¬1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114600.png;;
-AtlÃ©tico TucumÃ¡n;Atletico Tucuman;â‚¬10M;â‚¬2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111708.png;;
-WÃ¼rzburger Kickers;Wurzburger Kickers;â‚¬7.8M;â‚¬725K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110197.png;;
-Motherwell;Motherwell;â‚¬3.8M;â‚¬900K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l83.png;;
-Godoy Cruz;Godoy Cruz;â‚¬22M;â‚¬5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111706.png;;
-Defensa y Justicia;Defensa y Justicia;â‚¬18.1M;â‚¬3.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111710.png;;
-Kilmarnock;Kilmarnock;â‚¬5.5M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l82.png;;
-UniÃ³n de Santa Fe;Union de Santa Fe;â‚¬13M;â‚¬3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111716.png;;
-Ã–stersunds FK;Ostersunds FK;â‚¬5.3M;â‚¬1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113173.png;;
-Lecce;Lecce;â‚¬23M;â‚¬6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l347.png;;
-Sepsi OSK;Sepsi OSK;â‚¬2.3M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113378.png;;
-Viking FK;Viking FK;â‚¬5.6M;â‚¬2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l300.png;;
-Columbus Crew;Columbus Crew;â‚¬180M;â‚¬18.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l687.png;;
-Wellington Phoenix;Wellington Phoenix;â‚¬5.9M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111766.png;;
-Kristiansund BK;Kristiansund BK;â‚¬5M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113459.png;;
-Odense Boldklub;Odense Boldklub;â‚¬6.9M;â‚¬2.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l272.png;;
-Rentistas;Rentistas;â‚¬2.4M;â‚¬100K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l115535.png;;
-Necaxa;Necaxa;â‚¬68M;â‚¬9.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101121.png;;
-Nashville SC;Nashville SC;â‚¬180M;â‚¬18.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114162.png;;
-RakÃ³w CzÄ™stochowa;Rakow Czestochowa;â‚¬2.4M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114326.png;;
-Queens Park Rangers;Queens Park Rangers;â‚¬22M;â‚¬3.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15.png;;
-Sport Huancayo;Sport Huancayo;â‚¬3M;â‚¬2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114511.png;;
-Girona FC;Girona FC;â‚¬9.8M;â‚¬4.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110062.png;;
-CD MirandÃ©s;CD Mirandes;â‚¬2.5M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110069.png;;
-Konyaspor;Konyaspor;â‚¬25M;â‚¬5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101033.png;;
-Arsenal de SarandÃ­;Arsenal de Sarandi;â‚¬7.5M;â‚¬2.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110394.png;;
-Politehnica IaÈ™i;Politehnica Iasi;â‚¬2.1M;â‚¬1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110815.png;;
-Ã–rebro SK;Orebro SK;â‚¬4.3M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l705.png;;
-FC Ingolstadt 04;FC Ingolstadt 04;â‚¬16.1M;â‚¬4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111239.png;;
-Dundee United;Dundee United;â‚¬2.8M;â‚¬800K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l181.png;;
-Doncaster Rovers;Doncaster Rovers;â‚¬4M;â‚¬1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l142.png;;
-1. FSV Mainz 05;1. FSV Mainz 05;â‚¬135M;â‚¬9.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l169.png;;
-KFC Uerdingen 05;KFC Uerdingen 05;â‚¬8M;â‚¬1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l167.png;;
-Shelbourne;Shelbourne;â‚¬968K;â‚¬520K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l834.png;;
-ÅšlÄ…sk WrocÅ‚aw;Slask Wroclaw;â‚¬3M;â‚¬1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111092.png;;
-Lincoln City;Lincoln City;â‚¬3.4M;â‚¬1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l149.png;;
-Lechia GdaÅ„sk;Lechia Gdansk;â‚¬4M;â‚¬2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111091.png;;
-GoiÃ¡s;Goias;â‚¬12.5M;â‚¬2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111042.png;;
-Coritiba;Coritiba;â‚¬21M;â‚¬2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111044.png;;
-CearÃ¡;Ceara;â‚¬6.3M;â‚¬1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111059.png;;
-BB Erzurumspor;BB Erzurumspor;â‚¬4.5M;â‚¬1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l749.png;;
-Palestino;Palestino;â‚¬8.5M;â‚¬2.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111328.png;;
-FC Sion;FC Sion;â‚¬14.5M;â‚¬6.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110770.png;;
-FC BotoÈ™ani;FC Botosani;â‚¬3.1M;â‚¬1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110752.png;;
-FC Sochaux;FC Sochaux;â‚¬15M;â‚¬2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l226.png;;
-Banfield;Banfield;â‚¬15.3M;â‚¬4.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110404.png;;
-FC Lorient;FC Lorient;â‚¬25M;â‚¬5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l217.png;;
-New England Revolution;New England Revolution;â‚¬220.5M;â‚¬21.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l691.png;;
-Hallescher FC;Hallescher FC;â‚¬4.9M;â‚¬640K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110482.png;;
-Athletico Paranaense;Athletico Paranaense;â‚¬77M;â‚¬6.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1039.png;;
-Millwall;Millwall;â‚¬18M;â‚¬3.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l97.png;;
-Incheon United;Incheon United;â‚¬8.5M;â‚¬2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110765.png;;
-Brisbane Roar;Brisbane Roar;â‚¬11M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111395.png;;
-StrÃ¸msgodset Toppfotball;Stromsgodset Toppfotball;â‚¬6.4M;â‚¬2.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l922.png;;
-Crotone;Crotone;â‚¬27M;â‚¬4.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110734.png;;
-IFK NorrkÃ¶ping;IFK Norrkoping;â‚¬14.7M;â‚¬4.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l702.png;;
-SC Freiburg;SC Freiburg;â‚¬165.7M;â‚¬10.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l25.png;;
-FK BodÃ¸/Glimt;FK Bodo/Glimt;â‚¬7.9M;â‚¬2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l918.png;;
-ZagÅ‚Ä™bie Lubin;Zaglebie Lubin;â‚¬4.5M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110749.png;;
-Sporting KC;Sporting KC;â‚¬292.5M;â‚¬27.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l696.png;;
-Henan Songshan Longmen FC;Henan Songshan Longmen FC;â‚¬12.7M;â‚¬4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111779.png;;
-Rio Ave;Rio Ave;â‚¬16.5M;â‚¬2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l744.png;;
-FC Metz;FC Metz;â‚¬40M;â‚¬5.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l68.png;;
-Peterborough United;Peterborough United;â‚¬3.4M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1938.png;;
-Al Fateh;Al Fateh;â‚¬9M;â‚¬3.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112390.png;;
-Cerro Largo;Cerro Largo;â‚¬3.8M;â‚¬0;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l115536.png;;
-Al Raed;Al Raed;â‚¬7.7M;â‚¬2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112392.png;;
-Barnsley;Barnsley;â‚¬10M;â‚¬3.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1932.png;;
-Plymouth Argyle;Plymouth Argyle;â‚¬3.1M;â‚¬1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1929.png;;
-Al Wehda;Al Wehda;â‚¬11.2M;â‚¬4.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112408.png;;
-Deportivo La Guaira;Deportivo La Guaira;â‚¬2.2M;â‚¬1.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112853.png;;
-Dalian Professional;Dalian Professional;â‚¬45.9M;â‚¬12.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112378.png;;
-Oxford United;Oxford United;â‚¬3.6M;â‚¬1000K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1951.png;;
-Chongqing Liangjiang Athletic;Chongqing Liangjiang Athletic;â‚¬16.9M;â‚¬5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112165.png;;
-Le Havre AC;Le Havre AC;â‚¬14M;â‚¬4.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1738.png;;
-Helsingborgs IF;Helsingborgs IF;â‚¬6.7M;â‚¬2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l432.png;;
-Bristol Rovers;Bristol Rovers;â‚¬3.2M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1962.png;;
-Derry City;Derry City;â‚¬985K;â‚¬510K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l445.png;;
-Melbourne City;Melbourne City;â‚¬13.5M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112224.png;;
-Gwangju FC;Gwangju FC;â‚¬4.9M;â‚¬1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112258.png;;
-Udinese;Udinese;â‚¬102M;â‚¬8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l55.png;;
-Brentford;Brentford;â‚¬50M;â‚¬11M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1925.png;;
-Luton Town;Luton Town;â‚¬6M;â‚¬2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1923.png;;
-Belenenses;Belenenses;â‚¬8M;â‚¬2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1889.png;;
-RB Bragantino;RB Bragantino;â‚¬18M;â‚¬5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112472.png;;
-En Avant Guingamp;En Avant Guingamp;â‚¬25M;â‚¬5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l62.png;;
-Toulouse FC;Toulouse FC;â‚¬35M;â‚¬6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1809.png;;
-La Equidad;La Equidad;â‚¬4.5M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112523.png;;
-SM Caen;SM Caen;â‚¬17M;â‚¬3.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l210.png;;
-Getafe CF;Getafe CF;â‚¬45M;â‚¬8.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1860.png;;
-AS Nancy;AS Nancy;â‚¬15M;â‚¬2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1823.png;;
-Nacional (Madeira);Nacional (Madeira);â‚¬5.4M;â‚¬2.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1891.png;;
-PaÃ§os de Ferreira;Pacos de Ferreira;â‚¬4M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1892.png;;
-Boavista;Boavista;â‚¬9.5M;â‚¬2.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1898.png;;
-Wigan Athletic;Wigan Athletic;â‚¬9M;â‚¬2.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1917.png;;
-PEC Zwolle;PEC Zwolle;â‚¬32M;â‚¬5.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1914.png;;
-Rotherham United;Rotherham United;â‚¬4M;â‚¬1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1797.png;;
-Milton Keynes Dons;Milton Keynes Dons;â‚¬3.8M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1798.png;;
-VfB LÃ¼beck;VfB Lubeck;â‚¬2.9M;â‚¬1000K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1829.png;;
-Deportivo AlavÃ©s;Deportivo Alaves;â‚¬13M;â‚¬4.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l463.png;;
-Guangzhou City;Guangzhou City;â‚¬24.6M;â‚¬7.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112429.png;;
-Moreirense;Moreirense;â‚¬7.3M;â‚¬2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1900.png;;
-Jahn Regensburg;Jahn Regensburg;â‚¬8.4M;â‚¬1000K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l543.png;;
-St. Patrick's Athletic;St. Patrick's Athletic;â‚¬972K;â‚¬525K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l423.png;;
-Metropolitanos FC;Metropolitanos FC;â‚¬2.5M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112914.png;;
-OH Leuven;OH Leuven;â‚¬25M;â‚¬6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100087.png;;
-CD LeganÃ©s;CD Leganes;â‚¬10.8M;â‚¬4.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100888.png;;
-Vegalta Sendai;Vegalta Sendai;â‚¬22M;â‚¬4.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112836.png;;
-FC Augsburg;FC Augsburg;â‚¬129.3M;â‚¬9.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100409.png;;
-FC Cincinnati;FC Cincinnati;â‚¬256.5M;â‚¬24.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113149.png;;
-FC Cartagena;FC Cartagena;â‚¬2.5M;â‚¬1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100851.png;;
-Cangzhou Mighty Lions;Cangzhou Mighty Lions;â‚¬7.2M;â‚¬2.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112985.png;;
-Heracles Almelo;Heracles Almelo;â‚¬35M;â‚¬4.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100634.png;;
-AD AlcorcÃ³n;AD Alcorcon;â‚¬2.5M;â‚¬1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100831.png;;
-Sassuolo;Sassuolo;â‚¬94M;â‚¬13.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111974.png;;
-FC JuÃ¡rez;FC Juarez;â‚¬4.5M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113134.png;;
-Montevideo City Torque;Montevideo City Torque;â‚¬5.5M;â‚¬0;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113143.png;;
-Kortrijk;Kortrijk;â‚¬25M;â‚¬4.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100081.png;;
-IK Start;IK Start;â‚¬2.5M;â‚¬1.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1524.png;;
-Al Ettifaq;Al Ettifaq;â‚¬10.5M;â‚¬3.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112096.png;;
-Sint-Truiden;Sint-Truiden;â‚¬30M;â‚¬4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l680.png;;
-Hebei FC;Hebei FC;â‚¬11.9M;â‚¬4.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112978.png;;
-AC Monza;AC Monza;â‚¬20M;â‚¬6.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111811.png;;
-Gallos Blancos de QuerÃ©taro;Gallos Blancos de Queretaro;â‚¬3M;â‚¬1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110150.png;;
-FC Voluntari;FC Voluntari;â‚¬2M;â‚¬1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113182.png;;
-Wuhan FC;Wuhan FC;â‚¬12.1M;â‚¬4.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112541.png;;
-Admira Wacker;Admira Wacker;â‚¬12.5M;â‚¬2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111821.png;;
-Damac FC;Damac FC;â‚¬2M;â‚¬1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113217.png;;
-FamalicÃ£o;Famalicao;â‚¬15M;â‚¬5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112809.png;;
-Yeni Malatyaspor;Yeni Malatyaspor;â‚¬18M;â‚¬3.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113259.png;;
-USL Dunkerque;USL Dunkerque;â‚¬7M;â‚¬2.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111276.png;;
-Chindia TÃ¢rgoviÈ™te;Chindia Targoviste;â‚¬1.5M;â‚¬808.3K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113387.png;;
-Gaz Metan MediaÈ™;Gaz Metan Medias;â‚¬1.9M;â‚¬1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112637.png;;
-Hokkaido Consadole Sapporo;Hokkaido Consadole Sapporo;â‚¬26M;â‚¬5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112444.png;;
-Podbeskidzie Bielsko-BiaÅ‚a;Podbeskidzie Bielsko-Biala;â‚¬1.8M;â‚¬1.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111087.png;;
-Deportes Antofagasta;Deportes Antofagasta;â‚¬8.3M;â‚¬2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112533.png;;
-Fatih KaragÃ¼mrÃ¼k S.K.;Fatih Karagumruk S.K.;â‚¬4M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111117.png;;
-Paris FC;Paris FC;â‚¬12.5M;â‚¬5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111817.png;;
-Shenzhen FC;Shenzhen FC;â‚¬23.5M;â‚¬8.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111773.png;;
-Minnesota United FC;Minnesota United FC;â‚¬270M;â‚¬25.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111138.png;;
-Nacional PotosÃ­;Nacional Potosi;â‚¬1.7M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112667.png;;
-Al Qadisiyah;Al Qadisiyah;â‚¬4.2M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112391.png;;
-UniÃ³n La Calera;Union La Calera;â‚¬5M;â‚¬1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112535.png;;
-Warta PoznaÅ„;Warta Poznan;â‚¬1.5M;â‚¬808.3K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112511.png;;
-IK Sirius;IK Sirius;â‚¬2.9M;â‚¬600K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113458.png;;
-Alanyaspor;Alanyaspor;â‚¬9.3M;â‚¬3.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113142.png;;
-Newcastle Jets;Newcastle Jets;â‚¬7M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111398.png;;
-MjÃ¤llby AIF;Mjallby AIF;â‚¬1.7M;â‚¬850K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112072.png;;
-AFC Wimbledon;AFC Wimbledon;â‚¬4M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112259.png;;
-Central CÃ³rdoba;Central Cordoba;â‚¬7M;â‚¬2.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112965.png;;
-River Plate AsunciÃ³n;River Plate Asuncion;â‚¬2M;â‚¬1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114575.png;;
-Grimsby Town;Grimsby Town;â‚¬1.8M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l92.png;;
-Sarpsborg 08;Sarpsborg 08;â‚¬5.3M;â‚¬2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112199.png;;
-Universidad TÃ©cnica de Cajamarca;Universidad Tecnica de Cajamarca;â‚¬5.4M;â‚¬2.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114617.png;;
-Always Ready;Always Ready;â‚¬1.7M;â‚¬1.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114577.png;;
-Independiente del Valle;Independiente del Valle;â‚¬2.9M;â‚¬1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112908.png;;
-Philadelphia Union;Philadelphia Union;â‚¬216M;â‚¬21.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112134.png;;
-Aragua FC;Aragua FC;â‚¬1.6M;â‚¬1.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112916.png;;
-Crewe Alexandra;Crewe Alexandra;â‚¬2M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l121.png;;
-Sagan Tosu;Sagan Tosu;â‚¬35M;â‚¬4.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113160.png;;
-Shrewsbury Town;Shrewsbury Town;â‚¬3.7M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l127.png;;
-MazatlÃ¡n FC;Mazatlan FC;â‚¬3M;â‚¬1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114899.png;;
-Huachipato;Huachipato;â‚¬10M;â‚¬3.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111327.png;;
-Abha Club;Abha Club;â‚¬3.8M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113058.png;;
-Al Faisaly;Al Faisaly;â‚¬8M;â‚¬2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112389.png;;
-Stal Mielec;Stal Mielec;â‚¬1.5M;â‚¬875K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114004.png;;
-Melgar FBC;Melgar FBC;â‚¬1.8M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111334.png;;
-Al Ain (KSA);Al Ain (KSA);â‚¬3.5M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114143.png;;
-FC Hermannstadt;FC Hermannstadt;â‚¬1.6M;â‚¬1.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114147.png;;
-Deportivo Pasto;Deportivo Pasto;â‚¬6.5M;â‚¬2.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111723.png;;
-GuaireÃ±a FC;Guairena FC;â‚¬4.4M;â‚¬2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114688.png;;
-Adelaide United;Adelaide United;â‚¬8M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111393.png;;
-Academia Puerto Cabello;Academia Puerto Cabello;â‚¬1.4M;â‚¬835.9K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114611.png;;
-Oostende;Oostende;â‚¬25M;â‚¬3.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l682.png;;
-Hatayspor;Hatayspor;â‚¬6M;â‚¬1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101028.png;;
-Kayserispor;Kayserispor;â‚¬8.1M;â‚¬2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101020.png;;
-Ross County;Ross County;â‚¬3.9M;â‚¬600K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l631.png;;
-Stade Brestois 29;Stade Brestois 29;â‚¬40M;â‚¬5.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l378.png;;
-St. Mirren;St. Mirren;â‚¬3.6M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100805.png;;
-St. Johnstone;St. Johnstone;â‚¬4.4M;â‚¬700K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100804.png;;
-Gillingham;Gillingham;â‚¬3.4M;â‚¬1000K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1802.png;;
-FC Emmen;FC Emmen;â‚¬18M;â‚¬3.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100628.png;;
-Ã‡aykur Rizespor;Caykur Rizespor;â‚¬11M;â‚¬2.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101037.png;;
-Fortuna Sittard;Fortuna Sittard;â‚¬16M;â‚¬5.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l634.png;;
-FC Vaduz;FC Vaduz;â‚¬5.5M;â‚¬1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l286.png;;
-Carlisle United;Carlisle United;â‚¬2.1M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1480.png;;
-Angers SCO;Angers SCO;â‚¬32M;â‚¬5.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1530.png;;
-WisÅ‚a PÅ‚ock;Wisla Plock;â‚¬4.5M;â‚¬1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1569.png;;
-Altach;Altach;â‚¬10M;â‚¬2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15009.png;;
-Empoli;Empoli;â‚¬20M;â‚¬4.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1746.png;;
-Aalesunds FK;Aalesunds FK;â‚¬4.2M;â‚¬1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1755.png;;
-Shimizu S-Pulse;Shimizu S-Pulse;â‚¬33M;â‚¬4.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101149.png;;
-Randers FC;Randers FC;â‚¬4.1M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1786.png;;
-Tranmere Rovers;Tranmere Rovers;â‚¬2.8M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15048.png;;
-Grenoble Foot 38;Grenoble Foot 38;â‚¬10M;â‚¬3.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1805.png;;
-Scunthorpe United;Scunthorpe United;â‚¬2.8M;â‚¬1000K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1949.png;;
-Erzgebirge Aue;Erzgebirge Aue;â‚¬12.3M;â‚¬1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l506.png;;
-Cambridge United;Cambridge United;â‚¬1.7M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1944.png;;
-Mansfield Town;Mansfield Town;â‚¬2.8M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1940.png;;
-Gil Vicente FC;Gil Vicente FC;â‚¬3.1M;â‚¬1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1888.png;;
-Elche CF;Elche CF;â‚¬4.8M;â‚¬1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l468.png;;
-Wycombe Wanderers;Wycombe Wanderers;â‚¬3.5M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1933.png;;
-Northampton Town;Northampton Town;â‚¬3M;â‚¬1000K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1930.png;;
-Southend United;Southend United;â‚¬4M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1954.png;;
-Albacete BalompiÃ©;Albacete Balompie;â‚¬2.5M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1854.png;;
-Sligo Rovers;Sligo Rovers;â‚¬952K;â‚¬515K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l563.png;;
-Walsall;Walsall;â‚¬2.6M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1803.png;;
-Lyngby BK;Lyngby BK;â‚¬3.6M;â‚¬1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15001.png;;
-Oldham Athletic;Oldham Athletic;â‚¬4.5M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1920.png;;
-Portimonense;Portimonense;â‚¬17.6M;â‚¬3.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l10031.png;;
-Clermont Foot;Clermont Foot;â‚¬8.7M;â‚¬3.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1815.png;;
-Sangju Sangmu;Sangju Sangmu;â‚¬12.1M;â‚¬2.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l2055.png;;
-Hartberg;Hartberg;â‚¬10M;â‚¬2.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l2017.png;;
-Leyton Orient;Leyton Orient;â‚¬2.3M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1958.png;;
-Port Vale;Port Vale;â‚¬3.4M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1928.png;;
-NÃ®mes Olympique;Nimes Olympique;â‚¬30M;â‚¬4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l224.png;;
-Valenciennes FC;Valenciennes FC;â‚¬10M;â‚¬2.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110456.png;;
-SV Meppen;SV Meppen;â‚¬3M;â‚¬520K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110597.png;;
-Swindon Town;Swindon Town;â‚¬3.3M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1934.png;;
-Waasland-Beveren;Waasland-Beveren;â‚¬15M;â‚¬2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110913.png;;
-BK HÃ¤cken;BK Hacken;â‚¬12.6M;â‚¬3.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l711.png;;
-Viktoria KÃ¶ln;Viktoria Koln;â‚¬4.1M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110645.png;;
-UTA Arad;UTA Arad;â‚¬1.8M;â‚¬937K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110750.png;;
-Gaziantep FK;Gaziantep FK;â‚¬18M;â‚¬3.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110776.png;;
-FÃ©nix;Fenix;â‚¬2M;â‚¬1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111002.png;;
-StabÃ¦k Fotball;Stabak Fotball;â‚¬5.3M;â‚¬1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l917.png;;
-CD Lugo;CD Lugo;â‚¬2.6M;â‚¬1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110831.png;;
-IF Elfsborg;IF Elfsborg;â‚¬8.2M;â‚¬2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l700.png;;
-SD Huesca;SD Huesca;â‚¬4.5M;â‚¬2.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110839.png;;
-Colorado Rapids;Colorado Rapids;â‚¬171M;â‚¬17.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l694.png;;
-SpVgg Unterhaching;SpVgg Unterhaching;â‚¬5.6M;â‚¬580K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l172.png;;
-SpVgg Greuther FÃ¼rth;SpVgg Greuther Furth;â‚¬15.6M;â‚¬1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l165.png;;
-FSV Zwickau;FSV Zwickau;â‚¬3.5M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110592.png;;
-Patronato;Patronato;â‚¬7M;â‚¬1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110581.png;;
-FK Haugesund;FK Haugesund;â‚¬3.5M;â‚¬1.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1463.png;;
-Brescia;Brescia;â‚¬25M;â‚¬5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l190.png;;
-Dijon FCO;Dijon FCO;â‚¬38M;â‚¬4.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110569.png;;
-SÃ¸nderjyskE;SonderjyskE;â‚¬4.6M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1447.png;;
-AC Horsens;AC Horsens;â‚¬3.5M;â‚¬1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1446.png;;
-Exeter City;Exeter City;â‚¬2.9M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l143.png;;
-Kalmar FF;Kalmar FF;â‚¬5M;â‚¬1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1439.png;;
-Santa Clara;Santa Clara;â‚¬6.1M;â‚¬1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1438.png;;
-Waterford;Waterford;â‚¬974K;â‚¬520K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l753.png;;
-Chievo Verona;Chievo Verona;â‚¬20M;â‚¬4.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l192.png;;
-Chicago Fire FC;Chicago Fire FC;â‚¬301.5M;â‚¬27.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l693.png;;
-Vejle BK;Vejle BK;â‚¬3.3M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l822.png;;
-12 de Octubre FC;12 de Octubre FC;â‚¬3.6M;â‚¬1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111007.png;;
-AtlÃ©tico Palmaflor;Atletico Palmaflor;â‚¬1.5M;â‚¬1.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l115358.png;;
-OceÃ¢nico FC;Oceanico FC;â‚¬1.2M;â‚¬1.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l115199.png;;
-Forest Green Rovers;Forest Green Rovers;â‚¬2.3M;â‚¬1000K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l561.png;;
-AC Ajaccio;AC Ajaccio;â‚¬10M;â‚¬2.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l614.png;;
-SV Wehen Wiesbaden;SV Wehen Wiesbaden;â‚¬7M;â‚¬1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l492.png;;
-Tondela;Tondela;â‚¬5.2M;â‚¬1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112516.png;;
-Amiens SC;Amiens SC;â‚¬30M;â‚¬5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1816.png;;
-Al Batin;Al Batin;â‚¬4M;â‚¬1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112990.png;;
-Sandefjord Fotball;Sandefjord Fotball;â‚¬2.1M;â‚¬1.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1757.png;;
-Academica Clinceni;Academica Clinceni;â‚¬950K;â‚¬507.3K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113391.png;;
-Varbergs BoIS;Varbergs BoIS;â‚¬1.2M;â‚¬650K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113743.png;;
-Salford City;Salford City;â‚¬2.4M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113926.png;;
-Farense;Farense;â‚¬2M;â‚¬1000K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l489.png;;
-Borgocalcio (Spezia);Borgocalcio (Spezia);â‚¬21M;â‚¬2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113974.png;;
-WSG Tirol;WSG Tirol;â‚¬10M;â‚¬2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15040.png;;
-Western United FC;Western United FC;â‚¬6M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114023.png;;
-Livingston;Livingston;â‚¬3.4M;â‚¬650K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l621.png;;
-TÃ¼rkgÃ¼cÃ¼ MÃ¼nchen;Turkgucu Munchen;â‚¬2.9M;â‚¬1000K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114398.png;;
-Chamois Niortais FC;Chamois Niortais FC;â‚¬9M;â‚¬3.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1813.png;;
-Macarthur FC;Macarthur FC;â‚¬7M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114604.png;;
-Spal;Spal;â‚¬25M;â‚¬4.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112791.png;;
-FC Chambly Oise;FC Chambly Oise;â‚¬6.5M;â‚¬1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112627.png;;
-Denizlispor;Denizlispor;â‚¬6.5M;â‚¬2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1457.png;;
-RKC Waalwijk;RKC Waalwijk;â‚¬12M;â‚¬2.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1905.png;;
-Bayern MÃ¼nchen II;Bayern Munchen II;â‚¬15M;â‚¬4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110679.png;;
-Morecambe;Morecambe;â‚¬2.1M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l357.png;;
-ESTAC Troyes;ESTAC Troyes;â‚¬15M;â‚¬3.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l294.png;;
-CF Fuenlabrada;CF Fuenlabrada;â‚¬2.5M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110065.png;;
-SV Sandhausen;SV Sandhausen;â‚¬12.2M;â‚¬1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110178.png;;
-Aldosivi;Aldosivi;â‚¬5.2M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111707.png;;
-Accrington Stanley;Accrington Stanley;â‚¬4.2M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110313.png;;
-Pau FC;Pau FC;â‚¬7M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110321.png;;
-Rodez Aveyron Football;Rodez Aveyron Football;â‚¬7.1M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111659.png;;
-LB ChÃ¢teauroux;LB Chateauroux;â‚¬8M;â‚¬2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l212.png;;
-SC Verl;SC Verl;â‚¬2M;â‚¬1000K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110501.png;;
-Mouscron;Mouscron;â‚¬25M;â‚¬3.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111560.png;;
-Finn Harps;Finn Harps;â‚¬945K;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111131.png;;
-SD Aucas;SD Aucas;â‚¬1.9M;â‚¬1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110987.png;;
-Cobresal;Cobresal;â‚¬5M;â‚¬1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110978.png;;
-Central Coast Mariners;Central Coast Mariners;â‚¬5.5M;â‚¬2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111396.png;;
-Hamilton Academical;Hamilton Academical;â‚¬4.2M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l184.png;;
-Crawley Town;Crawley Town;â‚¬1.6M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110890.png;;
-Stevenage;Stevenage;â‚¬3M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l361.png;;
-Barrow;Barrow;â‚¬1.8M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l381.png;;
-FC ArgeÈ™;FC Arges;â‚¬1.2M;â‚¬804.4K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100759.png;;
-Colchester United;Colchester United;â‚¬2.3M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1935.png;;
-Cheltenham Town;Cheltenham Town;â‚¬2.2M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1936.png;;
-Fleetwood Town;Fleetwood Town;â‚¬3.4M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112260.png;;
-Newport County;Newport County;â‚¬3.3M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112254.png;;
-Rochdale;Rochdale;â‚¬5M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1955.png;;
-Harrogate Town;Harrogate Town;â‚¬1.5M;â‚¬500K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112222.png;;
-Eupen;Eupen;â‚¬20M;â‚¬3.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l2013.png;;
-Falkenbergs FF;Falkenbergs FF;â‚¬3.5M;â‚¬550K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112169.png;;
-TSG 1899 Hoffenheim;TSG 1899 Hoffenheim;â‚¬331.1M;â‚¬28M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l10029.png;;
-AtlÃ©tico Goianiense;Atletico Goianiense;â‚¬3.8M;â‚¬810K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112119.png;;
-VVV-Venlo;VVV-Venlo;â‚¬13M;â‚¬2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100651.png;;
-St. PÃ¶lten;St. Polten;â‚¬10M;â‚¬2.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112075.png;;
-Fortaleza;Fortaleza;â‚¬4.4M;â‚¬1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111052.png;;
-Burton Albion;Burton Albion;â‚¬5M;â‚¬750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15015.png;;
-FC Lugano;FC Lugano;â‚¬6.6M;â‚¬1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l10032.png;;
-Youth Squad;Youth Squad;â‚¬0;â‚¬100;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112264.png;;
-Free Agent;Free Agent;â‚¬0;â‚¬0;https://w7.pngwing.com/pngs/743/651/png-transparent-no-entry-logo-no-symbol-sign-forbidden-miscellaneous-text-trademark-thumbnail.png;;
+FC Barcelona;FC Barcelona;€3.2B;€180.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l241.png
+Manchester City;Manchester City;€2.7B;€176.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l10.png
+Liverpool;Liverpool;€2.7B;€90.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l9.png
+Real Madrid;Real Madrid;€3.5B;€188.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l243.png
+Paris Saint-Germain;Paris Saint-Germain;€2.0B;€130.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l73.png
+Tottenham Hotspur;Tottenham Hotspur;€2.1B;€75.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l18.png
+Napoli;Napoli;€590.0M;€56.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l48.png
+Shakhtar Donetsk;Shakhtar Donetsk;€250.0M;€16.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101059.png
+Inter;Inter;€983.0M;€99.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l44.png
+Arsenal;Arsenal;€1.8B;€80.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1.png
+Atlético De Madrid;Atletico de Madrid;€1.2B;€68.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l240.png
+Borussia Dortmund;Borussia Dortmund;€1.3B;€60.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l22.png
+Borussia M'gladbach;Borussia M'gladbach;€357.9M;€25.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l23.png
+Milan;Milan;€526.0M;€37.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l47.png
+Villarreal CF;Villarreal CF;€370.0M;€32.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l483.png
+Monterrey;Monterrey;€165.0M;€24.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1032.png
+Sevilla FC;Sevilla FC;€540.0M;€34.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l481.png
+Real Betis Balompié;Real Betis Balompie;€175.0M;€16.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l449.png
+Generic Capitale;Generic Capitale;€602.0M;€46.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114912.png
+FC Nantes;FC Nantes;€70.0M;€8.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l71.png
+Internacional;Internacional;€35.0M;€7.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1048.png
+Bayern München;Bayern Munchen;€2.9B;€100.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l21.png
+Tigres U.A.N.L.;Tigres U.A.N.L.;€170.0M;€20.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1970.png
+RC Celta De Vigo;RC Celta de Vigo;€110.0M;€11.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l450.png
+Atalanta;Atalanta;€200.0M;€28.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l39.png
+Southampton;Southampton;€455.5M;€35.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l17.png
+Free Agent;Free Agent;€0.0;€0.0;https://w7.pngwing.com/pngs/743/651/png-transparent-no-entry-logo-no-symbol-sign-forbidden-miscellaneous-text-trademark-thumbnail.png
+Lokomotiv Moskva;Lokomotiv Moskva;€200.0M;€15.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100765.png
+FC Schalke 04;FC Schalke 04;€700.1M;€20.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l34.png
+Elche CF;Elche CF;€4.8M;€1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l468.png
+Newcastle United;Newcastle United;€505.0M;€30.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l13.png
+Cagliari;Cagliari;€62.0M;€10.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1842.png
+Levante UD;Levante UD;€49.0M;€9.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1853.png
+West Ham United;West Ham United;€568.5M;€35.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l19.png
+TSG 1899 Hoffenheim;TSG 1899 Hoffenheim;€331.1M;€28.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l10029.png
+Gwangju FC;Gwangju FC;€4.9M;€1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112258.png
+Parma;Parma;€56.0M;€8.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l50.png
+Eintracht Frankfurt;Eintracht Frankfurt;€246.8M;€25.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1824.png
+SL Benfica;SL Benfica;€320.0M;€25.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l234.png
+Grêmio;Gremio;€45.0M;€7.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1629.png
+Shanghai Port;Shanghai Port;€85.4M;€21.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112540.png
+Shanghai Shenhua;Shanghai Shenhua;€51.8M;€13.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110955.png
+Manchester United;Manchester United;€3.3B;€177.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l11.png
+Piemonte Calcio;Piemonte Calcio;€1.7B;€105.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114153.png
+VfL Wolfsburg;VfL Wolfsburg;€329.1M;€40.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l175.png
+CA Osasuna;CA Osasuna;€15.0M;€4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l479.png
+Ajax;Ajax;€432.0M;€29.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l245.png
+Portland Timbers;Portland Timbers;€351.0M;€31.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111140.png
+Granada CF;Granada CF;€55.0M;€7.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110832.png
+Fluminense;Fluminense;€30.0M;€4.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l567.png
+Stade Rennais;Stade Rennais;€80.0M;€12.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l74.png
+Sassuolo;Sassuolo;€94.0M;€13.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111974.png
+Orlando City SC;Orlando City SC;€265.5M;€25.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112606.png
+Al Nassr;Al Nassr;€82.8M;€17.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112139.png
+Santos;Santos;€40.0M;€6.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1053.png
+Spartak Moskva;Spartak Moskva;€200.0M;€20.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100767.png
+Fenerbahçe;Fenerbahce;€160.0M;€26.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l326.png
+FC Midtjylland;FC Midtjylland;€31.5M;€9.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1516.png
+Everton;Everton;€533.3M;€51.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l7.png
+Crystal Palace;Crystal Palace;€418.5M;€30.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1799.png
+Vitória Guimarães;Vitoria Guimaraes;€40.5M;€5.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1887.png
+Independiente;Independiente;€121.3M;€12.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110093.png
+Club Brugge;Club Brugge;€180.0M;€25.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l231.png
+Genoa;Genoa;€101.0M;€8.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110556.png
+Rangers;Rangers;€40.0M;€8.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l86.png
+Fulham;Fulham;€130.0M;€16.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l144.png
+Sporting CP;Sporting CP;€220.0M;€21.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l237.png
+SD Eibar;SD Eibar;€29.0M;€6.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l467.png
+Brighton & Hove Albion;Brighton & Hove Albion;€383.3M;€36.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1808.png
+OGC Nice;OGC Nice;€75.0M;€10.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l72.png
+FC København;FC Kobenhavn;€63.3M;€10.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l819.png
+AS Monaco;AS Monaco;€330.0M;€34.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l69.png
+Leicester City;Leicester City;€552.5M;€45.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l95.png
+Nîmes Olympique;Nimes Olympique;€30.0M;€4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l224.png
+Núñez;Nunez;€100.0M;€19.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114144.png
+PSV;PSV;€220.0M;€21.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l247.png
+Buenos Aires;Buenos Aires;€107.5M;€15.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114149.png
+RCD Espanyol;RCD Espanyol;€60.0M;€6.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l452.png
+Girondins De Bordeaux;Girondins de Bordeaux;€75.0M;€10.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l59.png
+Galatasaray;Galatasaray;€150.0M;€25.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l325.png
+Torino;Torino;€147.0M;€15.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l54.png
+Lazio;Lazio;€328.0M;€39.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l46.png
+Stade Brestois 29;Stade Brestois 29;€40.0M;€5.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l378.png
+BSC Young Boys;BSC Young Boys;€60.8M;€7.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l900.png
+RB Leipzig;RB Leipzig;€471.2M;€50.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112172.png
+Slavia Praha;Slavia Praha;€60.0M;€6.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l266.png
+Burnley;Burnley;€378.5M;€27.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1796.png
+Inter Miami;Inter Miami;€330.0M;€30.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112893.png
+RB Salzburg;RB Salzburg;€175.0M;€20.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l191.png
+Bologna;Bologna;€85.0M;€15.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l189.png
+FC Basel;FC Basel;€75.3M;€8.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l896.png
+Cruz Azul;Cruz Azul;€187.0M;€30.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1878.png
+Bournemouth;Bournemouth;€374.0M;€36.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1943.png
+Chelsea;Chelsea;€2.2B;€85.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l5.png
+Wolverhampton Wanderers;Wolverhampton Wanderers;€400.0M;€45.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110.png
+Santos Laguna;Santos Laguna;€46.0M;€9.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110144.png
+Olympique De Marseille;Olympique de Marseille;€120.0M;€14.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l219.png
+Olympique Lyonnais;Olympique Lyonnais;€543.0M;€43.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l66.png
+Athletic Club De Bilbao;Athletic Club de Bilbao;€250.0M;€18.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l448.png
+Sivasspor;Sivasspor;€29.0M;€4.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101041.png
+LOSC Lille;LOSC Lille;€120.0M;€14.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l65.png
+Al Hilal;Al Hilal;€135.6M;€23.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l605.png
+Braga;Braga;€100.0M;€14.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1896.png
+Real Sociedad;Real Sociedad;€150.0M;€15.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l457.png
+Aston Villa;Aston Villa;€401.6M;€37.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l2.png
+Werder Bremen;Werder Bremen;€141.7M;€12.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l38.png
+Al Ahli;Al Ahli;€64.7M;€14.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112387.png
+Leeds United;Leeds United;€100.0M;€16.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l8.png
+Real Valladolid;Real Valladolid;€8.9M;€3.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l462.png
+São Paulo;Sao Paulo;€50.0M;€11.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l598.png
+Palmeiras;Palmeiras;€111.0M;€20.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l383.png
+West Bromwich Albion;West Bromwich Albion;€180.0M;€18.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l109.png
+Getafe CF;Getafe CF;€45.0M;€8.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1860.png
+Kayserispor;Kayserispor;€8.1M;€2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101020.png
+Seattle Sounders;Seattle Sounders;€364.5M;€32.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111144.png
+Montpellier HSC;Montpellier HSC;€54.5M;€8.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l70.png
+Bayer 04 Leverkusen;Bayer 04 Leverkusen;€455.8M;€39.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l32.png
+1. FC Union Berlin;1. FC Union Berlin;€65.5M;€6.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1831.png
+Udinese;Udinese;€102.0M;€8.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l55.png
+Feyenoord;Feyenoord;€170.0M;€13.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l246.png
+Beijing Guoan;Beijing Guoan;€226.0M;€30.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111768.png
+Palestino;Palestino;€8.5M;€2.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111328.png
+LASK;LASK;€30.0M;€6.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l252.png
+Fiorentina;Fiorentina;€222.0M;€25.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110374.png
+SD Huesca;SD Huesca;€4.5M;€2.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110839.png
+RC Strasbourg;RC Strasbourg;€43.0M;€8.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l76.png
+Philadelphia Union;Philadelphia Union;€216.0M;€21.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112134.png
+América;America;€140.0M;€15.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1879.png
+Gent;Gent;€150.0M;€15.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l674.png
+Los Angeles FC;Los Angeles FC;€427.5M;€36.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112996.png
+Urawa Reds;Urawa Reds;€62.5M;€10.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111575.png
+Hertha BSC;Hertha BSC;€520.0M;€60.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l166.png
+Borgocalcio (Spezia);Borgocalcio (Spezia);€21.0M;€2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113974.png
+Shandong Taishan;Shandong Taishan;€29.5M;€8.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111724.png
+Arminia Bielefeld;Arminia Bielefeld;€39.0M;€2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l159.png
+Cádiz CF;Cadiz CF;€3.5M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1968.png
+Stade De Reims;Stade de Reims;€45.0M;€7.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l379.png
+FC Porto;FC Porto;€240.0M;€23.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l236.png
+FC Augsburg;FC Augsburg;€129.3M;€9.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100409.png
+Sheffield United;Sheffield United;€355.0M;€20.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1794.png
+AEK;AEK;€65.0M;€12.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l278.png
+1. FC Köln;1. FC Koln;€168.5M;€12.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l31.png
+CSKA Moskva;CSKA Moskva;€220.0M;€13.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l315.png
+RB Bragantino;RB Bragantino;€18.0M;€5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112472.png
+Olympiacos;Olympiacos;€100.0M;€19.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l280.png
+Valencia CF;Valencia CF;€530.0M;€60.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l461.png
+Deportivo Alavés;Deportivo Alaves;€13.0M;€4.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l463.png
+Angers SCO;Angers SCO;€32.0M;€5.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1530.png
+Dalian Professional;Dalian Professional;€45.9M;€12.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112378.png
+Dijon FCO;Dijon FCO;€38.0M;€4.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110569.png
+Trabzonspor;Trabzonspor;€75.0M;€13.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l436.png
+AZ;AZ;€95.0M;€9.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1906.png
+Al Shabab;Al Shabab;€38.5M;€9.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111674.png
+Vissel Kobe;Vissel Kobe;€80.0M;€16.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101146.png
+Rio Ave;Rio Ave;€16.5M;€2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l744.png
+Atlético Mineiro;Atletico Mineiro;€100.0M;€19.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1035.png
+Pumas U.N.A.M.;Pumas U.N.A.M.;€100.0M;€8.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1881.png
+Cerro Porteño;Cerro Porteno;€10.4M;€3.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112716.png
+Universidad Católica;Universidad Catolica;€41.0M;€8.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110975.png
+San Lorenzo De Almagro;San Lorenzo de Almagro;€60.5M;€8.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1013.png
+Anderlecht;Anderlecht;€130.0M;€14.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l229.png
+Nacional De Montevideo;Nacional de Montevideo;€15.0M;€5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111325.png
+RC Lens;RC Lens;€40.0M;€7.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l64.png
+Toluca;Toluca;€52.0M;€7.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1882.png
+Western United FC;Western United FC;€6.0M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114023.png
+Dinamo Zagreb;Dinamo Zagreb;€150.0M;€11.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l211.png
+FC Metz;FC Metz;€40.0M;€5.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l68.png
+Sampdoria;Sampdoria;€127.0M;€12.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1837.png
+Toronto FC;Toronto FC;€355.5M;€31.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111651.png
+Newell's Old Boys;Newell's Old Boys;€24.0M;€4.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110396.png
+Brentford;Brentford;€50.0M;€11.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1925.png
+RCD Mallorca;RCD Mallorca;€6.8M;€2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l453.png
+Pachuca;Pachuca;€40.0M;€4.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110147.png
+Atlanta United FC;Atlanta United FC;€450.0M;€38.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112885.png
+Al Ittihad;Al Ittihad;€85.5M;€15.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l607.png
+Houston Dynamo;Houston Dynamo;€252.0M;€23.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l698.png
+Minnesota United FC;Minnesota United FC;€270.0M;€25.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111138.png
+Panathinaikos;Panathinaikos;€45.0M;€5.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1884.png
+Corinthians;Corinthians;€134.0M;€16.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1041.png
+Benevento;Benevento;€22.0M;€5.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112026.png
+Dynamo Kyiv;Dynamo Kyiv;€150.0M;€12.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101047.png
+Jeonbuk Hyundai Motors;Jeonbuk Hyundai Motors;€19.0M;€7.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1477.png
+FC Seoul;FC Seoul;€12.8M;€5.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l982.png
+Flamengo;Flamengo;€364.6M;€42.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1043.png
+Sc Heerenveen;sc Heerenveen;€66.0M;€6.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1913.png
+Swansea City;Swansea City;€110.0M;€10.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1960.png
+Adelaide United;Adelaide United;€8.0M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111393.png
+Hellas Verona;Hellas Verona;€75.0M;€8.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l206.png
+Talleres De Córdoba;Talleres de Cordoba;€20.0M;€5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112670.png
+Suwon Bluewings;Suwon Bluewings;€13.0M;€2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l983.png
+Al Ain FC (UAE);Al Ain FC (UAE);€76.0M;€13.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111701.png
+León;Leon;€20.0M;€3.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110781.png
+Botafogo;Botafogo;€22.0M;€4.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l517.png
+Rayo Vallecano;Rayo Vallecano;€10.0M;€3.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l480.png
+Chievo Verona;Chievo Verona;€20.0M;€4.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l192.png
+Sporting KC;Sporting KC;€292.5M;€27.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l696.png
+SM Caen;SM Caen;€17.0M;€3.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l210.png
+Vitesse;Vitesse;€77.0M;€16.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1909.png
+Ceará;Ceara;€6.3M;€1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111059.png
+Chicago Fire FC;Chicago Fire FC;€301.5M;€27.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l693.png
+Guangzhou City;Guangzhou City;€24.6M;€7.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112429.png
+Mazatlán FC;Mazatlan FC;€3.0M;€1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114899.png
+Athletico Paranaense;Athletico Paranaense;€77.0M;€6.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1039.png
+Goiás;Goias;€12.5M;€2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111042.png
+CD Leganés;CD Leganes;€10.8M;€4.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100888.png
+Club Tijuana;Club Tijuana;€34.0M;€7.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111678.png
+AS Saint-Étienne;AS Saint-Etienne;€100.0M;€12.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1819.png
+SC Freiburg;SC Freiburg;€165.7M;€10.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l25.png
+SpVgg Greuther Fürth;SpVgg Greuther Furth;€15.6M;€1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l165.png
+Standard Liège;Standard Liege;€85.0M;€12.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l232.png
+Celtic;Celtic;€65.0M;€14.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l78.png
+FC Luzern;FC Luzern;€12.0M;€3.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l897.png
+Valenciennes FC;Valenciennes FC;€10.0M;€2.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110456.png
+D.C. United;D.C. United;€297.0M;€27.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l688.png
+Farense;Farense;€2.0M;€1.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l489.png
+Racing Club De Avellaneda;Racing Club de Avellaneda;€81.2M;€9.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101085.png
+Empoli;Empoli;€20.0M;€4.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1746.png
+Defensa Y Justicia;Defensa y Justicia;€18.1M;€3.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111710.png
+Norwich City;Norwich City;€336.0M;€20.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1792.png
+Millwall;Millwall;€18.0M;€3.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l97.png
+FC Lorient;FC Lorient;€25.0M;€5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l217.png
+Genk;Genk;€140.0M;€17.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l673.png
+Vélez Sarsfield;Velez Sarsfield;€51.2M;€5.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101088.png
+CD Lugo;CD Lugo;€2.6M;€1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110831.png
+Shenzhen FC;Shenzhen FC;€23.5M;€8.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111773.png
+Daegu FC;Daegu FC;€11.0M;€4.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l2056.png
+Libertad;Libertad;€6.7M;€3.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111008.png
+Montevideo City Torque;Montevideo City Torque;€5.5M;€0.0;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113143.png
+PAOK;PAOK;€80.0M;€16.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l393.png
+Cardiff City;Cardiff City;€80.0M;€9.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1961.png
+FC Cincinnati;FC Cincinnati;€256.5M;€24.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113149.png
+Al Fateh;Al Fateh;€9.0M;€3.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112390.png
+Lecce;Lecce;€23.0M;€6.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l347.png
+FC Zürich;FC Zurich;€10.0M;€3.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l894.png
+Preston North End;Preston North End;€20.0M;€3.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1801.png
+Wolfsberger AC;Wolfsberger AC;€15.0M;€4.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111822.png
+Fatih Karagümrük S.K.;Fatih Karagumruk S.K.;€4.0M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111117.png
+Watford;Watford;€415.0M;€35.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1795.png
+FC Utrecht;FC Utrecht;€72.0M;€15.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1903.png
+Málaga CF;Malaga CF;€105.0M;€9.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l573.png
+Al Faisaly;Al Faisaly;€8.0M;€2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112389.png
+Gaziantep FK;Gaziantep FK;€18.0M;€3.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110776.png
+Orlando Pirates;Orlando Pirates;€10.5M;€2.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110930.png
+Servette FC;Servette FC;€9.7M;€3.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l324.png
+Holstein Kiel;Holstein Kiel;€11.9M;€1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l576.png
+Banfield;Banfield;€15.3M;€4.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110404.png
+MKE Ankaragücü;MKE Ankaragucu;€7.2M;€2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101007.png
+1. FSV Mainz 05;1. FSV Mainz 05;€135.0M;€9.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l169.png
+Belenenses;Belenenses;€8.0M;€2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1889.png
+Colón;Colon;€22.5M;€4.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110406.png
+Konyaspor;Konyaspor;€25.0M;€5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101033.png
+Real Sporting De Gijón;Real Sporting de Gijon;€17.0M;€4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l459.png
+VfL Bochum;VfL Bochum;€17.3M;€3.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l160.png
+Henan Songshan Longmen FC;Henan Songshan Longmen FC;€12.7M;€4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111779.png
+Atlético Nacional;Atletico Nacional;€56.5M;€9.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101100.png
+Middlesbrough;Middlesbrough;€70.0M;€8.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l12.png
+Atlas;Atlas;€40.0M;€6.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101114.png
+Columbus Crew;Columbus Crew;€180.0M;€18.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l687.png
+Fortaleza;Fortaleza;€4.4M;€1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111052.png
+New York Red Bulls;New York Red Bulls;€261.0M;€24.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l689.png
+Independiente Del Valle;Independiente del Valle;€2.9M;€1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112908.png
+FC Juárez;FC Juarez;€4.5M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113134.png
+Unión De Santa Fe;Union de Santa Fe;€13.0M;€3.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111716.png
+Malmö FF;Malmo FF;€63.5M;€8.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l320.png
+Derby County;Derby County;€85.0M;€9.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l91.png
+Alanyaspor;Alanyaspor;€9.3M;€3.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113142.png
+SV Darmstadt 98;SV Darmstadt 98;€20.0M;€3.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110502.png
+Atlético Goianiense;Atletico Goianiense;€3.8M;€810.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112119.png
+AC Monza;AC Monza;€20.0M;€6.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111811.png
+Charleroi;Charleroi;€40.0M;€6.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l670.png
+Sparta Praha;Sparta Praha;€60.0M;€7.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l267.png
+Reading;Reading;€30.0M;€4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1793.png
+Molde FK;Molde FK;€17.0M;€5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l417.png
+Al Ettifaq;Al Ettifaq;€10.5M;€3.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112096.png
+Atlético Tucumán;Atletico Tucuman;€10.0M;€2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111708.png
+Ulsan Hyundai;Ulsan Hyundai;€13.3M;€4.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1473.png
+Al Qadisiyah;Al Qadisiyah;€4.2M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112391.png
+Aalborg BK;Aalborg BK;€7.4M;€2.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l820.png
+Bahia;Bahia;€20.0M;€3.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1598.png
+Al Raed;Al Raed;€7.7M;€2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112392.png
+Sparta Rotterdam;Sparta Rotterdam;€22.0M;€5.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100646.png
+Antwerp;Antwerp;€80.0M;€20.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l230.png
+FC Groningen;FC Groningen;€62.0M;€7.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1915.png
+Puebla;Puebla;€29.0M;€3.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110152.png
+Olimpia Asunción;Olimpia Asuncion;€13.0M;€6.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101108.png
+VfB Stuttgart;VfB Stuttgart;€275.1M;€20.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l36.png
+Antalyaspor;Antalyaspor;€41.0M;€6.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l741.png
+New England Revolution;New England Revolution;€220.5M;€21.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l691.png
+Coritiba;Coritiba;€21.0M;€2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111044.png
+Real Oviedo;Real Oviedo;€3.9M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110827.png
+Vancouver Whitecaps;Vancouver Whitecaps;€193.5M;€19.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101112.png
+Stoke City;Stoke City;€85.0M;€8.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1806.png
+Hamburger SV;Hamburger SV;€139.4M;€18.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l28.png
+Unión La Calera;Union La Calera;€5.0M;€1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112535.png
+ESTAC Troyes;ESTAC Troyes;€15.0M;€3.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l294.png
+Junior De Barranquilla;Junior de Barranquilla;€19.5M;€5.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101101.png
+Argentinos Juniors;Argentinos Juniors;€16.5M;€2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111019.png
+Oceânico FC;Oceanico FC;€1.2M;€1.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l115199.png
+Deportivo Cali;Deportivo Cali;€80.0M;€7.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101102.png
+Rosario Central;Rosario Central;€30.0M;€5.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110580.png
+Patronato;Patronato;€7.0M;€1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110581.png
+Barcelona SC Guayaquil;Barcelona SC Guayaquil;€13.0M;€4.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110981.png
+Al Wehda;Al Wehda;€11.2M;€4.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112408.png
+Colorado Rapids;Colorado Rapids;€171.0M;€17.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l694.png
+Rosenborg BK;Rosenborg BK;€25.5M;€8.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l298.png
+Girona FC;Girona FC;€9.8M;€4.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110062.png
+Coventry City;Coventry City;€4.0M;€1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1800.png
+Lanús;Lanus;€32.5M;€7.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110395.png
+Cangzhou Mighty Lions;Cangzhou Mighty Lions;€7.2M;€2.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112985.png
+Guadalajara;Guadalajara;€170.0M;€27.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1880.png
+Hebei FC;Hebei FC;€11.9M;€4.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112978.png
+Emelec;Emelec;€3.9M;€2.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110984.png
+Nashville SC;Nashville SC;€180.0M;€18.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114162.png
+Yeni Malatyaspor;Yeni Malatyaspor;€18.0M;€3.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113259.png
+Toulouse FC;Toulouse FC;€35.0M;€6.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1809.png
+Legia Warszawa;Legia Warszawa;€7.1M;€3.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1871.png
+Gimnasia Y Esgrima La Plata;Gimnasia y Esgrima La Plata;€10.0M;€3.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101084.png
+Perth Glory;Perth Glory;€8.7M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111399.png
+Aarhus GF;Aarhus GF;€8.5M;€3.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l271.png
+Estudiantes De La Plata;Estudiantes de La Plata;€47.1M;€5.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101083.png
+Çaykur Rizespor;Caykur Rizespor;€11.0M;€2.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101037.png
+SC Paderborn 07;SC Paderborn 07;€29.3M;€5.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l10030.png
+Fortuna Düsseldorf;Fortuna Dusseldorf;€54.3M;€7.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110636.png
+Crotone;Crotone;€27.0M;€4.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110734.png
+Hatayspor;Hatayspor;€6.0M;€1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101028.png
+BB Erzurumspor;BB Erzurumspor;€4.5M;€1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l749.png
+Brescia;Brescia;€25.0M;€5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l190.png
+Qingdao FC;Qingdao FC;€25.0M;€7.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112961.png
+Rentistas;Rentistas;€2.4M;€100.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l115535.png
+Erzgebirge Aue;Erzgebirge Aue;€12.3M;€1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l506.png
+Sint-Truiden;Sint-Truiden;€30.0M;€4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l680.png
+AC Ajaccio;AC Ajaccio;€10.0M;€2.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l614.png
+LDU Quito;LDU Quito;€3.7M;€2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110986.png
+OH Leuven;OH Leuven;€25.0M;€6.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100087.png
+Marítimo;Maritimo;€14.5M;€3.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1893.png
+1. FC Heidenheim;1. FC Heidenheim;€14.4M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111235.png
+Portimonense;Portimonense;€17.6M;€3.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l10031.png
+Atlético De San Luis;Atletico de San Luis;€17.0M;€5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112678.png
+Boavista;Boavista;€9.5M;€2.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1898.png
+Barnsley;Barnsley;€10.0M;€3.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1932.png
+Huracán;Huracan;€18.3M;€4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111711.png
+Al Taawoun;Al Taawoun;€22.1M;€4.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112393.png
+Tianjin Jinmen Tiger;Tianjin Jinmen Tiger;€16.9M;€6.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111774.png
+Universitario De Deportes;Universitario de Deportes;€8.5M;€3.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111014.png
+Nottingham Forest;Nottingham Forest;€78.0M;€16.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l14.png
+UD Almería;UD Almeria;€47.0M;€10.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1861.png
+Guangzhou FC;Guangzhou FC;€91.1M;€22.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111839.png
+Moreirense;Moreirense;€7.3M;€2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1900.png
+Necaxa;Necaxa;€68.0M;€9.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101121.png
+Denizlispor;Denizlispor;€6.5M;€2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1457.png
+En Avant Guingamp;En Avant Guingamp;€25.0M;€5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l62.png
+Fénix;Fenix;€2.0M;€1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111002.png
+Tondela;Tondela;€5.2M;€1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112516.png
+Queens Park Rangers;Queens Park Rangers;€22.0M;€3.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15.png
+Peñarol;Penarol;€13.2M;€4.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101110.png
+KV Mechelen;KV Mechelen;€30.0M;€4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110724.png
+BK Häcken;BK Hacken;€12.6M;€3.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l711.png
+Western Sydney Wanderers;Western Sydney Wanderers;€6.3M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112427.png
+FC Tokyo;FC Tokyo;€40.0M;€10.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101150.png
+CFR Cluj;CFR Cluj;€7.2M;€3.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114385.png
+Spal;Spal;€25.0M;€4.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112791.png
+Gil Vicente FC;Gil Vicente FC;€3.1M;€1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1888.png
+Hannover 96;Hannover 96;€121.3M;€10.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l485.png
+Sheffield Wednesday;Sheffield Wednesday;€45.0M;€5.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1807.png
+FK Bodø/Glimt;FK Bodo/Glimt;€7.9M;€2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l918.png
+Blackburn Rovers;Blackburn Rovers;€35.0M;€7.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l3.png
+Chongqing Liangjiang Athletic;Chongqing Liangjiang Athletic;€16.9M;€5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112165.png
+PEC Zwolle;PEC Zwolle;€32.0M;€5.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1914.png
+FC Dallas;FC Dallas;€198.0M;€19.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l695.png
+Famalicão;Famalicao;€15.0M;€5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112809.png
+Kaizer Chiefs;Kaizer Chiefs;€10.0M;€2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110929.png
+Zulte Waregem;Zulte Waregem;€35.0M;€6.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15005.png
+Yokohama F·Marinos;Yokohama F.Marinos;€42.5M;€10.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101151.png
+Real Zaragoza;Real Zaragoza;€7.0M;€2.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l244.png
+Amiens SC;Amiens SC;€30.0M;€5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1816.png
+Göztepe;Goztepe;€9.1M;€3.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101026.png
+Kashima Antlers;Kashima Antlers;€60.0M;€8.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101147.png
+1. FC Nürnberg;1. FC Nurnberg;€58.4M;€5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l171.png
+Deportes Tolima;Deportes Tolima;€8.7M;€3.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111722.png
+Birmingham City;Birmingham City;€25.0M;€5.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l88.png
+Bristol City;Bristol City;€60.0M;€10.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1919.png
+CD Castellón;CD Castellon;€2.6M;€1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100852.png
+Waasland-Beveren;Waasland-Beveren;€15.0M;€2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110913.png
+FC Twente;FC Twente;€75.0M;€9.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1908.png
+VVV-Venlo;VVV-Venlo;€13.0M;€2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100651.png
+Paços De Ferreira;Pacos de Ferreira;€4.0M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1892.png
+Bolívar;Bolivar;€7.9M;€3.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110968.png
+San Jose Earthquakes;San Jose Earthquakes;€247.5M;€23.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111928.png
+América De Cali;America de Cali;€5.5M;€2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101099.png
+Cerezo Osaka;Cerezo Osaka;€32.0M;€6.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101148.png
+Altach;Altach;€10.0M;€2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15009.png
+Huddersfield Town;Huddersfield Town;€60.0M;€6.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1939.png
+Damac FC;Damac FC;€2.0M;€1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113217.png
+Willem II;Willem II;€30.0M;€4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1907.png
+Sanfrecce Hiroshima;Sanfrecce Hiroshima;€27.5M;€8.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113157.png
+SD Ponferradina;SD Ponferradina;€4.4M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l2023.png
+Gallos Blancos De Querétaro;Gallos Blancos de Queretaro;€3.0M;€1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110150.png
+Universitatea Craiova;Universitatea Craiova;€6.4M;€2.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l308.png
+Santa Clara;Santa Clara;€6.1M;€1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1438.png
+ADO Den Haag;ADO Den Haag;€46.0M;€5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l650.png
+Djurgårdens IF;Djurgardens IF;€15.3M;€4.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l710.png
+Al Batin;Al Batin;€4.0M;€1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112990.png
+CF Fuenlabrada;CF Fuenlabrada;€2.5M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110065.png
+Kawasaki Frontale;Kawasaki Frontale;€50.0M;€9.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111730.png
+Deportes Antofagasta;Deportes Antofagasta;€8.3M;€2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112533.png
+Brøndby IF;Brondby IF;€21.5M;€5.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l269.png
+Shimizu S-Pulse;Shimizu S-Pulse;€33.0M;€4.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101149.png
+Los Angeles Galaxy;Los Angeles Galaxy;€432.0M;€37.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l697.png
+Fortuna Sittard;Fortuna Sittard;€16.0M;€5.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l634.png
+Kortrijk;Kortrijk;€25.0M;€4.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100081.png
+Arsenal De Sarandí;Arsenal de Sarandi;€7.5M;€2.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110394.png
+Eintracht Braunschweig;Eintracht Braunschweig;€12.3M;€900.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110500.png
+New York City FC;New York City FC;€346.5M;€31.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112828.png
+TSV 1860 München;TSV 1860 Munchen;€3.8M;€1.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l33.png
+FC St. Gallen;FC St. Gallen;€16.0M;€4.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l898.png
+Incheon United;Incheon United;€8.5M;€2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110765.png
+Gamba Osaka;Gamba Osaka;€43.0M;€8.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112093.png
+FC Lugano;FC Lugano;€6.6M;€1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l10032.png
+VfL Osnabrück;VfL Osnabruck;€7.7M;€520.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l487.png
+Oostende;Oostende;€25.0M;€3.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l682.png
+Rapid Wien;Rapid Wien;€50.0M;€5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l254.png
+AIK;AIK;€15.3M;€4.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l433.png
+FC Sion;FC Sion;€14.5M;€6.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110770.png
+Sydney FC;Sydney FC;€12.5M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111400.png
+Wycombe Wanderers;Wycombe Wanderers;€3.5M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1933.png
+Le Havre AC;Le Havre AC;€14.0M;€4.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1738.png
+Sturm Graz;Sturm Graz;€19.0M;€5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l209.png
+UD Las Palmas;UD Las Palmas;€50.0M;€6.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l472.png
+Viking FK;Viking FK;€5.6M;€2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l300.png
+Clermont Foot;Clermont Foot;€8.7M;€3.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1815.png
+Pohang Steelers;Pohang Steelers;€9.0M;€3.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1474.png
+Rotherham United;Rotherham United;€4.0M;€1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1797.png
+Dynamo Dresden;Dynamo Dresden;€11.3M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l503.png
+Helsingborgs IF;Helsingborgs IF;€6.7M;€2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l432.png
+Sangju Sangmu;Sangju Sangmu;€12.1M;€2.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l2055.png
+Eupen;Eupen;€20.0M;€3.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l2013.png
+Wuhan FC;Wuhan FC;€12.1M;€4.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112541.png
+Vegalta Sendai;Vegalta Sendai;€22.0M;€4.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112836.png
+FC Emmen;FC Emmen;€18.0M;€3.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100628.png
+Godoy Cruz;Godoy Cruz;€22.0M;€5.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111706.png
+Nagoya Grampus;Nagoya Grampus;€45.0M;€8.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112092.png
+Karlsruher SC;Karlsruher SC;€9.4M;€800.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1832.png
+Independiente Santa Fe;Independiente Santa Fe;€20.5M;€7.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101104.png
+Hammarby IF;Hammarby IF;€14.9M;€4.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l708.png
+Mouscron;Mouscron;€25.0M;€3.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111560.png
+Nacional (Madeira);Nacional (Madeira);€5.4M;€2.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1891.png
+IFK Göteborg;IFK Goteborg;€10.1M;€2.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l319.png
+FC Hermannstadt;FC Hermannstadt;€1.6M;€1.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114147.png
+IK Sirius;IK Sirius;€2.9M;€600.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113458.png
+Hokkaido Consadole Sapporo;Hokkaido Consadole Sapporo;€26.0M;€5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112444.png
+Crewe Alexandra;Crewe Alexandra;€2.0M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l121.png
+Astra Giurgiu;Astra Giurgiu;€2.5M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112847.png
+Melgar FBC;Melgar FBC;€1.8M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111334.png
+Odds Ballklubb;Odds Ballklubb;€6.2M;€2.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1456.png
+Kristiansund BK;Kristiansund BK;€5.0M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113459.png
+Macarthur FC;Macarthur FC;€7.0M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114604.png
+CD Tenerife;CD Tenerife;€5.0M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l260.png
+Guaireña FC;Guairena FC;€4.4M;€2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114688.png
+Würzburger Kickers;Wurzburger Kickers;€7.8M;€725.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110197.png
+Cercle Brugge;Cercle Brugge;€30.0M;€5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1750.png
+Jorge Wilstermann;Jorge Wilstermann;€3.5M;€2.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110974.png
+Real Salt Lake;Real Salt Lake;€211.5M;€20.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111065.png
+FSV Zwickau;FSV Zwickau;€3.5M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110592.png
+Chamois Niortais FC;Chamois Niortais FC;€9.0M;€3.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1813.png
+RKC Waalwijk;RKC Waalwijk;€12.0M;€2.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1905.png
+Heracles Almelo;Heracles Almelo;€35.0M;€4.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100634.png
+Górnik Zabrze;Gornik Zabrze;€4.0M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l420.png
+Deportivo Pasto;Deportivo Pasto;€6.5M;€2.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111723.png
+Cobresal;Cobresal;€5.0M;€1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110978.png
+Admira Wacker;Admira Wacker;€12.5M;€2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111821.png
+Sepsi OSK;Sepsi OSK;€2.3M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113378.png
+SV Wehen Wiesbaden;SV Wehen Wiesbaden;€7.0M;€1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l492.png
+UD Logroñés;UD Logrones;€3.0M;€1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l476.png
+AJ Auxerre;AJ Auxerre;€21.0M;€4.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l57.png
+Viktoria Köln;Viktoria Koln;€4.1M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110645.png
+Randers FC;Randers FC;€4.1M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1786.png
+St. Pölten;St. Polten;€10.0M;€2.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112075.png
+Sunderland;Sunderland;€13.0M;€5.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l106.png
+Carlos A. Mannucci;Carlos A. Mannucci;€4.3M;€2.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114619.png
+Östersunds FK;Ostersunds FK;€5.3M;€1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113173.png
+Milton Keynes Dons;Milton Keynes Dons;€3.8M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1798.png
+Jiangsu FC;Jiangsu FC;€29.6M;€9.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112162.png
+Nacional Potosí;Nacional Potosi;€1.7M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112667.png
+IF Elfsborg;IF Elfsborg;€8.2M;€2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l700.png
+Ipswich Town;Ipswich Town;€6.5M;€2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l94.png
+Luton Town;Luton Town;€6.0M;€2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1923.png
+Vålerenga Fotball;Valerenga Fotball;€7.5M;€2.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l920.png
+FC Sochaux;FC Sochaux;€15.0M;€2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l226.png
+Abha Club;Abha Club;€3.8M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113058.png
+SpVgg Unterhaching;SpVgg Unterhaching;€5.6M;€580.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l172.png
+Atlético Palmaflor;Atletico Palmaflor;€1.5M;€1.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l115358.png
+La Equidad;La Equidad;€4.5M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112523.png
+CF Montréal;CF Montreal;€189.0M;€19.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111139.png
+Beerschot;Beerschot;€20.0M;€5.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l675.png
+Aldosivi;Aldosivi;€5.2M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111707.png
+Universidad Técnica De Cajamarca;Universidad Tecnica de Cajamarca;€5.4M;€2.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114617.png
+FCSB;FCSB;€9.0M;€4.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100761.png
+Piast Gliwice;Piast Gliwice;€5.0M;€1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111086.png
+1. FC Saarbrücken;1. FC Saarbrucken;€4.5M;€1.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l523.png
+Central Córdoba;Central Cordoba;€7.0M;€2.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112965.png
+Oxford United;Oxford United;€3.6M;€1.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1951.png
+12 De Octubre FC;12 de Octubre FC;€3.6M;€1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111007.png
+CD Mirandés;CD Mirandes;€2.5M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110069.png
+AD Alcorcón;AD Alcorcon;€2.5M;€1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100831.png
+Charlton Athletic;Charlton Athletic;€8.0M;€2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l89.png
+Cracovia Kraków;Cracovia Krakow;€5.6M;€2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110747.png
+Pau FC;Pau FC;€7.0M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110321.png
+The Strongest;The Strongest;€5.6M;€2.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110969.png
+Rochdale;Rochdale;€5.0M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1955.png
+Always Ready;Always Ready;€1.7M;€1.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114577.png
+Odense Boldklub;Odense Boldklub;€6.9M;€2.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l272.png
+Peterborough United;Peterborough United;€3.4M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1938.png
+SV Sandhausen;SV Sandhausen;€12.2M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110178.png
+Hull City;Hull City;€32.0M;€4.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1952.png
+SK Brann;SK Brann;€10.9M;€3.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l919.png
+Al Ain (KSA);Al Ain (KSA);€3.5M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114143.png
+IFK Norrköping;IFK Norrkoping;€14.7M;€4.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l702.png
+Portsmouth;Portsmouth;€4.5M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1790.png
+Jahn Regensburg;Jahn Regensburg;€8.4M;€1.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l543.png
+Aberdeen;Aberdeen;€7.5M;€2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l77.png
+WSG Tirol;WSG Tirol;€10.0M;€2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15040.png
+Örebro SK;Orebro SK;€4.3M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l705.png
+Fleetwood Town;Fleetwood Town;€3.4M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112260.png
+LB Châteauroux;LB Chateauroux;€8.0M;€2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l212.png
+Doncaster Rovers;Doncaster Rovers;€4.0M;€1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l142.png
+Paris FC;Paris FC;€12.5M;€5.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111817.png
+Kashiwa Reysol;Kashiwa Reysol;€35.0M;€7.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101145.png
+CE Sabadell;CE Sabadell;€2.7M;€1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15021.png
+Austria Wien;Austria Wien;€39.0M;€7.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l256.png
+Sagan Tosu;Sagan Tosu;€35.0M;€4.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113160.png
+KFC Uerdingen 05;KFC Uerdingen 05;€8.0M;€1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l167.png
+Busan IPark;Busan IPark;€7.9M;€3.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1476.png
+SD Aucas;SD Aucas;€1.9M;€1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110987.png
+Aalesunds FK;Aalesunds FK;€4.2M;€1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1755.png
+Kilmarnock;Kilmarnock;€5.5M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l82.png
+Sporting Cristal;Sporting Cristal;€8.3M;€3.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111013.png
+Grenoble Foot 38;Grenoble Foot 38;€10.0M;€3.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1805.png
+Oita Trinita;Oita Trinita;€20.0M;€4.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113183.png
+USL Dunkerque;USL Dunkerque;€7.0M;€2.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111276.png
+FC St. Pauli;FC St. Pauli;€32.2M;€2.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110329.png
+Gangwon FC;Gangwon FC;€9.2M;€3.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112115.png
+Hansa Rostock;Hansa Rostock;€9.9M;€650.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l27.png
+SV Ried;SV Ried;€10.0M;€3.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l780.png
+Nacional Asunción;Nacional Asuncion;€5.5M;€2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112671.png
+Rodez Aveyron Football;Rodez Aveyron Football;€7.1M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111659.png
+Hibernian;Hibernian;€8.0M;€3.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l81.png
+Guabirá;Guabira;€1.6M;€1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114600.png
+Melbourne City;Melbourne City;€13.5M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112224.png
+Hallescher FC;Hallescher FC;€4.9M;€640.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110482.png
+Albacete Balompié;Albacete Balompie;€2.5M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1854.png
+Dundalk;Dundalk;€1.5M;€900.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l837.png
+Sarpsborg 08;Sarpsborg 08;€5.3M;€2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112199.png
+Seongnam FC;Seongnam FC;€7.7M;€2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l981.png
+St. Johnstone;St. Johnstone;€4.4M;€700.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100804.png
+Deportivo La Guaira;Deportivo La Guaira;€2.2M;€1.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112853.png
+FC Lausanne-Sport;FC Lausanne-Sport;€13.5M;€5.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1862.png
+Macará;Macara;€4.0M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114578.png
+Motherwell;Motherwell;€3.8M;€900.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l83.png
+SønderjyskE;SonderjyskE;€4.6M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1447.png
+Metropolitanos FC;Metropolitanos FC;€2.5M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112914.png
+FC Ingolstadt 04;FC Ingolstadt 04;€16.1M;€4.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111239.png
+Stabæk Fotball;Stabak Fotball;€5.3M;€1.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l917.png
+Salford City;Salford City;€2.4M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113926.png
+Hartberg;Hartberg;€10.0M;€2.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l2017.png
+Wigan Athletic;Wigan Athletic;€9.0M;€2.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1917.png
+Livingston;Livingston;€3.4M;€650.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l621.png
+Sport Huancayo;Sport Huancayo;€3.0M;€2.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114511.png
+FC Cartagena;FC Cartagena;€2.5M;€1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100851.png
+AC Horsens;AC Horsens;€3.5M;€1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1446.png
+Bolton Wanderers;Bolton Wanderers;€5.0M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l4.png
+Melbourne Victory;Melbourne Victory;€11.5M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111397.png
+Yokohama FC;Yokohama FC;€12.5M;€2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113197.png
+Lincoln City;Lincoln City;€3.4M;€1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l149.png
+Huachipato;Huachipato;€10.0M;€3.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111327.png
+Academica Clinceni;Academica Clinceni;€950.0K;€507.3K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113391.png
+Bayern München II;Bayern Munchen II;€15.0M;€4.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110679.png
+AS Nancy;AS Nancy;€15.0M;€2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1823.png
+Kalmar FF;Kalmar FF;€5.0M;€1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1439.png
+MSV Duisburg;MSV Duisburg;€10.1M;€800.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1825.png
+Ross County;Ross County;€3.9M;€600.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l631.png
+St. Mirren;St. Mirren;€3.6M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100805.png
+Strømsgodset Toppfotball;Stromsgodset Toppfotball;€6.4M;€2.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l922.png
+Mjällby AIF;Mjallby AIF;€1.7M;€850.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112072.png
+Wellington Phoenix;Wellington Phoenix;€5.9M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111766.png
+Cheltenham Town;Cheltenham Town;€2.2M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1936.png
+1. FC Kaiserslautern;1. FC Kaiserslautern;€12.2M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l29.png
+Hamilton Academical;Hamilton Academical;€4.2M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l184.png
+Bristol Rovers;Bristol Rovers;€3.2M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1962.png
+1. FC Magdeburg;1. FC Magdeburg;€9.5M;€800.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110588.png
+FK Haugesund;FK Haugesund;€3.5M;€1.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1463.png
+Newcastle Jets;Newcastle Jets;€7.0M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111398.png
+Dundee United;Dundee United;€2.8M;€800.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l181.png
+St. Patrick's Athletic;St. Patrick's Athletic;€972.0K;€525.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l423.png
+Brisbane Roar;Brisbane Roar;€11.0M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111395.png
+Gillingham;Gillingham;€3.4M;€1.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1802.png
+FC Nordsjælland;FC Nordsjalland;€13.6M;€2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1788.png
+Leyton Orient;Leyton Orient;€2.3M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1958.png
+Lyngby BK;Lyngby BK;€3.6M;€1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15001.png
+HJK Helsinki;HJK Helsinki;€4.1M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l100325.png
+UTA Arad;UTA Arad;€1.8M;€937.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110750.png
+SC Verl;SC Verl;€2.0M;€1.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110501.png
+FC Viitorul;FC Viitorul;€6.9M;€2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113180.png
+FC Voluntari;FC Voluntari;€2.0M;€1.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113182.png
+Accrington Stanley;Accrington Stanley;€4.2M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110313.png
+River Plate Asunción;River Plate Asuncion;€2.0M;€1.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114575.png
+Sandefjord Fotball;Sandefjord Fotball;€2.1M;€1.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1757.png
+Exeter City;Exeter City;€2.9M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l143.png
+Cambridge United;Cambridge United;€1.7M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1944.png
+Blackpool;Blackpool;€3.0M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1926.png
+IK Start;IK Start;€2.5M;€1.2M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1524.png
+Central Coast Mariners;Central Coast Mariners;€5.5M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111396.png
+SV Meppen;SV Meppen;€3.0M;€520.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110597.png
+Türkgücü München;Turkgucu Munchen;€2.9M;€1.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114398.png
+Tranmere Rovers;Tranmere Rovers;€2.8M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15048.png
+Newport County;Newport County;€3.3M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112254.png
+Guayaquil City;Guayaquil City;€3.5M;€1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113723.png
+Plymouth Argyle;Plymouth Argyle;€3.1M;€1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1929.png
+Harrogate Town;Harrogate Town;€1.5M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112222.png
+SV Waldhof Mannheim;SV Waldhof Mannheim;€3.5M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110532.png
+Shamrock Rovers;Shamrock Rovers;€1.2M;€700.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l306.png
+Falkenbergs FF;Falkenbergs FF;€3.5M;€550.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112169.png
+Vejle BK;Vejle BK;€3.3M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l822.png
+Aragua FC;Aragua FC;€1.6M;€1.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112916.png
+Burton Albion;Burton Albion;€5.0M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15015.png
+Shonan Bellmare;Shonan Bellmare;€25.0M;€3.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113161.png
+Colchester United;Colchester United;€2.3M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1935.png
+Shrewsbury Town;Shrewsbury Town;€3.7M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l127.png
+Morecambe;Morecambe;€2.1M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l357.png
+VfB Lübeck;VfB Lubeck;€2.9M;€1.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1829.png
+Sligo Rovers;Sligo Rovers;€952.0K;€515.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l563.png
+Cerro Largo;Cerro Largo;€3.8M;€0.0;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l115536.png
+FC Chambly Oise;FC Chambly Oise;€6.5M;€1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112627.png
+Oldham Athletic;Oldham Athletic;€4.5M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1920.png
+Forest Green Rovers;Forest Green Rovers;€2.3M;€1.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l561.png
+Waterford;Waterford;€974.0K;€520.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l753.png
+Scunthorpe United;Scunthorpe United;€2.8M;€1.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1949.png
+Stevenage;Stevenage;€3.0M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l361.png
+Mjøndalen IF;Mjondalen IF;€3.0M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112420.png
+Bradford City;Bradford City;€3.2M;€1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1804.png
+Academia Puerto Cabello;Academia Puerto Cabello;€1.4M;€835.9K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114611.png
+Stal Mielec;Stal Mielec;€1.5M;€875.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114004.png
+Swindon Town;Swindon Town;€3.3M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1934.png
+FC Vaduz;FC Vaduz;€5.5M;€1.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l286.png
+Crawley Town;Crawley Town;€1.6M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110890.png
+Port Vale;Port Vale;€3.4M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1928.png
+Carlisle United;Carlisle United;€2.1M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1480.png
+Cork City;Cork City;€1.1M;€600.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l422.png
+AFC Wimbledon;AFC Wimbledon;€4.0M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112259.png
+Deportivo Táchira;Deportivo Tachira;€3.5M;€1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110990.png
+Grimsby Town;Grimsby Town;€1.8M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l92.png
+Mineros De Guayana;Mineros de Guayana;€1.9M;€1.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110992.png
+Barrow;Barrow;€1.8M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l381.png
+Walsall;Walsall;€2.6M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1803.png
+Southend United;Southend United;€4.0M;€750.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1954.png
+Mansfield Town;Mansfield Town;€2.8M;€1.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1940.png
+Bohemians;Bohemians;€975.0K;€530.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l305.png
+Northampton Town;Northampton Town;€3.0M;€1.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1930.png
+Varbergs BoIS;Varbergs BoIS;€1.2M;€650.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l113743.png
+Derry City;Derry City;€985.0K;€510.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l445.png
+Shelbourne;Shelbourne;€968.0K;€520.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l834.png
+Finn Harps;Finn Harps;€945.0K;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111131.png

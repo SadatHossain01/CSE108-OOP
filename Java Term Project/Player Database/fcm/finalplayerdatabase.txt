@@ -16704,3 +16704,4 @@ Bart Straalman;Grenoble Foot 38;Holland;23;€850K;3;CB;193;74;Right;€1.4K;https:/
 Gaspar Campos-Ansó;Real Sporting de Gijón;Spain;20;€2.5M;27;LM RM CAM;175;73;Right;€2.8K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p256885.png?v=22
 Kevin Iodice;FC Vaduz;Switzerland;19;€275K;13;CB;183;75;Left;€650;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p261290.png?v=22
 Olufela Olomola;Scunthorpe United;England;22;€350K;24;ST;180;80;Right;€3.1K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p233289.png?v=22
+Mohammad Safkat Hossain;FC Barcelona;Bangladesh;19;€150M;7;RW ST CF;183;72;Right;€300K;https://raw.githubusercontent.com/Sadat-Hossain-01/DxBall-remake/main/IGraphics-master/Sakat%20BUP%20Transparent.png

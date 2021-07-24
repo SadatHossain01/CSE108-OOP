@@ -681,3 +681,4 @@
 681;Burton Albion;€5M;€750K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l15015.png;
 682;FC Lugano;€6.6M;€1.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l10032.png;
 683;Youth Squad;€0;€100;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112264.png;
+684;Free Agent;€0;€0;https://w7.pngwing.com/pngs/743/651/png-transparent-no-entry-logo-no-symbol-sign-forbidden-miscellaneous-text-trademark-thumbnail.png;

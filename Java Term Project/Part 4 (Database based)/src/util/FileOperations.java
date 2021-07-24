@@ -103,7 +103,7 @@ public class FileOperations {
     }
 
     public static void writePlayerDataToFile(String FILE_NAME, List<Player> playerList) throws Exception {
-        BufferedWriter output = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(FILE_NAME)));
+        BufferedWriter output = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(FILE_NAME), "windows-1252"));
         for (Player p : playerList) {
 //            Lionel Messi;Lionel Messi;FC Barcelona;Argentina;33;€103.5M;10;RW ST CF;170;72;Left;€560K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p158023.png?v=22;0;€0
             output.write(p.getName() + ";" + p.getUnAccentedName() + ";" + p.getClubName() + ";" + p.getCountry() + ";"
@@ -125,7 +125,7 @@ public class FileOperations {
     }
 
     public static void writeClubInformationToFile(String FILE_NAME, List<Club> clubList) throws Exception {
-        BufferedWriter output = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(FILE_NAME)));
+        BufferedWriter output = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(FILE_NAME), "windows-1252"));
         for (Club c : clubList) {
             String buffer = c.getName() + ";" + c.getUnAccentedName() + ";" + Club.showSalary(c.getWorth()) + ";" + Club.showSalary(c.getTransferBudget()) + ";" + c.getLogoLink();
             output.write(buffer);
