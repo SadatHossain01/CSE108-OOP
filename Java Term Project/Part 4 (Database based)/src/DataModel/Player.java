@@ -6,56 +6,58 @@ public class Player implements Serializable {
     private String name;
     private String unAccentedName;
     private String country;
-    private String ClubName;
+    private String clubName;
     private final String position;
     private final int age;
     private String DoB = "";
     private double weight;
-    private String ImageSource;
+    private String imageSource;
     public enum PreferredFoot {Left, Right, Both};
     private PreferredFoot preferredFoot;
     private int number;
     private double estimatedValue;
     private final double height;
-    private final double WeeklySalary;
-    private boolean isTransferListed = false;
-    private double TransferFee = 0;
+    private final double weeklySalary;
+    private boolean isTransferListed;
+    private double transferFee;
 
-    public Player(String name, String unAccentedName, String country, String clubName, String position, int age, double weight, String imageSource, String pFoot, int number, double estimatedValue, double height, double weeklySalary) {
+    public Player(String name, String unAccentedName, String clubName, String country, int age, double estimatedValue, int number, String position, double height, double weight, String pFoot, double weeklySalary, String imageSource, int isTransferListed, double transferFee) {
         this.name = name;
         this.unAccentedName = unAccentedName;
         this.country = country;
-        ClubName = clubName;
+        this.clubName = clubName;
         this.position = position;
         this.age = age;
         this.weight = weight;
-        ImageSource = imageSource;
+        this.imageSource = imageSource;
         if (pFoot.equalsIgnoreCase("Left")) this.preferredFoot = PreferredFoot.Left;
         else if (pFoot.equalsIgnoreCase("Right")) this.preferredFoot = PreferredFoot.Right;
         else this.preferredFoot = PreferredFoot.Both;
         this.number = number;
         this.estimatedValue = estimatedValue;
         this.height = height;
-        WeeklySalary = weeklySalary;
+        this.weeklySalary = weeklySalary;
+        this.isTransferListed = isTransferListed == 1;
+        this.transferFee = transferFee;
     }
 
     public Player(Player player) {
         this.name = player.name;
         this.unAccentedName = player.unAccentedName;
         this.country = player.country;
-        this.ClubName = player.ClubName;
+        this.clubName = player.clubName;
         this.position = player.position;
         this.age = player.age;
         this.number = player.number;
         this.height = player.height;
-        this.WeeklySalary = player.WeeklySalary;
+        this.weeklySalary = player.weeklySalary;
         this.isTransferListed = player.isTransferListed;
-        this.TransferFee = player.TransferFee;
+        this.transferFee = player.transferFee;
         this.preferredFoot = player.preferredFoot;
         this.weight = player.weight;
         this.DoB = player.DoB;
         this.estimatedValue = player.estimatedValue;
-        this.ImageSource = player.ImageSource;
+        this.imageSource = player.imageSource;
     }
 
     public double getEstimatedValue() {
@@ -79,11 +81,11 @@ public class Player implements Serializable {
     }
 
     public String getClubName() {
-        return ClubName;
+        return clubName;
     }
 
     public void setClubName(String ClubName) {
-        this.ClubName = League.FormatName(ClubName);
+        this.clubName = League.FormatName(ClubName);
     }
 
     public String getPosition() {
@@ -107,15 +109,15 @@ public class Player implements Serializable {
     }
 
     public double getWeeklySalary() {
-        return WeeklySalary;
+        return weeklySalary;
     }
 
     public double getTransferFee() {
-        return TransferFee;
+        return transferFee;
     }
 
     public void setTransferFee(double transferFee) {
-        TransferFee = transferFee;
+        this.transferFee = transferFee;
     }
 
     public boolean isTransferListed() {
@@ -135,7 +137,7 @@ public class Player implements Serializable {
     }
 
     public String getImageSource() {
-        return ImageSource;
+        return imageSource;
     }
 
     public PreferredFoot getPreferredFoot() {
@@ -156,7 +158,7 @@ public class Player implements Serializable {
 
     public synchronized int isTransferPossible(Club buyer) { //returns 0 on success, 1 on already bought, 2 on insufficient budget
         if (!isTransferListed) return 1;
-        if (buyer.getTransferBudget() < TransferFee) return 2;
+        if (buyer.getTransferBudget() < transferFee) return 2;
         return 0;
     }
 
@@ -166,12 +168,12 @@ public class Player implements Serializable {
         System.out.println("Age: " + age + " years");
         System.out.println("Height: " + height + "cm");
         System.out.println("Weight: " + weight + "kg");
-        System.out.println("Club: " + ClubName);
+        System.out.println("Club: " + clubName);
         System.out.println("Country: " + country);
         System.out.println("Position: " + position);
         System.out.println("Number: " + number);
         System.out.println("Preferred Foot: " + preferredFoot);
-        System.out.println("Weekly Salary: " + Club.showSalary(WeeklySalary));
+        System.out.println("Weekly Salary: " + Club.showSalary(weeklySalary));
         System.out.println("Value: " + Club.showSalary(estimatedValue));
     }
 }

@@ -50,6 +50,7 @@ for line in players:
     buffer = ''
     for string in all:
         buffer += string + ';'
+    buffer += '0;€0'
     new.write(buffer)
     new.write('\n')
 players.close()

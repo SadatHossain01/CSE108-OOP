@@ -6,15 +6,17 @@ import javafx.util.Pair;
 import util.FileOperations;
 import util.NetworkUtil;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class Server {
     private ServerSocket serverSocket;
-    private League FiveASideLeague;
+    private static League FiveASideLeague;
     private HashMap<String, String> clubPasswordList;
     private HashMap<String, NetworkUtil> clubNetworkUtilMap;
     private ArrayList<Player> transferListedPlayers;
@@ -36,18 +38,19 @@ public class Server {
         for (var p : loaded) {
             FiveASideLeague.addPlayerToLeague(p);
             if (p.isTransferListed()) transferListedPlayers.add(p);
-            else if (p.getClubName().equalsIgnoreCase("Free Agent")){
-                p.setTransferListed(true);
-                p.setTransferFee(0);
+//            else if (p.getClubName().equalsIgnoreCase("Free Agent")){
+//                p.setTransferListed(false);
+//                p.setTransferFee(0);
 //                transferListedPlayers.add(p);
-            }
+//            }
         }
         System.out.println("Loaded data of " + FiveASideLeague.CentralPlayerDatabase.size() + " players and " + FiveASideLeague.getClubList().size() + " clubs");
         //Reading Country Data
         countryFlagList = FileOperations.readFlagLinkOfCountries("src/Assets/Text/fifacm/Country_Flag.txt");
         //Reading Club Data
         clubLogoList = FileOperations.readInformationOfClubs("src/Assets/Text/FixedClubDatabase.txt", FiveASideLeague, unaccented_accented);
-//        FileOperations.writeClubCredentialsToFile("src/Assets/Text/ClubUsername_Password.txt", FiveASideLeague.getClubList());
+        for (var e : unaccented_accented.entrySet()) System.out.println(e.getKey() + " " + e.getValue());
+//        FileOperations.generateClubPasswords("src/Assets/Text/ClubUsername_Password.txt", FiveASideLeague.getClubList());
         System.out.println("Server up and running");
     }
 
@@ -60,6 +63,27 @@ public class Server {
     public static void main(String[] args) throws Exception {
         int port = 44444;
         Server server = new Server(port);
+//        new Thread(()-> {
+//            Scanner scanner = new Scanner(System.in);
+//            String next;
+//            while (true){
+//                next = scanner.nextLine();
+//                if (next.strip().equalsIgnoreCase("Stop")){
+//                    try {
+//                        FileOperations.writePlayerDataToFile("src/Assets/Text/FixedPlayerDatabase.txt", FiveASideLeague.CentralPlayerDatabase);
+//                    } catch (Exception e) {
+//                        e.printStackTrace();
+//                    }
+//                    try {
+//                        FileOperations.writeClubInformationToFile("src/Assets/Text/FixedClubDatabase.txt", FiveASideLeague.getClubList());
+//                    } catch (Exception e) {
+//                        e.printStackTrace();
+//                    }
+//                    System.out.println("Good Bye");
+//                    System.exit(0);
+//                }
+//            }
+//        }).start();
         while (true){
             var cs = server.serverSocket.accept();
             server.serve(cs);

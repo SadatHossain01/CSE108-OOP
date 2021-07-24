@@ -54,8 +54,10 @@ for line in clubs:
     print(name + '     ' + decoded)
     all.insert(2, decoded)
     buffer = ''
-    for string in all:
-        buffer += string + ';'
+    for _ in range(1, len(all)):
+        buffer += all[_] + ';'
+    # for string in all:
+    #     buffer += string + ';'
     new.write(buffer)
     new.write('\n')
 clubs.close()
