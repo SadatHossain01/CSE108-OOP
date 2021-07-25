@@ -505,7 +505,7 @@ AD Alcorcón;AD Alcorcon;€2.5M;€1.6M;https://www.fifacm.com/content/media/imgs/fi
 Charlton Athletic;Charlton Athletic;€8.0M;€2.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l89.png
 Cracovia Kraków;Cracovia Krakow;€5.6M;€2.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110747.png
 Pau FC;Pau FC;€7.0M;€2.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110321.png
-The Strongest;The Strongest;€5.6M;€2.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110969.png
+The Strongest;The Strongest;€5.6M;€2.4M;https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Escudo_Club_The_Strongest.png/150px-Escudo_Club_The_Strongest.png
 Rochdale;Rochdale;€5.0M;€500.0K;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1955.png
 Always Ready;Always Ready;€1.7M;€1.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114577.png
 Odense Boldklub;Odense Boldklub;€6.9M;€2.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l272.png
