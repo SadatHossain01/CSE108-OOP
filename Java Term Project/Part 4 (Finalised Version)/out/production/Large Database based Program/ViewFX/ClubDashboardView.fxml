@@ -19,7 +19,10 @@
          <children>
             <VBox alignment="CENTER">
                <children>
-                  <ImageView fx:id="clubLogo" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="clubLogo" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin></ImageView>
                   <Label fx:id="clubName" alignment="CENTER" contentDisplay="CENTER" prefHeight="62.0" prefWidth="209.0" text="Club Name" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" wrapText="true">
                      <font>
                         <Font name="Elephant" size="18.0" />

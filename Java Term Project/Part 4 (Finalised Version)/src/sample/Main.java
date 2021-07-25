@@ -11,6 +11,7 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.paint.Color;
 import javafx.stage.Modality;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
@@ -148,7 +149,8 @@ public class Main extends Application {
         c.setStage(stage);
         c.setMain(this);
         c.initiate(club.getCountryWisePlayerCount());
-        stage.setScene(new Scene(root));
+        var scene = new Scene(root);
+        stage.setScene(scene);
         stage.setOnCloseRequest(event -> {
             currentPageType = previousPageType;
         });
