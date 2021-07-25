@@ -22,7 +22,7 @@
          <left>
             <Pane prefHeight="540.0" prefWidth="463.0" styleClass="linear-grid" stylesheets="@../CSS/Main.css" BorderPane.alignment="CENTER">
                <children>
-                  <Label alignment="CENTER" layoutX="36.0" layoutY="165.0" prefHeight="105.0" prefWidth="392.0" text="Football Manager 2021">
+                  <Label alignment="CENTER" layoutY="165.0" prefHeight="163.0" prefWidth="462.0" text="Football Manager 2021" textAlignment="CENTER">
                      <font>
                         <Font name="Showcard Gothic" size="30.0" />
                      </font>
