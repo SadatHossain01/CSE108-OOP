@@ -10,13 +10,13 @@
 
 <AnchorPane prefHeight="434.0" prefWidth="762.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.CountryCountSingleViewController">
    <children>
-      <HBox fx:id="countryCard" alignment="CENTER" layoutX="92.0" layoutY="62.0" prefHeight="310.0" prefWidth="579.0" style="-fx-background-radius: 25 25 25 25; -fx-background-color: #D1D1D1;">
+      <HBox fx:id="countryCard" alignment="CENTER" layoutX="193.0" layoutY="54.0" prefHeight="310.0" prefWidth="377.0" style="-fx-background-radius: 25 25 25 25; -fx-background-color: #D1D1D1;">
          <children>
-            <VBox>
+            <VBox alignment="CENTER">
                <children>
                   <ImageView fx:id="countryFlag" fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <VBox.margin>
-                        <Insets left="40.0" top="25.0" />
+                        <Insets top="10.0" />
                      </VBox.margin>
                   </ImageView>
                   <Label fx:id="countryName" alignment="CENTER" prefHeight="69.0" prefWidth="269.0" text="Label" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
@@ -24,16 +24,13 @@
                         <Font name="Tw Cen MT Condensed Extra Bold" size="24.0" />
                      </font>
                   </Label>
+                  <Label fx:id="playerCount" alignment="CENTER" contentDisplay="CENTER" prefHeight="33.0" prefWidth="269.0" text="Label">
+                     <font>
+                        <Font name="Tw Cen MT Condensed Extra Bold" size="24.0" />
+                     </font>
+                  </Label>
                </children>
             </VBox>
-            <Label fx:id="playerCount" alignment="CENTER" contentDisplay="CENTER" prefHeight="70.0" prefWidth="268.0" text="Label">
-               <font>
-                  <Font name="Tw Cen MT Condensed Extra Bold" size="24.0" />
-               </font>
-               <HBox.margin>
-                  <Insets top="175.0" />
-               </HBox.margin>
-            </Label>
          </children>
       </HBox>
    </children>
