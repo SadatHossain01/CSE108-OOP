@@ -41,7 +41,7 @@ Grêmio;Gremio;€45.0M;€7.0M;https://www.fifacm.com/content/media/imgs/fifa21/team
 Shanghai Port;Shanghai Port;€85.4M;€21.7M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112540.png
 Shanghai Shenhua;Shanghai Shenhua;€51.8M;€13.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l110955.png
 Manchester United;Manchester United;€3.3B;€177.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l11.png
-Piemonte Calcio;Piemonte Calcio;€1.7B;€105.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114153.png
+Juventus;Juventus;€1.7B;€105.0M;https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juventus_FC_2017_icon_%28black%29.svg/110px-Juventus_FC_2017_icon_%28black%29.svg.png
 VfL Wolfsburg;VfL Wolfsburg;€329.1M;€40.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l175.png
 CA Osasuna;CA Osasuna;€15.0M;€4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l479.png
 Ajax;Ajax;€432.0M;€29.5M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l245.png
@@ -74,7 +74,7 @@ Leicester City;Leicester City;€552.5M;€45.0M;https://www.fifacm.com/content/medi
 Nîmes Olympique;Nimes Olympique;€30.0M;€4.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l224.png
 Núñez;Nunez;€100.0M;€19.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114144.png
 PSV;PSV;€220.0M;€21.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l247.png
-Buenos Aires;Buenos Aires;€107.5M;€15.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l114149.png
+Boca Juniors;Boca Juniors;€107.5M;€15.0M;https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Boca_Juniors_logo18.svg/180px-Boca_Juniors_logo18.svg.png
 RCD Espanyol;RCD Espanyol;€60.0M;€6.0M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l452.png
 Girondins De Bordeaux;Girondins de Bordeaux;€75.0M;€10.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l59.png
 Galatasaray;Galatasaray;€150.0M;€25.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l325.png
@@ -176,7 +176,7 @@ Al Ittihad;Al Ittihad;€85.5M;€15.0M;https://www.fifacm.com/content/media/imgs/fi
 Houston Dynamo;Houston Dynamo;€252.0M;€23.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l698.png
 Minnesota United FC;Minnesota United FC;€270.0M;€25.4M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l111138.png
 Panathinaikos;Panathinaikos;€45.0M;€5.3M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1884.png
-Corinthians;Corinthians;€134.0M;€16.9M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1041.png
+Corinthians;Corinthians;€134.0M;€16.9M;https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Sport_Club_Corinthians_Paulista_crest.svg/180px-Sport_Club_Corinthians_Paulista_crest.svg.png
 Benevento;Benevento;€22.0M;€5.6M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l112026.png
 Dynamo Kyiv;Dynamo Kyiv;€150.0M;€12.8M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l101047.png
 Jeonbuk Hyundai Motors;Jeonbuk Hyundai Motors;€19.0M;€7.1M;https://www.fifacm.com/content/media/imgs/fifa21/teams/256/l1477.png
