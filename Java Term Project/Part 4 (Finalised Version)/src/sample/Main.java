@@ -84,7 +84,9 @@ public class Main extends Application {
                 }
             }
         });
+//        scene.setFill(Color.TRANSPARENT);
         primaryStage.setScene(scene);
+//        primaryStage.setOpacity(0.9);
         primaryStage.setOnCloseRequest(event -> System.exit(0));
         primaryStage.setTitle("Login Page");
         primaryStage.setResizable(false);
