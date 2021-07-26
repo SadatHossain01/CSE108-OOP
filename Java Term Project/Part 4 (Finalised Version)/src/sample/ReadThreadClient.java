@@ -5,7 +5,7 @@ import DataModel.Club;
 import javafx.application.Platform;
 import javafx.scene.control.Alert;
 import javafx.scene.image.Image;
-import util.Scene;
+import util.CurrentScene;
 import util.MyAlert;
 import util.NetworkUtil;
 
@@ -86,7 +86,7 @@ public class ReadThreadClient implements Runnable {
                     Platform.runLater(() -> main.dashboardController.budget.setText("Budget: " + Club.showCurrency(c.getTransferBudget()))
                     );
                     var currentPageType = main.currentPageType;
-                    if (currentPageType == Scene.Type.AskForTransferFee){
+                    if (currentPageType == CurrentScene.Type.AskForTransferFee){
                         //so the previous page was MyPlayers, and to that list one new player has been added because of buying
                         //by the way, this condition is probably never going to be true as buying is only possible when you press the buy button.
                         //You are in a AskForFee window, it is not possible that a player is bought in that moment
@@ -94,12 +94,12 @@ public class ReadThreadClient implements Runnable {
                     }
                     //if the current page is ShowPlayerDetail, two cases can happen
                     //if a third team buys or sells this player, we will deal with that in UpdatedList response
-                    else if (currentPageType == Scene.Type.ShowAPlayerDetail){
-                        if (main.previousPageType == Scene.Type.ShowMyPlayers) {
+                    else if (currentPageType == CurrentScene.Type.ShowAPlayerDetail){
+                        if (main.previousPageType == CurrentScene.Type.ShowMyPlayers) {
                             //even this is not going to happen because of the previous reason
                             main.isMainListUpdatePending = true;
                         }
-                        else if (main.previousPageType == Scene.Type.ShowMarketPlayers) {
+                        else if (main.previousPageType == CurrentScene.Type.ShowMarketPlayers) {
                             System.out.println("Previous page type was ShowMarketPlayers and isTransferListPending set to true");
                             main.isTransferListUpdatePending = true;
                         }
@@ -126,19 +126,19 @@ public class ReadThreadClient implements Runnable {
                     Platform.runLater(() -> main.dashboardController.budget.setText("Budget: " + Club.showCurrency(c.getTransferBudget()))
                     );
                     var currentPageType = main.currentPageType;
-                    if (currentPageType == Scene.Type.AskForTransferFee){
+                    if (currentPageType == CurrentScene.Type.AskForTransferFee){
                         //so the previous page was MyPlayers, and from that list one player has to be removed as a result of selling
                         main.isMainListUpdatePending = true;
                     }
                     //if the current page is ShowPlayerDetail, two cases can happen
-                    else if (currentPageType == Scene.Type.ShowAPlayerDetail){
-                        if (main.previousPageType == Scene.Type.ShowMyPlayers) {
+                    else if (currentPageType == CurrentScene.Type.ShowAPlayerDetail){
+                        if (main.previousPageType == CurrentScene.Type.ShowMyPlayers) {
                             if (p.getName().equalsIgnoreCase(main.latestDetailedPlayer.getName())){
                                 //this player has been sold, you should no more be able to see him, he is no more yours
                                 Platform.runLater(()->{
                                     main.tempStage.close();
                                     try {
-                                        main.refreshPage(Scene.Type.ShowMyPlayers);
+                                        main.refreshPage(CurrentScene.Type.ShowMyPlayers);
                                     } catch (IOException e) {
                                         e.printStackTrace();
                                     }
@@ -146,7 +146,7 @@ public class ReadThreadClient implements Runnable {
                             }
                             else main.isMainListUpdatePending = true;
                         }
-                        else if (main.previousPageType == Scene.Type.ShowMarketPlayers) main.isTransferListUpdatePending = true;
+                        else if (main.previousPageType == CurrentScene.Type.ShowMarketPlayers) main.isTransferListUpdatePending = true;
                     }
                     else {
                         Platform.runLater(() -> {
@@ -163,15 +163,15 @@ public class ReadThreadClient implements Runnable {
                 main.transferListedPlayers = ((UpdatedTransferList) next).getPlayerList();
                 var currentPageType = main.currentPageType;
                 var previousPageType = main.previousPageType;
-                if (currentPageType == Scene.Type.ShowAPlayerDetail){
-                    if (previousPageType == Scene.Type.ShowMarketPlayers){
+                if (currentPageType == CurrentScene.Type.ShowAPlayerDetail){
+                    if (previousPageType == CurrentScene.Type.ShowMarketPlayers){
                         var pp = c.FindPlayerInList(main.latestDetailedPlayer.getName(), main.transferListedPlayers);
                         if (pp == null){
                             //this player has been bought, so you should not be able to see him any more
                             Platform.runLater(()->{
                                 main.tempStage.close();
                                 try {
-                                    main.refreshPage(Scene.Type.ShowMarketPlayers);
+                                    main.refreshPage(CurrentScene.Type.ShowMarketPlayers);
                                 } catch (IOException e) {
                                     e.printStackTrace();
                                 }
@@ -180,10 +180,10 @@ public class ReadThreadClient implements Runnable {
                         else main.isTransferListUpdatePending = true;
                     }
                 }
-                else if (currentPageType == Scene.Type.ShowMarketPlayers){
+                else if (currentPageType == CurrentScene.Type.ShowMarketPlayers){
                     Platform.runLater(()->{
                         try {
-                            main.refreshPage(Scene.Type.ShowMarketPlayers);
+                            main.refreshPage(CurrentScene.Type.ShowMarketPlayers);
                         } catch (IOException e) {
                             e.printStackTrace();
                         }

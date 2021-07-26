@@ -11,7 +11,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import sample.Main;
-import util.Scene;
+import util.CurrentScene;
 import util.MyAlert;
 
 import java.io.IOException;
@@ -101,7 +101,7 @@ public class PlayerSearchController {
         var wantedList = doTheSearch();
         if (!willShowTheResult) return;
         if (wantedList != null && !wantedList.isEmpty()) {
-            main.currentPageType = Scene.Type.ShowSearchedPlayers;
+            main.currentPageType = CurrentScene.Type.ShowSearchedPlayers;
             main.latestSearchedPlayers = wantedList;
             main.displayList(wantedList, PlayerListViewController.PageType.SimpleList);
         }

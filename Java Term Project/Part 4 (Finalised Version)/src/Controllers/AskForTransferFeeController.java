@@ -12,7 +12,7 @@ import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import sample.Main;
-import util.Scene;
+import util.CurrentScene;
 import util.MyAlert;
 
 import java.io.IOException;
@@ -85,10 +85,10 @@ public class AskForTransferFeeController {
     void confirmTransferListing(ActionEvent event) throws IOException {
         confirmListing();
         if (main.isMainListUpdatePending){
-            main.refreshPage(Scene.Type.ShowMyPlayers);
+            main.refreshPage(CurrentScene.Type.ShowMyPlayers);
             main.isMainListUpdatePending = false;
         }
-        else main.currentPageType = Scene.Type.ShowMyPlayers;
+        else main.currentPageType = CurrentScene.Type.ShowMyPlayers;
     }
 
     @FXML

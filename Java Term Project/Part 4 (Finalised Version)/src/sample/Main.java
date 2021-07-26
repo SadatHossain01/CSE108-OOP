@@ -13,7 +13,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Modality;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
-import util.Scene;
+import util.CurrentScene;
 import util.MyAlert;
 import util.NetworkUtil;
 
@@ -38,7 +38,7 @@ public class Main extends Application {
     public Club myClub, latestCountryWiseCountClub;
     public Image cLogo;
     public Player latestDetailedPlayer;
-    public Scene.Type currentPageType, previousPageType;
+    public CurrentScene.Type currentPageType, previousPageType;
     public boolean isMainListUpdatePending = false, isTransferListUpdatePending = false;
     public List<Player> transferListedPlayers, latestSearchedPlayers;
     public HashMap<String, String> countryFlagMap = new HashMap<>();
@@ -66,7 +66,7 @@ public class Main extends Application {
     }
 
     public void showLoginPage() throws IOException {
-        currentPageType = Scene.Type.LoginPage;
+        currentPageType = CurrentScene.Type.LoginPage;
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/ClubLoginView.fxml"));
         Parent root = loader.load();
@@ -116,12 +116,12 @@ public class Main extends Application {
         resetAllButtons();
         mainPane.getChildren().clear();
         dashboardController.myPlayerButton.setStyle("-fx-background-color: #DA3A34; -fx-background-radius: 15 15 15 15");
-        currentPageType = Scene.Type.ShowMyPlayers;
+        currentPageType = CurrentScene.Type.ShowMyPlayers;
         displayList(myClub.getPlayerList(), PlayerListViewController.PageType.SimpleList);
     }
 
     public void showSearchPage() throws IOException {
-        currentPageType = Scene.Type.ShowSearchOptions;
+        currentPageType = CurrentScene.Type.ShowSearchOptions;
         resetAllButtons();
         mainPane.getChildren().clear();
         dashboardController.searchPlayerButton.setStyle("-fx-background-color: #DA3A34; -fx-background-radius: 15 15 15 15");
@@ -139,7 +139,7 @@ public class Main extends Application {
 
     public void showCountryWiseCount(Stage stage, Club club) throws IOException {
         previousPageType = currentPageType;
-        currentPageType = Scene.Type.ShowCountryWiseCount;
+        currentPageType = CurrentScene.Type.ShowCountryWiseCount;
         latestCountryWiseCountClub = club;
         tempStage = stage;
         var loader = new FXMLLoader();
@@ -164,7 +164,7 @@ public class Main extends Application {
         latestDetailedPlayer = player;
         tempStage = stage;
         previousPageType = currentPageType;
-        currentPageType = Scene.Type.ShowAPlayerDetail;
+        currentPageType = CurrentScene.Type.ShowAPlayerDetail;
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/PlayerCardView.fxml"));
         Parent root = loader.load();
@@ -176,11 +176,11 @@ public class Main extends Application {
         stage.setOnCloseRequest(event -> {
             try {
                 if (isTransferListUpdatePending) {
-                    refreshPage(Scene.Type.ShowMarketPlayers);
+                    refreshPage(CurrentScene.Type.ShowMarketPlayers);
                     isTransferListUpdatePending = false;
                 }
                 else if (isMainListUpdatePending){
-                    refreshPage(Scene.Type.ShowMyPlayers);
+                    refreshPage(CurrentScene.Type.ShowMyPlayers);
                     isMainListUpdatePending = false;
                 }
                 else currentPageType = previousPageType;
@@ -213,7 +213,7 @@ public class Main extends Application {
         Stage stage = new Stage();
         tempStage = stage;
         previousPageType = currentPageType;
-        currentPageType = Scene.Type.AskForTransferFee;
+        currentPageType = CurrentScene.Type.AskForTransferFee;
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/AskForTransferFee.fxml"));
         Parent root = loader.load();
@@ -227,10 +227,10 @@ public class Main extends Application {
                 try {
                     askForTransferFeeController.confirmListing();
                     if (isMainListUpdatePending) {
-                        refreshPage(Scene.Type.ShowMyPlayers);
+                        refreshPage(CurrentScene.Type.ShowMyPlayers);
                         isMainListUpdatePending = false;
                     }
-                    else currentPageType = Scene.Type.ShowMyPlayers;
+                    else currentPageType = CurrentScene.Type.ShowMyPlayers;
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -239,10 +239,10 @@ public class Main extends Application {
         stage.setOnCloseRequest(event -> {
             try {
                 if (isMainListUpdatePending) {
-                    refreshPage(Scene.Type.ShowMyPlayers);
+                    refreshPage(CurrentScene.Type.ShowMyPlayers);
                     isMainListUpdatePending = false;
                 }
-                else currentPageType = Scene.Type.ShowMyPlayers;
+                else currentPageType = CurrentScene.Type.ShowMyPlayers;
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -256,17 +256,17 @@ public class Main extends Application {
     }
 
     public void showBuyablePlayers() throws IOException {
-        currentPageType = Scene.Type.ShowMarketPlayers;
+        currentPageType = CurrentScene.Type.ShowMarketPlayers;
         resetAllButtons();
         mainPane.getChildren().clear();
         dashboardController.marketplaceButton.setStyle("-fx-background-color: #DA3A34; -fx-background-radius: 15 15 15 15");
         displayList(transferListedPlayers, PlayerListViewController.PageType.TransferList);
     }
 
-    public void refreshPage(Scene.Type pageType) throws IOException {
-        if (pageType == Scene.Type.ShowMyPlayers) showMyPlayers();
-        else if (pageType == Scene.Type.ShowMarketPlayers) showBuyablePlayers();
-        else if (pageType == Scene.Type.ShowSearchedPlayers){
+    public void refreshPage(CurrentScene.Type pageType) throws IOException {
+        if (pageType == CurrentScene.Type.ShowMyPlayers) showMyPlayers();
+        else if (pageType == CurrentScene.Type.ShowMarketPlayers) showBuyablePlayers();
+        else if (pageType == CurrentScene.Type.ShowSearchedPlayers){
             //refining the list
             List<Player> newList = new ArrayList<>();
             List<Player> clubPlayerList = myClub.getPlayerList();
@@ -276,7 +276,7 @@ public class Main extends Application {
             latestSearchedPlayers = newList;
             displayList(newList, PlayerListViewController.PageType.SimpleList);
         }
-        else if (pageType == Scene.Type.ShowCountryWiseCount){
+        else if (pageType == CurrentScene.Type.ShowCountryWiseCount){
             showCountryWiseCount(tempStage, latestCountryWiseCountClub);
         }
     }
