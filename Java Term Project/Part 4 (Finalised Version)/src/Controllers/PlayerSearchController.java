@@ -8,17 +8,15 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.MenuButton;
 import javafx.scene.control.TextField;
-import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import sample.Main;
-import util.CurrentPage;
+import util.Scene;
 import util.MyAlert;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class PlayerSearchController {
     private Main main;
@@ -49,11 +47,6 @@ public class PlayerSearchController {
 
     @FXML
     private ImageView clubLogo;
-
-    @FXML
-    void backToClubMainMenu(ActionEvent event) throws IOException {
-        main.showClubHomePage(club);
-    }
 
     public static List<Player> getIntersectionOfLists(List<Player>list1, List<Player>list2){
         List<Player>answer = new ArrayList<>();
@@ -108,7 +101,7 @@ public class PlayerSearchController {
         var wantedList = doTheSearch();
         if (!willShowTheResult) return;
         if (wantedList != null && !wantedList.isEmpty()) {
-            main.currentPageType = CurrentPage.Type.ShowSearchedPlayers;
+            main.currentPageType = Scene.Type.ShowSearchedPlayers;
             main.latestSearchedPlayers = wantedList;
             main.displayList(wantedList, PlayerListViewController.PageType.SimpleList);
         }
@@ -144,7 +137,7 @@ public class PlayerSearchController {
     void showTotalAnnualSalary(ActionEvent event) {
         var alert = new MyAlert(Alert.AlertType.INFORMATION, MyAlert.MessageType.TotalAnnualSalary);
         alert.setHeaderText("Total Annual Salary of " + club.getName());
-        alert.setContentText("Total Annual Salary is " + Club.showSalary(club.TotalYearlySalary()));
+        alert.setContentText("Total Annual Salary is " + Club.showCurrency(club.TotalYearlySalary()));
         alert.show();
     }
 

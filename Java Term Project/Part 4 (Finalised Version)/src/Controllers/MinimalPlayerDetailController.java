@@ -7,15 +7,12 @@ import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import sample.Main;
 
 import java.io.IOException;
-import java.io.InputStream;
-import java.util.Objects;
 
 public class MinimalPlayerDetailController {
     private PlayerListViewController.PageType pageType;
@@ -92,7 +89,7 @@ public class MinimalPlayerDetailController {
         countryName.setText(p.getCountry());
         age.setText(String.valueOf(p.getAge()));
         position.setText(p.getPosition());
-        salary.setText(Club.showSalary(p.getWeeklySalary()));
+        salary.setText(Club.showCurrency(p.getWeeklySalary()));
         if (pageType == PlayerListViewController.PageType.SimpleList){
             transferButton.setText("Sell Player");
             if (player.isTransferListed()) transferButton.setDisable(true);
@@ -102,7 +99,7 @@ public class MinimalPlayerDetailController {
             if (player.getClubName().equalsIgnoreCase(main.myClub.getName())) transferButton.setDisable(true);
         }
         if (p.isTransferListed()){
-            fee.setText(Club.showSalary(p.getTransferFee()));
+            fee.setText(Club.showCurrency(p.getTransferFee()));
             transferLabel.setImage(main.seal);
         }
         else {

@@ -106,7 +106,7 @@ public class PlayerCardController {
         countryName.setText(cName);
         clubName.setText(club_name);
         pName.setText(player.getName());
-        pValue.setText(Club.showSalary(player.getEstimatedValue()));
+        pValue.setText(Club.showCurrency(player.getEstimatedValue()));
         pClub.setText(club_name);
         pCountry.setText(player.getCountry());
         pHeight.setText(player.getHeight() + " cm");
@@ -114,10 +114,10 @@ public class PlayerCardController {
         pPosition.setText(player.getPosition());
         pNumber.setText(String.valueOf(player.getNumber()));
         pFoot.setText(String.valueOf(player.getPreferredFoot()));
-        pSalary.setText(Club.showSalary(player.getWeeklySalary()));
+        pSalary.setText(Club.showCurrency(player.getWeeklySalary()));
         if (player.isTransferListed()) {
             pStatus.setText("Up for sale");
-            pFee.setText(Club.showSalary(player.getTransferFee()));
+            pFee.setText(Club.showCurrency(player.getTransferFee()));
         } else {
             pStatus.setText("Not for sale");
             pFee.setText("N/A");

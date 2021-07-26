@@ -128,10 +128,6 @@ public class Player implements Serializable {
         isTransferListed = transferListed;
     }
 
-    public String getDoB() {
-        return DoB;
-    }
-
     public double getWeight() {
         return weight;
     }
@@ -144,16 +140,8 @@ public class Player implements Serializable {
         return preferredFoot;
     }
 
-    public void setPreferredFoot(PreferredFoot preferredFoot) {
-        this.preferredFoot = preferredFoot;
-    }
-
     public String getUnAccentedName() {
         return unAccentedName;
-    }
-
-    public void setUnAccentedName(String unAccentedName) {
-        this.unAccentedName = unAccentedName;
     }
 
     public synchronized int isTransferPossible(Club buyer) { //returns 0 on success, 1 on already bought, 2 on insufficient budget
@@ -173,7 +161,7 @@ public class Player implements Serializable {
         System.out.println("Position: " + position);
         System.out.println("Number: " + number);
         System.out.println("Preferred Foot: " + preferredFoot);
-        System.out.println("Weekly Salary: " + Club.showSalary(weeklySalary));
-        System.out.println("Value: " + Club.showSalary(estimatedValue));
+        System.out.println("Weekly Salary: " + Club.showCurrency(weeklySalary));
+        System.out.println("Value: " + Club.showCurrency(estimatedValue));
     }
 }

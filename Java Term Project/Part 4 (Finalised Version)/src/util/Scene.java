@@ -1,6 +1,6 @@
 package util;
 
-public class CurrentPage {
+public class Scene {
     public enum Type{
         ShowMyPlayers, ShowSearchedPlayers, ShowSearchOptions, ShowMarketPlayers, ShowCountryWiseCount, LoginPage, AskForTransferFee, ShowAPlayerDetail
     }

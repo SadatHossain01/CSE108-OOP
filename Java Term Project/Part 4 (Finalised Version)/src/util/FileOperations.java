@@ -107,9 +107,9 @@ public class FileOperations {
         for (Player p : playerList) {
 //            Lionel Messi;Lionel Messi;FC Barcelona;Argentina;33;€103.5M;10;RW ST CF;170;72;Left;€560K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p158023.png?v=22;0;€0
             output.write(p.getName() + ";" + p.getUnAccentedName() + ";" + p.getClubName() + ";" + p.getCountry() + ";"
-                    + p.getAge() + ";" + Club.showSalary(p.getEstimatedValue()) + ";" + p.getNumber() + ";" + p.getPosition() + ";" + p.getHeight() + ";" +
-                    p.getWeight() + ";" + p.getPreferredFoot() + ";" + Club.showSalary(p.getWeeklySalary()) + ";" + p.getImageSource() + ";" +
-                    (p.isTransferListed() ? 1 : 0) + ";" + Club.showSalary(p.getTransferFee()));
+                    + p.getAge() + ";" + Club.showCurrency(p.getEstimatedValue()) + ";" + p.getNumber() + ";" + p.getPosition() + ";" + p.getHeight() + ";" +
+                    p.getWeight() + ";" + p.getPreferredFoot() + ";" + Club.showCurrency(p.getWeeklySalary()) + ";" + p.getImageSource() + ";" +
+                    (p.isTransferListed() ? 1 : 0) + ";" + Club.showCurrency(p.getTransferFee()));
             output.write("\n");
         }
         output.close();
@@ -127,7 +127,7 @@ public class FileOperations {
     public static void writeClubInformationToFile(String FILE_NAME, List<Club> clubList) throws Exception {
         BufferedWriter output = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(FILE_NAME), "windows-1252"));
         for (Club c : clubList) {
-            String buffer = c.getName() + ";" + c.getUnAccentedName() + ";" + Club.showSalary(c.getWorth()) + ";" + Club.showSalary(c.getTransferBudget()) + ";" + c.getLogoLink();
+            String buffer = c.getName() + ";" + c.getUnAccentedName() + ";" + Club.showCurrency(c.getWorth()) + ";" + Club.showCurrency(c.getTransferBudget()) + ";" + c.getLogoLink();
             output.write(buffer);
             output.write("\n");
         }

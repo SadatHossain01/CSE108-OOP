@@ -206,7 +206,7 @@ public class Club implements Serializable {
         return wantedPlayers;
     }
 
-    public static String showSalary(double salaryNumber){
+    public static String showCurrency(double salaryNumber){
         String salary;
         double num;
         String suffix;

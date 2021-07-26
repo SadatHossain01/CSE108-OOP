@@ -6,13 +6,11 @@ import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import sample.Main;
 
 import java.io.IOException;
-import java.util.Objects;
 
 public class ClubDashboardController {
     private Main main;
@@ -54,8 +52,8 @@ public class ClubDashboardController {
         main.dashboardController = this;
         this.club = club;
         clubName.setText(club.getName());
-        budget.setText("Budget: " + Club.showSalary(club.getTransferBudget()));
-        clubWorth.setText("Worth: " + Club.showSalary(club.getWorth()));
+        budget.setText("Budget: " + Club.showCurrency(club.getTransferBudget()));
+        clubWorth.setText("Worth: " + Club.showCurrency(club.getWorth()));
         clubLogo.setImage(main.cLogo);
     }
 

@@ -12,7 +12,7 @@ import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import sample.Main;
-import util.CurrentPage;
+import util.Scene;
 import util.MyAlert;
 
 import java.io.IOException;
@@ -49,7 +49,7 @@ public class AskForTransferFeeController {
         this.playerName = minimalPlayerDetailController.getPlayer().getName();
         this.marketValue = minimalPlayerDetailController.getPlayer().getEstimatedValue();
         pName.setText(playerName);
-        estimatedValue.setText("Market Value: " + Club.showSalary(marketValue));
+        estimatedValue.setText("Market Value: " + Club.showCurrency(marketValue));
     }
 
     public void confirmListing() throws IOException {
@@ -75,8 +75,8 @@ public class AskForTransferFeeController {
         player.setTransferListed(true);
         transferLabel.setImage(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("/Assets/Image/Stamp1.png"))));
         transferButton.setDisable(true);
-        fee.setText(Club.showSalary(transferFee));
-        main.TransferListedPlayers.add(player);
+        fee.setText(Club.showCurrency(transferFee));
+        main.transferListedPlayers.add(player);
         main.myNetworkUtil.write(new SellRequest(player.getName(), main.myClub.getName(), transferFee));
         stage.close();
     }
@@ -85,10 +85,10 @@ public class AskForTransferFeeController {
     void confirmTransferListing(ActionEvent event) throws IOException {
         confirmListing();
         if (main.isMainListUpdatePending){
-            main.refreshPage(CurrentPage.Type.ShowMyPlayers);
+            main.refreshPage(Scene.Type.ShowMyPlayers);
             main.isMainListUpdatePending = false;
         }
-        else main.currentPageType = CurrentPage.Type.ShowMyPlayers;
+        else main.currentPageType = Scene.Type.ShowMyPlayers;
     }
 
     @FXML

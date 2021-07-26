@@ -112,7 +112,7 @@ public class ReadThreadServer implements Runnable{
                 var buyer = league.FindClub(((BuyRequest) next).getPotentialBuyerClub());
                 var seller = league.FindClub(((BuyRequest) next).getPlayerCurrentClub());
                 int checkStatus = p.isTransferPossible(buyer);
-                if (checkStatus == 0){
+                if (checkStatus == 0){ //possible sale
                     System.out.println(((BuyRequest) next).getPlayerName() + " is currently indeed up for sale");
                     System.out.println("Sufficient budget. Processing buying request....");
                     league.transferPlayerToNewClub(p, seller, buyer);
@@ -136,7 +136,7 @@ public class ReadThreadServer implements Runnable{
                         e.printStackTrace();
                     }
                 }
-                else if (checkStatus == 1){
+                else if (checkStatus == 1){ //already bought
                     System.out.println(p.getName() + " has already been bought by " + p.getClubName());
                     try {
                         networkUtil.write(new RequestResponse(RequestResponse.Type.AlreadyBought));
@@ -144,7 +144,7 @@ public class ReadThreadServer implements Runnable{
                         e.printStackTrace();
                     }
                 }
-                else{
+                else{ //inadequate transfer fee
                     System.out.println(((BuyRequest) next).getPlayerName() + " is currently indeed up for sale");
                     System.out.println("Insufficient transfer fee");
                     try {
