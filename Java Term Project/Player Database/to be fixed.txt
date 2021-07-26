@@ -1,0 +1,69 @@
+Adam Taggart|7000000
+Lionel Messi|1000000
+Cristiano Ronaldo (Cristiano Ronaldo Aveiro)|1000000
+Valdo (Andrevaldo de Jesus Santos)|959000
+Neymar (Neymar da Silva Santos Júnior)|859000
+Antoine Griezmann|594000
+Gareth Bale|564000
+Oscar|540000
+Hulk|450000
+Paulinho|431000
+Eden Hazard|407000
+Coutinho (Philippe Coutinho)|406000
+Kylian Mbappé|403000
+Ezequiel Lavezzi|402000
+Marouane Fellaini|362000
+Talisca|362000
+Robert Lewandowski|352000
+Mesut Özil|350000
+David De Gea|350000
+Sergio Ramos|338000
+Toni Kroos|329000
+Manuel Neuer|316000
+Odion Ighalo|300000
+Graziano Pellè|300000
+Leroy Sané|298000
+Karim Benzema|294000
+Luka Modric|294000
+N'Golo Kanté|290000
+Paul Pogba|290000
+Luis Suárez|281000
+Koke (Jorge Resurreción)|280000
+Marko Arnautovic|280000
+Timo Werner|272000
+Marek Hamsik|272000
+Jan Oblak|271000
+Miralem Pjanic|271000
+Sergio Busquets|271000
+Thibaut Courtois|271000
+Stephan El Shaarawy|267000
+Marcelo (Marcelo Vieira da Silva Júnior)|266000
+Thomas Müller|263000
+Marquinhos (Marcos Aoas Corrêa)|252000
+Marco Verratti|252000
+Pierre-Emerick Aubameyang|250000
+Edin Džeko|244000
+Christian Eriksen|243000
+Elkeson|242000
+Sandro Wagner|241000
+Lucas Hernández|237000
+Paulo Dybala|237000
+Ángel Di María|235000
+Sergio Agüero|230000
+Kevin De Bruyne|230000
+Isco (Francisco Alarcón)|225000
+Matthijs de Ligt|214000
+Jordi Alba|212000
+Samuel Umtiti|212000
+Ousmane Dembélé|212000
+Wojciech Szczęsny|211000
+Leonardo Bonucci|211000
+Marco Reus|210000
+Jérôme Boateng|210000
+Keylor Navas|210000
+Saúl (Saúl Ñíguez)|207000
+Raheem Sterling|200000
+Harry Kane|200000
+Mohamed Salah|200000
+Thiago|200000
+Romelu Lukaku|200000

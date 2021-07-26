@@ -1,4 +1,4 @@
-Lionel Messi;Lionel Messi;FC Barcelona;Argentina;33;€103.5M;10;RW ST CF;170.0;72.0;Left;€560.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p158023.png?v=22;0;€0.0
+Lionel Messi;Lionel Messi;FC Barcelona;Argentina;33;€103.5M;10;RW ST CF;170.0;72.0;Left;€2.1M;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p158023.png?v=22;0;€0.0
 Kevin De Bruyne;Kevin De Bruyne;Manchester City;Belgium;29;€127.5M;17;CM CAM CF;181.0;70.0;Right;€370.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p192985.png?v=22;0;€0.0
 Virgil van Dijk;Virgil van Dijk;Liverpool;Holland;29;€110.0M;4;CB;193.0;92.0;Right;€210.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p203376.png?v=22;0;€0.0
 Sergio Ramos;Sergio Ramos;Paris Saint-Germain;Spain;34;€33.5M;13;CB;184.0;82.0;Right;€300.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p155862.png?v=22;0;€1.0
@@ -23,7 +23,7 @@ Martin Ødegaard;Martin Odegaard;Arsenal;Norway;21;€58.5M;11;CAM CM;178.0;68.0;Le
 Hugo Lloris;Hugo Lloris;Tottenham Hotspur;France;33;€26.0M;1;GK;188.0;82.0;Left;€125.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p167948.png?v=22;0;€0.0
 Ferland Mendy;Ferland Mendy;Real Madrid;France;25;€49.5M;23;LB;180.0;73.0;Left;€160.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p228618.png?v=22;0;€0.0
 João Félix Sequeira;Joao Felix Sequeira;Atlético de Madrid;Portugal;20;€80.5M;7;CF ST;181.0;70.0;Right;€61.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p242444.png?v=22;0;€0.0
-Luis Suárez;Luis Suarez;Atlético de Madrid;Uruguay;33;€51.0M;9;ST;182.0;83.0;Right;€115.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p176580.png?v=22;0;€0.0
+Luis Suárez;Luis Suarez;Atlético de Madrid;Uruguay;33;€51.0M;9;ST;182.0;83.0;Right;€281.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p176580.png?v=22;0;€0.0
 Gabriel Jesus;Gabriel Jesus;Manchester City;Brazil;23;€52.5M;9;ST;175.0;73.0;Right;€150.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p230666.png?v=22;0;€0.0
 Mats Hummels;Mats Hummels;Borussia Dortmund;Germany;31;€54.5M;15;CB;191.0;96.0;Right;€100.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p178603.png?v=22;0;€0.0
 Ousmane Dembélé;Ousmane Dembele;FC Barcelona;France;23;€57.5M;11;RW RM;178.0;67.0;Left;€175.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p231443.png?v=22;0;€0.0
@@ -39,7 +39,7 @@ Henrikh Mkhitaryan;Henrikh Mkhitaryan;Generic Capitale;Armenia;31;€25.5M;77;CF R
 Nicolas Pallois;Nicolas Pallois;FC Nantes;France;32;€7.0M;4;CB;189.0;89.0;Left;€24.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p199393.png?v=22;0;€0.0
 Simon Kjær;Simon Kjar;Milan;Denmark;31;€21.0M;24;CB;190.0;86.0;Right;€49.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p179645.png?v=22;0;€0.0
 Adnan Vidual;Adnan Vidual;Internacional;Brazil;28;€16.0M;2;RB;175.0;70.0;Right;€31.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p230216.png?v=22;0;€0.0
-Robert Lewandowski;Robert Lewandowski;Bayern München;Poland;31;€124.5M;9;ST;185.0;81.0;Right;€270.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p188545.png?v=22;0;€0.0
+Robert Lewandowski;Robert Lewandowski;Bayern München;Poland;31;€124.5M;9;ST;185.0;81.0;Right;€352.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p188545.png?v=22;0;€0.0
 André-Pierre Gignac;Andre-Pierre Gignac;Tigres U.A.N.L.;France;34;€12.5M;10;ST CF;188.0;89.0;Right;€66.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p153244.png?v=22;0;€0.0
 Kingsley Coman;Kingsley Coman;Bayern München;France;24;€93.0M;29;LM RM LW;180.0;76.0;Right;€110.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p213345.png?v=22;0;€0.0
 Jeison Murillo;Jeison Murillo;RC Celta de Vigo;Colombia;28;€10.0M;24;CB;184.0;78.0;Right;€23.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p201377.png?v=22;0;€0.0
@@ -47,7 +47,7 @@ Jesús Navas;Jesus Navas;Sevilla FC;Spain;34;€15.5M;16;RB RM;172.0;60.0;Right;€42
 Robin Gosens;Robin Gosens;Atalanta;Germany;26;€39.5M;8;LM;183.0;76.0;Left;€77.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p223697.png?v=22;0;€0.0
 Stuart Armstrong;Stuart Armstrong;Southampton;Scotland;28;€10.5M;17;RM;183.0;75.0;Right;€54.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p202282.png?v=22;0;€0.0
 Magomed Ozdoev;Magomed Ozdoev;Free Agent;Russia;27;€11.0M;25;CDM CM;184.0;78.0;Right;€11.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p200094.png?v=22;0;€0.0
-Neymar Jr;Neymar Jr;Paris Saint-Germain;Brazil;28;€132.0M;10;LW CAM;175.0;68.0;Right;€270.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p190871.png?v=22;0;€0.0
+Neymar Jr;Neymar Jr;Paris Saint-Germain;Brazil;28;€132.0M;10;LW CAM;175.0;68.0;Right;€859.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p190871.png?v=22;0;€0.0
 José Luís Mendes Andrade;Jose Luis Mendes Andrade;Lokomotiv Moskva;Cape Verde Islands;29;€10.5M;29;ST;184.0;80.0;Left;€28.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p203757.png?v=22;0;€0.0
 Salif Sané;Salif Sane;FC Schalke 04;Senegal;29;€9.0M;26;CB;196.0;85.0;Right;€27.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p201956.png?v=22;0;€0.0
 Mohamed Salah;Mohamed Salah;Liverpool;Egypt;28;€120.5M;11;RW;175.0;71.0;Left;€250.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p209331.png?v=22;0;€0.0
@@ -66,7 +66,7 @@ Ronaldo Cabrais;Ronaldo Cabrais;Grêmio;Brazil;28;€36.5M;34;RW;177.0;75.0;Right;€
 Mooy;Mooy;Shanghai Port;Australia;29;€10.5M;19;CM CAM;173.0;72.0;Right;€15.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p194958.png?v=22;0;€0.0
 Giovanni Moreno;Giovanni Moreno;Shanghai Shenhua;Colombia;34;€5.0M;10;ST CAM;192.0;83.0;Left;€20.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p196147.png?v=22;0;€0.0
 Anthony Martial;Anthony Martial;Manchester United;France;24;€42.0M;9;ST LM;184.0;76.0;Right;€130.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p211300.png?v=22;0;€0.0
-Gareth Bale;Gareth Bale;Tottenham Hotspur;Wales;30;€29.5M;9;RM RW;185.0;82.0;Left;€110.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p173731.png?v=22;0;€0.0
+Gareth Bale;Gareth Bale;Tottenham Hotspur;Wales;30;€29.5M;9;RM RW;185.0;82.0;Left;€564.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p173731.png?v=22;0;€0.0
 Ángel Correa;Angel Correa;Atlético de Madrid;Argentina;25;€37.0M;10;ST RM;171.0;70.0;Right;€70.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p214997.png?v=22;0;€0.0
 Aaron Ramsey;Aaron Ramsey;Juventus;Wales;29;€29.5M;8;CM CAM LM;183.0;76.0;Right;€98.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p186561.png?v=22;0;€0.0
 Wout Weghorst;Wout Weghorst;VfL Wolfsburg;Holland;27;€33.0M;9;ST;197.0;84.0;Right;€67.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p223689.png?v=22;0;€0.0
@@ -76,7 +76,7 @@ Sebastián Blanco;Sebastian Blanco;Portland Timbers;Argentina;32;€8.5M;10;LM CF;1
 Maxime Gonalons;Maxime Gonalons;Granada CF;France;31;€7.5M;4;CDM CM;187.0;76.0;Right;€24.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p193116.png?v=22;0;€0.0
 Aaron Wan-Bissaka;Aaron Wan-Bissaka;Manchester United;England;22;€49.5M;29;RB RWB;183.0;72.0;Right;€115.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p229880.png?v=22;0;€0.0
 Víctor Ruiz;Victor Ruiz;Real Betis Balompié;Spain;31;€7.0M;6;CB;185.0;78.0;Left;€22.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p193469.png?v=22;0;€0.0
-Cristiano Ronaldo;Cristiano Ronaldo;Juventus;Portugal;35;€63.0M;7;ST LW;187.0;83.0;Right;€220.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p20801.png?v=22;0;€0.0
+Cristiano Ronaldo;Cristiano Ronaldo;Juventus;Portugal;35;€63.0M;7;ST LW;187.0;83.0;Right;€900.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p20801.png?v=22;0;€0.0
 Faouzi Ghoulam;Faouzi Ghoulam;Napoli;Algeria;29;€9.5M;31;LB;184.0;80.0;Left;€53.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p201454.png?v=22;0;€0.0
 Everton Andrão;Everton Andrao;Fluminense;Brazil;24;€18.0M;18;CDM CM;177.0;75.0;Right;€23.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p230234.png?v=22;0;€0.0
 Alfred Gomis;Alfred Gomis;Stade Rennais;Senegal;26;€10.0M;16;GK;196.0;80.0;Right;€32.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p201976.png?v=22;0;€0.0
@@ -96,7 +96,7 @@ Ferrán Torres;Ferran Torres;Manchester City;Spain;20;€56.5M;21;RW LW ST;184.0;77
 Georgiy Dzhikiya;Georgiy Dzhikiya;Spartak Moskva;Russia;26;€11.5M;14;CB;188.0;86.0;Left;€22.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p229773.png?v=22;0;€0.0
 Filip Novák;Filip Novak;Fenerbahçe;Czech Republic;30;€9.0M;37;LB;184.0;78.0;Left;€54.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p205364.png?v=22;0;€0.0
 Erik Sviatchenko;Erik Sviatchenko;FC Midtjylland;Denmark;28;€6.5M;28;CB;184.0;82.0;Right;€26.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p199745.png?v=22;0;€0.0
-Marcelo;Marcelo;Real Madrid;Brazil;32;€21.0M;12;LB;174.0;75.0;Left;€155.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p176676.png?v=22;0;€0.0
+Marcelo;Marcelo;Real Madrid;Brazil;32;€21.0M;12;LB;174.0;75.0;Left;€266.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p176676.png?v=22;0;€0.0
 Alex Iwobi;Alex Iwobi;Everton;Nigeria;24;€13.5M;17;RM LW;185.0;75.0;Right;€61.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p213655.png?v=22;0;€0.0
 Michy Batshuayi;Michy Batshuayi;Crystal Palace;Belgium;26;€9.0M;23;ST;184.0;78.0;Right;€53.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p204529.png?v=22;0;€0.0
 Sebastian Rudy;Sebastian Rudy;TSG 1899 Hoffenheim;Germany;30;€10.0M;16;CM CDM RB;180.0;74.0;Right;€34.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p189251.png?v=22;0;€0.0
@@ -139,7 +139,7 @@ Héctor Herrera;Hector Herrera;Atlético de Madrid;Mexico;30;€24.5M;16;CM;185.0;78
 Agustín Rossi;Agustin Rossi;Boca Juniors;Argentina;24;€9.5M;17;GK;195.0;95.0;Right;€14.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p227275.png?v=22;0;€0.0
 David López;David Lopez;RCD Espanyol;Spain;30;€8.5M;15;CB CDM;183.0;81.0;Right;€9.6K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p201505.png?v=22;0;€0.0
 Nicolás Otamendi;Nicolas Otamendi;SL Benfica;Argentina;32;€13.5M;30;CB;183.0;76.0;Right;€16.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p192366.png?v=22;0;€0.0
-Kylian Mbappé;Kylian Mbappe;Paris Saint-Germain;France;21;€185.5M;7;ST LW;178.0;73.0;Right;€160.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p231747.png?v=22;0;€0.0
+Kylian Mbappé;Kylian Mbappe;Paris Saint-Germain;France;21;€185.5M;7;ST LW;178.0;73.0;Right;€403.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p231747.png?v=22;0;€0.0
 Marquinhos;Marquinhos;Paris Saint-Germain;Brazil;26;€92.5M;5;CB CDM;183.0;75.0;Right;€135.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p207865.png?v=22;0;€0.0
 Otávio;Otavio;Girondins de Bordeaux;Brazil;26;€11.5M;5;CDM CM;176.0;73.0;Right;€29.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p222715.png?v=22;0;€0.0
 Fernando Muslera;Fernando Muslera;Galatasaray;Uruguay;34;€5.0M;1;GK;190.0;74.0;Right;€64.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p182494.png?v=22;0;€0.0
@@ -150,7 +150,7 @@ Frenkie de Jong;Frenkie de Jong;FC Barcelona;Holland;23;€102.0M;21;CM CDM CB;180
 Salvatore Sirigu;Salvatore Sirigu;Torino;Italy;33;€12.0M;39;GK;192.0;85.0;Right;€49.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p168435.png?v=22;0;€0.0
 Andros Townsend;Andros Townsend;Crystal Palace;England;28;€10.5M;10;RM;178.0;73.0;Left;€54.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p194932.png?v=22;0;€0.0
 Marco Sportiello;Marco Sportiello;Atalanta;Italy;28;€5.5M;57;GK;192.0;87.0;Right;€35.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p216065.png?v=22;0;€0.0
-Manuel Neuer;Manuel Neuer;Bayern München;Germany;34;€20.5M;1;GK;193.0;93.0;Right;€135.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p167495.png?v=22;0;€0.0
+Manuel Neuer;Manuel Neuer;Bayern München;Germany;34;€20.5M;1;GK;193.0;93.0;Right;€316.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p167495.png?v=22;0;€0.0
 Mats Rits;Mats Rits;Club Brugge;Belgium;26;€8.5M;26;CDM CM;178.0;72.0;Right;€22.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p191627.png?v=22;0;€0.0
 Thomas Strakosha;Thomas Strakosha;Lazio;Albania;25;€35.5M;1;GK;193.0;78.0;Right;€52.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p212151.png?v=22;0;€0.0
 Andrej Kramaric;Andrej Kramaric;TSG 1899 Hoffenheim;Croatia;29;€30.5M;27;ST CAM;177.0;73.0;Right;€56.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p216354.png?v=22;0;€0.0
@@ -185,7 +185,7 @@ Ludovic Blas;Ludovic Blas;FC Nantes;France;22;€12.0M;10;CAM RM;180.0;70.0;Left;€
 Giovani Lo Celso;Giovani Lo Celso;Tottenham Hotspur;Argentina;24;€38.5M;18;CM CAM;177.0;68.0;Left;€87.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p226226.png?v=22;0;€0.0
 Raphaelito Anjos;Raphaelito Anjos;Grêmio;Brazil;32;€15.0M;16;GK;190.0;85.0;Right;€32.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p230168.png?v=22;0;€0.0
 Andrea Consigli;Andrea Consigli;Sassuolo;Italy;33;€8.5M;47;GK;189.0;82.0;Right;€32.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p163489.png?v=22;0;€0.0
-N'Golo Kanté;N'Golo Kante;Chelsea;France;29;€78.0M;7;CDM CM;168.0;70.0;Right;€190.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p215914.png?v=22;0;€0.0
+N'Golo Kanté;N'Golo Kante;Chelsea;France;29;€78.0M;7;CDM CM;168.0;70.0;Right;€290.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p215914.png?v=22;0;€0.0
 Alphonse Areola;Alphonse Areola;Fulham;France;27;€30.0M;1;GK;195.0;94.0;Right;€93.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p193105.png?v=22;0;€0.0
 João Moutinho;Joao Moutinho;Wolverhampton Wanderers;Portugal;33;€16.0M;28;CM;170.0;61.0;Right;€94.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p162347.png?v=22;0;€0.0
 Rodrygo Silva de Goes;Rodrygo Silva de Goes;Real Madrid;Brazil;19;€38.0M;25;RW;174.0;64.0;Right;€90.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p243812.png?v=22;0;€0.0
@@ -374,7 +374,7 @@ Arthur Henrique Ramos Oliveira Melo;Arthur Henrique Ramos Oliveira Melo;Juventus
 Duván Zapata;Duvan Zapata;Atalanta;Colombia;29;€36.5M;91;ST;189.0;88.0;Right;€87.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p215333.png?v=22;0;€0.0
 Samuel Castillejo Azuaga;Samuel Castillejo Azuaga;Milan;Spain;25;€11.5M;7;RM;182.0;67.0;Left;€35.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p210617.png?v=22;0;€0.0
 Abderrazak Hamdallah;Abderrazak Hamdallah;Al Nassr;Morocco;29;€14.0M;9;ST;180.0;82.0;Right;€47.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p213761.png?v=22;0;€0.0
-Christian Eriksen;Christian Eriksen;Inter;Denmark;28;€36.5M;24;CAM CM;181.0;76.0;Right;€130.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p190460.png?v=22;0;€0.0
+Christian Eriksen;Christian Eriksen;Inter;Denmark;28;€36.5M;24;CAM CM;181.0;76.0;Right;€243.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p190460.png?v=22;0;€0.0
 Leandro Agustín Baezo;Leandro Agustin Baezo;Free Agent;Uruguay;32;€7.0M;7;CDM;188.0;88.0;Right;€11.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p245301.png?v=22;0;€0.0
 Bruma;Bruma;Olympiacos;Portugal;25;€9.0M;27;LW RW;173.0;70.0;Right;€30.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p211368.png?v=22;0;€0.0
 Santi Mina;Santi Mina;RC Celta de Vigo;Spain;24;€11.0M;22;ST RW;181.0;77.0;Right;€21.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p212623.png?v=22;0;€0.0
@@ -458,7 +458,7 @@ Victor Moses;Victor Moses;Spartak Moskva;Nigeria;29;€14.0M;8;RM RWB;177.0;79.0;R
 João Cancelo;Joao Cancelo;Manchester City;Portugal;26;€61.0M;27;RB LB;182.0;74.0;Right;€170.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p210514.png?v=22;0;€0.0
 Pedro António Pereira Gonçalves;Pedro Antonio Pereira Goncalves;Sporting CP;Portugal;22;€39.5M;28;RW CM;173.0;68.0;Right;€16.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p240950.png?v=22;0;€0.0
 Angel Romero;Angel Romero;San Lorenzo de Almagro;Paraguay;28;€7.5M;11;ST LM LW;176.0;73.0;Right;€23.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p220332.png?v=22;0;€0.0
-Leroy Sané;Leroy Sane;Bayern München;Germany;24;€73.5M;10;RM LM;183.0;80.0;Left;€100.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p222492.png?v=22;0;€0.0
+Leroy Sané;Leroy Sane;Bayern München;Germany;24;€73.5M;10;RM LM;183.0;80.0;Left;€298.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p222492.png?v=22;0;€0.0
 Charlie Taylor;Charlie Taylor;Burnley;England;26;€8.0M;3;LB;185.0;70.0;Left;€44.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p204760.png?v=22;0;€0.0
 Pierluigi Gollini;Pierluigi Gollini;Atalanta;Italy;25;€30.0M;95;GK;194.0;94.0;Right;€45.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p211515.png?v=22;0;€0.0
 Leonardo Bittencourt;Leonardo Bittencourt;Werder Bremen;Germany;26;€8.0M;10;CAM RM;170.0;62.0;Right;€26.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p203106.png?v=22;0;€0.0
@@ -646,7 +646,7 @@ Maximilian Arnold;Maximilian Arnold;VfL Wolfsburg;Germany;26;€27.0M;27;CDM CM;18
 Hélder Costa;Helder Costa;Leeds United;Portugal;26;€4.6M;17;RM RW LM;179.0;77.0;Left;€71.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p221743.png?v=22;0;€0.0
 Osmar;Osmar;FC Seoul;Spain;32;€3.7M;5;CDM CB CM;192.0;86.0;Left;€11.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p193847.png?v=22;0;€0.0
 Oussama Idrissi;Oussama Idrissi;Ajax;Morocco;24;€14.5M;9;LW;175.0;78.0;Right;€16.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p228747.png?v=22;0;€0.0
-Coutinho;Coutinho;FC Barcelona;Brazil;28;€36.5M;14;CAM LW CM;172.0;68.0;Right;€190.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p189242.png?v=22;0;€0.0
+Coutinho;Coutinho;FC Barcelona;Brazil;28;€36.5M;14;CAM LW CM;172.0;68.0;Right;€406.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p189242.png?v=22;0;€0.0
 Jadsinho Mei;Jadsinho Mei;Flamengo;Brazil;24;€11.0M;6;CDM CM;176.0;72.0;Right;€22.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p230346.png?v=22;0;€0.0
 Mathias Normann;Mathias Normann;Free Agent;Norway;24;€11.0M;8;CDM CM;179.0;75.0;Right;€43.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p222404.png?v=22;0;€0.0
 Emile Smith Rowe;Emile Smith Rowe;Arsenal;England;19;€16.0M;32;CAM;182.0;64.0;Right;€37.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p240273.png?v=22;0;€0.0
@@ -690,7 +690,7 @@ Fedor Smolov;Fedor Smolov;Lokomotiv Moskva;Russia;30;€5.5M;9;ST;186.0;83.0;Right
 Shoya Nakajima;Shoya Nakajima;Al Ain FC (UAE);Japan;25;€12.5M;22;LM;165.0;67.0;Right;€27.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p232862.png?v=22;0;€0.0
 Aïssa Mandi;Aissa Mandi;Real Betis Balompié;Algeria;28;€20.0M;23;CB;184.0;78.0;Right;€28.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p201143.png?v=22;0;€0.0
 André Ayew;Andre Ayew;Swansea City;Ghana;30;€7.5M;10;ST RW;176.0;72.0;Left;€31.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p176571.png?v=22;0;€0.0
-Antoine Griezmann;Antoine Griezmann;FC Barcelona;France;29;€68.0M;7;ST LW RW;176.0;73.0;Left;€270.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p194765.png?v=22;0;€0.0
+Antoine Griezmann;Antoine Griezmann;FC Barcelona;France;29;€68.0M;7;ST LW RW;176.0;73.0;Left;€594.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p194765.png?v=22;0;€0.0
 Benjamin Pavard;Benjamin Pavard;Bayern München;France;24;€22.0M;5;RB CB;186.0;81.0;Right;€57.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p226851.png?v=22;0;€0.0
 Lucas;Lucas;Tottenham Hotspur;Brazil;27;€27.5M;27;RM CF;174.0;70.0;Right;€100.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p200949.png?v=22;0;€0.0
 Ángel Mena;Angel Mena;León;Ecuador;32;€14.0M;13;RM RW CAM;168.0;71.0;Left;€30.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p223053.png?v=22;0;€0.0
@@ -931,7 +931,7 @@ Pablo Nicolás Dárenas;Pablo Nicolas Darenas;Free Agent;Uruguay;36;€140.0K;1;GK;1
 Luis Sinisterra;Luis Sinisterra;Feyenoord;Colombia;21;€12.5M;17;LW RW;172.0;60.0;Right;€11.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p233500.png?v=22;0;€0.0
 Baptiste Reynet;Baptiste Reynet;Nîmes Olympique;France;29;€2.9M;30;GK;185.0;90.0;Right;€16.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p204240.png?v=22;0;€0.0
 Pierrino Faria;Pierrino Faria;Santos;Brazil;36;€190.0K;23;GK;190.0;82.0;Right;€12.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p230328.png?v=22;0;€0.0
-Jan Oblak;Jan Oblak;Atlético de Madrid;Slovenia;27;€120.0M;13;GK;188.0;87.0;Right;€125.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p200389.png?v=22;0;€0.0
+Jan Oblak;Jan Oblak;Atlético de Madrid;Slovenia;27;€120.0M;13;GK;188.0;87.0;Right;€271.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p200389.png?v=22;0;€0.0
 Gabriel;Gabriel;Lecce;Brazil;27;€6.5M;21;GK;193.0;90.0;Right;€15.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p201931.png?v=22;0;€0.0
 Blerim Džemaili;Blerim Dzemaili;FC Zürich;Switzerland;34;€1.0M;21;CDM CM CAM;179.0;73.0;Right;€12.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p138699.png?v=22;0;€0.0
 Kyle Walker-Peters;Kyle Walker-Peters;Southampton;England;23;€15.0M;2;RB;174.0;64.0;Right;€40.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p227927.png?v=22;0;€0.0
@@ -1406,7 +1406,7 @@ Miguel Lopes;Miguel Lopes;Kayserispor;Portugal;33;€2.9M;13;RB CB;183.0;83.0;Righ
 Grzegorz Krychowiak;Grzegorz Krychowiak;Lokomotiv Moskva;Poland;30;€17.5M;7;CDM CM;187.0;84.0;Right;€28.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p197242.png?v=22;0;€0.0
 Dwight Gayle;Dwight Gayle;Newcastle United;England;29;€3.0M;12;ST;174.0;78.0;Right;€34.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p205670.png?v=22;0;€0.0
 Javier Burrai;Javier Burrai;Barcelona SC Guayaquil;Argentina;29;€2.1M;1;GK;188.0;82.0;Right;€17.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p215048.png?v=22;0;€0.0
-De Gea;De Gea;Manchester United;Spain;29;€46.5M;1;GK;192.0;82.0;Right;€150.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p193080.png?v=22;0;€0.0
+De Gea;De Gea;Manchester United;Spain;29;€46.5M;1;GK;192.0;82.0;Right;€350.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p193080.png?v=22;0;€0.0
 Alexandr Selikhov;Alexandr Selikhov;Spartak Moskva;Russia;26;€2.2M;57;GK;190.0;85.0;Right;€12.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p213732.png?v=22;0;€0.0
 Damián Martínez;Damian Martinez;Rosario Central;Argentina;30;€2.0M;4;RB RM;177.0;71.0;Right;€11.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p224104.png?v=22;0;€0.0
 Ole Kristian Selnæs;Ole Kristian Selnas;Hebei FC;Norway;26;€4.9M;6;CM CDM;187.0;77.0;Left;€13.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p204612.png?v=22;0;€0.0
@@ -1457,7 +1457,7 @@ Jonathan Viera Ramos;Jonathan Viera Ramos;Beijing Guoan;Spain;30;€25.0M;21;CAM;1
 Theo Bongonda;Theo Bongonda;Genk;Belgium;24;€13.5M;10;LW CF;177.0;73.0;Left;€17.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p217877.png?v=22;0;€0.0
 Bustinza;Bustinza;CD Leganés;Spain;28;€7.0M;3;CB RB;175.0;75.0;Right;€13.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p224869.png?v=22;0;€0.0
 Kodjo Fo-Doh Laba;Kodjo Fo-Doh Laba;Al Ain FC (UAE);Togo;28;€6.0M;9;ST;183.0;82.0;Right;€29.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p251353.png?v=22;0;€0.0
-Matthijs de Ligt;Matthijs de Ligt;Juventus;Holland;20;€99.0M;4;CB;189.0;89.0;Right;€80.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p235243.png?v=22;0;€0.0
+Matthijs de Ligt;Matthijs de Ligt;Juventus;Holland;20;€99.0M;4;CB;189.0;89.0;Right;€214.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p235243.png?v=22;0;€0.0
 Federico Fazio;Federico Fazio;Generic Capitale;Argentina;33;€2.7M;20;CB;195.0;85.0;Right;€38.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p179847.png?v=22;0;€0.0
 Willem Janssen;Willem Janssen;FC Utrecht;Holland;34;€1.0M;14;CB;186.0;75.0;Right;€12.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p158800.png?v=22;0;€0.0
 Georgios Tzavellas;Georgios Tzavellas;Alanyaspor;Greece;32;€2.0M;31;CB LB;183.0;86.0;Left;€11.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p199060.png?v=22;0;€0.0
@@ -1562,7 +1562,7 @@ Silvio Romero;Silvio Romero;Independiente;Argentina;31;€9.0M;18;ST;177.0;76.0;Ri
 Ben White;Ben White;Brighton & Hove Albion;England;22;€15.5M;3;CB CM;185.0;77.0;Right;€39.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p231936.png?v=22;0;€0.0
 Ben Pearson;Ben Pearson;Bournemouth;England;25;€6.5M;22;CDM;176.0;71.0;Right;€12.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p213689.png?v=22;0;€0.0
 Jefferson Lerma;Jefferson Lerma;Bournemouth;Colombia;25;€6.5M;8;CDM CM;179.0;70.0;Right;€12.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p213991.png?v=22;0;€0.0
-Eden Hazard;Eden Hazard;Real Madrid;Belgium;29;€66.5M;7;LW;175.0;74.0;Right;€270.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p183277.png?v=22;0;€0.0
+Eden Hazard;Eden Hazard;Real Madrid;Belgium;29;€66.5M;7;LW;175.0;74.0;Right;€407.0K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p183277.png?v=22;0;€0.0
 Amir Abedzadeh;Amir Abedzadeh;Marítimo;Iran;27;€2.8M;1;GK;186.0;80.0;Right;€6.9K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p237419.png?v=22;0;€0.0
 Tom Cleverley;Tom Cleverley;Watford;England;30;€4.0M;8;CM CAM;175.0;67.0;Right;€16.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p189725.png?v=22;0;€0.0
 Maxime Le Marchand;Maxime Le Marchand;Antwerp;France;30;€1.5M;31;CB LB;185.0;78.0;Left;€12.5K;https://cdn.fifacm.com/content/media/imgs/fifa21/players/p192725.png?v=22;0;€0.0
