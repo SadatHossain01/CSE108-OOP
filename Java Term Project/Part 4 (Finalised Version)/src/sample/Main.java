@@ -2,17 +2,22 @@ package sample;
 
 import Controllers.*;
 import DTO.ClubLoginAuthentication;
+import DTO.Request;
 import DataModel.Club;
 import DataModel.Player;
+import javafx.animation.*;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
+import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.paint.Color;
 import javafx.stage.Modality;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 import util.CurrentScene;
 import util.MyAlert;
 import util.NetworkUtil;
@@ -30,7 +35,7 @@ public class Main extends Application {
     public Parent RootOfAll;
     public AnchorPane mainPane;
     public ClubDashboardController dashboardController;
-    public boolean isFirstTime = true;
+    public boolean isFirstTimeCentering = true, isFirstTimeTransition = true;
     public static double screenHeight, screenWidth;
     public InetAddress LocalAddress;
     public Socket socket;
@@ -41,8 +46,8 @@ public class Main extends Application {
     public CurrentScene.Type currentPageType, previousPageType;
     public boolean isMainListUpdatePending = false, isTransferListUpdatePending = false;
     public List<Player> transferListedPlayers, latestSearchedPlayers;
-    public HashMap<String, String> countryFlagMap = new HashMap<>();
-    public HashMap<String, String> clubLogoMap = new HashMap<>();
+    public HashMap<String, String> countryFlagMap;
+    public HashMap<String, String> clubLogoMap;
     public NetworkUtil myNetworkUtil;
     public Image seal = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Assets/Image/Stamp1.png")));
 
@@ -55,9 +60,6 @@ public class Main extends Application {
     }
 
     public void ConnectToServer(String username, String password) throws IOException {
-        socket = new Socket(LocalAddress, port);
-        myNetworkUtil = new NetworkUtil(socket);
-        new ReadThreadClient(this);
         myNetworkUtil.write(new ClubLoginAuthentication(username, password));
     }
 
@@ -65,12 +67,64 @@ public class Main extends Application {
         myAlert.show();
     }
 
+    public Animation numberGeneratingAnimation(int n, Label label){
+        return new Transition() {
+            {
+                setCycleDuration(Duration.millis(2000));
+            }
+
+            @Override
+            protected void interpolate(double frac) {
+                final int n1 = Math.round(n * (float) frac);
+                label.setText(String.valueOf(n1));
+            }
+        };
+    }
+
     public void showLoginPage() throws IOException {
+        socket = new Socket(LocalAddress, port);
+        myNetworkUtil = new NetworkUtil(socket);
+        new ReadThreadClient(this);
         currentPageType = CurrentScene.Type.LoginPage;
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/ClubLoginView.fxml"));
         Parent root = loader.load();
         ClubLoginController controller = loader.getController();
+        //name transition starts
+        if (isFirstTimeTransition) {
+            final String content = "Football Manager 2021";
+            final Animation titleAnimation = new Transition() {
+                {
+                    setCycleDuration(Duration.millis(2000));
+                }
+
+                @Override
+                protected void interpolate(double frac) {
+                    final int length = content.length();
+                    final int n = Math.round(length * (float) frac);
+                    controller.appName.setText(content.substring(0, n));
+                }
+            };
+            titleAnimation.play();
+            var anim1 = numberGeneratingAnimation(16707, controller.playerCount);
+            var anim2 = numberGeneratingAnimation(661, controller.clubCount);
+            var anim3 = numberGeneratingAnimation(163, controller.countryCount);
+            titleAnimation.setOnFinished(event -> {
+                controller.l1.setText("Players");
+                anim1.play();
+            });
+            anim1.setOnFinished(event -> {
+                controller.l2.setText("Clubs");
+                anim2.play();
+            });
+            anim2.setOnFinished(event -> {
+                controller.l3.setText("Countries");
+                anim3.play();
+            });
+            anim3.setOnFinished(event -> isFirstTimeTransition = false);
+        }
+        //ends
+        controller.initiate(this);
         controller.setClubClient(this);
         var scene = new javafx.scene.Scene(root);
         scene.setOnKeyPressed(event -> {
@@ -82,15 +136,22 @@ public class Main extends Application {
                 }
             }
         });
-//        scene.setFill(Color.TRANSPARENT);
+        scene.setFill(Color.TRANSPARENT);
         primaryStage.setScene(scene);
-//        primaryStage.setOpacity(0.9);
-        primaryStage.setOnCloseRequest(event -> System.exit(0));
+        primaryStage.setOpacity(0.94);
+        primaryStage.setOnCloseRequest(event -> {
+            try {
+                myNetworkUtil.write(new Request((myClub == null ? "" : myClub.getName()), Request.Type.IAmOut));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            System.exit(0);
+        });
         primaryStage.setTitle("Login Page");
         primaryStage.setResizable(false);
-        if (isFirstTime) {
+        if (isFirstTimeCentering) {
             primaryStage.centerOnScreen();
-            isFirstTime = false;
+            isFirstTimeCentering = false;
         }
         primaryStage.show();
     }
@@ -128,6 +189,12 @@ public class Main extends Application {
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/PlayerSearchView.fxml"));
         Parent root = loader.load();
+        FadeTransition fadeTransition = new FadeTransition(Duration.millis(750), root);
+        fadeTransition.setFromValue(0);
+        fadeTransition.setToValue(1);
+        fadeTransition.setCycleCount(1);
+        fadeTransition.setInterpolator(Interpolator.EASE_OUT);
+        fadeTransition.play();
         mainPane.getChildren().add(root);
         PlayerSearchController searchController = loader.getController();
         searchController.setMain(this);
@@ -151,13 +218,13 @@ public class Main extends Application {
         c.initiate(club.getCountryWisePlayerCount());
         var scene = new javafx.scene.Scene(root);
         stage.setScene(scene);
-        stage.setOnCloseRequest(event -> {
-            currentPageType = previousPageType;
-        });
+        stage.setOnCloseRequest(event -> currentPageType = previousPageType);
         stage.setTitle("Country Wise Player Count");
         stage.setResizable(false);
-        if (!stage.isShowing()) stage.initModality(Modality.APPLICATION_MODAL);
-        stage.showAndWait();
+        if (!stage.isShowing()) {
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.showAndWait();
+        }
     }
 
     public void showPlayerDetail(Stage stage, Player player) throws IOException {
@@ -188,11 +255,19 @@ public class Main extends Application {
                 e.printStackTrace();
             }
         });
+        FadeTransition fadeTransition = new FadeTransition(Duration.millis(750), root);
+        fadeTransition.setFromValue(0);
+        fadeTransition.setToValue(1);
+        fadeTransition.setCycleCount(1);
+        fadeTransition.setInterpolator(Interpolator.EASE_IN);
+        fadeTransition.play();
         stage.setScene(scene);
         stage.setTitle("Player Detail");
         stage.setResizable(false);
-        if (!stage.isShowing()) stage.initModality(Modality.APPLICATION_MODAL);
-        stage.showAndWait();
+        if (!stage.isShowing()) {
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.showAndWait();
+        }
     }
 
     public void displayList(List<Player> playerList, PlayerListViewController.PageType pageType) throws IOException {
@@ -200,6 +275,12 @@ public class Main extends Application {
         var loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/ViewFX/PlayerListView.fxml"));
         Parent root = loader.load();
+        FadeTransition fadeTransition = new FadeTransition(Duration.millis(750), root);
+        fadeTransition.setFromValue(0);
+        fadeTransition.setToValue(1);
+        fadeTransition.setCycleCount(1);
+        fadeTransition.setInterpolator(Interpolator.EASE_BOTH);
+        fadeTransition.play();
         mainPane.getChildren().add(root);
         PlayerListViewController playerListViewController = loader.getController();
         playerListViewController.setMain(this);
@@ -222,6 +303,7 @@ public class Main extends Application {
         askForTransferFeeController.setStage(stage);
         askForTransferFeeController.initiate(singlePlayerDetailController);
         var scene = new javafx.scene.Scene(root);
+        scene.setFill(Color.TRANSPARENT);
         scene.setOnKeyPressed(event -> {
             if (event.getCode() == KeyCode.ENTER) {
                 try {
@@ -236,6 +318,7 @@ public class Main extends Application {
                 }
             }
         });
+        stage.setOpacity(0.9);
         stage.setOnCloseRequest(event -> {
             try {
                 if (isMainListUpdatePending) {
@@ -251,8 +334,10 @@ public class Main extends Application {
         stage.setTitle("Transfer Fee Input");
         stage.setResizable(false);
         stage.centerOnScreen();
-        if (!stage.isShowing()) stage.initModality(Modality.APPLICATION_MODAL);
-        stage.showAndWait();
+        if (!stage.isShowing()) {
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.showAndWait();
+        }
     }
 
     public void showBuyablePlayers() throws IOException {

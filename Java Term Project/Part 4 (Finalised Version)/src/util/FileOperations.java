@@ -37,14 +37,14 @@ public class FileOperations {
 
     public static HashMap<String, String> readCredentialsOfClubs(String FILE_NAME) throws IOException {
         HashMap<String, String> clubPasswords = new HashMap<>();
-        BufferedReader input = new BufferedReader(new InputStreamReader(new FileInputStream(FILE_NAME), "windows-1252"));
+        BufferedReader input = new BufferedReader(new InputStreamReader(new FileInputStream(FILE_NAME)));
         while (true) {
             String line = input.readLine();
             if (line == null) break;
             try {
-                String[] tokens = line.split(",");
+                String[] tokens = line.split(";");
                 String username = tokens[0];
-                String password = tokens[1];
+                String password = tokens[2];
                 clubPasswords.put(username, password);
             } catch (Exception ignored) {
             }
@@ -118,7 +118,7 @@ public class FileOperations {
     public static void generateClubPasswords(String FILE_NAME, List<Club> clubList) throws Exception {
         BufferedWriter output = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(FILE_NAME)));
         for (Club c : clubList) {
-            output.write(c.getName() + "," + c.getUnAccentedName().toLowerCase());
+            output.write(c.getName() + ";" + c.getUnAccentedName().toLowerCase());
             output.write("\n");
         }
         output.close();

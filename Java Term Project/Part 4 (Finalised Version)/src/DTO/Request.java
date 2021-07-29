@@ -7,7 +7,7 @@ public class Request implements Serializable {
     public Request.Type requestType;
 
     public enum Type{
-        UpdatedListQuery, LogOut
+        UpdatedListQuery, LogOut, IAmOut
     }
 
     public Request(String from, Request.Type type) {

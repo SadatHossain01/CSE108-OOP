@@ -13,7 +13,7 @@
 
 <AnchorPane prefHeight="562.0" prefWidth="1030.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.PlayerCardController">
    <children>
-      <StackPane alignment="TOP_CENTER" layoutX="14.0" layoutY="36.0" style="-fx-background-color: #222222;">
+      <StackPane alignment="TOP_CENTER" layoutX="14.0" layoutY="36.0" style="-fx-background-color: linear-gradient(to bottom left, #00C5DF, #1F2223);;">
          <children>
             <ImageView fitHeight="490.0" fitWidth="362.0" pickOnBounds="true" preserveRatio="true">
                <image>

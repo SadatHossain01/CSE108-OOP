@@ -24,6 +24,7 @@ public class ReadThreadServer implements Runnable{
     private ArrayList<Pair<String, String>> clubLogoList;
     private HashMap<String, String> unaccented_accented;
     private boolean isThreadOn = true;
+    private boolean hasAddedToMap = false;
 
     public ReadThreadServer(NetworkUtil networkUtil, League league, ArrayList<Player> transferListedPlayers, HashMap<String, String> clubPasswordList, HashMap<String, NetworkUtil> clubNetworkUtilMap, ArrayList<Pair<String, String>> countryFlagList, ArrayList<Pair<String, String>> clubLogoList, HashMap<String, String> unaccented_accented) {
         this.networkUtil = networkUtil;
@@ -40,6 +41,12 @@ public class ReadThreadServer implements Runnable{
 
     @Override
     public void run() {
+        try {
+            networkUtil.write(new ClubCountryImageData(countryFlagList, clubLogoList));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Club object and country list has been sent");
         while (isThreadOn){
             Object next = null;
             while (isThreadOn){
@@ -52,15 +59,14 @@ public class ReadThreadServer implements Runnable{
                 String username = ((ClubLoginAuthentication) next).getUsername().strip();
                 String password = ((ClubLoginAuthentication) next).getPassword();
                 System.out.println("New login request:\nUsername: " + username + " Password: " + password);
-                String realUsername = unaccented_accented.get(username);
-                if (clubNetworkUtilMap != null && clubNetworkUtilMap.containsKey(realUsername)){
+//                String realUsername = unaccented_accented.get(username);
+                if (clubNetworkUtilMap != null && clubNetworkUtilMap.containsKey(username)){
                     try {
                         networkUtil.write(new RequestResponse(RequestResponse.Type.AlreadyLoggedIn));
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
                     System.out.println("This user is already logged in to the network");
-                    isThreadOn = false;
                 }
                 else if (clubPasswordList.containsKey(username)){
                     if (clubPasswordList.get(username).equals(password)) {
@@ -69,15 +75,16 @@ public class ReadThreadServer implements Runnable{
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
-                        clubNetworkUtilMap.put(realUsername, networkUtil);
-                        club = league.FindClub(realUsername);
+                        clubNetworkUtilMap.put(username, networkUtil);
+                        hasAddedToMap = true;
+                        club = league.FindClub(username);
                         try {
                             networkUtil.write(club);
-                            networkUtil.write(new ClubCountryImageData(countryFlagList, clubLogoList));
+//                            networkUtil.write(new ClubCountryImageData(countryFlagList, clubLogoList));
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
-                        System.out.println("Login successful. Club object and country list has been sent");
+                        System.out.println("Login successful.");
                         try {
                             var newTransferList = new UpdatedTransferList(transferListedPlayers, club.getName());
                             networkUtil.write(newTransferList);
@@ -93,7 +100,6 @@ public class ReadThreadServer implements Runnable{
                             e.printStackTrace();
                         }
                         System.out.println("Incorrect password");
-                        isThreadOn = false;
                     }
                 }
                 else{
@@ -103,7 +109,6 @@ public class ReadThreadServer implements Runnable{
                         e.printStackTrace();
                     }
                     System.out.println("Username not registered on server");
-                    isThreadOn = false;
                 }
             }
             else if (next instanceof BuyRequest){
@@ -131,7 +136,7 @@ public class ReadThreadServer implements Runnable{
                         var newInfo = new NewPlayerPurchased(p, buyer.getName(), seller.getName());
                         networkUtil.write(newInfo);
                         var sellerNetworkUtil = clubNetworkUtilMap.get(seller.getName());
-                        sellerNetworkUtil.write(newInfo);
+                        if (sellerNetworkUtil != null) sellerNetworkUtil.write(newInfo);
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
@@ -189,8 +194,17 @@ public class ReadThreadServer implements Runnable{
                     System.out.println(((Request) next).getFrom() + " has been successfully logged out from the network");
                     isThreadOn = false;
                 }
+                else if (((Request) next).requestType == Request.Type.IAmOut){
+                    if (hasAddedToMap){
+                        hasAddedToMap = false;
+                        clubNetworkUtilMap.remove(((Request) next).getFrom());
+                    }
+                    isThreadOn = false;
+                }
             }
-            if (!isThreadOn && club != null) System.out.println("Quitting from this read thread server: " + club.getName());
+            System.out.print("Quitting from this read thread server: ");
+            if (!isThreadOn && club != null) System.out.print(" " + club.getName());
+            System.out.println();
         }
     }
 }

@@ -10,10 +10,10 @@ import util.MyAlert;
 import util.NetworkUtil;
 
 import java.io.IOException;
+import java.util.HashMap;
 
 public class ReadThreadClient implements Runnable {
     private Thread t;
-    private String username, password;
     private Club c;
     private Main main;
     private NetworkUtil clientNetworkUtil;
@@ -39,8 +39,7 @@ public class ReadThreadClient implements Runnable {
             }
             if (next instanceof RequestResponse) {
                 var type = ((RequestResponse) next).type;
-                if (type == RequestResponse.Type.LoginSuccessful) {
-                } else if (type == RequestResponse.Type.AlreadyLoggedIn) {
+                if (type == RequestResponse.Type.AlreadyLoggedIn) {
                     Platform.runLater(() -> main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Already Logged In", "Sorry, this club is already logged in to the system")));
                 } else if (type == RequestResponse.Type.UsernameNotRegistered) {
                     Platform.runLater(() -> main.showAlertMessage(new MyAlert(Alert.AlertType.ERROR, "Unregistered club", "Sorry, this club is not registered to the system")));
@@ -191,6 +190,8 @@ public class ReadThreadClient implements Runnable {
                 }
             } else if (next instanceof ClubCountryImageData) {
                 var countryList = ((ClubCountryImageData) next).getCountryFlagList();
+                main.countryFlagMap = new HashMap<>();
+                main.clubLogoMap = new HashMap<>();
                 for (var c : countryList) {
                     main.countryFlagMap.put(c.getKey(), c.getValue());
                 }
